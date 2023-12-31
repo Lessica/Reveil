@@ -1,0 +1,2009 @@
+[
+	{
+		"build" : "12A365",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A365 Safari/600.1",
+		"version_num" : 8000000,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Tue Aug 19 15:09:47 PDT 2014; root:xnu-2783.1.72~8/RELEASE_ARM64_S5L8960X",
+		"version" : "8.0",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6"
+		]
+	},
+	{
+		"build" : "12A366",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A365 Safari/600.1",
+		"version_num" : 8000000,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Tue Aug 19 15:09:47 PDT 2014; root:xnu-2783.1.72~8/RELEASE_ARM64_S5L8960X",
+		"version" : "8.0",
+		"allowed_machines": [
+			"iPhone7,1",
+			"iPhone7,2"
+		]
+	},
+	{
+		"build" : "12A402",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A402 Safari/600.1",
+		"version_num" : 8000001,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Thu Sep 18 21:52:21 PDT 2014; root:xnu-2783.1.72~23/RELEASE_ARM_S5L8950X",
+		"version" : "8.0.1"
+	},
+	{
+		"build" : "12A405",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A405 Safari/600.1",
+		"version_num" : 8000002,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Thu Sep 18 21:52:21 PDT 2014; root:xnu-2783.1.72~23/RELEASE_ARM_S5L8950X",
+		"version" : "8.0.2"
+	},
+	{
+		"build" : "12B410",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1",
+		"version_num" : 8001000,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Fri Oct 7 00:04:37 PDT 2014; root:xnu-2783.3.13~4/RELEASE_ARM_S5L8950X",
+		"version" : "8.1",
+		"allowed_machines": [
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPad5,3",
+			"iPad5,4"
+		]
+	},
+	{
+		"build" : "12B411",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1",
+		"version_num" : 8001000,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Fri Oct 7 00:04:37 PDT 2014; root:xnu-2783.3.13~4/RELEASE_ARM_S5L8950X",
+		"version" : "8.1",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2"
+		]
+	},
+	{
+		"build" : "12B435",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1",
+		"version_num" : 8001001,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Mon Nov 3 22:54:30 PDT 2014; root:xnu-2783.3.22~1/RELEASE_ARM_S5L8950X",
+		"version" : "8.1.1",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6"
+		]
+	},
+	{
+		"build" : "12B436",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1",
+		"version_num" : 8001001,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Mon Nov 3 22:54:30 PDT 2014; root:xnu-2783.3.22~1/RELEASE_ARM_S5L8950X",
+		"version" : "8.1.1",
+		"allowed_machines": [
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPad5,3",
+			"iPad5,4"
+		]
+	},
+	{
+		"build" : "12B440",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1",
+		"version_num" : 8001002,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Mon Nov 3 22:54:30 PDT 2014; root:xnu-2783.3.22~1/RELEASE_ARM_S5L8950X",
+		"version" : "8.1.2"
+	},
+	{
+		"build" : "12B466",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1",
+		"version_num" : 8001003,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Mon Jan 2 21:29:20 PST 2015; root:xnu-2783.3.26~3/RELEASE_ARM_S5L8950X",
+		"version" : "8.1.3"
+	},
+	{
+		"build" : "12D508",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1",
+		"version_num" : 8002000,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Mon Feb 9 22:07:57 PST 2015; root:xnu-2783.5.38~5/RELEASE_ARM_S5L8950X",
+		"version" : "8.2"
+	},
+	{
+		"build" : "12F69",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1",
+		"version_num" : 8003000,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Sun Mar 29 19:44:04 PDT 2015; root:xnu-2784.20.34~2/RELEASE_ARM_S5L8950X",
+		"version" : "8.3",
+		"allowed_machines": [
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPad5,3",
+			"iPad5,4"
+		]
+	},
+	{
+		"build" : "12F70",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1",
+		"version_num" : 8003000,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Sun Mar 29 19:44:04 PDT 2015; root:xnu-2784.20.34~2/RELEASE_ARM_S5L8950X",
+		"version" : "8.3",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2"
+		]
+	},
+	{
+		"build" : "12H143",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1",
+		"version_num" : 8004000,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Wed Jun 24 00:50:15 PDT 2015; root:xnu-2784.30.7~30/RELEASE_ARM64_S5L8960X",
+		"version" : "8.4"
+	},
+	{
+		"build" : "12H321",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1",
+		"version_num" : 8004001,
+		"kernel_version" : "Darwin Kernel Version 14.0.0: Wed Aug 5 19:24:44 PDT 2015; root:xnu-2784.40.6~18/RELEASE_ARM_S5L8950X",
+		"version" : "8.4.1"
+	},
+	{
+		"build" : "13A340",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A344 Safari/601.1",
+		"version_num" : 9000000,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Thu Aug 20 13:11:13 PDT 2015; root:xnu-3248.1.3~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.0",
+		"allowed_machines": [
+			"iPad5,1",
+			"iPad5,2"
+		]
+	},
+	{
+		"build" : "13A342",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A344 Safari/601.1",
+		"version_num" : 9000000,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Thu Aug 20 13:11:13 PDT 2015; root:xnu-3248.1.3~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.0",
+		"allowed_machines": [
+			"iPhone8,1"
+		]
+	},
+	{
+		"build" : "13A343",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A344 Safari/601.1",
+		"version_num" : 9000000,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Thu Aug 20 13:11:13 PDT 2015; root:xnu-3248.1.3~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.0",
+		"allowed_machines": [
+			"iPhone8,2"
+		]
+	},
+	{
+		"build" : "13A344",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A344 Safari/601.1",
+		"version_num" : 9000000,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Thu Aug 20 13:11:13 PDT 2015; root:xnu-3248.1.3~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.0",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPod7,1",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPad5,3",
+			"iPad5,4"
+		]
+	},
+	{
+		"build" : "13A404",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A404 Safari/601.1",
+		"version_num" : 9000001,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Thu Aug 20 13:11:13 PDT 2015; root:xnu-3248.1.3~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.0.1",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPod7,1",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4"
+		]
+	},
+	{
+		"build" : "13A405",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A404 Safari/601.1",
+		"version_num" : 9000001,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Thu Aug 20 13:11:13 PDT 2015; root:xnu-3248.1.3~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.0.1",
+		"allowed_machines": [
+			"iPhone8,1",
+			"iPhone8,2"
+		]
+	},
+	{
+		"build" : "13A452",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_0_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A452 Safari/601.1",
+		"version_num" : 9000002,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Thu Aug 20 13:11:13 PDT 2015; root:xnu-3248.1.3~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.0.2"
+	},
+	{
+		"build" : "13B143",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1",
+		"version_num" : 9001000,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Fri Oct 2 14:07:07 PDT 2015; root:xnu-3248.10.42~4/RELEASE_ARM64_S5L8960X",
+		"version" : "9.1"
+	},
+	{
+		"build" : "13C75",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1",
+		"version_num" : 9002000,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Fri Nov 13 16:08:07 PST 2015; root:xnu-3248.21.2~1/RELEASE_ARM64_S5L8960X",
+		"version" : "9.2"
+	},
+	{
+		"build" : "13D15",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1",
+		"version_num" : 9002001,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Wed Dec 9 22:19:38 PST 2015; root:xnu-3248.31.3~2/RELEASE_ARM64_S5L8960X",
+		"version" : "9.2.1"
+	},
+	{
+		"build" : "13D20",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1",
+		"version_num" : 9002001,
+		"kernel_version" : "Darwin Kernel Version 15.0.0: Wed Dec 9 22:19:38 PST 2015; root:xnu-3248.31.3~2/RELEASE_ARM64_S5L8960X",
+		"version" : "9.2.1",
+		"allowed_machines": [
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPad6,7",
+			"iPad6,8"
+		]
+	},
+	{
+		"build" : "13E233",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
+		"version_num" : 9003000,
+		"kernel_version" : "Darwin Kernel Version 15.4.0: Fri Feb 19 13:54:52 PST 2016; root:xnu-3248.41.4~28/RELEASE_ARM64_S8000",
+		"version" : "9.3"
+	},
+	{
+		"build" : "13E234",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
+		"version_num" : 9003000,
+		"kernel_version" : "Darwin Kernel Version 15.4.0: Fri Feb 19 13:54:52 PST 2016; root:xnu-3248.41.4~28/RELEASE_ARM64_S8000",
+		"version" : "9.3",
+		"allowed_machines": [
+			"iPad6,3",
+			"iPad6,4",
+			"iPhone8,1",
+			"iPhone8,2"
+		]
+	},
+	{
+		"build" : "13E236",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
+		"version_num" : 9003000,
+		"kernel_version" : "Darwin Kernel Version 15.4.0: Fri Feb 19 13:54:52 PST 2016; root:xnu-3248.41.4~28/RELEASE_ARM64_S8000",
+		"version" : "9.3",
+		"allowed_machines": []
+	},
+	{
+		"build" : "13E237",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
+		"version_num" : 9003000,
+		"kernel_version" : "Darwin Kernel Version 15.4.0: Fri Feb 19 13:54:52 PST 2016; root:xnu-3248.41.4~28/RELEASE_ARM64_S8000",
+		"version" : "9.3",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2"
+		]
+	},
+	{
+		"build" : "13E238",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
+		"version_num" : 9003001,
+		"kernel_version" : "Darwin Kernel Version 15.4.0: Fri Feb 19 13:54:52 PST 2016; root:xnu-3248.41.4~28/RELEASE_ARM64_S8000",
+		"version" : "9.3.1"
+	},
+	{
+		"build" : "13F69",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
+		"version_num" : 9003002,
+		"kernel_version" : "Darwin Kernel Version 15.5.0: Mon Apr 18 16:44:07 PDT 2016; root:xnu-3248.50.21~4/RELEASE_ARM64_S8000",
+		"version" : "9.3.2"
+	},
+	{
+		"build" : "13F72",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
+		"version_num" : 9003002,
+		"kernel_version" : "Darwin Kernel Version 15.5.0: Mon Apr 18 16:44:07 PDT 2016; root:xnu-3248.50.21~4/RELEASE_ARM64_S8000",
+		"version" : "9.3.2",
+		"allowed_machines": [
+			"iPad6,3",
+			"iPad6,4"
+		]
+	},
+	{
+		"build" : "13G34",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
+		"version_num" : 9003003,
+		"kernel_version" : "Darwin Kernel Version 15.6.0: Mon Jun 20 20:10:21 PDT 2016; root:xnu-3248.60.9~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.3.3"
+	},
+	{
+		"build" : "13G35",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
+		"version_num" : 9003004,
+		"kernel_version" : "Darwin Kernel Version 15.6.0: Mon Jun 20 20:10:21 PDT 2016; root:xnu-3248.60.9~1/RELEASE_ARM_S5L8950X",
+		"version" : "9.3.4"
+	},
+	{
+		"build" : "13G36",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
+		"version_num" : 9003005,
+		"kernel_version" : "Darwin Kernel Version 15.6.0: Fri Aug 19 10:37:56 PDT 2016; root:xnu-3248.61.1~1/RELEASE_ARM64_S5L8960X",
+		"version" : "9.3.5"
+	},
+	{
+		"build" : "13G37",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 9_3_6 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
+		"version_num" : 9003006,
+		"kernel_version" : "Darwin Kernel Version 15.6.0: Fri Aug 19 10:37:56 PDT 2016; root:xnu-3248.61.1~1/RELEASE_ARM64_S5L8960X",
+		"version" : "9.3.6",
+		"allowed_machines" : []
+	},
+	{
+		"build" : "14A403",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1",
+		"version_num" : 10000000,
+		"kernel_version" : "Darwin Kernel Version 16.0.0: Wed Aug 10 22:33:10 PDT 2016; root:xnu-3789.2.2~3/RELEASE_ARM64_T8010",
+		"version" : "10.0"
+	},
+	{
+		"build" : "14A346",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1",
+		"version_num" : 10000000,
+		"kernel_version" : "Darwin Kernel Version 16.0.0: Wed Aug 10 22:33:10 PDT 2016; root:xnu-3789.2.2~3/RELEASE_ARM64_T8010",
+		"version" : "10.0",
+		"allowed_machines": [
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4"
+		]
+	},
+	{
+		"build" : "14A403",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1",
+		"version_num" : 10000001,
+		"kernel_version" : "Darwin Kernel Version 16.0.0: Sun Aug 28 20:36:54 PDT 2016; root:xnu-3789.2.4~3/RELEASE_ARM64_S8000",
+		"version" : "10.0.1"
+	},
+	{
+		"build" : "14A456",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 Safari/602.1",
+		"version_num" : 10000002,
+		"kernel_version" : "Darwin Kernel Version 16.0.0: Sun Aug 28 20:36:54 PDT 2016; root:xnu-3789.2.4~3/RELEASE_ARM64_S8000",
+		"version" : "10.0.2"
+	},
+	{
+		"build" : "14A551",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_0_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A551 Safari/602.1",
+		"version_num" : 10000003,
+		"kernel_version" : "Darwin Kernel Version 16.0.0: Sun Aug 28 20:36:54 PDT 2016; root:xnu-3789.2.4~3/RELEASE_ARM64_S8000",
+		"version" : "10.0.3",
+		"allowed_machines": [
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4"
+		]
+	},
+	{
+		"build" : "14B72",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B72 Safari/602.1",
+		"version_num" : 10001000,
+		"kernel_version" : "Darwin Kernel Version 16.1.0: Thu Sep 29 21:56:12 PDT 2016; root:xnu-3789.22.3~1/RELEASE_ARM64_S8000",
+		"version" : "10.1"
+	},
+	{
+		"build" : "14B72c",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B72 Safari/602.1",
+		"version_num" : 10001000,
+		"kernel_version" : "Darwin Kernel Version 16.1.0: Thu Sep 29 21:56:12 PDT 2016; root:xnu-3789.22.3~1/RELEASE_ARM64_S8000",
+		"version" : "10.1",
+		"allowed_machines": [
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4"
+		]
+	},
+	{
+		"build" : "14B150",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1",
+		"version_num" : 10001001,
+		"kernel_version" : "Darwin Kernel Version 16.1.0: Thu Sep 29 21:56:12 PDT 2016; root:xnu-3789.22.3~1/RELEASE_ARM64_S8000",
+		"version" : "10.1.1"
+	},
+	{
+		"build" : "14C92",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1",
+		"version_num" : 10002000,
+		"kernel_version" : "Darwin Kernel Version 16.3.0: Tue Nov 29 21:40:09 PST 2016; root:xnu-3789.32.1~4/RELEASE_ARM64_S8000",
+		"version" : "10.2"
+	},
+	{
+		"build" : "14D27",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1",
+		"version_num" : 10002001,
+		"kernel_version" : "Darwin Kernel Version 16.3.0: Thu Dec 15 22:41:46 PST 2016; root:xnu-3789.42.2~1/RELEASE_ARM64_S8000",
+		"version" : "10.2.1"
+	},
+	{
+		"build" : "14E277",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E277 Safari/602.1",
+		"version_num" : 10003000,
+		"kernel_version" : "Darwin Kernel Version 16.5.0: Thu Feb 23 23:22:54 PST 2017; root:xnu-3789.52.2~7/RELEASE_ARM64_S8000",
+		"version" : "10.3"
+	},
+	{
+		"build" : "14E304",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1",
+		"version_num" : 10003001,
+		"kernel_version" : "Darwin Kernel Version 16.5.0: Thu Feb 23 23:22:54 PST 2017; root:xnu-3789.52.2~7/RELEASE_ARM64_S8000",
+		"version" : "10.3.1"
+	},
+	{
+		"build" : "14F89",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1",
+		"version_num" : 10003002,
+		"kernel_version" : "Darwin Kernel Version 16.6.0: Mon Apr 17 17:33:34 PDT 2017; root:xnu-3789.60.24~24/RELEASE_ARM_S8000",
+		"version" : "10.3.2"
+	},
+	{
+		"build" : "14F8089",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1",
+		"version_num" : 10003002,
+		"kernel_version" : "Darwin Kernel Version 16.6.0: Mon Apr 17 17:33:34 PDT 2017; root:xnu-3789.60.24~24/RELEASE_ARM_S8000",
+		"version" : "10.3.2",
+		"allowed_machines": [
+			"iPad7,2",
+			"iPad7,4"
+		]
+	},
+	{
+		"build" : "14F90",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1",
+		"version_num" : 10003002,
+		"kernel_version" : "Darwin Kernel Version 16.6.0: Mon Apr 17 17:33:34 PDT 2017; root:xnu-3789.60.24~24/RELEASE_ARM_S8000",
+		"version" : "10.3.2",
+		"allowed_machines": [
+			"iPad6,11",
+			"iPad6,12"
+		]
+	},
+	{
+		"build" : "14F91",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1",
+		"version_num" : 10003002,
+		"kernel_version" : "Darwin Kernel Version 16.6.0: Mon Apr 17 17:33:34 PDT 2017; root:xnu-3789.60.24~24/RELEASE_ARM_S8000",
+		"version" : "10.3.2",
+		"allowed_machines": [
+			"iPad5,2"
+		]
+	},
+	{
+		"build" : "14G60",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.0 Mobile/14G60 Safari/602.1",
+		"version_num" : 10003003,
+		"kernel_version" : "Darwin Kernel Version 16.7.0: Thu Jun 15 18:33:36 PDT 2017; root:xnu-3789.70.16~4/RELEASE_ARM64_S8000",
+		"version" : "10.3.3"
+	},
+	{
+		"build" : "14G61",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 10_3_4 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.0 Mobile/14G60 Safari/602.1",
+		"version_num" : 10003004,
+		"kernel_version" : "Darwin Kernel Version 16.7.0: Wed Jul 26 11:08:56 PDT 2017; root:xnu-3789.70.16~21/RELEASE_ARM_S5L8950X",
+		"version" : "10.3.4",
+		"allowed_machines": []
+	},
+	{
+		"build" : "15A372",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+		"version_num" : 11000000,
+		"kernel_version" : "Darwin Kernel Version 17.0.0: Fri Sep 1 14:59:17 PDT 2017; root:xnu-4570.2.5~167/RELEASE_ARM64_S8000",
+		"version" : "11.0"
+	},
+	{
+		"build" : "15A402",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_0_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A402 Safari/604.1",
+		"version_num" : 11000001,
+		"kernel_version" : "Darwin Kernel Version 17.0.0: Fri Sep 1 14:59:17 PDT 2017; root:xnu-4570.2.5~167/RELEASE_ARM64_S8000",
+		"version" : "11.0.1"
+	},
+	{
+		"build" : "15A403",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_0_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A402 Safari/604.1",
+		"version_num" : 11000001,
+		"kernel_version" : "Darwin Kernel Version 17.0.0: Fri Sep 1 14:59:17 PDT 2017; root:xnu-4570.2.5~167/RELEASE_ARM64_S8000",
+		"version" : "11.0.1"
+	},
+	{
+		"build" : "15A8391",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_0_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A402 Safari/604.1",
+		"version_num" : 11000001,
+		"kernel_version" : "Darwin Kernel Version 17.0.0: Fri Sep 1 14:59:17 PDT 2017; root:xnu-4570.2.5~167/RELEASE_ARM64_S8000",
+		"version" : "11.0.1",
+		"allowed_machines": [
+			"iPhone10,3",
+			"iPhone10,6"
+		]
+	},
+	{
+		"build" : "15A421",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_0_2 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A421 Safari/604.1",
+		"version_num" : 11000002,
+		"kernel_version" : "Darwin Kernel Version 17.0.0: Fri Sep 1 14:59:17 PDT 2017; root:xnu-4570.2.5~167/RELEASE_ARM64_S8000",
+		"version" : "11.0.2"
+	},
+	{
+		"build" : "15A432",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A432 Safari/604.1",
+		"version_num" : 11000003,
+		"kernel_version" : "Darwin Kernel Version 17.0.0: Fri Sep 1 14:59:17 PDT 2017; root:xnu-4570.2.5~167/RELEASE_ARM64_S8000",
+		"version" : "11.0.3"
+	},
+	{
+		"build" : "15B93",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 Mobile/15B93 Safari/604.1",
+		"version_num" : 11001000,
+		"kernel_version" : "Darwin Kernel Version 17.2.0: Fri Sep 29 18:14:51 PDT 2017; root:xnu-4570.20.62~4/RELEASE_ARM64_T8015",
+		"version" : "11.1"
+	},
+	{
+		"build" : "15B101",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 Mobile/15B93 Safari/604.1",
+		"version_num" : 11001000,
+		"kernel_version" : "Darwin Kernel Version 17.2.0: Fri Sep 29 18:14:51 PDT 2017; root:xnu-4570.20.62~4/RELEASE_ARM64_T8015",
+		"version" : "11.1"
+	},
+	{
+		"build" : "15B150",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 Mobile/15B150 Safari/604.1",
+		"version_num" : 11001001,
+		"kernel_version" : "Darwin Kernel Version 17.2.0: Fri Sep 29 18:14:51 PDT 2017; root:xnu-4570.20.62~4/RELEASE_ARM64_T8015",
+		"version" : "11.1.1"
+	},
+	{
+		"build" : "15B202",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 Mobile/15B202 Safari/604.1",
+		"version_num" : 11001002,
+		"kernel_version" : "Darwin Kernel Version 17.2.0: Fri Sep 29 18:14:51 PDT 2017; root:xnu-4570.20.62~4/RELEASE_ARM64_T8015",
+		"version" : "11.1.2"
+	},
+	{
+		"build" : "15C114",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C114 Safari/604.1",
+		"version_num" : 11002000,
+		"kernel_version" : "Darwin Kernel Version 17.3.0: Mon Nov 6 21:19:16 PST 2017; root:xnu-4570.32.1~1/RELEASE_ARM64_T8015",
+		"version" : "11.2"
+	},
+	{
+		"build" : "15C153",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C153 Safari/604.1",
+		"version_num" : 11002001,
+		"kernel_version" : "Darwin Kernel Version 17.3.0: Mon Nov 6 21:19:16 PST 2017; root:xnu-4570.32.1~1/RELEASE_ARM64_T8015",
+		"version" : "11.2.1"
+	},
+	{
+		"build" : "15C202",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C202 Safari/604.1",
+		"version_num" : 11002002,
+		"kernel_version" : "Darwin Kernel Version 17.3.0: Mon Nov 6 21:19:16 PST 2017; root:xnu-4570.32.1~1/RELEASE_ARM64_T8015",
+		"version" : "11.2.2"
+	},
+	{
+		"build" : "15D60",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D60 Safari/604.1",
+		"version_num" : 11002005,
+		"kernel_version" : "Darwin Kernel Version 17.4.0: Fri Dec 8 19:35:51 PST 2017; root:xnu-4570.40.9~1/RELEASE_ARM64_T8015",
+		"version" : "11.2.5"
+	},
+	{
+		"build" : "15D100",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D100 Safari/604.1",
+		"version_num" : 11002006,
+		"kernel_version" : "Darwin Kernel Version 17.4.0: Fri Dec 8 19:35:51 PST 2017; root:xnu-4570.40.9~1/RELEASE_ARM64_T8015",
+		"version" : "11.2.6"
+	},
+	{
+		"build" : "15E216",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 11003000,
+		"kernel_version" : "Darwin Kernel Version 17.5.0: Tue Mar 13 21:32:11 PDT 2018; root:xnu-4570.52.2~8/RELEASE_ARM64_T8010",
+		"version" : "11.3"
+	},
+	{
+		"build" : "15E218",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 11003000,
+		"kernel_version" : "Darwin Kernel Version 17.5.0: Tue Mar 13 21:32:11 PDT 2018; root:xnu-4570.52.2~8/RELEASE_ARM64_T8010",
+		"version" : "11.3"
+	},
+	{
+		"build" : "15E302",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E302 Safari/604.1",
+		"version_num" : 11003001,
+		"kernel_version" : "Darwin Kernel Version 17.5.0: Tue Mar 13 21:32:11 PDT 2018; root:xnu-4570.52.2~8/RELEASE_ARM64_T8010",
+		"version" : "11.3.1"
+	},
+	{
+		"build" : "15F79",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 11004000,
+		"kernel_version" : "Darwin Kernel Version 17.6.0: Mon Apr 30 18:48:32 PDT 2018; root:xnu-4570.60.21~3/RELEASE_ARM64_T8015",
+		"version" : "11.4"
+	},
+	{
+		"build" : "15G77",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 11004001,
+		"kernel_version" : "Darwin Kernel Version 17.7.0: Mon Jun 11 19:06:27 PDT 2018; root:xnu-4570.70.24~3/RELEASE_ARM64_T8015",
+		"version" : "11.4.1"
+	},
+	{
+		"build" : "16A366",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12000000,
+		"kernel_version" : "Darwin Kernel Version 18.0.0: Tue Aug 14 22:07:16 PDT 2018; root:xnu-4903.202.2~1/RELEASE_ARM64_T8015",
+		"version" : "12.0"
+	},
+	{
+		"build" : "16A404",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12000001,
+		"kernel_version" : "Darwin Kernel Version 18.0.0: Fri Aug 10 20:58:13 PDT 2018; root:xnu-4903.203.1~1/RELEASE_ARM64_T8011",
+		"version" : "12.0.1"
+	},
+	{
+		"build" : "16A405",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12000001,
+		"kernel_version" : "Darwin Kernel Version 18.0.0: Fri Aug 10 20:58:13 PDT 2018; root:xnu-4903.203.1~1/RELEASE_ARM64_T8011",
+		"version" : "12.0.1"
+	},
+	{
+		"build" : "16B92",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12001000,
+		"kernel_version" : "Darwin Kernel Version 18.2.0: Mon Oct 8 08:27:41 PDT 2018; root:xnu-4903.223.3~2/RELEASE_ARM64_T8011",
+		"version" : "12.1"
+	},
+	{
+		"build" : "16B93",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12001000,
+		"kernel_version" : "Darwin Kernel Version 18.2.0: Mon Oct 8 08:27:41 PDT 2018; root:xnu-4903.223.3~2/RELEASE_ARM64_T8011",
+		"version" : "12.1"
+	},
+	{
+		"build" : "16B94",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12001000,
+		"kernel_version" : "Darwin Kernel Version 18.2.0: Mon Oct 8 08:27:41 PDT 2018; root:xnu-4903.223.3~2/RELEASE_ARM64_T8011",
+		"version" : "12.1",
+		"allowed_machines": [
+			"iPhone11,8"
+		]
+	},
+	{
+		"build" : "16C50",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12001001,
+		"kernel_version" : "Darwin Kernel Version 18.2.0: Mon Nov 12 20:30:29 PST 2018; root:xnu-4903.233.2~1/RELEASE_ARM64_T8011",
+		"version" : "12.1.1"
+	},
+	{
+		"build" : "16C104",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12001002,
+		"kernel_version" : "Darwin Kernel Version 18.2.0: Wed Dec 19 20:38:15 PST 2018; root:xnu-4903.243.1~1/RELEASE_ARM64_T7000",
+		"version" : "12.1.2",
+		"allowed_machines": [
+			"iPhone12,8",
+			"iPhone12,5",
+			"iPhone12,3",
+			"iPhone12,1",
+			"iPhone11,4",
+			"iPhone11,6",
+			"iPhone11,2",
+			"iPhone11,8",
+			"iPhone10,3",
+			"iPhone10,6",
+			"iPhone10,2",
+			"iPhone10,5",
+			"iPhone10,1",
+			"iPhone10,4",
+			"iPhone9,2",
+			"iPhone9,4",
+			"iPhone9,1",
+			"iPhone9,3",
+			"iPhone8,4",
+			"iPhone8,2",
+			"iPhone8,1",
+			"iPhone7,2",
+			"iPhone7,1",
+			"iPhone6,2",
+			"iPhone6,1"
+		]
+	},
+	{
+		"build" : "16D39",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12001003,
+		"kernel_version" : "Darwin Kernel Version 18.2.0: Wed Dec 19 20:28:53 PST 2018; root:xnu-4903.242.2~1/RELEASE_ARM64_T8020",
+		"version" : "12.1.3"
+	},
+	{
+		"build" : "16D40",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12001003,
+		"kernel_version" : "Darwin Kernel Version 18.2.0: Wed Dec 19 20:28:53 PST 2018; root:xnu-4903.242.2~1/RELEASE_ARM64_T8020",
+		"version" : "12.1.3"
+	},
+	{
+		"build" : "16D57",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 12001004,
+		"kernel_version" : "Darwin Kernel Version 18.2.0: Wed Dec 19 20:28:53 PST 2018; root:xnu-4903.242.2~1/RELEASE_ARM64_T8020",
+		"version" : "12.1.4"
+	},
+	{
+		"build" : "16E227",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 12002000,
+		"kernel_version" : "Darwin Kernel Version 18.5.0: Wed Mar 13 15:19:12 PDT 2019; root:xnu-4903.253.2~6/RELEASE_ARM64_T8011",
+		"version" : "12.2"
+	},
+	{
+		"build" : "16F156",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 12003000,
+		"kernel_version" : "Darwin Kernel Version 18.6.0: Thu Apr 25 21:37:28 PDT 2019; root:xnu-4903.263.2~1/RELEASE_ARM64_T8011",
+		"version" : "12.3"
+	},
+	{
+		"build" : "16F203",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 12003001,
+		"kernel_version" : "Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:02 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_S8000",
+		"version" : "12.3.1"
+	},
+	{
+		"build" : "16F8202",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 12003001,
+		"kernel_version" : "Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:02 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_S8000",
+		"version" : "12.3.1"
+	},
+	{
+		"build" : "16F250",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 12003002,
+		"kernel_version" : "Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:08 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_T8015",
+		"version" : "12.3.2",
+		"allowed_machines": [
+			"iPhone10,2",
+			"iPhone10,5"
+		]
+	},
+	{
+		"build" : "16G77",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004000,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Fri Jun 21 22:24:16 PDT 2019; root:xnu-4903.270.47~7/RELEASE_ARM64_T8020",
+		"version" : "12.4"
+	},
+	{
+		"build" : "16G102",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004001,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Aug 19 22:24:08 PDT 2019; root:xnu-4903.272.1~1/RELEASE_ARM64_T8020",
+		"version" : "12.4.1"
+	},
+	{
+		"build" : "16G114",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004002,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Aug 19 22:24:08 PDT 2019; root:xnu-4903.272.1~1/RELEASE_ARM64_T8020",
+		"version" : "12.4.2",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16G130",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004003,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Aug 19 22:24:08 PDT 2019; root:xnu-4903.272.1~1/RELEASE_ARM64_T8020",
+		"version" : "12.4.3",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16G140",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004004,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Aug 19 22:24:08 PDT 2019; root:xnu-4903.272.1~1/RELEASE_ARM64_T8020",
+		"version" : "12.4.4",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16G161",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004005,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Aug 19 22:24:08 PDT 2019; root:xnu-4903.272.1~1/RELEASE_ARM64_T8020",
+		"version" : "12.4.5",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16G183",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004006,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Aug 19 22:24:08 PDT 2019; root:xnu-4903.272.1~1/RELEASE_ARM64_T8020",
+		"version" : "12.4.6",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16G192",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004007,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Aug 19 22:24:08 PDT 2019; root:xnu-4903.272.1~1/RELEASE_ARM64_T8020",
+		"version" : "12.4.7",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16G201",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004008,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Aug 19 22:24:08 PDT 2019; root:xnu-4903.272.1~1/RELEASE_ARM64_T8020",
+		"version" : "12.4.8",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16H5",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_4_9 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12004009,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Thu Oct 29 23:39:18 PDT 2020; root:xnu-4903.272.3~1/RELEASE_ARM64_T7000",
+		"version" : "12.4.9",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16H20",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12005000,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Nov 9 15:07:15 PST 2020; root:xnu-4903.272.3~3/RELEASE_ARM64_T7000",
+		"version" : "12.5",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16H22",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12005001,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Nov 9 15:07:15 PST 2020; root:xnu-4903.272.3~3/RELEASE_ARM64_T7000",
+		"version" : "12.5.1",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16H30",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12005002,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Nov 9 15:07:15 PST 2020; root:xnu-4903.272.3~3/RELEASE_ARM64_T7000",
+		"version" : "12.5.2",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16H41",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_5_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12005003,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Nov 9 15:07:15 PST 2020; root:xnu-4903.272.3~3/RELEASE_ARM64_T7000",
+		"version" : "12.5.3",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16H50",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_5_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12005004,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Mon Nov 9 15:07:15 PST 2020; root:xnu-4903.272.3~3/RELEASE_ARM64_T7000",
+		"version" : "12.5.4",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "16H62",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 12_5_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 12005005,
+		"kernel_version" : "Darwin Kernel Version 18.7.0: Thu Sep 16 20:47:11 PDT 2021; root:xnu-4903.272.4~1/RELEASE_ARM64_T7000",
+		"version" : "12.5.5",
+		"allowed_machines": [
+			"iPhone6,1",
+			"iPhone6,2",
+			"iPhone7,1",
+			"iPhone7,2",
+			"iPad4,1",
+			"iPad4,2",
+			"iPad4,3",
+			"iPad4,4",
+			"iPad4,5",
+			"iPad4,6",
+			"iPad4,7",
+			"iPad4,8",
+			"iPad4,9",
+			"iPod7,1"
+		]
+	},
+	{
+		"build" : "17A577",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 13000000,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Mon Aug 12 20:19:35 PDT 2019; root:xnu-6153.0.103.12~1/RELEASE_ARM64_T8015",
+		"version" : "13.0",
+		"allowed_machines": [
+			"iPhone12,8",
+			"iPhone12,5",
+			"iPhone12,3",
+			"iPhone12,1",
+			"iPhone11,4",
+			"iPhone11,6",
+			"iPhone11,2",
+			"iPhone11,8",
+			"iPhone10,3",
+			"iPhone10,6",
+			"iPhone10,2",
+			"iPhone10,5",
+			"iPhone10,1",
+			"iPhone10,4",
+			"iPhone9,2",
+			"iPhone9,4",
+			"iPhone9,1",
+			"iPhone9,3",
+			"iPhone8,4",
+			"iPhone8,2",
+			"iPhone8,1"
+		]
+	},
+	{
+		"build" : "17A844",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13001000,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Tue Sep  3 21:52:14 PDT 2019; root:xnu-6153.2.3~2/RELEASE_ARM64_T8020",
+		"version" : "13.1"
+	},
+	{
+		"build" : "17A854",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13001001,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Tue Sep  3 21:52:14 PDT 2019; root:xnu-6153.2.3~2/RELEASE_ARM64_T8020",
+		"version" : "13.1.1"
+	},
+	{
+		"build" : "17A860",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13001002,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Tue Sep  3 21:52:14 PDT 2019; root:xnu-6153.2.3~2/RELEASE_ARM64_T8020",
+		"version" : "13.1.2"
+	},
+	{
+		"build" : "17A861",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13001002,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Tue Sep  3 21:52:14 PDT 2019; root:xnu-6153.2.3~2/RELEASE_ARM64_T8020",
+		"version" : "13.1.2"
+	},
+	{
+		"build" : "17A878",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13001003,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Tue Sep  3 21:52:11 PDT 2019; root:xnu-6153.2.3~2/RELEASE_ARM64_T8010",
+		"version" : "13.1.3"
+	},
+	{
+		"build" : "17B84",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 13002000,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Wed Oct  9 22:42:11 PDT 2019; root:xnu-6153.42.1~1/RELEASE_ARM64_T8030",
+		"version" : "13.2"
+	},
+	{
+		"build" : "17B90",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 13002001,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Wed Oct  9 22:42:11 PDT 2019; root:xnu-6153.42.1~1/RELEASE_ARM64_T8030",
+		"version" : "13.2.1",
+		"allowed_machines": []
+	},
+	{
+		"build" : "17B102",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_2_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 13002002,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Wed Oct  9 22:42:11 PDT 2019; root:xnu-6153.42.1~1/RELEASE_ARM64_T8030",
+		"version" : "13.2.2"
+	},
+	{
+		"build" : "17B111",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 13002003,
+		"kernel_version" : "Darwin Kernel Version 19.0.0: Wed Oct  9 22:42:11 PDT 2019; root:xnu-6153.42.1~1/RELEASE_ARM64_T8030",
+		"version" : "13.2.3"
+	},
+	{
+		"build" : "17C54",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 13003000,
+		"kernel_version" : "Darwin Kernel Version 19.2.0: Mon Nov  4 17:46:45 PST 2019; root:xnu-6153.60.66~39/RELEASE_ARM64_T8030",
+		"version" : "13.3"
+	},
+	{
+		"build" : "17D50",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1",
+		"version_num" : 13003001,
+		"kernel_version" : "Darwin Kernel Version 19.3.0: Thu Jan 9 21:10:55 PST 2020; root:xnu-6153.82.3~1/RELEASE_ARM64_T8010",
+		"version" : "13.3.1"
+	},
+	{
+		"build" : "17E255",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13004000,
+		"kernel_version" : "Darwin Kernel Version 19.4.0: Mon Feb 24 22:04:12 PST 2020; root:xnu-6153.102.3~1/RELEASE_ARM64_T8010",
+		"version" : "13.4"
+	},
+	{
+		"build" : "17E8255",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13004000,
+		"kernel_version" : "Darwin Kernel Version 19.4.0: Mon Feb 24 22:04:12 PST 2020; root:xnu-6153.102.3~1/RELEASE_ARM64_T8010",
+		"version" : "13.4"
+	},
+	{
+		"build" : "17E262",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13004001,
+		"kernel_version" : "Darwin Kernel Version 19.4.0: Mon Feb 24 22:04:12 PST 2020; root:xnu-6153.102.3~1/RELEASE_ARM64_T8010",
+		"version" : "13.4.1"
+	},
+	{
+		"build" : "17E8258",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13004001,
+		"kernel_version" : "Darwin Kernel Version 19.4.0: Mon Feb 24 22:04:12 PST 2020; root:xnu-6153.102.3~1/RELEASE_ARM64_T8010",
+		"version" : "13.4.1"
+	},
+	{
+		"build" : "17F75",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13005000,
+		"kernel_version" : "Darwin Kernel Version 19.5.0: Tue Apr 28 22:25:26 PDT 2020; root:xnu-6153.122.1~1/RELEASE_ARM64_T8010",
+		"version" : "13.5"
+	},
+	{
+		"build" : "17F80",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 13005001,
+		"kernel_version" : "Darwin Kernel Version 19.5.0: Tue Apr 28 22:25:26 PDT 2020; root:xnu-6153.122.1~1/RELEASE_ARM64_T8010",
+		"version" : "13.5.1"
+	},
+	{
+		"build" : "17G68",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 13006000,
+		"kernel_version" : "Darwin Kernel Version 19.6.0: Sat Jun 27 04:36:25 PDT 2020; root:xnu-6153.142.1~4/RELEASE_ARM64_T8030",
+		"version" : "13.6"
+	},
+	{
+		"build" : "17G80",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 13006001,
+		"kernel_version" : "Darwin Kernel Version 19.6.0: Sat Jun 27 04:36:25 PDT 2020; root:xnu-6153.142.1~4/RELEASE_ARM64_T8030",
+		"version" : "13.6.1"
+	},
+	{
+		"build" : "17H35",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 13007000,
+		"kernel_version" : "Darwin Kernel Version 19.6.0: Sat Jul 11 00:58:54 PDT 2020; root:xnu-6153.142.1~8/RELEASE_ARM64_T8010",
+		"version" : "13.7"
+	},
+	{
+		"build" : "18A373",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 14000000,
+		"kernel_version" : "Darwin Kernel Version 20.0.0: Fri Aug 28 23:05:58 PDT 2020; root:xnu-7195.0.46~9/RELEASE_ARM64_S8000",
+		"version" : "14.0"
+	},
+	{
+		"build" : "18A393",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 14000001,
+		"kernel_version" : "Darwin Kernel Version 20.0.0: Fri Aug 28 23:05:58 PDT 2020; root:xnu-7195.0.46~9/RELEASE_ARM64_S8000",
+		"version" : "14.0.1"
+	},
+	{
+		"build" : "18A8395",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 14001000,
+		"kernel_version" : "Darwin Kernel Version 20.0.0: Wed Sep 30 03:24:26 PDT 2020; root:xnu-7195.0.46~41/RELEASE_ARM64_T8101",
+		"version" : "14.1"
+	},
+	{
+		"build" : "18B92",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 14002000,
+		"kernel_version" : "Darwin Kernel Version 20.1.0: Fri Oct 30 00:34:17 PDT 2020; root:xnu-7195.42.3~1/RELEASE_ARM64_T8015",
+		"version" : "14.2",
+		"allowed_machines" : [
+			"iPhone12,8",
+			"iPhone12,5",
+			"iPhone12,3",
+			"iPhone12,1",
+			"iPhone11,4",
+			"iPhone11,6",
+			"iPhone11,2",
+			"iPhone11,8",
+			"iPhone10,3",
+			"iPhone10,6",
+			"iPhone10,2",
+			"iPhone10,5",
+			"iPhone10,1",
+			"iPhone10,4",
+			"iPhone9,2",
+			"iPhone9,4",
+			"iPhone9,1",
+			"iPhone9,3",
+			"iPhone8,4",
+			"iPhone8,2",
+			"iPhone8,1",
+			"iPad13,2",
+			"iPad13,1",
+			"iPad11,7",
+			"iPad11,6",
+			"iPad11,4",
+			"iPad11,3",
+			"iPad11,2",
+			"iPad11,1",
+			"iPad8,12",
+			"iPad8,11",
+			"iPad8,10",
+			"iPad8,9",
+			"iPad8,8",
+			"iPad8,7",
+			"iPad8,6",
+			"iPad8,5",
+			"iPad8,4",
+			"iPad8,3",
+			"iPad8,2",
+			"iPad8,1",
+			"iPad7,12",
+			"iPad7,11",
+			"iPad7,6",
+			"iPad7,5",
+			"iPad7,4",
+			"iPad7,3",
+			"iPad7,2",
+			"iPad7,1",
+			"iPad6,12",
+			"iPad6,11",
+			"iPad6,8",
+			"iPad6,7",
+			"iPad6,4",
+			"iPad6,3",
+			"iPad5,4",
+			"iPad5,3",
+			"iPad5,2",
+			"iPad5,1"
+		]
+	},
+	{
+		"build" : "18B111",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 14002000,
+		"kernel_version" : "Darwin Kernel Version 20.1.0: Fri Oct 30 00:34:17 PDT 2020; root:xnu-7195.42.3~1/RELEASE_ARM64_T8015",
+		"version" : "14.2",
+		"allowed_machines" : [
+			"iPhone13,4",
+			"iPhone13,3",
+			"iPhone13,2",
+			"iPhone13,1"
+		]
+	},
+	{
+		"build" : "18B121",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 14002001,
+		"kernel_version" : "Darwin Kernel Version 20.1.0: Fri Oct 30 00:34:17 PDT 2020; root:xnu-7195.42.3~1/RELEASE_ARM64_T8015",
+		"version" : "14.2.1",
+		"allowed_machines" : [
+			"iPhone13,4",
+			"iPhone13,3",
+			"iPhone13,2",
+			"iPhone13,1"
+		]
+	},
+	{
+		"build" : "18C66",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 14003000,
+		"kernel_version" : "Darwin Kernel Version 20.2.0: Fri Nov 13 01:00:15 PST 2020; root:xnu-7195.62.1~4/RELEASE_ARM64_T8015",
+		"version" : "14.3"
+	},
+	{
+		"build" : "18D52",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 14004000,
+		"kernel_version" : "Darwin Kernel Version 20.3.0: Tue Jan 5 18:34:47 PST 2021; root:xnu-7195.80.35~2/RELEASE_ARM64_T8015",
+		"version" : "14.4"
+	},
+	{
+		"build" : "18D61",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 14004001,
+		"kernel_version" : "Darwin Kernel Version 20.3.0: Tue Jan 5 18:34:47 PST 2021; root:xnu-7195.80.35~2/RELEASE_ARM64_T8015",
+		"version" : "14.4.1"
+	},
+	{
+		"build" : "18D70",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 14004002,
+		"kernel_version" : "Darwin Kernel Version 20.3.0: Tue Jan 5 18:34:47 PST 2021; root:xnu-7195.80.35~2/RELEASE_ARM64_T8015",
+		"version" : "14.4.2"
+	},
+	{
+		"build" : "18E199",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 14005000,
+		"kernel_version" : "Darwin Kernel Version 20.4.0: Sun Feb 28 21:05:16 PST 2021; root:xnu-7195.100.367~3/RELEASE_ARM64_T8015",
+		"version" : "14.5"
+	},
+	{
+		"build" : "18E212",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 14005001,
+		"kernel_version" : "Darwin Kernel Version 20.4.0: Sun Feb 28 21:05:16 PST 2021; root:xnu-7195.100.367~3/RELEASE_ARM64_T8015",
+		"version" : "14.5.1"
+	},
+	{
+		"build" : "18F72",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 14006000,
+		"kernel_version" : "Darwin Kernel Version 20.5.0: Sat May 8 02:21:45 PDT 2021; root:xnu-7195.122.1~4/RELEASE_ARM64_T8101",
+		"version" : "14.6"
+	},
+	{
+		"build" : "18G69",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 14007000,
+		"kernel_version" : "Darwin Kernel Version 20.6.0: Mon Jun 21 21:23:35 PDT 2021; root:xnu-7195.140.42~10/RELEASE_ARM64_T8101",
+		"version" : "14.7"
+	},
+	{
+		"build" : "18G70",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 14007000,
+		"kernel_version" : "Darwin Kernel Version 20.6.0: Mon Jun 21 21:23:35 PDT 2021; root:xnu-7195.140.42~10/RELEASE_ARM64_T8101",
+		"version" : "14.7"
+	},
+	{
+		"build" : "18G82",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 14007001,
+		"kernel_version" : "Darwin Kernel Version 20.6.0: Mon Jun 21 21:23:35 PDT 2021; root:xnu-7195.140.42~10/RELEASE_ARM64_T8101",
+		"version" : "14.7.1"
+	},
+	{
+		"build" : "18H17",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 14008000,
+		"kernel_version" : "Darwin Kernel Version 20.6.0: Tue Aug 24 21:10:43 PDT 2021; root:xnu-7195.140.44~1/RELEASE_ARM64_T8101",
+		"version" : "14.8"
+	},
+	{
+		"build" : "18H107",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 14_8_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 14008001,
+		"kernel_version" : "Darwin Kernel Version 20.6.0: Tue Oct 12 18:57:56 PDT 2021; root:xnu-7195.140.46~1/RELEASE_ARM64_T8101",
+		"version" : "14.8.1"
+	},
+	{
+		"build" : "19A341",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 15000000,
+		"kernel_version" : "Darwin Kernel Version 21.0.0: Sun Aug 15 20:55:58 PDT 2021; root:xnu-8019.12.5~1/RELEASE_ARM64_T8101",
+		"version" : "15.0",
+		"allowed_machines": [
+			"iPhone14,3",
+			"iPhone14,2",
+			"iPhone14,5",
+			"iPhone14,4"
+		]
+	},
+	{
+		"build" : "19A346",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 15000000,
+		"kernel_version" : "Darwin Kernel Version 21.0.0: Sun Aug 15 20:55:58 PDT 2021; root:xnu-8019.12.5~1/RELEASE_ARM64_T8101",
+		"version" : "15.0"
+	},
+	{
+		"build" : "19A348",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 15000001,
+		"kernel_version" : "Darwin Kernel Version 21.0.0: Sun Aug 15 20:55:58 PDT 2021; root:xnu-8019.12.5~1/RELEASE_ARM64_T8101",
+		"version" : "15.0.1"
+	},
+	{
+		"build" : "19A404",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 15000002,
+		"kernel_version" : "Darwin Kernel Version 21.0.0: Wed Sep 29 08:30:00 PDT 2021; root:xnu-8019.12.5~35/RELEASE_ARM64_T8110",
+		"version" : "15.0.2"
+	},
+	{
+		"build" : "19B74",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 15001000,
+		"kernel_version" : "Darwin Kernel Version 21.1.0: Wed Oct 13 18:16:52 PDT 2021; root:xnu-8019.42.4~1/RELEASE_ARM64_T8110",
+		"version" : "15.1"
+	},
+	{
+		"build" : "19B75",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 15001000,
+		"kernel_version" : "Darwin Kernel Version 21.1.0: Wed Oct 13 18:16:52 PDT 2021; root:xnu-8019.42.4~1/RELEASE_ARM64_T8110",
+		"version" : "15.1"
+	},
+	{
+		"build" : "19B81",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 15001001,
+		"kernel_version" : "Darwin Kernel Version 21.1.0: Wed Oct 13 18:16:52 PDT 2021; root:xnu-8019.42.4~1/RELEASE_ARM64_T8110",
+		"version" : "15.1.1",
+		"allowed_machines" : [
+			"iPhone14,3",
+			"iPhone14,2",
+			"iPhone14,5",
+			"iPhone14,4",
+			"iPhone13,4",
+			"iPhone13,3",
+			"iPhone13,2",
+			"iPhone13,1"
+		]
+	},
+	{
+		"build" : "19C56",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 15002000,
+		"kernel_version" : "Darwin Kernel Version 21.2.0: Sun Nov 28 20:43:39 PST 2021; root:xnu-8019.62.2~1/RELEASE_ARM64_T8110",
+		"version" : "15.2"
+	},
+	{
+		"build" : "19C57",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 15002000,
+		"kernel_version" : "Darwin Kernel Version 21.2.0: Sun Nov 28 20:43:39 PST 2021; root:xnu-8019.62.2~1/RELEASE_ARM64_T8110",
+		"version" : "15.2",
+		"allowed_machines" : [
+			"iPhone14,3",
+			"iPhone14,2",
+			"iPhone14,5",
+			"iPhone14,4"
+		]
+	},
+	{
+		"build" : "19C63",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 15002001,
+		"kernel_version" : "Darwin Kernel Version 21.2.0: Sun Nov 28 20:43:39 PST 2021; root:xnu-8019.62.2~1/RELEASE_ARM64_T8110",
+		"version" : "15.2.1"
+	},
+	{
+		"build" : "19D50",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 15003000,
+		"kernel_version" : "Darwin Kernel Version 21.3.0: Wed Jan 5 21:44:44 PST 2022; root:xnu-8019.80.24~23/RELEASE_ARM64_T8110",
+		"version" : "15.3"
+	},
+	{
+		"build" : "19D52",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 15003001,
+		"kernel_version" : "Darwin Kernel Version 21.3.0: Wed Jan 5 21:44:44 PST 2022; root:xnu-8019.80.24~23/RELEASE_ARM64_T8110",
+		"version" : "15.3.1"
+	},
+	{
+		"build" : "19E241",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 15004000,
+		"kernel_version" : "Darwin Kernel Version 21.4.0: Mon Feb 21 21:27:57 PST 2022; root:xnu-8020.102.3~1/RELEASE_ARM64_T8110",
+		"version" : "15.4"
+	},
+	{
+		"build" : "19E258",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 15004001,
+		"kernel_version" : "Darwin Kernel Version 21.4.0: Mon Feb 21 21:27:57 PST 2022; root:xnu-8020.102.3~1/RELEASE_ARM64_T8110",
+		"version" : "15.4.1"
+	},
+	{
+		"build" : "19F77",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Mobile/15E148 Safari/604.1",
+		"version_num" : 15005000,
+		"kernel_version" : "Darwin Kernel Version 21.5.0: Thu Apr 21 21:51:30 PDT 2022; root:xnu-8020.122.1~1/RELEASE_ARM64_T8110",
+		"version" : "15.5"
+	},
+	{
+		"build" : "19G71",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1",
+		"version_num" : 15006000,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Sat Jun 18 18:56:54 PDT 2022; root:xnu-8020.140.41~4/RELEASE_ARM64_T8110",
+		"version" : "15.6"
+	},
+	{
+		"build" : "19G82",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 15006001,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Wed Aug 10 15:38:26 PDT 2022; root:xnu-8020.142.2~1/RELEASE_ARM64_T8110",
+		"version" : "15.6.1"
+	},
+	{
+		"build" : "19H12",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007000,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Aug 11 21:46:05 PDT 2022; root:xnu-8020.241.2~1/RELEASE_ARM64_T8110",
+		"version" : "15.7"
+	},
+	{
+		"build" : "19H117",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007001,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.1"
+	},
+	{
+		"build" : "19H218",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007002,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.2",
+		"allowed_machines" : [
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPhone8,4",
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPod9,1"
+		]
+	},
+	{
+		"build" : "19H307",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007003,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.3",
+		"allowed_machines" : [
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPhone8,4",
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPod9,1"
+		]
+	},
+	{
+		"build" : "19H321",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007004,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.4",
+		"allowed_machines" : [
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPhone8,4",
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPod9,1"
+		]
+	},
+	{
+		"build" : "19H332",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007005,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.5",
+		"allowed_machines" : [
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPhone8,4",
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPod9,1"
+		]
+	},
+	{
+		"build" : "19H349",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007006,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.6",
+		"allowed_machines" : [
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPhone8,4",
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPod9,1"
+		]
+	},
+	{
+		"build" : "19H357",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007007,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.7",
+		"allowed_machines" : [
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPhone8,4",
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPod9,1"
+		]
+	},
+	{
+		"build" : "19H364",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007008,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.8",
+		"allowed_machines" : [
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPhone8,4",
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPod9,1"
+		]
+	},
+	{
+		"build" : "19H365",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 15_7_9 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Mobile/15E148 Safari/604.1",
+		"version_num" : 15007009,
+		"kernel_version" : "Darwin Kernel Version 21.6.0: Thu Sep 29 22:46:31 PDT 2022; root:xnu-8020.241.8~1/RELEASE_ARM64_T8110",
+		"version" : "15.7.9",
+		"allowed_machines" : [
+			"iPhone8,1",
+			"iPhone8,2",
+			"iPhone8,4",
+			"iPhone9,1",
+			"iPhone9,2",
+			"iPhone9,3",
+			"iPhone9,4",
+			"iPad5,1",
+			"iPad5,2",
+			"iPad5,3",
+			"iPad5,4",
+			"iPod9,1"
+		]
+	},
+	{
+		"build" : "20A362",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 16000000,
+		"kernel_version" : "Darwin Kernel Version 22.0.0: Tue Aug 16 20:51:28 PDT 2022; root:xnu-8792.2.11.0.1~1/RELEASE_ARM64_T8110",
+		"version" : "16.0"
+	},
+	{
+		"build" : "20A371",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 16000001,
+		"kernel_version" : "Darwin Kernel Version 22.0.0: Tue Aug 16 20:51:28 PDT 2022; root:xnu-8792.2.11.0.1~1/RELEASE_ARM64_T8110",
+		"version" : "16.0.1"
+	},
+	{
+		"build" : "20A380",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 16000002,
+		"kernel_version" : "Darwin Kernel Version 22.0.0: Tue Aug 16 20:51:28 PDT 2022; root:xnu-8792.2.11.0.1~1/RELEASE_ARM64_T8110",
+		"version" : "16.0.2"
+	},
+	{
+		"build" : "20A392",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+		"version_num" : 16000003,
+		"kernel_version" : "Darwin Kernel Version 22.0.0: Tue Oct 4 16:59:26 PDT 2022; root:xnu-8792.2.15~1/RELEASE_ARM64_T8120",
+		"version" : "16.0.3"
+	},
+	{
+		"build" : "20B82",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 16001000,
+		"kernel_version" : "Darwin Kernel Version 22.1.0: Thu Oct 6 19:34:16 PDT 2022; root:xnu-8792.42.7~1/RELEASE_ARM64_T8120",
+		"version" : "16.1"
+	},
+	{
+		"build" : "20B101",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 16001001,
+		"kernel_version" : "Darwin Kernel Version 22.1.0: Thu Oct 6 19:34:16 PDT 2022; root:xnu-8792.42.7~1/RELEASE_ARM64_T8120",
+		"version" : "16.1.1"
+	},
+	{
+		"build" : "20B110",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 16001002,
+		"kernel_version" : "Darwin Kernel Version 22.1.0: Thu Oct 6 19:34:16 PDT 2022; root:xnu-8792.42.7~1/RELEASE_ARM64_T8120",
+		"version" : "16.1.2"
+	},
+	{
+		"build" : "20C65",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1",
+		"version_num" : 16002000,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.2"
+	},
+	{
+		"build" : "20D47",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 16003000,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.3"
+	},
+	{
+		"build" : "20D67",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1",
+		"version_num" : 16003001,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.3.1"
+	},
+	{
+		"build" : "20E246",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 16004000,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.4"
+	},
+	{
+		"build" : "20E252",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Mobile/15E148 Safari/604.1",
+		"version_num" : 16004001,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.4.1"
+	},
+	{
+		"build" : "20F66",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1",
+		"version_num" : 16005000,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.5"
+	},
+	{
+		"build" : "20F75",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 16005001,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.5.1"
+	},
+	{
+		"build" : "20G75",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+		"version_num" : 16006000,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.6"
+	},
+	{
+		"build" : "20G81",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.1 Mobile/15E148 Safari/604.1",
+		"version_num" : 16006001,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.6.1"
+	},
+	{
+		"build" : "20H19",
+		"useragent" : "Mozilla/5.0 (%PRODUCT_NAME%; CPU %OS_NAME% 16_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+		"version_num" : 16007000,
+		"kernel_version" : "Darwin Kernel Version 22.2.0: Sun Oct 16 17:47:55 PDT 2022; root:xnu-8792.60.32.0.1~10/RELEASE_ARM64_T8120",
+		"version" : "16.7"
+	}
+]

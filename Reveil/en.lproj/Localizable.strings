@@ -1,0 +1,1028 @@
+/* About */
+"ABOUT" = "About";
+
+/* Access Point */
+"ACCESS_POINT" = "Access Point";
+
+/* Address */
+"ADDRESS" = "Address";
+
+/* %d Addresses */
+"ADDRESSES_COUNT" = "%d Addresses";
+
+/* Anonymous */
+"ANONYMOUS" = "Anonymous";
+
+/* Apple Wireless Direct Link */
+"APPLE_WIRELESS_DIRECT_LINK" = "Apple Wireless Direct Link";
+
+/* Attributes */
+"ATTRIBUTES" = "Attributes";
+
+/* Available Blocks */
+"AVAIL_BLOCKS" = "Available Blocks";
+
+/* Fork was able to create a new process (sandbox violation) */
+"AVAILABLE_FORK" = "Fork was able to create a new process (sandbox violation)";
+
+/* Dynamic linker is unreliable */
+"BAD_DYNAMIC_LINKER" = "Dynamic linker is unreliable";
+
+/* Capacity */
+"BATTERY_CAPACITY" = "Capacity";
+
+/* Battery Capacity */
+"BATTERY_CAPACITY_FULL" = "Battery Capacity";
+
+/* Charging */
+"BATTERY_CHARGING" = "Charging";
+
+/* Full */
+"BATTERY_FULL" = "Full";
+
+/* Battery Information */
+"BATTERY_INFORMATION" = "Battery Information";
+
+/* Level */
+"BATTERY_LEVEL" = "Level";
+
+/* Battery Level */
+"BATTERY_LEVEL_FULL" = "Battery Level";
+
+/* State */
+"BATTERY_STATE" = "State";
+
+/* Battery State */
+"BATTERY_STATE_FULL" = "Battery State";
+
+/* Unknown */
+"BATTERY_UNKNOWN" = "Unknown";
+
+/* Unplugged */
+"BATTERY_UNPLUGGED" = "Unplugged";
+
+/* Used */
+"BATTERY_USED" = "Used";
+
+/* Battery Used */
+"BATTERY_USED_FULL" = "Battery Used";
+
+/* Block Size */
+"BLOCK_SIZE" = "Block Size";
+
+/* Blocks */
+"BLOCKS" = "Blocks";
+
+/* Bootrom Version */
+"BOOTROM_VERSION" = "Bootrom Version";
+
+/* Broadcast */
+"BROADCAST" = "Broadcast";
+
+/* Build Date */
+"BUILD_DATE" = "Build Date";
+
+/* Byte Order */
+"BYTE_ORDER" = "Byte Order";
+
+/* Cache Line */
+"CACHE_LINE" = "Cache Line";
+
+/* Cellular Connection */
+"CELLULAR_CONNECTION" = "Cellular Connection";
+
+/* Collisions */
+"COLLISIONS" = "Collisions";
+
+/* Compressed */
+"COMPRESSED" = "Compressed";
+
+/* Compressor */
+"COMPRESSOR" = "Compressor";
+
+/* Contact */
+"CONTACT" = "Contact";
+
+/* 82flex@gmail.com */
+"CONTACT_EMAIL" = "82flex@gmail.com";
+
+/* Copied to clipboard */
+"COPIED_TO_CLIPBOARD" = "Copied to clipboard";
+
+/* Copyright © 2023-2024 82Flex Team.\nAll rights reserved. */
+"COPYRIGHT_STRING" = "Copyright © 2023-2024 82Flex Team.\nAll rights reserved.";
+
+/* COW Faults */
+"COW_FAULTS" = "COW Faults";
+
+/* CPU Architecture */
+"CPU_ARCHITECTURE" = "CPU Architecture";
+
+/* CPU Family */
+"CPU_FAMILY" = "CPU Family";
+
+/* CPU Information */
+"CPU_INFORMATION" = "CPU Information";
+
+/* CPU USAGE */
+"CPU_USAGE" = "CPU Usage";
+
+/* CPU Load */
+"CPU_USAGE_LOAD" = "CPU Load";
+
+/* Ad Hoc signed */
+"CS_ADHOC" = "Ad Hoc signed";
+
+/* Force expiration checking */
+"CS_CHECK_EXPIRATION" = "Force expiration checking";
+
+/* Has Data Vault controller entitlement */
+"CS_DATAVAULT_CONTROLLER" = "Has Data Vault controller entitlement";
+
+/* Process is currently or has previously been debugged and allowed to run with invalid pages */
+"CS_DEBUGGED" = "Process is currently or has previously been debugged and allowed to run with invalid pages";
+
+/* Code is dev signed, cannot be loaded into prod signed code */
+"CS_DEV_CODE" = "Code is dev signed, cannot be loaded into prod signed code";
+
+/* Dyld used to load this is a platform binary */
+"CS_DYLD_PLATFORM" = "Dyld used to load this is a platform binary";
+
+/* Require enforcement */
+"CS_ENFORCEMENT" = "Require enforcement";
+
+/* Code signature permits restricted entitlements */
+"CS_ENTITLEMENTS_VALIDATED" = "Code signature permits restricted entitlements";
+
+/* Set CS_INSTALLER on any exec'ed process */
+"CS_EXEC_INHERIT_SIP" = "Set CS_INSTALLER on any exec'ed process";
+
+/* Set CS_ENFORCEMENT on any exec'ed process */
+"CS_EXEC_SET_ENFORCEMENT" = "Set CS_ENFORCEMENT on any exec'ed process";
+
+/* Set CS_HARD on any exec'ed process */
+"CS_EXEC_SET_HARD" = "Set CS_HARD on any exec'ed process";
+
+/* Set CS_KILL on any exec'ed process */
+"CS_EXEC_SET_KILL" = "Set CS_KILL on any exec'ed process";
+
+/* Has get-task-allow entitlement */
+"CS_GET_TASK_ALLOW" = "Has get-task-allow entitlement";
+
+/* Don't load invalid pages */
+"CS_HARD" = "Don't load invalid pages";
+
+/* Has installer entitlement */
+"CS_INSTALLER" = "Has installer entitlement";
+
+/* Kill process if it becomes invalid */
+"CS_KILL" = "Kill process if it becomes invalid";
+
+/* Was killed by kernel for invalidity */
+"CS_KILLED" = "Was killed by kernel for invalidity";
+
+/* Has com.apple.rootless.restricted-nvram-variables.heritable entitlement */
+"CS_NVRAM_UNRESTRICTED" = "Has com.apple.rootless.restricted-nvram-variables.heritable entitlement";
+
+/* This is a platform binary */
+"CS_PLATFORM_BINARY" = "This is a platform binary";
+
+/* Platform binary by the fact of path (OS X only) */
+"CS_PLATFORM_PATH" = "Platform binary by the fact of path (OS X only)";
+
+/* Require library validation */
+"CS_REQUIRE_LV" = "Require library validation";
+
+/* Tell dyld to treat restricted */
+"CS_RESTRICT" = "Tell dyld to treat restricted";
+
+/* Process has a signature (may have gone invalid) */
+"CS_SIGNED" = "Process has a signature (may have gone invalid)";
+
+/* Unknown flag (0x%08x) */
+"CS_UNKNOWN_FLAG" = "Unknown flag (0x%08x)";
+
+/* Dynamically valid */
+"CS_VALID" = "Dynamically valid";
+
+/* Dashboard */
+"DASHBOARD" = "Dashboard";
+
+/* Debugger attached */
+"DEBUGGER_ATTACHED" = "Debugger attached";
+
+/* Decompressed */
+"DECOMPRESSED" = "Decompressed";
+
+/* Details */
+"DETAILS" = "Details";
+
+/* Developer */
+"DEVELOPER" = "Developer";
+
+/* Device */
+"DEVICE" = "Device";
+
+/* Device Information */
+"DEVICE_INFORMATION" = "Device Information";
+
+/* Device Model */
+"DEVICE_MODEL" = "Device Model";
+
+/* Device Name */
+"DEVICE_NAME" = "Device Name";
+
+/* Library validation is disabled */
+"DISABLED_LIBRARY_VALIDATION" = "Library validation is disabled";
+
+/* Free */
+"DISK_FREE" = "Free";
+
+/* Disk Free */
+"DISK_FREE_LONG" = "Disk Free";
+
+/* DISK SPACE */
+"DISK_SPACE" = "Disk Space";
+
+/* Total */
+"DISK_TOTAL" = "Total";
+
+/* Disk Total */
+"DISK_TOTAL_LONG" = "Disk Total";
+
+/* Used */
+"DISK_USED" = "Used";
+
+/* Disk Used */
+"DISK_USED_LONG" = "Disk Used";
+
+/* Display Resolution */
+"DISPLAY_RESOLUTION" = "Display Resolution";
+
+/* Download */
+"DOWNLOAD" = "Download";
+
+/* Dropped */
+"DROPPED" = "Dropped";
+
+/* Library validation is enabled */
+"ENABLED_LIBRARY_VALIDATION" = "Library validation is enabled";
+
+/* Valid code signing status */
+"EXPECTED_CODE_SIGNING_STATUS" = "Valid code signing status";
+
+/* Export Data */
+"EXPORT_DATA" = "Export Data";
+
+/* Faults */
+"FAULTS" = "Faults";
+
+/* File-backed */
+"FILE_BACKED" = "File-backed";
+
+/* File Systems */
+"FILE_SYSTEMS" = "File Systems";
+
+/* Flags */
+"FLAGS" = "Flags";
+
+/* Flavor */
+"FLAVOR" = "Flavor";
+
+/* Free Blocks */
+"FREE_BLOCKS" = "Free Blocks";
+
+/* Free: %@ */
+"FREE_DESCRIPTION" = "Free: %@";
+
+/* Free Nodes */
+"FREE_NODES" = "Free Nodes";
+
+/* Exception ports were set */
+"HAS_EXCEPTION_PORT" = "Exception ports were set";
+
+/* Signal handlers were set */
+"HAS_SIGNAL_HANDLER" = "Signal handlers were set";
+
+/* Hits */
+"HITS" = "Hits";
+
+/* Hooked libraries found */
+"HOOKED_LIBRARIES_FOUND" = "Hooked libraries found";
+
+/* Host ID */
+"HOST_ID" = "Host ID";
+
+/* Host Name */
+"HOST_NAME" = "Host Name";
+
+/* Identifier */
+"IDENTIFIER" = "Identifier";
+
+/* Receive all multicast packets */
+"IFF_ALLMULTI" = "Receive all multicast packets";
+
+/* Use alternate physical connection */
+"IFF_ALTPHYS" = "Use alternate physical connection";
+
+/* Broadcast address valid */
+"IFF_BROADCAST" = "Broadcast address valid";
+
+/* Turn on debugging */
+"IFF_DEBUG" = "Turn on debugging";
+
+/* Per link layer defined bit 0 */
+"IFF_LINK0" = "Per link layer defined bit 0";
+
+/* Per link layer defined bit 1 */
+"IFF_LINK1" = "Per link layer defined bit 1";
+
+/* Per link layer defined bit 2 */
+"IFF_LINK2" = "Per link layer defined bit 2";
+
+/* Is a loopback net */
+"IFF_LOOPBACK" = "Is a loopback net";
+
+/* Supports multicast */
+"IFF_MULTICAST" = "Supports multicast";
+
+/* No address resolution protocol */
+"IFF_NOARP" = "No address resolution protocol";
+
+/* Obsolete: avoid use of trailers */
+"IFF_NOTRAILERS" = "Obsolete: avoid use of trailers";
+
+/* Transmission in progress */
+"IFF_OACTIVE" = "Transmission in progress";
+
+/* Interface is point-to-point link */
+"IFF_POINTOPOINT" = "Interface is point-to-point link";
+
+/* Receive all packets */
+"IFF_PROMISC" = "Receive all packets";
+
+/* Resources allocated */
+"IFF_RUNNING" = "Resources allocated";
+
+/* Can't hear own transmissions */
+"IFF_SIMPLEX" = "Can't hear own transmissions";
+
+/* Interface is up */
+"IFF_UP" = "Interface is up";
+
+/* Binary is in trust cache */
+"IN_TRUST_CACHE" = "Binary is in trust cache";
+
+/* Injected libraries found */
+"INJECTED_LIBRARIES_FOUND" = "Injected libraries found";
+
+/* Input Errors */
+"INPUT_ERRORS" = "Input Errors";
+
+/* Interface Name */
+"INTERFACE_NAME" = "Interface Name";
+
+/* IP Layer Capture */
+"IP_LAYER_CAPTURE" = "IP Layer Capture";
+
+/* IPSec Tunnel */
+"IPSEC_TUNNEL" = "IPSec Tunnel";
+
+/* Kernel Maximum Groups */
+"KERNEL_MAXIMUM_GROUPS" = "Kernel Maximum Groups";
+
+/* Kernel Maximum Processes */
+"KERNEL_MAXIMUM_PROCESSES" = "Kernel Maximum Processes";
+
+/* Kernel Maximum Vnodes */
+"KERNEL_MAXIMUM_VNODES" = "Kernel Maximum Vnodes";
+
+/* Kernel Page Size */
+"KERNEL_PAGE_SIZE" = "Kernel Page Size";
+
+/* Kernel Release */
+"KERNEL_RELEASE" = "Kernel Release";
+
+/* Kernel Version */
+"KERNEL_VERSION" = "Kernel Version";
+
+/* Parent process is launchd */
+"KNOWN_PARENT_PROCESS" = "Parent process is launchd";
+
+/* L1 Data Cache Size */
+"L1_DATA_CACHE_SIZE" = "L1 Data Cache Size";
+
+/* L1 Instruction Cache Size */
+"L1_INST_CACHE_SIZE" = "L1 Instruction Cache Size";
+
+/* L2 Cache Size */
+"L2_CACHE_SIZE" = "L2 Cache Size";
+
+/* Last Change */
+"LAST_CHANGE" = "Last Change";
+
+/* Line Speed */
+"LINE_SPEED" = "Line Speed";
+
+/* %@/s */
+"LINE_SPEED_FMT" = "%@/s";
+
+/* Lookups */
+"LOOKUPS" = "Lookups";
+
+/* Loopback */
+"LOOPBACK" = "Loopback";
+
+/* Low Latency WAN */
+"LOW_LATENCY_WAN" = "Low Latency WAN";
+
+/* MAC Address */
+"MAC_ADDRESS_IDX" = "MAC Address";
+
+/* Marketing Name */
+"MARKETING_NAME" = "Marketing Name";
+
+/* Max Files per Process */
+"MAX_FILES_PER_PROCESS" = "Max Files per Process";
+
+/* Max Socket Buffer Size */
+"MAX_SOCKET_BUFFER_SIZE" = "Max Socket Buffer Size";
+
+/* Active */
+"MEMORY_ACTIVE" = "Active";
+
+/* Active Memory */
+"MEMORY_ACTIVE_LONG" = "Active Memory";
+
+/* Anonymous Memory */
+"MEMORY_ANONYMOUS" = "Anonymous Memory";
+
+/* Compressed Memory */
+"MEMORY_COMPRESSED" = "Compressed Memory";
+
+/* Compressor Memory */
+"MEMORY_COMPRESSOR" = "Compressor Memory";
+
+/* Memory COW Faults */
+"MEMORY_COW_FAULTS" = "Memory COW Faults";
+
+/* Decompressed Memory */
+"MEMORY_DECOMPRESSED" = "Decompressed Memory";
+
+/* Memory Faults */
+"MEMORY_FAULTS" = "Memory Faults";
+
+/* File-backed Memory */
+"MEMORY_FILE_BACKED" = "File-backed Memory";
+
+/* Free */
+"MEMORY_FREE" = "Free";
+
+/* Free Memory */
+"MEMORY_FREE_LONG" = "Free Memory";
+
+/* Memory Hits */
+"MEMORY_HITS" = "Memory Hits";
+
+/* Inactive */
+"MEMORY_INACTIVE" = "Inactive";
+
+/* Inactive Memory */
+"MEMORY_INACTIVE_LONG" = "Inactive Memory";
+
+/* Memory Information */
+"MEMORY_INFORMATION" = "Memory Information";
+
+/* Memory Lookups */
+"MEMORY_LOOKUPS" = "Memory Lookups";
+
+/* Others */
+"MEMORY_OTHERS" = "Others";
+
+/* Others Memory */
+"MEMORY_OTHERS_LONG" = "Others Memory";
+
+/* Purgeable */
+"MEMORY_PURGEABLE" = "Purgeable";
+
+/* Purgeable Memory */
+"MEMORY_PURGEABLE_LONG" = "Purgeable Memory";
+
+/* Memory Purges */
+"MEMORY_PURGES" = "Memory Purges";
+
+/* Memory Size */
+"MEMORY_SIZE" = "Memory Size";
+
+/* Speculative Memory */
+"MEMORY_SPECULATIVE" = "Speculative Memory";
+
+/* Swapped In Memory */
+"MEMORY_SWAPPED_IN" = "Swapped In Memory";
+
+/* Swapped Out Memory */
+"MEMORY_SWAPPED_OUT" = "Swapped Out Memory";
+
+/* Throttled Memory */
+"MEMORY_THROTTLED" = "Throttled Memory";
+
+/* Uncompressed Memory */
+"MEMORY_UNCOMPRESSED" = "Uncompressed Memory";
+
+/* MEMORY USAGE */
+"MEMORY_USAGE" = "Memory Usage";
+
+/* Wired */
+"MEMORY_WIRED" = "Wired";
+
+/* Wired Memory */
+"MEMORY_WIRED_LONG" = "Wired Memory";
+
+/* Zero Filled Memory */
+"MEMORY_ZERO_FILLED" = "Zero Filled Memory";
+
+/* Metric */
+"METRIC" = "Metric";
+
+/* File system written to asynchronously */
+"MNT_ASYNC" = "File system written to asynchronously";
+
+/* File system was mounted by automounter */
+"MNT_AUTOMOUNTED" = "File system was mounted by automounter";
+
+/* File system supports content protection */
+"MNT_CPROTECT" = "File system supports content protection";
+
+/* File system should defer writes */
+"MNT_DEFWRITE" = "File system should defer writes";
+
+/* File system is not appropriate path to user data */
+"MNT_DONTBROWSE" = "File system is not appropriate path to user data";
+
+/* File system supports volfs */
+"MNT_DOVOLFS" = "File system supports volfs";
+
+/* File system is exported */
+"MNT_EXPORTED" = "File system is exported";
+
+/* VFS will ignore ownership information on file system objects */
+"MNT_IGNORE_OWNERSHIP" = "VFS will ignore ownership information on file system objects";
+
+/* File system is journaled */
+"MNT_JOURNALED" = "File system is journaled";
+
+/* File system is stored locally */
+"MNT_LOCAL" = "File system is stored locally";
+
+/* MAC support for individual labels */
+"MNT_MULTILABEL" = "MAC support for individual labels";
+
+/* Disable update of file access time */
+"MNT_NOATIME" = "Disable update of file access time";
+
+/* Don't interpret special files */
+"MNT_NODEV" = "Don't interpret special files";
+
+/* Can't exec from file system */
+"MNT_NOEXEC" = "Can't exec from file system";
+
+/* Don't follow symlink when resolving mount point */
+"MNT_NOFOLLOW" = "Don't follow symlink when resolving mount point";
+
+/* Setuid bits are not honored on this file system */
+"MNT_NOSUID" = "Setuid bits are not honored on this file system";
+
+/* Don't allow user extended attributes */
+"MNT_NOUSERXATTR" = "Don't allow user extended attributes";
+
+/* File system is quarantined */
+"MNT_QUARANTINE" = "File system is quarantined";
+
+/* Quotas are enabled on this file system */
+"MNT_QUOTA" = "Quotas are enabled on this file system";
+
+/* A read-only file system */
+"MNT_RDONLY" = "A read-only file system";
+
+/* File system can be removed from the system by user */
+"MNT_REMOVABLE" = "File system can be removed from the system by user";
+
+/* This file system is the root of the file system */
+"MNT_ROOTFS" = "This file system is the root of the file system";
+
+/* The mount is a snapshot */
+"MNT_SNAPSHOT" = "The mount is a snapshot";
+
+/* Enable strict update of file access time */
+"MNT_STRICTATIME" = "Enable strict update of file access time";
+
+/* File system is written to synchronously */
+"MNT_SYNCHRONOUS" = "File system is written to synchronously";
+
+/* Union with underlying file system */
+"MNT_UNION" = "Union with underlying file system";
+
+/* Modifications found */
+"MODIFICATIONS_FOUND" = "Modifications found";
+
+/* Execution state was modified */
+"MODIFIED_EXECUTION_STATE" = "Execution state was modified";
+
+/* Mount Point */
+"MOUNT_POINT" = "Mount Point";
+
+/* MTU */
+"MTU" = "MTU";
+
+/* Multicast Received */
+"MULTICAST_RECEIVED" = "Multicast Received";
+
+/* Multicast Sent */
+"MULTICAST_SENT" = "Multicast Sent";
+
+/* Netmask */
+"NETMASK" = "Netmask";
+
+/* Network */
+"NETWORK" = "Network";
+
+/* Network Details */
+"NETWORK_DETAILS" = "Network Details";
+
+/* Network Interfaces */
+"NETWORK_INTERFACES" = "Network Interfaces";
+
+/* NETWORK USAGE */
+"NETWORK_USAGE" = "Network Usage";
+
+/* %@ Usage */
+"NETWORK_USAGE_OF" = "%@ Usage";
+
+/* No debugger attached */
+"NO_DEBUGGER_ATTACHED" = "No debugger attached";
+
+/* Exception ports not set */
+"NO_EXCEPTION_PORT" = "Exception ports not set";
+
+/* No hooked library */
+"NO_HOOKED_LIBRARY" = "No hooked library";
+
+/* No injected library */
+"NO_INJECTED_LIBRARY" = "No injected library";
+
+/* No issues found */
+"NO_ISSUES_FOUND" = "No issues found";
+
+/* No suspicious process flag P_SELECT */
+"NO_P_SELECT_FLAG" = "No suspicious process flag P_SELECT";
+
+/* No HTTP/HTTPS proxy */
+"NO_PROXY_SETTINGS" = "No HTTP/HTTPS proxy";
+
+/* Signal handlers not set */
+"NO_SIGNAL_HANDLER" = "Signal handlers not set";
+
+/* No suspicious environment variable */
+"NO_SUSPICIOUS_ENVIRONMENT_VARIABLE" = "No suspicious environment variable";
+
+/* No suspicious file */
+"NO_SUSPICIOUS_FILE" = "No suspicious file";
+
+/* No suspicious library */
+"NO_SUSPICIOUS_LIBRARY" = "No suspicious library";
+
+/* No suspicious Objective-C class */
+"NO_SUSPICIOUS_OBJC_CLASS" = "No suspicious Objective-C class";
+
+/* No suspicious opened port */
+"NO_SUSPICIOUS_OPENED_PORT" = "No suspicious opened port";
+
+/* No suspicious symbolic link */
+"NO_SUSPICIOUS_SYMBOLIC_LINK" = "No suspicious symbolic link";
+
+/* No suspicious url scheme */
+"NO_SUSPICIOUS_URL_SCHEME" = "No suspicious url scheme";
+
+/* No suspicious writable directory */
+"NO_SUSPICIOUS_WRITABLE_DIRECTORY" = "No suspicious writable directory";
+
+/* No suspicious writable file */
+"NO_SUSPICIOUS_WRITABLE_FILE" = "No suspicious writable file";
+
+/* No unsigned executable page found */
+"NO_UNSIGNED_EXECUTABLE_PAGE" = "No unsigned executable page found ";
+
+/* Nodes */
+"NODES" = "Nodes";
+
+/* Run on a hardware device */
+"NOT_IN_SIMULATOR" = "Run on a hardware device";
+
+/* Binary is not in trust cache */
+"NOT_IN_TRUST_CACHE" = "Binary is not in trust cache";
+
+/* Number of Cores */
+"NUMBER_OF_CORES" = "Number of Cores";
+
+/* Number of CPU Cores */
+"NUMBER_OF_CPU_CORES" = "Number of CPU Cores";
+
+/* Number of File Systems */
+"NUMBER_OF_FILE_SYSTEMS" = "Number of File Systems";
+
+/* Number of Network Interfaces */
+"NUMBER_OF_NETWORK_INTERFACES" = "Number of Network Interfaces";
+
+/* Operating System */
+"OPERATING_SYSTEM" = "Operating System";
+
+/* Optimal Transfer Size */
+"OPTIMAL_TRANSFER_SIZE" = "Optimal Transfer Size";
+
+/* Main bundle has a valid bundle identifier */
+"ORIGINAL_BUNDLE_IDENTIFIER" = "Main bundle has a valid bundle identifier";
+
+/* All keys in entitlements are trusted */
+"ORIGINAL_ENTITLEMENTS" = "All keys in entitlements are trusted";
+
+/* Main executable is trusted */
+"ORIGINAL_MACH_O" = "Main executable is trusted";
+
+/* Mobile provisioning profile is trusted */
+"ORIGINAL_MOBILE_PROVISIONING_PROFILE" = "Mobile provisioning profile is trusted";
+
+/* Others */
+"OTHERS" = "Others";
+
+/* Output Errors */
+"OUTPUT_ERRORS" = "Output Errors";
+
+/* Owner */
+"OWNER" = "Owner";
+
+/* Suspicious process flag P_SELECT found */
+"P_SELECT_FLAG_FOUND" = "Suspicious process flag P_SELECT found";
+
+/* Packet Layer Capture */
+"PACKET_LAYER_CAPTURE" = "Packet Layer Capture";
+
+/* Packets Received */
+"PACKETS_RECEIVED" = "Packets Received";
+
+/* Packets Sent */
+"PACKETS_SENT" = "Packets Sent";
+
+/* PageIns */
+"PAGE_INS" = "PageIns";
+
+/* Page Ins */
+"PAGE_INS_LONG" = "Page Ins";
+
+/* PageOuts */
+"PAGE_OUTS" = "PageOuts";
+
+/* Page Outs */
+"PAGE_OUTS_LONG" = "Page Outs";
+
+/* Page Reactivations */
+"PAGE_REACTIVATIONS" = "Page Reactivations";
+
+/* Page Size */
+"PAGE_SIZE" = "Page Size";
+
+/* Personal Hotspot */
+"PERSONAL_HOTSPOT" = "Personal Hotspot";
+
+/* Physical Memory */
+"PHYSICAL_MEMORY" = "Physical Memory";
+
+/* Pin */
+"PIN" = "Pin";
+
+/* Pinned %@ */
+"PINNED_FMT" = "Pinned %@";
+
+/* Point-to-Point Protocol */
+"POINT_TO_POINT_PROTOCOL" = "Point-to-Point Protocol";
+
+/* Host port is privileged */
+"PRIVILEGED_HOST_PORT" = "Host port is privileged";
+
+/* Processor */
+"PROCESSOR" = "Processor";
+
+/* Protocol #%d - %@ */
+"PROTOCOL_IDX" = "Protocol #%d - %@";
+
+/* System HTTP/HTTPS proxy found */
+"PROXY_SETTINGS_FOUND" = "System HTTP/HTTPS proxy found";
+
+/* Purges */
+"PURGES" = "Purges";
+
+/* Radio Tech */
+"RADIO_TECH" = "Radio Tech";
+
+/* Reactivations */
+"REACTIVATIONS" = "Reactivations";
+
+/* Received */
+"RECEIVED" = "Received";
+
+/* Reveil */
+"Reveil" = "Reveil";
+
+/* RFC2893 Tunnel */
+"RFC2893_TUNNEL" = "RFC2893 Tunnel";
+
+/* RFC3056 Tunnel */
+"RFC3056_TUNNEL" = "RFC3056 Tunnel";
+
+/* Simulator environment detected */
+"RUN_IN_SIMULATOR" = "Simulator environment detected";
+
+/* Scanning… */
+"SCANNING" = "Scanning…";
+
+/* Seatbelt special port is available */
+"SEATBELT_SPECIAL_PORT_IS_AVAILABLE" = "Seatbelt special port is available";
+
+/* Security */
+"SECURITY" = "Security";
+
+/* Sent */
+"SENT" = "Sent";
+
+/* System volume is signed */
+"SIGNED_SYSTEM_VOLUME" = "System volume is signed";
+
+/* Speculative */
+"SPECULATIVE" = "Speculative";
+
+/* Spent Receiving */
+"SPENT_RECEIVING" = "Spent Receiving";
+
+/* Spent Xmitting */
+"SPENT_XMITTING" = "Spent Xmitting";
+
+/* Dynamic linker is stock */
+"STOCK_DYNAMIC_LINKER" = "Dynamic linker is stock";
+
+/* Suspicious environment variables found */
+"SUSPICIOUS_ENVIRONMENT_VARIABLES_FOUND" = "Suspicious environment variables found";
+
+/* Suspicious files found */
+"SUSPICIOUS_FILES_FOUND" = "Suspicious files found";
+
+/* Suspicious libraries found */
+"SUSPICIOUS_LIBRARIES_FOUND" = "Suspicious libraries found";
+
+/* Suspicious Objective-C classes found */
+"SUSPICIOUS_OBJC_CLASSES_FOUND" = "Suspicious Objective-C classes found";
+
+/* Suspicious opened ports found */
+"SUSPICIOUS_OPENED_PORTS_FOUND" = "Suspicious opened ports found";
+
+/* Suspicious symbolic links found */
+"SUSPICIOUS_SYMBOLIC_LINKS_FOUND" = "Suspicious symbolic links found";
+
+/* Suspicious url schemes found */
+"SUSPICIOUS_URL_SCHEMES_FOUND" = "Suspicious url schemes found";
+
+/* Suspicious writable directories found */
+"SUSPICIOUS_WRITABLE_DIRECTORIES_FOUND" = "Suspicious writable directories found";
+
+/* Suspicious writable files found */
+"SUSPICIOUS_WRITABLE_FILES_FOUND" = "Suspicious writable files found";
+
+/* Swapped In */
+"SWAPPED_IN" = "Swapped In";
+
+/* Swapped Out */
+"SWAPPED_OUT" = "Swapped Out";
+
+/* System */
+"SYSTEM" = "System";
+
+/* Main bundle identifier was tampered */
+"TAMPERED_BUNDLE_IDENTIFIER" = "Main bundle identifier was tampered";
+
+/* Unknown keys found in entitlements */
+"TAMPERED_ENTITLEMENTS" = "Unknown keys found in entitlements";
+
+/* Main executable was tampered */
+"TAMPERED_MACH_O" = "Main executable was tampered";
+
+/* Mobile provisioning profile was tampered */
+"TAMPERED_MOBILE_PROVISIONING_PROFILE" = "Mobile provisioning profile was tampered";
+
+/* TB Frequency */
+"TB_FREQ" = "Time-Based Frequency";
+
+/* Throttled */
+"THROTTLED" = "Throttled";
+
+/* Total Download */
+"TOTAL_DOWNLOAD" = "Total Download";
+
+/* Total Download of %@ */
+"TOTAL_DOWNLOAD_OF_INTERFACE" = "Total Download of %@";
+
+/* Total Upload */
+"TOTAL_UPLOAD" = "Total Upload";
+
+/* Total Upload of %@ */
+"TOTAL_UPLOAD_OF_INTERFACE" = "Total Upload of %@";
+
+/* Process task port was obtained */
+"TOUCHED_PROCESS_TASK_PORT" = "Process task port was obtained";
+
+/* Type */
+"TYPE" = "Type";
+
+/* Sandbox blocks call to fork(2) */
+"UNABLE_TO_FORK" = "Sandbox blocks call to fork(2)";
+
+/* Seatbelt special port is not available */
+"UNAVAILABLE_SEATBELT_SPECIAL_PORT" = "Seatbelt special port is not available";
+
+/* Uncompressed */
+"UNCOMPRESSED" = "Uncompressed";
+
+/* Unexpected code signing status */
+"UNEXPECTED_CODE_SIGNING_STATUS" = "Unexpected code signing status";
+
+/* Unknown */
+"UNKNOWN" = "Unknown";
+
+/* Unknown parent process */
+"UNKNOWN_PARENT_PROCESS" = "Unknown parent process";
+
+/* Execution state was not modified */
+"UNMODIFIED_EXECUTION_STATE" = "Execution state was not modified";
+
+/* Unpin */
+"UNPIN" = "Unpin";
+
+/* Unpinned %@ */
+"UNPINNED_FMT" = "Pinned %@";
+
+/* Host port is not privileged */
+"UNPRIVILEGED_HOST_PORT" = "Host port is not privileged";
+
+/* Unsigned executable pages found */
+"UNSIGNED_EXECUTABLE_PAGES_FOUND" = "Unsigned executable pages found";
+
+/* System volume is not signed */
+"UNSIGNED_SYSTEM_VOLUME" = "System volume is not signed";
+
+/* Unsupported */
+"UNSUPPORTED" = "Unsupported";
+
+/* Process task port was not obtained */
+"UNTOUCHED_PROCESS_TASK_PORT" = "Process task port was not obtained";
+
+/* Upload */
+"UPLOAD" = "Upload";
+
+/* Uptime */
+"UPTIME" = "Uptime";
+
+/* Idle */
+"USAGE_IDLE" = "Idle";
+
+/* Load */
+"USAGE_LOAD" = "Load";
+
+/* User */
+"USAGE_USER" = "User";
+
+/* USB Dual Role Device */
+"USB_DUAL_ROLE_DEVICE" = "USB Dual Role Device";
+
+/* USB Packet Capture */
+"USB_PACKET_CAPTURE" = "USB Packet Capture";
+
+/* Used: %@ */
+"USED_DESCRIPTION" = "Used: %@";
+
+/* User Memory */
+"USER_MEMORY" = "User Memory";
+
+/* User Mode Tunnel */
+"USER_MODE_TUNNEL" = "User Mode Tunnel";
+
+/* Version */
+"VERSION" = "Version";
+
+/* Website */
+"WEBSITE" = "Website";
+
+/* Wi-Fi Peer to Peer */
+"WIFI_PEER_TO_PEER" = "Wi-Fi Peer to Peer";
+
+/* Wired/Wireless */
+"WIRED_WIRELESS" = "Wired/Wireless";
+
+/* Zero Filled */
+"ZERO_FILLED" = "Zero Filled";

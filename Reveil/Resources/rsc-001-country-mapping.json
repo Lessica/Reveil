@@ -1,0 +1,4992 @@
+{
+	"AD": {
+		"capital": "Andorra la Vella",
+		"carriers": [
+			"Mobiland"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"ca"
+		],
+		"locale": "ca_AD",
+		"name": "Andorra",
+		"native": "Andorra",
+		"phone": "376",
+		"timezones": [
+			"Europe/Andorra"
+		]
+	},
+	"AE": {
+		"capital": "Abu Dhabi",
+		"carriers": [
+			"du",
+			"Etisalat"
+		],
+		"continent": "AS",
+		"currency": "AED",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_AE",
+		"name": "United Arab Emirates",
+		"native": "\u062f\u0648\u0644\u0629 \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+		"phone": "971",
+		"timezones": [
+			"Asia/Dubai"
+		]
+	},
+	"AF": {
+		"capital": "Kabul",
+		"carriers": [
+			"AWCC",
+			"Areeba",
+			"Etisalat",
+			"Roshan"
+		],
+		"continent": "AS",
+		"currency": "AFN",
+		"languages": [
+			"ps",
+			"uz",
+			"tk"
+		],
+		"locale": "ps_AF",
+		"name": "Afghanistan",
+		"native": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+		"phone": "93",
+		"timezones": [
+			"Asia/Kabul"
+		]
+	},
+	"AG": {
+		"capital": "Saint John's",
+		"carriers": [
+			"APUA",
+			"bmobile",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "XCD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_AG",
+		"name": "Antigua and Barbuda",
+		"native": "Antigua and Barbuda",
+		"phone": "1268",
+		"timezones": [
+			"America/Antigua"
+		]
+	},
+	"AI": {
+		"capital": "The Valley",
+		"carriers": [
+			"Cable & Wireless",
+			"Weblinks Limited"
+		],
+		"continent": "NA",
+		"currency": "XCD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_AI",
+		"name": "Anguilla",
+		"native": "Anguilla",
+		"phone": "1264",
+		"timezones": [
+			"America/Anguilla"
+		]
+	},
+	"AL": {
+		"capital": "Tirana",
+		"carriers": [
+			"AMC",
+			"Eagle Mobile",
+			"Plus Communication",
+			"Vodafone"
+		],
+		"continent": "EU",
+		"currency": "ALL",
+		"languages": [
+			"sq"
+		],
+		"locale": "sq_AL",
+		"name": "Albania",
+		"native": "Shqip\u00ebria",
+		"phone": "355",
+		"timezones": [
+			"Europe/Tirane"
+		]
+	},
+	"AM": {
+		"capital": "Yerevan",
+		"carriers": [
+			"Beeline",
+			"Orange",
+			"VivaCell-MTS"
+		],
+		"continent": "AS",
+		"currency": "AMD",
+		"languages": [
+			"hy",
+			"ru"
+		],
+		"locale": "hy_AM",
+		"name": "Armenia",
+		"native": "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576",
+		"phone": "374",
+		"timezones": [
+			"Asia/Yerevan"
+		]
+	},
+	"AO": {
+		"capital": "Luanda",
+		"carriers": [
+			"MOVICEL",
+			"UNITEL"
+		],
+		"continent": "AF",
+		"currency": "AOA",
+		"languages": [
+			"pt"
+		],
+		"locale": "pt_AO",
+		"name": "Angola",
+		"native": "Angola",
+		"phone": "244",
+		"timezones": [
+			"Africa/Luanda"
+		]
+	},
+	"AR": {
+		"capital": "Buenos Aires",
+		"carriers": [
+			"Claro",
+			"Hutchinson (PORT HABLE)",
+			"Movistar",
+			"Nextel",
+			"Personal",
+			"Telecom Personal SA"
+		],
+		"continent": "SA",
+		"currency": "ARS",
+		"languages": [
+			"es",
+			"gn"
+		],
+		"locale": "es_AR",
+		"name": "Argentina",
+		"native": "Argentina",
+		"phone": "54",
+		"timezones": [
+			"America/Argentina/Buenos_Aires",
+			"America/Argentina/Cordoba",
+			"America/Argentina/Salta",
+			"America/Argentina/Jujuy",
+			"America/Argentina/Tucuman",
+			"America/Argentina/Catamarca",
+			"America/Argentina/La_Rioja",
+			"America/Argentina/San_Juan",
+			"America/Argentina/Mendoza",
+			"America/Argentina/San_Luis",
+			"America/Argentina/Rio_Gallegos",
+			"America/Argentina/Ushuaia"
+		]
+	},
+	"AS": {
+		"capital": "Pago Pago",
+		"carriers": [
+			"Bluesky"
+		],
+		"continent": "OC",
+		"currency": "USD",
+		"languages": [
+			"en",
+			"sm"
+		],
+		"locale": "en_AS",
+		"name": "American Samoa",
+		"native": "American Samoa",
+		"phone": "1684",
+		"timezones": [
+			"Pacific/Pago_Pago"
+		]
+	},
+	"AT": {
+		"capital": "Vienna",
+		"carriers": [
+			"3",
+			"A1",
+			"Barablu",
+			"bob",
+			"GSM-R A",
+			"Orange",
+			"T-Mobile",
+			"yesss"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"de"
+		],
+		"locale": "de_AT",
+		"name": "Austria",
+		"native": "\u00d6sterreich",
+		"phone": "43",
+		"timezones": [
+			"Europe/Vienna"
+		]
+	},
+	"AU": {
+		"capital": "Canberra",
+		"carriers": [
+			"3",
+			"3GIS",
+			"AAPT",
+			"Advanced Communications Technologies",
+			"Airnet",
+			"Crazy John's",
+			"Department of Defence",
+			"Localstar",
+			"Norfolk Telecom",
+			"One. Tel",
+			"OPTUS",
+			"Ozitel",
+			"Railcorp",
+			"SOUL",
+			"Telstra",
+			"Victorian Rail Track",
+			"Vodafone",
+			"YES OPTUS"
+		],
+		"continent": "OC",
+		"currency": "AUD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_AU",
+		"name": "Australia",
+		"native": "Australia",
+		"phone": "61",
+		"timezones": [
+			"Australia/Lord_Howe",
+			"Antarctica/Macquarie",
+			"Australia/Hobart",
+			"Australia/Currie",
+			"Australia/Melbourne",
+			"Australia/Sydney",
+			"Australia/Broken_Hill",
+			"Australia/Brisbane",
+			"Australia/Lindeman",
+			"Australia/Adelaide",
+			"Australia/Darwin",
+			"Australia/Perth",
+			"Australia/Eucla"
+		]
+	},
+	"AW": {
+		"capital": "Oranjestad",
+		"carriers": [
+			"Digicel",
+			"Digicell",
+			"SETAR"
+		],
+		"continent": "NA",
+		"currency": "AWG",
+		"languages": [
+			"nl",
+			"pa"
+		],
+		"locale": "nl_AW",
+		"name": "Aruba",
+		"native": "Aruba",
+		"phone": "297",
+		"timezones": [
+			"America/Aruba"
+		]
+	},
+	"AZ": {
+		"capital": "Baku",
+		"carriers": [
+			"Azercell",
+			"Bakcell",
+			"FONEX",
+			"Nar Mobile"
+		],
+		"continent": "AS",
+		"currency": "AZN",
+		"languages": [
+			"az"
+		],
+		"locale": "az_AZ",
+		"name": "Azerbaijan",
+		"native": "Az\u0259rbaycan",
+		"phone": "994",
+		"timezones": [
+			"Asia/Baku"
+		]
+	},
+	"BA": {
+		"capital": "Sarajevo",
+		"carriers": [
+			"BH Mobile",
+			"ERONET",
+			"m:tel"
+		],
+		"continent": "EU",
+		"currency": "BAM",
+		"languages": [
+			"bs",
+			"hr",
+			"sr"
+		],
+		"locale": "bs_BA",
+		"name": "Bosnia and Herzegovina",
+		"native": "Bosna i Hercegovina",
+		"phone": "387",
+		"timezones": [
+			"Europe/Sarajevo"
+		]
+	},
+	"BB": {
+		"capital": "Bridgetown",
+		"carriers": [
+			"bmobile",
+			"Digicel",
+			"Sunbeach Communications"
+		],
+		"continent": "NA",
+		"currency": "BBD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_BB",
+		"name": "Barbados",
+		"native": "Barbados",
+		"phone": "1246",
+		"timezones": [
+			"America/Barbados"
+		]
+	},
+	"BD": {
+		"capital": "Dhaka",
+		"carriers": [
+			"Aktel",
+			"Banglalink",
+			"Citycell",
+			"Grameenphone",
+			"TeleTalk",
+			"Warid"
+		],
+		"continent": "AS",
+		"currency": "BDT",
+		"languages": [
+			"bn"
+		],
+		"locale": "bn_BD",
+		"name": "Bangladesh",
+		"native": "Bangladesh",
+		"phone": "880",
+		"timezones": [
+			"Asia/Dhaka"
+		]
+	},
+	"BE": {
+		"capital": "Brussels",
+		"carriers": [
+			"BASE",
+			"Mobistar",
+			"Proximus",
+			"Telenet"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"nl",
+			"fr",
+			"de"
+		],
+		"locale": "nl_BE",
+		"name": "Belgium",
+		"native": "Belgi\u00eb",
+		"phone": "32",
+		"timezones": [
+			"Europe/Brussels"
+		]
+	},
+	"BF": {
+		"capital": "Ouagadougou",
+		"carriers": [
+			"Onatel",
+			"Telecel Faso",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "XOF",
+		"languages": [
+			"fr",
+			"ff"
+		],
+		"locale": "fr_BF",
+		"name": "Burkina Faso",
+		"native": "Burkina Faso",
+		"phone": "226",
+		"timezones": [
+			"Africa/Ouagadougou"
+		]
+	},
+	"BG": {
+		"capital": "Sofia",
+		"carriers": [
+			"GLOBUL",
+			"M-Tel",
+			"Undisclosed",
+			"Vivatel"
+		],
+		"continent": "EU",
+		"currency": "BGN",
+		"languages": [
+			"bg"
+		],
+		"locale": "bg_BG",
+		"name": "Bulgaria",
+		"native": "\u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f",
+		"phone": "359",
+		"timezones": [
+			"Europe/Sofia"
+		]
+	},
+	"BH": {
+		"capital": "Manama",
+		"carriers": [
+			"Batelco",
+			"MTC-VFBH",
+			"VIVA"
+		],
+		"continent": "AS",
+		"currency": "BHD",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_BH",
+		"name": "Bahrain",
+		"native": "\u200f\u0627\u0644\u0628\u062d\u0631\u064a\u0646",
+		"phone": "973",
+		"timezones": [
+			"Asia/Bahrain"
+		]
+	},
+	"BI": {
+		"capital": "Bujumbura",
+		"carriers": [
+			"Africell",
+			"HiTs Telecom",
+			"Smart Mobile",
+			"Spacetel",
+			"Telecel",
+			"U-COM Burundi"
+		],
+		"continent": "AF",
+		"currency": "BIF",
+		"languages": [
+			"fr",
+			"rn"
+		],
+		"locale": "fr_BI",
+		"name": "Burundi",
+		"native": "Burundi",
+		"phone": "257",
+		"timezones": [
+			"Africa/Bujumbura"
+		]
+	},
+	"BJ": {
+		"capital": "Porto-Novo",
+		"carriers": [
+			"Areeba",
+			"BBCOM",
+			"Glo",
+			"Libercom",
+			"Telecel"
+		],
+		"continent": "AF",
+		"currency": "XOF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_BJ",
+		"name": "Benin",
+		"native": "B\u00e9nin",
+		"phone": "229",
+		"timezones": [
+			"Africa/Porto-Novo"
+		]
+	},
+	"BM": {
+		"capital": "Hamilton",
+		"carriers": [
+			"Digicel",
+			"Digicel Bermuda",
+			"Mobility"
+		],
+		"continent": "NA",
+		"currency": "BMD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_BM",
+		"name": "Bermuda",
+		"native": "Bermuda",
+		"phone": "1441",
+		"timezones": [
+			"Atlantic/Bermuda"
+		]
+	},
+	"BN": {
+		"capital": "Bandar Seri Begawan",
+		"carriers": [
+			"B-Mobile",
+			"DTSCom",
+			"Jabatan Telekom"
+		],
+		"continent": "AS",
+		"currency": "BND",
+		"languages": [
+			"ms"
+		],
+		"locale": "ms_BN",
+		"name": "Brunei",
+		"native": "Negara Brunei Darussalam",
+		"phone": "673",
+		"timezones": [
+			"Asia/Brunei"
+		]
+	},
+	"BO": {
+		"capital": "Sucre",
+		"carriers": [
+			"Entel",
+			"Nuevatel",
+			"Tigo"
+		],
+		"continent": "SA",
+		"currency": "BOB,BOV",
+		"languages": [
+			"es",
+			"ay",
+			"qu"
+		],
+		"locale": "es_BO",
+		"name": "Bolivia",
+		"native": "Bolivia",
+		"phone": "591",
+		"timezones": [
+			"America/La_Paz"
+		]
+	},
+	"BR": {
+		"capital": "Bras\u00edlia",
+		"carriers": [
+			"aiou",
+			"Amazonia Celular",
+			"Brasil Telecom",
+			"Claro",
+			"CTBC Cellular",
+			"CTBC Celular",
+			"Nextel",
+			"Sercomtel",
+			"TIM",
+			"TNL PCS",
+			"Vivo"
+		],
+		"continent": "SA",
+		"currency": "BRL",
+		"languages": [
+			"pt"
+		],
+		"locale": "pt_BR",
+		"name": "Brazil",
+		"native": "Brasil",
+		"phone": "55",
+		"timezones": [
+			"America/Noronha",
+			"America/Belem",
+			"America/Fortaleza",
+			"America/Recife",
+			"America/Araguaina",
+			"America/Maceio",
+			"America/Bahia",
+			"America/Sao_Paulo",
+			"America/Campo_Grande",
+			"America/Cuiaba",
+			"America/Santarem",
+			"America/Porto_Velho",
+			"America/Boa_Vista",
+			"America/Manaus",
+			"America/Eirunepe",
+			"America/Rio_Branco"
+		]
+	},
+	"BS": {
+		"capital": "Nassau",
+		"carriers": [
+			"BaTelCo"
+		],
+		"continent": "NA",
+		"currency": "BSD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_BS",
+		"name": "Bahamas",
+		"native": "Bahamas",
+		"phone": "1242",
+		"timezones": [
+			"America/Nassau"
+		]
+	},
+	"BT": {
+		"capital": "Thimphu",
+		"carriers": [
+			"B-Mobile",
+			"TashiCell"
+		],
+		"continent": "AS",
+		"currency": "BTN,INR",
+		"languages": [
+			"dz"
+		],
+		"locale": "dz_BT",
+		"name": "Bhutan",
+		"native": "\u02bcbrug-yul",
+		"phone": "975",
+		"timezones": [
+			"Asia/Thimphu"
+		]
+	},
+	"BW": {
+		"capital": "Gaborone",
+		"carriers": [
+			"BTC Mobile",
+			"Mascom",
+			"Orange"
+		],
+		"continent": "AF",
+		"currency": "BWP",
+		"languages": [
+			"en",
+			"tn"
+		],
+		"locale": "en_BW",
+		"name": "Botswana",
+		"native": "Botswana",
+		"phone": "267",
+		"timezones": [
+			"Africa/Gaborone"
+		]
+	},
+	"BY": {
+		"capital": "Minsk",
+		"carriers": [
+			"BelCel JV",
+			"DIALLOG",
+			"life:)",
+			"MTS",
+			"Velcom"
+		],
+		"continent": "EU",
+		"currency": "BYR",
+		"languages": [
+			"be",
+			"ru"
+		],
+		"locale": "be_BY",
+		"name": "Belarus",
+		"native": "\u0411\u0435\u043b\u0430\u0440\u0443\u0301\u0441\u044c",
+		"phone": "375",
+		"timezones": [
+			"Europe/Minsk"
+		]
+	},
+	"BZ": {
+		"capital": "Belmopan",
+		"carriers": [
+			"Belize Telemedia",
+			"International Telecommunications Ltd.",
+			"Smart"
+		],
+		"continent": "NA",
+		"currency": "BZD",
+		"languages": [
+			"en",
+			"es"
+		],
+		"locale": "en_BZ",
+		"name": "Belize",
+		"native": "Belize",
+		"phone": "501",
+		"timezones": [
+			"America/Belize"
+		]
+	},
+	"CA": {
+		"capital": "Ottawa",
+		"carriers": [
+			"Airtel Wireless",
+			"BC Tel Mobility",
+			"Bell",
+			"Bell / Telus / SaskTel",
+			"Bell Mobility",
+			"DMTS",
+			"Fido",
+			"FIRST",
+			"Globalstar",
+			"ICE Wireless",
+			"MB Tel Mobility",
+			"Mobilicity",
+			"MT&T Mobility",
+			"MTS",
+			"MTS Mobility",
+			"New Tel Mobility",
+			"Rogers Wireless",
+			"Sask Tel Mobility",
+			"SaskTel",
+			"Tbay Mobility",
+			"Telus",
+			"Telus (Quebec) Mobility",
+			"Telus Mobility",
+			"Videotron",
+			"WIND Mobile"
+		],
+		"continent": "NA",
+		"currency": "CAD",
+		"languages": [
+			"en",
+			"fr"
+		],
+		"locale": "en_CA",
+		"name": "Canada",
+		"native": "Canada",
+		"phone": "1",
+		"timezones": [
+			"America/St_Johns",
+			"America/Halifax",
+			"America/Glace_Bay",
+			"America/Moncton",
+			"America/Goose_Bay",
+			"America/Blanc-Sablon",
+			"America/Toronto",
+			"America/Nipigon",
+			"America/Thunder_Bay",
+			"America/Iqaluit",
+			"America/Pangnirtung",
+			"America/Atikokan",
+			"America/Winnipeg",
+			"America/Rainy_River",
+			"America/Resolute",
+			"America/Rankin_Inlet",
+			"America/Regina",
+			"America/Swift_Current",
+			"America/Edmonton",
+			"America/Cambridge_Bay",
+			"America/Yellowknife",
+			"America/Inuvik",
+			"America/Creston",
+			"America/Dawson_Creek",
+			"America/Fort_Nelson",
+			"America/Vancouver",
+			"America/Whitehorse",
+			"America/Dawson"
+		]
+	},
+	"CD": {
+		"capital": "Kinshasa",
+		"carriers": [
+			"Libertis Telecom",
+			"Warid Telecom",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "CDF",
+		"languages": [
+			"fr",
+			"ln",
+			"kg",
+			"sw",
+			"lu"
+		],
+		"locale": "fr_CD",
+		"name": "Democratic Republic of the Congo",
+		"native": "R\u00e9publique d\u00e9mocratique du Congo",
+		"phone": "243",
+		"timezones": [
+			"Africa/Kinshasa",
+			"Africa/Lubumbashi"
+		]
+	},
+	"CF": {
+		"capital": "Bangui",
+		"carriers": [
+			"CTP",
+			"Nationlink",
+			"Orange",
+			"TC"
+		],
+		"continent": "AF",
+		"currency": "XAF",
+		"languages": [
+			"fr",
+			"sg"
+		],
+		"locale": "fr_CF",
+		"name": "Central African Republic",
+		"native": "K\u00f6d\u00f6r\u00f6s\u00ease t\u00ee B\u00eaafr\u00eeka",
+		"phone": "236",
+		"timezones": [
+			"Africa/Bangui"
+		]
+	},
+	"CH": {
+		"capital": "Bern",
+		"carriers": [
+			"3G Mobile AG",
+			"BebbiCell AG",
+			"IN&Phone",
+			"Orange",
+			"SBB AG",
+			"Sunrise",
+			"Swisscom",
+			"Tele2",
+			"Togewanet AG (Comfone)"
+		],
+		"continent": "EU",
+		"currency": "CHE,CHF,CHW",
+		"languages": [
+			"de",
+			"fr",
+			"it"
+		],
+		"locale": "de_CH",
+		"name": "Switzerland",
+		"native": "Schweiz",
+		"phone": "41",
+		"timezones": [
+			"Europe/Zurich"
+		]
+	},
+	"CI": {
+		"capital": "Yamoussoukro",
+		"carriers": [
+			"Cora de Comstar",
+			"KoZ",
+			"Moov",
+			"MTN",
+			"Orange",
+			"ORICEL"
+		],
+		"continent": "AF",
+		"currency": "XOF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_CI",
+		"name": "Ivory Coast",
+		"native": "C\u00f4te d'Ivoire",
+		"phone": "225",
+		"timezones": [
+			"Africa/Abidjan"
+		]
+	},
+	"CK": {
+		"capital": "Avarua",
+		"carriers": [
+			"Telecom Cook"
+		],
+		"continent": "OC",
+		"currency": "NZD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_CK",
+		"name": "Cook Islands",
+		"native": "Cook Islands",
+		"phone": "682",
+		"timezones": [
+			"Pacific/Rarotonga"
+		]
+	},
+	"CL": {
+		"capital": "Santiago",
+		"carriers": [
+			"Claro",
+			"Entel",
+			"movistar",
+			"Nextel",
+			"VTR Movil",
+			"Will"
+		],
+		"continent": "SA",
+		"currency": "CLF,CLP",
+		"languages": [
+			"es"
+		],
+		"locale": "es_CL",
+		"name": "Chile",
+		"native": "Chile",
+		"phone": "56",
+		"timezones": [
+			"America/Santiago",
+			"Pacific/Easter"
+		]
+	},
+	"CM": {
+		"capital": "Yaound\u00e9",
+		"carriers": [
+			"MTN Cameroon",
+			"Orange"
+		],
+		"continent": "AF",
+		"currency": "XAF",
+		"languages": [
+			"en",
+			"fr"
+		],
+		"locale": "en_CM",
+		"name": "Cameroon",
+		"native": "Cameroon",
+		"phone": "237",
+		"timezones": [
+			"Africa/Douala"
+		]
+	},
+	"CN": {
+		"capital": "Beijing",
+		"carriers": [
+			"China Unicom",
+			"China Mobile",
+			"China Telecom",
+			"China Tietong",
+			"China Unicom"
+		],
+		"continent": "AS",
+		"currency": "CNY",
+		"languages": [
+			"zh"
+		],
+		"locale": "zh_CN",
+		"name": "China",
+		"native": "\u4e2d\u56fd",
+		"phone": "86",
+		"timezones": [
+			"Asia/Shanghai",
+			"Asia/Urumqi"
+		]
+	},
+	"CO": {
+		"capital": "Bogot\u00e1",
+		"carriers": [
+			"Colombia Telecomunicaciones S.A. - Telecom",
+			"Comcel",
+			"Edatel",
+			"movistar",
+			"Tigo"
+		],
+		"continent": "SA",
+		"currency": "COP",
+		"languages": [
+			"es"
+		],
+		"locale": "es_CO",
+		"name": "Colombia",
+		"native": "Colombia",
+		"phone": "57",
+		"timezones": [
+			"America/Bogota"
+		]
+	},
+	"CR": {
+		"capital": "San Jos\u00e9",
+		"carriers": [
+			"ICE",
+			"movistar"
+		],
+		"continent": "NA",
+		"currency": "CRC",
+		"languages": [
+			"es"
+		],
+		"locale": "es_CR",
+		"name": "Costa Rica",
+		"native": "Costa Rica",
+		"phone": "506",
+		"timezones": [
+			"America/Costa_Rica"
+		]
+	},
+	"CU": {
+		"capital": "Havana",
+		"carriers": [
+			"ETECSA"
+		],
+		"continent": "NA",
+		"currency": "CUC,CUP",
+		"languages": [
+			"es"
+		],
+		"locale": "es_CU",
+		"name": "Cuba",
+		"native": "Cuba",
+		"phone": "53",
+		"timezones": [
+			"America/Havana"
+		]
+	},
+	"CV": {
+		"capital": "Praia",
+		"carriers": [
+			"CVMOVEL",
+			"T+"
+		],
+		"continent": "AF",
+		"currency": "CVE",
+		"languages": [
+			"pt"
+		],
+		"locale": "pt_CV",
+		"name": "Cape Verde",
+		"native": "Cabo Verde",
+		"phone": "238",
+		"timezones": [
+			"Atlantic/Cape_Verde"
+		]
+	},
+	"CY": {
+		"capital": "Nicosia",
+		"carriers": [
+			"Cytamobile-Vodafone",
+			"MTN"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"el",
+			"tr",
+			"hy"
+		],
+		"locale": "el_CY",
+		"name": "Cyprus",
+		"native": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2",
+		"phone": "357",
+		"timezones": [
+			"Asia/Nicosia"
+		]
+	},
+	"CZ": {
+		"capital": "Prague",
+		"carriers": [
+			"EUROTEL PRAHA",
+			"OSKAR",
+			"OSNO TELECOMUNICATION, s.r.o.",
+			"SZDC s.o.",
+			"T-Mobile",
+			"TRAVEL TELEKOMMUNIKATION, s.r.o.",
+			"U:fon",
+			"R&D Centre at FEE, CTU"
+		],
+		"continent": "EU",
+		"currency": "CZK",
+		"languages": [
+			"cs",
+			"sk"
+		],
+		"locale": "cs_CZ",
+		"name": "Czech Republic",
+		"native": "\u010cesk\u00e1 republika",
+		"phone": "420",
+		"timezones": [
+			"Europe/Prague"
+		]
+	},
+	"DE": {
+		"capital": "Berlin",
+		"carriers": [
+			"27C3",
+			"Airdata",
+			"Arcor AG & Co",
+			"DB Telematik",
+			"Debitel",
+			"Dolphin Telecom",
+			"E-Plus",
+			"Group 3G UMTS",
+			"LYCA",
+			"Mobilcom Multimedia",
+			"Nash Technologies",
+			"O2",
+			"Siemens AG",
+			"T-Mobile",
+			"vistream",
+			"Vodafone"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"de"
+		],
+		"locale": "de_DE",
+		"name": "Germany",
+		"native": "Deutschland",
+		"phone": "49",
+		"timezones": [
+			"Europe/Berlin",
+			"Europe/Busingen"
+		]
+	},
+	"DJ": {
+		"capital": "Djibouti",
+		"carriers": [
+			"Evatis"
+		],
+		"continent": "AF",
+		"currency": "DJF",
+		"languages": [
+			"fr",
+			"ar"
+		],
+		"locale": "fr_DJ",
+		"name": "Djibouti",
+		"native": "Djibouti",
+		"phone": "253",
+		"timezones": [
+			"Africa/Djibouti"
+		]
+	},
+	"DK": {
+		"capital": "Copenhagen",
+		"carriers": [
+			"3",
+			"ApS KBUS",
+			"Barablu Mobile Ltd.",
+			"Dansk Beredskabskommunikation A/S",
+			"Ericsson Danmark A/S",
+			"Lycamobile Denmark Ltd",
+			"MIGway A/S",
+			"Sonofon",
+			"TDC",
+			"Telenor",
+			"Telia"
+		],
+		"continent": "EU",
+		"currency": "DKK",
+		"languages": [
+			"da"
+		],
+		"locale": "da_DK",
+		"name": "Denmark",
+		"native": "Danmark",
+		"phone": "45",
+		"timezones": [
+			"Europe/Copenhagen"
+		]
+	},
+	"DM": {
+		"capital": "Roseau",
+		"carriers": [
+			"Cable & Wireless",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "XCD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_DM",
+		"name": "Dominica",
+		"native": "Dominica",
+		"phone": "1767",
+		"timezones": [
+			"America/Dominica"
+		]
+	},
+	"DO": {
+		"capital": "Santo Domingo",
+		"carriers": [
+			"Claro",
+			"Orange",
+			"Tricom S.A.",
+			"ViVa"
+		],
+		"continent": "NA",
+		"currency": "DOP",
+		"languages": [
+			"es"
+		],
+		"locale": "es_DO",
+		"name": "Dominican Republic",
+		"native": "Rep\u00fablica Dominicana",
+		"phone": "1809,1829,1849",
+		"timezones": [
+			"America/Santo_Domingo"
+		]
+	},
+	"DZ": {
+		"capital": "Algiers",
+		"carriers": [
+			"Djezzy",
+			"Mobilis",
+			"Nedjma"
+		],
+		"continent": "AF",
+		"currency": "DZD",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_DZ",
+		"name": "Algeria",
+		"native": "\u0627\u0644\u062c\u0632\u0627\u0626\u0631",
+		"phone": "213",
+		"timezones": [
+			"Africa/Algiers"
+		]
+	},
+	"EC": {
+		"capital": "Quito",
+		"carriers": [
+			"Alegro",
+			"Movistar",
+			"Porta"
+		],
+		"continent": "SA",
+		"currency": "USD",
+		"languages": [
+			"es"
+		],
+		"locale": "es_EC",
+		"name": "Ecuador",
+		"native": "Ecuador",
+		"phone": "593",
+		"timezones": [
+			"America/Guayaquil",
+			"Pacific/Galapagos"
+		]
+	},
+	"EE": {
+		"capital": "Tallinn",
+		"carriers": [
+			"AS Bravocom Mobiil",
+			"Elisa",
+			"EMT",
+			"OY Top Connect",
+			"OY ViaTel",
+			"Tele 2"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"et"
+		],
+		"locale": "et_EE",
+		"name": "Estonia",
+		"native": "Eesti",
+		"phone": "372",
+		"timezones": [
+			"Europe/Tallinn"
+		]
+	},
+	"EG": {
+		"capital": "Cairo",
+		"carriers": [
+			"Etisalat",
+			"Mobinil",
+			"Vodafone"
+		],
+		"continent": "AF",
+		"currency": "EGP",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_EG",
+		"name": "Egypt",
+		"native": "\u0645\u0635\u0631\u200e",
+		"phone": "20",
+		"timezones": [
+			"Africa/Cairo"
+		]
+	},
+	"ER": {
+		"capital": "Asmara",
+		"carriers": [
+			"Eritel"
+		],
+		"continent": "AF",
+		"currency": "ERN",
+		"languages": [
+			"ti",
+			"ar",
+			"en"
+		],
+		"locale": "ti_ER",
+		"name": "Eritrea",
+		"native": "\u12a4\u122d\u1275\u122b",
+		"phone": "291",
+		"timezones": [
+			"Africa/Asmara"
+		]
+	},
+	"ES": {
+		"capital": "Madrid",
+		"carriers": [
+			"Barablu",
+			"BT",
+			"DigiMobil",
+			"Eroski",
+			"Euskaltel",
+			"Fonyou",
+			"LycaMobile",
+			"movistar",
+			"Mobil R",
+			"ONO",
+			"Orange",
+			"Simyo",
+			"TeleCable",
+			"TME",
+			"Vodafone",
+			"Yoigo"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"es",
+			"eu",
+			"ca",
+			"gl",
+			"oc"
+		],
+		"locale": "es_ES",
+		"name": "Spain",
+		"native": "Espa\u00f1a",
+		"phone": "34",
+		"timezones": [
+			"Europe/Madrid",
+			"Africa/Ceuta",
+			"Atlantic/Canary"
+		]
+	},
+	"ET": {
+		"capital": "Addis Ababa",
+		"carriers": [
+			"ETMTN"
+		],
+		"continent": "AF",
+		"currency": "ETB",
+		"languages": [
+			"am"
+		],
+		"locale": "am_ET",
+		"name": "Ethiopia",
+		"native": "\u12a2\u1275\u12ee\u1335\u12eb",
+		"phone": "251",
+		"timezones": [
+			"Africa/Addis_Ababa"
+		]
+	},
+	"FI": {
+		"capital": "Helsinki",
+		"carriers": [
+			"AMT",
+			"DNA",
+			"Elisa",
+			"Nokia",
+			"SAMK",
+			"Saunalahti",
+			"Scnl Truphone",
+			"Sonera",
+			"TDC Oy",
+			"Unknown",
+			"VIRVE"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"fi",
+			"sv"
+		],
+		"locale": "fi_FI",
+		"name": "Finland",
+		"native": "Suomi",
+		"phone": "358",
+		"timezones": [
+			"Europe/Helsinki"
+		]
+	},
+	"FJ": {
+		"capital": "Suva",
+		"carriers": [
+			"Digicel",
+			"Vodafone"
+		],
+		"continent": "OC",
+		"currency": "FJD",
+		"languages": [
+			"en",
+			"fj",
+			"hi",
+			"ur"
+		],
+		"locale": "en_FJ",
+		"name": "Fiji",
+		"native": "Fiji",
+		"phone": "679",
+		"timezones": [
+			"Pacific/Fiji"
+		]
+	},
+	"FM": {
+		"capital": "Palikir",
+		"carriers": [
+			"FSM Telecom"
+		],
+		"continent": "OC",
+		"currency": "USD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_FM",
+		"name": "Micronesia",
+		"native": "Micronesia",
+		"phone": "691",
+		"timezones": [
+			"Pacific/Chuuk",
+			"Pacific/Pohnpei",
+			"Pacific/Kosrae"
+		]
+	},
+	"FO": {
+		"capital": "T\u00f3rshavn",
+		"carriers": [
+			"Faroese Telecom",
+			"Vodafone"
+		],
+		"continent": "EU",
+		"currency": "DKK",
+		"languages": [
+			"fo"
+		],
+		"locale": "fo_FO",
+		"name": "Faroe Islands",
+		"native": "F\u00f8royar",
+		"phone": "298",
+		"timezones": [
+			"Atlantic/Faroe"
+		]
+	},
+	"FR": {
+		"capital": "Paris",
+		"carriers": [
+			"Bouygues",
+			"France Telecom Mobile",
+			"Free Mobile",
+			"Globalstar Europe",
+			"Orange",
+			"SFR",
+			"Transatel Mobile"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_FR",
+		"name": "France",
+		"native": "France",
+		"phone": "33",
+		"timezones": [
+			"Europe/Paris"
+		]
+	},
+	"GA": {
+		"capital": "Libreville",
+		"carriers": [
+			"Azur",
+			"Libertis",
+			"Moov (Telecel) Gabon S.A.",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "XAF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_GA",
+		"name": "Gabon",
+		"native": "Gabon",
+		"phone": "241",
+		"timezones": [
+			"Africa/Libreville"
+		]
+	},
+	"GB": {
+		"capital": "London",
+		"carriers": [
+			"3",
+			"BT",
+			"Cable & Wireless / Sure Mobile (Isle of Man)",
+			"Cloud9",
+			"Jersey Telenet",
+			"JT-Wave",
+			"Manx Telecom",
+			"MCom",
+			"O2",
+			"Orange",
+			"Railtrack",
+			"Routo Telecom",
+			"Sure Mobile",
+			"T-Mobile",
+			"Telaware",
+			"Tesco Mobile",
+			"BT",
+			"Virgin",
+			"Vodafone"
+		],
+		"continent": "EU",
+		"currency": "GBP",
+		"languages": [
+			"en"
+		],
+		"locale": "en_GB",
+		"name": "United Kingdom",
+		"native": "United Kingdom",
+		"phone": "44",
+		"timezones": [
+			"Europe/London"
+		]
+	},
+	"GD": {
+		"capital": "St. George's",
+		"carriers": [
+			"Cable & Wireless",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "XCD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_GD",
+		"name": "Grenada",
+		"native": "Grenada",
+		"phone": "1473",
+		"timezones": [
+			"America/Grenada"
+		]
+	},
+	"GE": {
+		"capital": "Tbilisi",
+		"carriers": [
+			"A-Mobile",
+			"Aquafon",
+			"Beeline",
+			"Geocell",
+			"Iberiatel",
+			"Magti",
+			"Silknet"
+		],
+		"continent": "AS",
+		"currency": "GEL",
+		"languages": [
+			"ka"
+		],
+		"locale": "ka_GE",
+		"name": "Georgia",
+		"native": "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd",
+		"phone": "995",
+		"timezones": [
+			"Asia/Tbilisi"
+		]
+	},
+	"GF": {
+		"capital": "Cayenne",
+		"carriers": [
+			"Digicel",
+			"GT&T Cellink Plus"
+		],
+		"continent": "SA",
+		"currency": "EUR",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_GF",
+		"name": "French Guiana",
+		"native": "Guyane fran\u00e7aise",
+		"phone": "594",
+		"timezones": [
+			"America/Cayenne"
+		]
+	},
+	"GH": {
+		"capital": "Accra",
+		"carriers": [
+			"Airtel",
+			"Ghana Telecom Mobile",
+			"Kasapa / Hutchison Telecom",
+			"MTN",
+			"tiGO"
+		],
+		"continent": "AF",
+		"currency": "GHS",
+		"languages": [
+			"en"
+		],
+		"locale": "en_GH",
+		"name": "Ghana",
+		"native": "Ghana",
+		"phone": "233",
+		"timezones": [
+			"Africa/Accra"
+		]
+	},
+	"GI": {
+		"capital": "Gibraltar",
+		"carriers": [
+			"CTS Mobile",
+			"GibTel"
+		],
+		"continent": "EU",
+		"currency": "GIP",
+		"languages": [
+			"en"
+		],
+		"locale": "en_GI",
+		"name": "Gibraltar",
+		"native": "Gibraltar",
+		"phone": "350",
+		"timezones": [
+			"Europe/Gibraltar"
+		]
+	},
+	"GL": {
+		"capital": "Nuuk",
+		"carriers": [
+			"TELE Greenland A/S"
+		],
+		"continent": "NA",
+		"currency": "DKK",
+		"languages": [
+			"kl"
+		],
+		"locale": "kl_GL",
+		"name": "Greenland",
+		"native": "Kalaallit Nunaat",
+		"phone": "299",
+		"timezones": [
+			"America/Godthab",
+			"America/Danmarkshavn",
+			"America/Scoresbysund",
+			"America/Thule"
+		]
+	},
+	"GM": {
+		"capital": "Banjul",
+		"carriers": [
+			"Africel",
+			"Comium",
+			"Gamcel",
+			"QCell"
+		],
+		"continent": "AF",
+		"currency": "GMD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_GM",
+		"name": "Gambia",
+		"native": "Gambia",
+		"phone": "220",
+		"timezones": [
+			"Africa/Banjul"
+		]
+	},
+	"GN": {
+		"capital": "Conakry",
+		"carriers": [
+			"Cellcom",
+			"Lagui",
+			"MTN",
+			"Spacetel",
+			"Telecel Guinee"
+		],
+		"continent": "AF",
+		"currency": "GNF",
+		"languages": [
+			"fr",
+			"ff"
+		],
+		"locale": "fr_GN",
+		"name": "Guinea",
+		"native": "Guin\u00e9e",
+		"phone": "224",
+		"timezones": [
+			"Africa/Conakry"
+		]
+	},
+	"GP": {
+		"capital": "Basse-Terre",
+		"carriers": [
+			"Digicel",
+			"MIO GSM",
+			"Orange",
+			"Outremer",
+			"Telcell"
+		],
+		"continent": "NA",
+		"currency": "EUR",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_GP",
+		"name": "Guadeloupe",
+		"native": "Guadeloupe",
+		"phone": "590",
+		"timezones": [
+			"America/Guadeloupe"
+		]
+	},
+	"GQ": {
+		"capital": "Malabo",
+		"carriers": [
+			"Hits GQ",
+			"Orange GQ"
+		],
+		"continent": "AF",
+		"currency": "XAF",
+		"languages": [
+			"es",
+			"fr"
+		],
+		"locale": "es_GQ",
+		"name": "Equatorial Guinea",
+		"native": "Guinea Ecuatorial",
+		"phone": "240",
+		"timezones": [
+			"Africa/Malabo"
+		]
+	},
+	"GR": {
+		"capital": "Athens",
+		"carriers": [
+			"Cosmote",
+			"Vodafone",
+			"Wind"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"el"
+		],
+		"locale": "el_GR",
+		"name": "Greece",
+		"native": "\u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+		"phone": "30",
+		"timezones": [
+			"Europe/Athens"
+		]
+	},
+	"GT": {
+		"capital": "Guatemala City",
+		"carriers": [
+			"Claro",
+			"Comcel / Tigo",
+			"movistar"
+		],
+		"continent": "NA",
+		"currency": "GTQ",
+		"languages": [
+			"es"
+		],
+		"locale": "es_GT",
+		"name": "Guatemala",
+		"native": "Guatemala",
+		"phone": "502",
+		"timezones": [
+			"America/Guatemala"
+		]
+	},
+	"GU": {
+		"capital": "Hag\u00e5t\u00f1a",
+		"carriers": [
+			"Guam Telephone Authority",
+			"Guamcell",
+			"i CAN_GSM",
+			"IT&E Wireless",
+			"mPulse"
+		],
+		"continent": "OC",
+		"currency": "USD",
+		"languages": [
+			"en",
+			"ch",
+			"es"
+		],
+		"locale": "en_GU",
+		"name": "Guam",
+		"native": "Guam",
+		"phone": "1671",
+		"timezones": [
+			"Pacific/Guam"
+		]
+	},
+	"GW": {
+		"capital": "Bissau",
+		"carriers": [
+			"Areeba",
+			"Orange"
+		],
+		"continent": "AF",
+		"currency": "XOF",
+		"languages": [
+			"pt"
+		],
+		"locale": "pt_GW",
+		"name": "Guinea-Bissau",
+		"native": "Guin\u00e9-Bissau",
+		"phone": "245",
+		"timezones": [
+			"Africa/Bissau"
+		]
+	},
+	"HK": {
+		"capital": "City of Victoria",
+		"carriers": [
+			"3 (3G)",
+			"3 CDMA",
+			"3 Dual (2G)",
+			"C Peoples",
+			"China Motion Telecom",
+			"China Unicom",
+			"China-Hongkong Telecom",
+			"CITIC Telecom 1616",
+			"CSL",
+			"CSL 3G",
+			"Hong Kong CSL Limited",
+			"Hutchison Telecom",
+			"New World",
+			"PCCW",
+			"SmarTone Mobile Comms",
+			"Smartone-Vodafone",
+			"Trident"
+		],
+		"continent": "AS",
+		"currency": "HKD",
+		"languages": [
+			"zh",
+			"en"
+		],
+		"locale": "zh_HK",
+		"name": "Hong Kong",
+		"native": "\u9999\u6e2f",
+		"phone": "852",
+		"timezones": [
+			"Asia/Hong_Kong"
+		]
+	},
+	"HN": {
+		"capital": "Tegucigalpa",
+		"carriers": [
+			"Celtel / Tigo",
+			"Claro",
+			"DIGICEL",
+			"Hondutel"
+		],
+		"continent": "NA",
+		"currency": "HNL",
+		"languages": [
+			"es"
+		],
+		"locale": "es_HN",
+		"name": "Honduras",
+		"native": "Honduras",
+		"phone": "504",
+		"timezones": [
+			"America/Tegucigalpa"
+		]
+	},
+	"HR": {
+		"capital": "Zagreb",
+		"carriers": [
+			"T-Mobile",
+			"Tele2",
+			"VIPnet"
+		],
+		"continent": "EU",
+		"currency": "HRK",
+		"languages": [
+			"hr"
+		],
+		"locale": "hr_HR",
+		"name": "Croatia",
+		"native": "Hrvatska",
+		"phone": "385",
+		"timezones": [
+			"Europe/Zagreb"
+		]
+	},
+	"HT": {
+		"capital": "Port-au-Prince",
+		"carriers": [
+			"Comcel / Voila",
+			"Digicel",
+			"NATCOM"
+		],
+		"continent": "NA",
+		"currency": "HTG,USD",
+		"languages": [
+			"fr",
+			"ht"
+		],
+		"locale": "fr_HT",
+		"name": "Haiti",
+		"native": "Ha\u00efti",
+		"phone": "509",
+		"timezones": [
+			"America/Port-au-Prince"
+		]
+	},
+	"HU": {
+		"capital": "Budapest",
+		"carriers": [
+			"Pannon",
+			"T-Mobile",
+			"Vodafone"
+		],
+		"continent": "EU",
+		"currency": "HUF",
+		"languages": [
+			"hu"
+		],
+		"locale": "hu_HU",
+		"name": "Hungary",
+		"native": "Magyarorsz\u00e1g",
+		"phone": "36",
+		"timezones": [
+			"Europe/Budapest"
+		]
+	},
+	"ID": {
+		"capital": "Jakarta",
+		"carriers": [
+			"3",
+			"AXIS",
+			"Ceria",
+			"Esia",
+			"Fren/Hepi",
+			"IM3",
+			"INDOSAT",
+			"PSN",
+			"SMART",
+			"StarOne",
+			"TelkomFlexi",
+			"TELKOMMobile",
+			"Telkomsel",
+			"XL"
+		],
+		"continent": "AS",
+		"currency": "IDR",
+		"languages": [
+			"id"
+		],
+		"locale": "id_ID",
+		"name": "Indonesia",
+		"native": "Indonesia",
+		"phone": "62",
+		"timezones": [
+			"Asia/Jakarta",
+			"Asia/Pontianak",
+			"Asia/Makassar",
+			"Asia/Jayapura"
+		]
+	},
+	"IE": {
+		"capital": "Dublin",
+		"carriers": [
+			"3",
+			"Access Telecom",
+			"Clever Communications",
+			"E-Mobile",
+			"Eircom",
+			"Liffey Telecom",
+			"Meteor",
+			"O2",
+			"Tesco Mobile",
+			"Vodafone"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"ga",
+			"en"
+		],
+		"locale": "ga_IE",
+		"name": "Ireland",
+		"native": "\u00c9ire",
+		"phone": "353",
+		"timezones": [
+			"Europe/Dublin"
+		]
+	},
+	"IL": {
+		"capital": "Jerusalem",
+		"carriers": [
+			"Cellcom",
+			"Mirs",
+			"Orange",
+			"Pelephone"
+		],
+		"continent": "AS",
+		"currency": "ILS",
+		"languages": [
+			"he",
+			"ar"
+		],
+		"locale": "he_IL",
+		"name": "Israel",
+		"native": "\u05d9\u05b4\u05e9\u05b0\u05c2\u05e8\u05b8\u05d0\u05b5\u05dc",
+		"phone": "972",
+		"timezones": [
+			"Asia/Jerusalem"
+		]
+	},
+	"IN": {
+		"capital": "New Delhi",
+		"carriers": [
+			"AIRCEL",
+			"Aircell Digilink",
+			"Aircell Digilink Essar Cellph.",
+			"Airtel",
+			"AirTel",
+			"Airtel - Haryana",
+			"Airtel - Punjab",
+			"Airtel / Bharti Telenet",
+			"Airtel Gujrat",
+			"Airtel Maharashtra & Goa",
+			"Airtel Mumbai",
+			"BPL Mobile Cellular",
+			"BPL Mobile Mumbai",
+			"BPL USWest Cellular / Cellular Comms",
+			"BSNL",
+			"BSNL J&K",
+			"BSNL Kerala",
+			"BSNL Maharashtra & Goa",
+			"BTA Cellcom",
+			"Dishnet Wireless",
+			"Escorts",
+			"Escorts Telecom",
+			"Essar / Sterling Cellular",
+			"Etisalat DB(cheers)",
+			"Hutch",
+			"Hutchinson Essar South",
+			"Hutchison Essar South",
+			"IDEA",
+			"Idea (Escotel) Haryana",
+			"Idea (Escotel) UP West",
+			"IDEA CELLULAR - Delhi",
+			"IDEA Cellular - Gujarat",
+			"IDEA Cellular - Maharashtra",
+			"Loop Mobile",
+			"MTNL - Delhi",
+			"MTNL - Mumbai",
+			"Reliance",
+			"Reliance Telecom Private",
+			"RPG MAA",
+			"S Tel",
+			"Spice Telecom - Karnataka",
+			"Spice Telecom - Punjab",
+			"Srinivas Cellcom / Aircel",
+			"TATA Cellular / Idea Cellular",
+			"TATA Teleservice",
+			"Uninor",
+			"Videocon Datacom",
+			"Vodafone",
+			"Vodafone - Gujarat",
+			"Vodafone - Haryana",
+			"Vodafone - Kolkata",
+			"Vodafone IN"
+		],
+		"continent": "AS",
+		"currency": "INR",
+		"languages": [
+			"hi",
+			"en"
+		],
+		"locale": "hi_IN",
+		"name": "India",
+		"native": "\u092d\u093e\u0930\u0924",
+		"phone": "91",
+		"timezones": [
+			"Asia/Kolkata"
+		]
+	},
+	"IQ": {
+		"capital": "Baghdad",
+		"carriers": [
+			"Asia Cell",
+			"Korek",
+			"Mobitel",
+			"Omnnea",
+			"SanaTel",
+			"Zain IQ"
+		],
+		"continent": "AS",
+		"currency": "IQD",
+		"languages": [
+			"ar",
+			"ku"
+		],
+		"locale": "ar_IQ",
+		"name": "Iraq",
+		"native": "\u0627\u0644\u0639\u0631\u0627\u0642",
+		"phone": "964",
+		"timezones": [
+			"Asia/Baghdad"
+		]
+	},
+	"IR": {
+		"capital": "Tehran",
+		"carriers": [
+			"Irancell",
+			"Iraphone",
+			"MCI",
+			"MTCE",
+			"Taliya",
+			"TCI",
+			"TKC"
+		],
+		"continent": "AS",
+		"currency": "IRR",
+		"languages": [
+			"fa"
+		],
+		"locale": "fa_IR",
+		"name": "Iran",
+		"native": "\u0627\u06cc\u0631\u0627\u0646",
+		"phone": "98",
+		"timezones": [
+			"Asia/Tehran"
+		]
+	},
+	"IS": {
+		"capital": "Reykjavik",
+		"carriers": [
+			"IceCell",
+			"Nova",
+			"Nuii Niu Ehf",
+			"On-waves",
+			"Siminn",
+			"Tal",
+			"Viking",
+			"Vodafone"
+		],
+		"continent": "EU",
+		"currency": "ISK",
+		"languages": [
+			"is"
+		],
+		"locale": "is_IS",
+		"name": "Iceland",
+		"native": "\u00cdsland",
+		"phone": "354",
+		"timezones": [
+			"Atlantic/Reykjavik"
+		]
+	},
+	"IT": {
+		"capital": "Rome",
+		"carriers": [
+			"3 Italia",
+			"Blu",
+			"Elsacom",
+			"IPSE 2000",
+			"Noverca",
+			"RFI",
+			"TIM",
+			"Vodafone",
+			"Wind"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"it"
+		],
+		"locale": "it_IT",
+		"name": "Italy",
+		"native": "Italia",
+		"phone": "39",
+		"timezones": [
+			"Europe/Rome"
+		]
+	},
+	"JM": {
+		"capital": "Kingston",
+		"carriers": [
+			"Cable & Wireless",
+			"Claro",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "JMD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_JM",
+		"name": "Jamaica",
+		"native": "Jamaica",
+		"phone": "1876",
+		"timezones": [
+			"America/Jamaica"
+		]
+	},
+	"JO": {
+		"capital": "Amman",
+		"carriers": [
+			"Orange",
+			"Umniah",
+			"XPress Telecom",
+			"Zain"
+		],
+		"continent": "AS",
+		"currency": "JOD",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_JO",
+		"name": "Jordan",
+		"native": "\u0627\u0644\u0623\u0631\u062f\u0646",
+		"phone": "962",
+		"timezones": [
+			"Asia/Amman"
+		]
+	},
+	"JP": {
+		"capital": "Tokyo",
+		"carriers": [
+			"DoCoMo",
+			"eMobile",
+			"KDDI",
+			"Okinawa Cellular Telephone",
+			"SoftBank",
+			"TU-KA",
+			"Vodafone"
+		],
+		"continent": "AS",
+		"currency": "JPY",
+		"languages": [
+			"ja"
+		],
+		"locale": "ja_JP",
+		"name": "Japan",
+		"native": "\u65e5\u672c",
+		"phone": "81",
+		"timezones": [
+			"Asia/Tokyo"
+		]
+	},
+	"KE": {
+		"capital": "Nairobi",
+		"carriers": [
+			"Orange Kenya",
+			"Safaricom",
+			"yu",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "KES",
+		"languages": [
+			"en",
+			"sw"
+		],
+		"locale": "en_KE",
+		"name": "Kenya",
+		"native": "Kenya",
+		"phone": "254",
+		"timezones": [
+			"Africa/Nairobi"
+		]
+	},
+	"KG": {
+		"capital": "Bishkek",
+		"carriers": [
+			"Bitel",
+			"Fonex",
+			"MegaCom",
+			"O!"
+		],
+		"continent": "AS",
+		"currency": "KGS",
+		"languages": [
+			"ky",
+			"ru"
+		],
+		"locale": "ky_KG",
+		"name": "Kyrgyzstan",
+		"native": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+		"phone": "996",
+		"timezones": [
+			"Asia/Bishkek"
+		]
+	},
+	"KH": {
+		"capital": "Phnom Penh",
+		"carriers": [
+			"Beeline",
+			"Camshin / Shinawatra",
+			"Excell",
+			"hello",
+			"Metfone",
+			"Mobitel",
+			"qb",
+			"S Telecom",
+			"Smart Mobile",
+			"Star-Cell"
+		],
+		"continent": "AS",
+		"currency": "KHR",
+		"languages": [
+			"km"
+		],
+		"locale": "km_KH",
+		"name": "Cambodia",
+		"native": "K\u00e2mp\u016dch\u00e9a",
+		"phone": "855",
+		"timezones": [
+			"Asia/Phnom_Penh"
+		]
+	},
+	"KI": {
+		"capital": "South Tarawa",
+		"carriers": [
+			"Kiribati Frigate"
+		],
+		"continent": "OC",
+		"currency": "AUD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_KI",
+		"name": "Kiribati",
+		"native": "Kiribati",
+		"phone": "686",
+		"timezones": [
+			"Pacific/Tarawa",
+			"Pacific/Enderbury",
+			"Pacific/Kiritimati"
+		]
+	},
+	"KM": {
+		"capital": "Moroni",
+		"carriers": [
+			"HURI - SNPT"
+		],
+		"continent": "AF",
+		"currency": "KMF",
+		"languages": [
+			"ar",
+			"fr"
+		],
+		"locale": "ar_KM",
+		"name": "Comoros",
+		"native": "Komori",
+		"phone": "269",
+		"timezones": [
+			"Indian/Comoro"
+		]
+	},
+	"KN": {
+		"capital": "Basseterre",
+		"carriers": [
+			"Cable & Wireless",
+			"Chippie",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "XCD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_KN",
+		"name": "Saint Kitts and Nevis",
+		"native": "Saint Kitts and Nevis",
+		"phone": "1869",
+		"timezones": [
+			"America/St_Kitts"
+		]
+	},
+	"KP": {
+		"capital": "Pyongyang",
+		"carriers": [
+			"Koryolink",
+			"SUN NET"
+		],
+		"continent": "AS",
+		"currency": "KPW",
+		"languages": [
+			"ko"
+		],
+		"locale": "ko_KP",
+		"name": "North Korea",
+		"native": "\ubd81\ud55c",
+		"phone": "850",
+		"timezones": [
+			"Asia/Pyongyang"
+		]
+	},
+	"KR": {
+		"capital": "Seoul",
+		"carriers": [
+			"KT",
+			"KTF",
+			"KTF CDMA",
+			"LGU+",
+			"Power 017",
+			"SK Telecom"
+		],
+		"continent": "AS",
+		"currency": "KRW",
+		"languages": [
+			"ko"
+		],
+		"locale": "ko_KR",
+		"name": "South Korea",
+		"native": "\ub300\ud55c\ubbfc\uad6d",
+		"phone": "82",
+		"timezones": [
+			"Asia/Seoul"
+		]
+	},
+	"KW": {
+		"capital": "Kuwait City",
+		"carriers": [
+			"Viva",
+			"Wataniya",
+			"Zain"
+		],
+		"continent": "AS",
+		"currency": "KWD",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_KW",
+		"name": "Kuwait",
+		"native": "\u0627\u0644\u0643\u0648\u064a\u062a",
+		"phone": "965",
+		"timezones": [
+			"Asia/Kuwait"
+		]
+	},
+	"KY": {
+		"capital": "George Town",
+		"carriers": [
+			"Cable & Wireless",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "KYD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_KY",
+		"name": "Cayman Islands",
+		"native": "Cayman Islands",
+		"phone": "1345",
+		"timezones": [
+			"America/Cayman"
+		]
+	},
+	"KZ": {
+		"capital": "Astana",
+		"carriers": [
+			"Beeline",
+			"Dalacom",
+			"K'Cell",
+			"Kazakhtelecom",
+			"Mobile Telecom Service"
+		],
+		"continent": "AS",
+		"currency": "KZT",
+		"languages": [
+			"kk",
+			"ru"
+		],
+		"locale": "kk_KZ",
+		"name": "Kazakhstan",
+		"native": "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d",
+		"phone": "76,77",
+		"timezones": [
+			"Asia/Almaty",
+			"Asia/Qyzylorda",
+			"Asia/Aqtobe",
+			"Asia/Aqtau",
+			"Asia/Oral"
+		]
+	},
+	"LA": {
+		"capital": "Vientiane",
+		"carriers": [
+			"ETL",
+			"LaoTel",
+			"LAT",
+			"Tigo"
+		],
+		"continent": "AS",
+		"currency": "LAK",
+		"languages": [
+			"lo"
+		],
+		"locale": "lo_LA",
+		"name": "Laos",
+		"native": "\u0eaa\u0e9b\u0e9b\u0ea5\u0eb2\u0ea7",
+		"phone": "856",
+		"timezones": [
+			"Asia/Vientiane"
+		]
+	},
+	"LB": {
+		"capital": "Beirut",
+		"carriers": [
+			"Alfa",
+			"MTC-Touch",
+			"Ogero Mobile"
+		],
+		"continent": "AS",
+		"currency": "LBP",
+		"languages": [
+			"ar",
+			"fr"
+		],
+		"locale": "ar_LB",
+		"name": "Lebanon",
+		"native": "\u0644\u0628\u0646\u0627\u0646",
+		"phone": "961",
+		"timezones": [
+			"Asia/Beirut"
+		]
+	},
+	"LC": {
+		"capital": "Castries",
+		"carriers": [
+			"Cable & Wireless",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "XCD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_LC",
+		"name": "Saint Lucia",
+		"native": "Saint Lucia",
+		"phone": "1758",
+		"timezones": [
+			"America/St_Lucia"
+		]
+	},
+	"LI": {
+		"capital": "Vaduz",
+		"carriers": [
+			"Cubic Telecom",
+			"FL1",
+			"Orange",
+			"Swisscom",
+			"Tele 2"
+		],
+		"continent": "EU",
+		"currency": "CHF",
+		"languages": [
+			"de"
+		],
+		"locale": "de_LI",
+		"name": "Liechtenstein",
+		"native": "Liechtenstein",
+		"phone": "423",
+		"timezones": [
+			"Europe/Vaduz"
+		]
+	},
+	"LK": {
+		"capital": "Colombo",
+		"carriers": [
+			"Airtel",
+			"Dialog",
+			"Hutch Sri Lanka",
+			"Mobitel",
+			"Tigo"
+		],
+		"continent": "AS",
+		"currency": "LKR",
+		"languages": [
+			"si",
+			"ta"
+		],
+		"locale": "si_LK",
+		"name": "Sri Lanka",
+		"native": "\u015br\u012b la\u1e43k\u0101va",
+		"phone": "94",
+		"timezones": [
+			"Asia/Colombo"
+		]
+	},
+	"LR": {
+		"capital": "Monrovia",
+		"carriers": [
+			"Megafon"
+		],
+		"continent": "AF",
+		"currency": "LRD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_LR",
+		"name": "Liberia",
+		"native": "Liberia",
+		"phone": "231",
+		"timezones": [
+			"Africa/Monrovia"
+		]
+	},
+	"LS": {
+		"capital": "Maseru",
+		"carriers": [
+			"Econet Ezin-cel",
+			"Vodacom"
+		],
+		"continent": "AF",
+		"currency": "LSL,ZAR",
+		"languages": [
+			"en",
+			"st"
+		],
+		"locale": "en_LS",
+		"name": "Lesotho",
+		"native": "Lesotho",
+		"phone": "266",
+		"timezones": [
+			"Africa/Maseru"
+		]
+	},
+	"LT": {
+		"capital": "Vilnius",
+		"carriers": [
+			"BITE",
+			"LitRail",
+			"Mediafon",
+			"Omnitel",
+			"Tele 2"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"lt"
+		],
+		"locale": "lt_LT",
+		"name": "Lithuania",
+		"native": "Lietuva",
+		"phone": "370",
+		"timezones": [
+			"Europe/Vilnius"
+		]
+	},
+	"LU": {
+		"capital": "Luxembourg",
+		"carriers": [
+			"LuxGSM",
+			"Tango",
+			"Voxmobile"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"fr",
+			"de",
+			"lb"
+		],
+		"locale": "fr_LU",
+		"name": "Luxembourg",
+		"native": "Luxembourg",
+		"phone": "352",
+		"timezones": [
+			"Europe/Luxembourg"
+		]
+	},
+	"LV": {
+		"capital": "Riga",
+		"carriers": [
+			"Bite",
+			"Camel Mobile",
+			"IZZI",
+			"LMT",
+			"MTS",
+			"Rigatta",
+			"Tele2",
+			"TRIATEL"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"lv"
+		],
+		"locale": "lv_LV",
+		"name": "Latvia",
+		"native": "Latvija",
+		"phone": "371",
+		"timezones": [
+			"Europe/Riga"
+		]
+	},
+	"LY": {
+		"capital": "Tripoli",
+		"carriers": [
+			"Al-Jeel Phone",
+			"Hatef Libya",
+			"Libya Phone",
+			"Libyana",
+			"Madar"
+		],
+		"continent": "AF",
+		"currency": "LYD",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_LY",
+		"name": "Libya",
+		"native": "\u200f\u0644\u064a\u0628\u064a\u0627",
+		"phone": "218",
+		"timezones": [
+			"Africa/Tripoli"
+		]
+	},
+	"MA": {
+		"capital": "Rabat",
+		"carriers": [
+			"IAM",
+			"INWI",
+			"Meditel"
+		],
+		"continent": "AF",
+		"currency": "MAD",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_MA",
+		"name": "Morocco",
+		"native": "\u0627\u0644\u0645\u063a\u0631\u0628",
+		"phone": "212",
+		"timezones": [
+			"Africa/Casablanca"
+		]
+	},
+	"MC": {
+		"capital": "Monaco",
+		"carriers": [
+			"Office des Telephones"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_MC",
+		"name": "Monaco",
+		"native": "Monaco",
+		"phone": "377",
+		"timezones": [
+			"Europe/Monaco"
+		]
+	},
+	"MD": {
+		"capital": "Chi\u0219in\u0103u",
+		"carriers": [
+			"Eventis",
+			"IDC",
+			"Moldcell",
+			"Orange",
+			"Unite"
+		],
+		"continent": "EU",
+		"currency": "MDL",
+		"languages": [
+			"ro"
+		],
+		"locale": "ro_MD",
+		"name": "Moldova",
+		"native": "Moldova",
+		"phone": "373",
+		"timezones": [
+			"Europe/Chisinau"
+		]
+	},
+	"ME": {
+		"capital": "Podgorica",
+		"carriers": [
+			"m:tel CG",
+			"ProMonte",
+			"T-Mobile",
+			"Telenor Montenegro"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"sr",
+			"bs",
+			"sq",
+			"hr"
+		],
+		"locale": "sr_ME",
+		"name": "Montenegro",
+		"native": "\u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430",
+		"phone": "382",
+		"timezones": [
+			"Europe/Podgorica"
+		]
+	},
+	"MG": {
+		"capital": "Antananarivo",
+		"carriers": [
+			"Orange",
+			"Sacel",
+			"Telma",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "MGA",
+		"languages": [
+			"fr",
+			"mg"
+		],
+		"locale": "fr_MG",
+		"name": "Madagascar",
+		"native": "Madagasikara",
+		"phone": "261",
+		"timezones": [
+			"Indian/Antananarivo"
+		]
+	},
+	"MK": {
+		"capital": "Skopje",
+		"carriers": [
+			"Cosmofon",
+			"T-Mobile",
+			"VIP"
+		],
+		"continent": "EU",
+		"currency": "MKD",
+		"languages": [
+			"mk"
+		],
+		"locale": "mk_MK",
+		"name": "North Macedonia",
+		"native": "\u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
+		"phone": "389",
+		"timezones": [
+			"Europe/Skopje"
+		]
+	},
+	"ML": {
+		"capital": "Bamako",
+		"carriers": [
+			"Malitel",
+			"Orange"
+		],
+		"continent": "AF",
+		"currency": "XOF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_ML",
+		"name": "Mali",
+		"native": "Mali",
+		"phone": "223",
+		"timezones": [
+			"Africa/Bamako"
+		]
+	},
+	"MM": {
+		"capital": "Naypyidaw",
+		"carriers": [
+			"MPT"
+		],
+		"continent": "AS",
+		"currency": "MMK",
+		"languages": [
+			"my"
+		],
+		"locale": "my_MM",
+		"name": "Myanmar [Burma]",
+		"native": "\u1019\u103c\u1014\u103a\u1019\u102c",
+		"phone": "95",
+		"timezones": [
+			"Asia/Rangoon"
+		]
+	},
+	"MN": {
+		"capital": "Ulan Bator",
+		"carriers": [
+			"G.Mobile",
+			"MobiCom",
+			"Skytel",
+			"Unitel"
+		],
+		"continent": "AS",
+		"currency": "MNT",
+		"languages": [
+			"mn"
+		],
+		"locale": "mn_MN",
+		"name": "Mongolia",
+		"native": "\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441",
+		"phone": "976",
+		"timezones": [
+			"Asia/Ulaanbaatar",
+			"Asia/Hovd",
+			"Asia/Choibalsan"
+		]
+	},
+	"MO": {
+		"capital": "",
+		"carriers": [
+			"3",
+			"China Telecom",
+			"CTM",
+			"SmarTone"
+		],
+		"continent": "AS",
+		"currency": "MOP",
+		"languages": [
+			"zh",
+			"pt"
+		],
+		"locale": "zh_MO",
+		"name": "Macao",
+		"native": "\u6fb3\u9580",
+		"phone": "853",
+		"timezones": [
+			"Asia/Macau"
+		]
+	},
+	"MR": {
+		"capital": "Nouakchott",
+		"carriers": [
+			"Chinguitel",
+			"Mattel",
+			"Mauritel"
+		],
+		"continent": "AF",
+		"currency": "MRU",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_MR",
+		"name": "Mauritania",
+		"native": "\u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0627",
+		"phone": "222",
+		"timezones": [
+			"Africa/Nouakchott"
+		]
+	},
+	"MT": {
+		"capital": "Valletta",
+		"carriers": [
+			"GO",
+			"Melita",
+			"Vodafone"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"mt",
+			"en"
+		],
+		"locale": "mt_MT",
+		"name": "Malta",
+		"native": "Malta",
+		"phone": "356",
+		"timezones": [
+			"Europe/Malta"
+		]
+	},
+	"MU": {
+		"capital": "Port Louis",
+		"carriers": [
+			"Emtel",
+			"Mahanagar Telephone (Mauritius) Ltd.",
+			"Orange"
+		],
+		"continent": "AF",
+		"currency": "MUR",
+		"languages": [
+			"en"
+		],
+		"locale": "en_MU",
+		"name": "Mauritius",
+		"native": "Maurice",
+		"phone": "230",
+		"timezones": [
+			"Indian/Mauritius"
+		]
+	},
+	"MV": {
+		"capital": "Mal\u00e9",
+		"carriers": [
+			"Dhiraagu",
+			"Wataniya"
+		],
+		"continent": "AS",
+		"currency": "MVR",
+		"languages": [
+			"dv"
+		],
+		"locale": "dv_MV",
+		"name": "Maldives",
+		"native": "Maldives",
+		"phone": "960",
+		"timezones": [
+			"Indian/Maldives"
+		]
+	},
+	"MW": {
+		"capital": "Lilongwe",
+		"carriers": [
+			"TNM",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "MWK",
+		"languages": [
+			"en",
+			"ny"
+		],
+		"locale": "en_MW",
+		"name": "Malawi",
+		"native": "Malawi",
+		"phone": "265",
+		"timezones": [
+			"Africa/Blantyre"
+		]
+	},
+	"MX": {
+		"capital": "Mexico City",
+		"carriers": [
+			"Iusacell",
+			"movistar",
+			"Nextel",
+			"Telcel"
+		],
+		"continent": "NA",
+		"currency": "MXN",
+		"languages": [
+			"es"
+		],
+		"locale": "es_MX",
+		"name": "Mexico",
+		"native": "M\u00e9xico",
+		"phone": "52",
+		"timezones": [
+			"America/Mexico_City",
+			"America/Cancun",
+			"America/Merida",
+			"America/Monterrey",
+			"America/Matamoros",
+			"America/Mazatlan",
+			"America/Chihuahua",
+			"America/Ojinaga",
+			"America/Hermosillo",
+			"America/Tijuana",
+			"America/Bahia_Banderas"
+		]
+	},
+	"MY": {
+		"capital": "Kuala Lumpur",
+		"carriers": [
+			"ATUR 450",
+			"Baraka Telecom Sdn Bhd (MVNE)",
+			"Celcom",
+			"DiGi",
+			"DiGi Telecommunications",
+			"Electcoms Wireless Sdn Bhd",
+			"Maxis",
+			"Telekom Malaysia Berhad for PSTN SMS",
+			"TM Homeline",
+			"Tune Talk Sdn Bhd",
+			"U Mobile",
+			"Yes"
+		],
+		"continent": "AS",
+		"currency": "MYR",
+		"languages": [
+			"ms"
+		],
+		"locale": "ms_MY",
+		"name": "Malaysia",
+		"native": "Malaysia",
+		"phone": "60",
+		"timezones": [
+			"Asia/Kuala_Lumpur",
+			"Asia/Kuching"
+		]
+	},
+	"MZ": {
+		"capital": "Maputo",
+		"carriers": [
+			"mCel",
+			"Vodacom"
+		],
+		"continent": "AF",
+		"currency": "MZN",
+		"languages": [
+			"pt"
+		],
+		"locale": "pt_MZ",
+		"name": "Mozambique",
+		"native": "Mo\u00e7ambique",
+		"phone": "258",
+		"timezones": [
+			"Africa/Maputo"
+		]
+	},
+	"NA": {
+		"capital": "Windhoek",
+		"carriers": [
+			"Cell One",
+			"MTC",
+			"switch"
+		],
+		"continent": "AF",
+		"currency": "NAD,ZAR",
+		"languages": [
+			"en",
+			"af"
+		],
+		"locale": "en_NA",
+		"name": "Namibia",
+		"native": "Namibia",
+		"phone": "264",
+		"timezones": [
+			"Africa/Windhoek"
+		]
+	},
+	"NC": {
+		"capital": "Noum\u00e9a",
+		"carriers": [
+			"Mobilis"
+		],
+		"continent": "OC",
+		"currency": "XPF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_NC",
+		"name": "New Caledonia",
+		"native": "Nouvelle-Cal\u00e9donie",
+		"phone": "687",
+		"timezones": [
+			"Pacific/Noumea"
+		]
+	},
+	"NE": {
+		"capital": "Niamey",
+		"carriers": [
+			"Orange",
+			"SahelCom",
+			"Telecel",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "XOF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_NE",
+		"name": "Niger",
+		"native": "Niger",
+		"phone": "227",
+		"timezones": [
+			"Africa/Niamey"
+		]
+	},
+	"NG": {
+		"capital": "Abuja",
+		"carriers": [
+			"Etisalat",
+			"Glo",
+			"M-Tel",
+			"MTN",
+			"Visafone",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "NGN",
+		"languages": [
+			"en"
+		],
+		"locale": "en_NG",
+		"name": "Nigeria",
+		"native": "Nigeria",
+		"phone": "234",
+		"timezones": [
+			"Africa/Lagos"
+		]
+	},
+	"NI": {
+		"capital": "Managua",
+		"carriers": [
+			"Claro",
+			"movistar",
+			"SERCOM"
+		],
+		"continent": "NA",
+		"currency": "NIO",
+		"languages": [
+			"es"
+		],
+		"locale": "es_NI",
+		"name": "Nicaragua",
+		"native": "Nicaragua",
+		"phone": "505",
+		"timezones": [
+			"America/Managua"
+		]
+	},
+	"NL": {
+		"capital": "Amsterdam",
+		"carriers": [
+			"6Gmobile",
+			"ASPIDER Solutions Nederland B.V.",
+			"Breezz Nederland B.V.",
+			"CapX B.V.",
+			"eleena (MVNE)",
+			"Elephant Talk Communications Premium Rate Services",
+			"Intercity Mobile Communications B.V.",
+			"KPN",
+			"KPN Mobile The Netherlands B.V.",
+			"Lycamobile",
+			"Ministerie van Defensie",
+			"Mixe Communication Solutions B.V.",
+			"Mundio Mobile (Netherlands) Ltd",
+			"NS Railinfrabeheer B.V.",
+			"Orange Nederland",
+			"Private Mobility Nederland B.V.",
+			"RadioAccess B.V.",
+			"SpeakUp B.V.",
+			"T-Mobile / Ben",
+			"Tele2 Netherlands",
+			"Telfort / O2",
+			"Unica Installatietechniek B.V",
+			"Unify Group Holding B.V.",
+			"UPC Nederland B.V.",
+			"VastMobiel B.V.",
+			"Vodafone",
+			"Voiceworks B.V."
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"nl"
+		],
+		"locale": "nl_NL",
+		"name": "Netherlands",
+		"native": "Nederland",
+		"phone": "31",
+		"timezones": [
+			"Europe/Amsterdam"
+		]
+	},
+	"NO": {
+		"capital": "Oslo",
+		"carriers": [
+			"Barablu Mobile Norway Ltd",
+			"Ice",
+			"Jernbaneverket AS",
+			"Lyca",
+			"MTU",
+			"NetCom",
+			"Network Norway",
+			"SystemNet",
+			"TDC Mobil AS",
+			"Tele2",
+			"Telenor",
+			"Ventelo"
+		],
+		"continent": "EU",
+		"currency": "NOK",
+		"languages": [
+			"no",
+			"nb",
+			"nn"
+		],
+		"locale": "no_NO",
+		"name": "Norway",
+		"native": "Norge",
+		"phone": "47",
+		"timezones": [
+			"Europe/Oslo"
+		]
+	},
+	"NP": {
+		"capital": "Kathmandu",
+		"carriers": [
+			"Mero Mobile",
+			"Nepal Telecom",
+			"SmartCell",
+			"United Telecom Limited"
+		],
+		"continent": "AS",
+		"currency": "NPR",
+		"languages": [
+			"ne"
+		],
+		"locale": "ne_NP",
+		"name": "Nepal",
+		"native": "\u0928\u092a\u0932",
+		"phone": "977",
+		"timezones": [
+			"Asia/Kathmandu"
+		]
+	},
+	"NR": {
+		"capital": "Yaren",
+		"carriers": [
+			"Digicel"
+		],
+		"continent": "OC",
+		"currency": "AUD",
+		"languages": [
+			"en",
+			"na"
+		],
+		"locale": "en_NR",
+		"name": "Nauru",
+		"native": "Nauru",
+		"phone": "674",
+		"timezones": [
+			"Pacific/Nauru"
+		]
+	},
+	"NU": {
+		"capital": "Alofi",
+		"carriers": [
+			"Telecom Niue"
+		],
+		"continent": "OC",
+		"currency": "NZD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_NU",
+		"name": "Niue",
+		"native": "Niu\u0113",
+		"phone": "683",
+		"timezones": [
+			"Pacific/Niue"
+		]
+	},
+	"NZ": {
+		"capital": "Wellington",
+		"carriers": [
+			"NZ Comms",
+			"Telecom",
+			"TelstraClear",
+			"Vodafone",
+			"Woosh"
+		],
+		"continent": "OC",
+		"currency": "NZD",
+		"languages": [
+			"en",
+			"mi"
+		],
+		"locale": "en_NZ",
+		"name": "New Zealand",
+		"native": "New Zealand",
+		"phone": "64",
+		"timezones": [
+			"Pacific/Auckland",
+			"Pacific/Chatham"
+		]
+	},
+	"OM": {
+		"capital": "Muscat",
+		"carriers": [
+			"Nawras",
+			"Oman Mobile"
+		],
+		"continent": "AS",
+		"currency": "OMR",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_OM",
+		"name": "Oman",
+		"native": "\u0639\u0645\u0627\u0646",
+		"phone": "968",
+		"timezones": [
+			"Asia/Muscat"
+		]
+	},
+	"PA": {
+		"capital": "Panama City",
+		"carriers": [
+			"Cable & Wireless",
+			"Digicel",
+			"laro",
+			"movistar"
+		],
+		"continent": "NA",
+		"currency": "PAB,USD",
+		"languages": [
+			"es"
+		],
+		"locale": "es_PA",
+		"name": "Panama",
+		"native": "Panam\u00e1",
+		"phone": "507",
+		"timezones": [
+			"America/Panama"
+		]
+	},
+	"PE": {
+		"capital": "Lima",
+		"carriers": [
+			"Claro",
+			"movistar",
+			"NEXTEL"
+		],
+		"continent": "SA",
+		"currency": "PEN",
+		"languages": [
+			"es"
+		],
+		"locale": "es_PE",
+		"name": "Peru",
+		"native": "Per\u00fa",
+		"phone": "51",
+		"timezones": [
+			"America/Lima"
+		]
+	},
+	"PF": {
+		"capital": "Papeet\u0113",
+		"carriers": [
+			"VINI"
+		],
+		"continent": "OC",
+		"currency": "XPF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_PF",
+		"name": "French Polynesia",
+		"native": "Polyn\u00e9sie fran\u00e7aise",
+		"phone": "689",
+		"timezones": [
+			"Pacific/Tahiti",
+			"Pacific/Marquesas",
+			"Pacific/Gambier"
+		]
+	},
+	"PG": {
+		"capital": "Port Moresby",
+		"carriers": [
+			"B-Mobile",
+			"Digicel"
+		],
+		"continent": "OC",
+		"currency": "PGK",
+		"languages": [
+			"en"
+		],
+		"locale": "en_PG",
+		"name": "Papua New Guinea",
+		"native": "Papua Niugini",
+		"phone": "675",
+		"timezones": [
+			"Pacific/Port_Moresby",
+			"Pacific/Bougainville"
+		]
+	},
+	"PH": {
+		"capital": "Manila",
+		"carriers": [
+			"ACeS Philippines",
+			"Digitel",
+			"Globe",
+			"Islacom",
+			"Nextel",
+			"Red Mobile",
+			"Smart Gold"
+		],
+		"continent": "AS",
+		"currency": "PHP",
+		"languages": [
+			"en"
+		],
+		"locale": "en_PH",
+		"name": "Philippines",
+		"native": "Pilipinas",
+		"phone": "63",
+		"timezones": [
+			"Asia/Manila"
+		]
+	},
+	"PK": {
+		"capital": "Islamabad",
+		"carriers": [
+			"Instaphone",
+			"Mobilink",
+			"Telenor",
+			"Ufone",
+			"Warid",
+			"Zong"
+		],
+		"continent": "AS",
+		"currency": "PKR",
+		"languages": [
+			"en",
+			"ur"
+		],
+		"locale": "en_PK",
+		"name": "Pakistan",
+		"native": "Pakistan",
+		"phone": "92",
+		"timezones": [
+			"Asia/Karachi"
+		]
+	},
+	"PL": {
+		"capital": "Warsaw",
+		"carriers": [
+			"Aero2",
+			"CenterNet",
+			"Cyfrowy Polsat",
+			"E-Telko",
+			"Mobyland",
+			"Nordisk Polska",
+			"Orange",
+			"Play",
+			"Plus",
+			"Centertel",
+			"Premium Internet",
+			"Sferia",
+			"T-mobile",
+			"Tele2",
+			"Telefony Opalenickie",
+			"Telekomunikacja Kolejowa"
+		],
+		"continent": "EU",
+		"currency": "PLN",
+		"languages": [
+			"pl"
+		],
+		"locale": "pl_PL",
+		"name": "Poland",
+		"native": "Polska",
+		"phone": "48",
+		"timezones": [
+			"Europe/Warsaw"
+		]
+	},
+	"PM": {
+		"capital": "Saint-Pierre",
+		"carriers": [
+			"Ameris"
+		],
+		"continent": "NA",
+		"currency": "EUR",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_PM",
+		"name": "Saint Pierre and Miquelon",
+		"native": "Saint-Pierre-et-Miquelon",
+		"phone": "508",
+		"timezones": [
+			"America/Miquelon"
+		]
+	},
+	"PR": {
+		"capital": "San Juan",
+		"carriers": [
+			"Claro",
+			"Open Mobile"
+		],
+		"continent": "NA",
+		"currency": "USD",
+		"languages": [
+			"es",
+			"en"
+		],
+		"locale": "es_PR",
+		"name": "Puerto Rico",
+		"native": "Puerto Rico",
+		"phone": "1787,1939",
+		"timezones": [
+			"America/Puerto_Rico"
+		]
+	},
+	"PS": {
+		"capital": "Ramallah",
+		"carriers": [
+			"JAWWAL",
+			"Wataniya"
+		],
+		"continent": "AS",
+		"currency": "ILS",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_PS",
+		"name": "Palestine",
+		"native": "\u0641\u0644\u0633\u0637\u064a\u0646",
+		"phone": "970",
+		"timezones": [
+			"Asia/Gaza",
+			"Asia/Hebron"
+		]
+	},
+	"PT": {
+		"capital": "Lisbon",
+		"carriers": [
+			"Optimus",
+			"TMN",
+			"Vodafone",
+			"Zapp"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"pt"
+		],
+		"locale": "pt_PT",
+		"name": "Portugal",
+		"native": "Portugal",
+		"phone": "351",
+		"timezones": [
+			"Europe/Lisbon",
+			"Atlantic/Madeira",
+			"Atlantic/Azores"
+		]
+	},
+	"PW": {
+		"capital": "Ngerulmud",
+		"carriers": [
+			"Palau Mobile",
+			"PNCC"
+		],
+		"continent": "OC",
+		"currency": "USD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_PW",
+		"name": "Palau",
+		"native": "Palau",
+		"phone": "680",
+		"timezones": [
+			"Pacific/Palau"
+		]
+	},
+	"PY": {
+		"capital": "Asunci\u00f3n",
+		"carriers": [
+			"Claro",
+			"Copaco",
+			"Personal",
+			"Tigo",
+			"VOX"
+		],
+		"continent": "SA",
+		"currency": "PYG",
+		"languages": [
+			"es",
+			"gn"
+		],
+		"locale": "es_PY",
+		"name": "Paraguay",
+		"native": "Paraguay",
+		"phone": "595",
+		"timezones": [
+			"America/Asuncion"
+		]
+	},
+	"QA": {
+		"capital": "Doha",
+		"carriers": [
+			"Ministry of Interior",
+			"Qatarnet",
+			"Vodafone"
+		],
+		"continent": "AS",
+		"currency": "QAR",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_QA",
+		"name": "Qatar",
+		"native": "\u0642\u0637\u0631",
+		"phone": "974",
+		"timezones": [
+			"Asia/Qatar"
+		]
+	},
+	"RE": {
+		"capital": "Saint-Denis",
+		"carriers": [
+			"Orange",
+			"Outremer",
+			"SFR Reunion"
+		],
+		"continent": "AF",
+		"currency": "EUR",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_RE",
+		"name": "R\u00e9union",
+		"native": "La R\u00e9union",
+		"phone": "262",
+		"timezones": [
+			"Indian/Reunion"
+		]
+	},
+	"RO": {
+		"capital": "Bucharest",
+		"carriers": [
+			"Cosmote",
+			"DIGI.mobil",
+			"Enigma-System",
+			"Orange",
+			"Romtelecom",
+			"Vodafone",
+			"Zapp"
+		],
+		"continent": "EU",
+		"currency": "RON",
+		"languages": [
+			"ro"
+		],
+		"locale": "ro_RO",
+		"name": "Romania",
+		"native": "Rom\u00e2nia",
+		"phone": "40",
+		"timezones": [
+			"Europe/Bucharest"
+		]
+	},
+	"RS": {
+		"capital": "Belgrade",
+		"carriers": [
+			"Telekom Srbija",
+			"Telenor",
+			"VIP Mobile"
+		],
+		"continent": "EU",
+		"currency": "RSD",
+		"languages": [
+			"sr"
+		],
+		"locale": "sr_RS",
+		"name": "Serbia",
+		"native": "\u0421\u0440\u0431\u0438\u0458\u0430",
+		"phone": "381",
+		"timezones": [
+			"Europe/Belgrade"
+		]
+	},
+	"RU": {
+		"capital": "Moscow",
+		"carriers": [
+			"Baykalwestcom",
+			"Beeline",
+			"DTC",
+			"ETK",
+			"INDIGO",
+			"KUGSM",
+			"MegaFon",
+			"Mobicom - Novosibirsk",
+			"MOTIV",
+			"MTS",
+			"NCC",
+			"NTC",
+			"Orensot",
+			"Primtelefon",
+			"Sibchallenge",
+			"Skylink",
+			"SMARTS",
+			"Stavtelesot / North Caucasian GSM",
+			"Tambov GSM",
+			"Tele2",
+			"Telecom XXI",
+			"Utel"
+		],
+		"continent": "EU",
+		"currency": "RUB",
+		"languages": [
+			"ru"
+		],
+		"locale": "ru_RU",
+		"name": "Russia",
+		"native": "\u0420\u043e\u0441\u0441\u0438\u044f",
+		"phone": "7",
+		"timezones": [
+			"Europe/Kaliningrad",
+			"Europe/Moscow",
+			"Europe/Simferopol",
+			"Europe/Volgograd",
+			"Europe/Kirov",
+			"Europe/Astrakhan",
+			"Europe/Samara",
+			"Europe/Ulyanovsk",
+			"Asia/Yekaterinburg",
+			"Asia/Omsk",
+			"Asia/Novosibirsk",
+			"Asia/Barnaul",
+			"Asia/Tomsk",
+			"Asia/Novokuznetsk",
+			"Asia/Krasnoyarsk",
+			"Asia/Irkutsk",
+			"Asia/Chita",
+			"Asia/Yakutsk",
+			"Asia/Khandyga",
+			"Asia/Vladivostok",
+			"Asia/Ust-Nera",
+			"Asia/Magadan",
+			"Asia/Sakhalin",
+			"Asia/Srednekolymsk",
+			"Asia/Kamchatka",
+			"Asia/Anadyr"
+		]
+	},
+	"RW": {
+		"capital": "Kigali",
+		"carriers": [
+			"MTN",
+			"Rwandatel",
+			"Tigo"
+		],
+		"continent": "AF",
+		"currency": "RWF",
+		"languages": [
+			"rw",
+			"en",
+			"fr"
+		],
+		"locale": "rw_RW",
+		"name": "Rwanda",
+		"native": "Rwanda",
+		"phone": "250",
+		"timezones": [
+			"Africa/Kigali"
+		]
+	},
+	"SA": {
+		"capital": "Riyadh",
+		"carriers": [
+			"EAE",
+			"Mobily",
+			"STC",
+			"Zain SA"
+		],
+		"continent": "AS",
+		"currency": "SAR",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_SA",
+		"name": "Saudi Arabia",
+		"native": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+		"phone": "966",
+		"timezones": [
+			"Asia/Riyadh"
+		]
+	},
+	"SB": {
+		"capital": "Honiara",
+		"carriers": [
+			"BREEZE"
+		],
+		"continent": "OC",
+		"currency": "SBD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_SB",
+		"name": "Solomon Islands",
+		"native": "Solomon Islands",
+		"phone": "677",
+		"timezones": [
+			"Pacific/Guadalcanal"
+		]
+	},
+	"SC": {
+		"capital": "Victoria",
+		"carriers": [
+			"Cable & Wireless (Seychelles) Ltd.",
+			"Mediatech International",
+			"Telecom Airtel"
+		],
+		"continent": "AF",
+		"currency": "SCR",
+		"languages": [
+			"fr",
+			"en"
+		],
+		"locale": "fr_SC",
+		"name": "Seychelles",
+		"native": "Seychelles",
+		"phone": "248",
+		"timezones": [
+			"Indian/Mahe"
+		]
+	},
+	"SD": {
+		"capital": "Khartoum",
+		"carriers": [
+			"Mobitel / Mobile Telephone Company",
+			"MTN",
+			"Sudani One",
+			"Vivacell"
+		],
+		"continent": "AF",
+		"currency": "SDG",
+		"languages": [
+			"ar",
+			"en"
+		],
+		"locale": "ar_SD",
+		"name": "Sudan",
+		"native": "\u0627\u0644\u0633\u0648\u062f\u0627\u0646",
+		"phone": "249",
+		"timezones": [
+			"Africa/Khartoum"
+		]
+	},
+	"SE": {
+		"capital": "Stockholm",
+		"carriers": [
+			"3",
+			"3G Infrastructure Services",
+			"42IT",
+			"Banverket",
+			"Barablu Mobile Scandinavia",
+			"Beepsend",
+			"DigiTelMobile",
+			"Gotanet",
+			"Halebop",
+			"Lindholmen Science Park",
+			"Mobile Arts AB",
+			"Nordisk Mobiltelefon",
+			"SpringMobil",
+			"Sweden 2G",
+			"Sweden 3G",
+			"TDC Mobil",
+			"Tele2Comviq",
+			"Telenor",
+			"Telenor Mobile Sverige",
+			"TeliaSonera Mobile Networks",
+			"Ventelo Sverige",
+			"Wireless Maingate",
+			"Wireless Maingate Nordic"
+		],
+		"continent": "EU",
+		"currency": "SEK",
+		"languages": [
+			"sv"
+		],
+		"locale": "sv_SE",
+		"name": "Sweden",
+		"native": "Sverige",
+		"phone": "46",
+		"timezones": [
+			"Europe/Stockholm"
+		]
+	},
+	"SG": {
+		"capital": "Singapore",
+		"carriers": [
+			"Digital Trunked Radio Network",
+			"M1",
+			"SingTel",
+			"SingTel-G18",
+			"StarHub"
+		],
+		"continent": "AS",
+		"currency": "SGD",
+		"languages": [
+			"en",
+			"ms",
+			"ta",
+			"zh"
+		],
+		"locale": "en_SG",
+		"name": "Singapore",
+		"native": "Singapore",
+		"phone": "65",
+		"timezones": [
+			"Asia/Singapore"
+		]
+	},
+	"SI": {
+		"capital": "Ljubljana",
+		"carriers": [
+			"Mobitel",
+			"SI.mobil - Vodafone",
+			"T-2",
+			"Tusmobil"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"sl"
+		],
+		"locale": "sl_SI",
+		"name": "Slovenia",
+		"native": "Slovenija",
+		"phone": "386",
+		"timezones": [
+			"Europe/Ljubljana"
+		]
+	},
+	"SK": {
+		"capital": "Bratislava",
+		"carriers": [
+			"Mobile Entertainment Company",
+			"O2",
+			"Orange",
+			"T-Mobile",
+			"Unient Communications",
+			"ZSR"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"sk"
+		],
+		"locale": "sk_SK",
+		"name": "Slovakia",
+		"native": "Slovensko",
+		"phone": "421",
+		"timezones": [
+			"Europe/Bratislava"
+		]
+	},
+	"SL": {
+		"capital": "Freetown",
+		"carriers": [
+			"Africell",
+			"Comium",
+			"Datatel",
+			"LeoneCel",
+			"Millicom",
+			"Mobitel",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "SLL",
+		"languages": [
+			"en"
+		],
+		"locale": "en_SL",
+		"name": "Sierra Leone",
+		"native": "Sierra Leone",
+		"phone": "232",
+		"timezones": [
+			"Africa/Freetown"
+		]
+	},
+	"SM": {
+		"capital": "City of San Marino",
+		"carriers": [
+			"PRIMA"
+		],
+		"continent": "EU",
+		"currency": "EUR",
+		"languages": [
+			"it"
+		],
+		"locale": "it_SM",
+		"name": "San Marino",
+		"native": "San Marino",
+		"phone": "378",
+		"timezones": [
+			"Europe/San_Marino"
+		]
+	},
+	"SN": {
+		"capital": "Dakar",
+		"carriers": [
+			"Expresso",
+			"Sentel GSM",
+			"Sonatel ALIZE"
+		],
+		"continent": "AF",
+		"currency": "XOF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_SN",
+		"name": "Senegal",
+		"native": "S\u00e9n\u00e9gal",
+		"phone": "221",
+		"timezones": [
+			"Africa/Dakar"
+		]
+	},
+	"SO": {
+		"capital": "Mogadishu",
+		"carriers": [
+			"Golis",
+			"Hormuud",
+			"Nationlink",
+			"Nationlink Telecom",
+			"Somafone",
+			"Telcom Mobile",
+			"Telesom"
+		],
+		"continent": "AF",
+		"currency": "SOS",
+		"languages": [
+			"so",
+			"ar"
+		],
+		"locale": "so_SO",
+		"name": "Somalia",
+		"native": "Soomaaliya",
+		"phone": "252",
+		"timezones": [
+			"Africa/Mogadishu"
+		]
+	},
+	"SR": {
+		"capital": "Paramaribo",
+		"carriers": [
+			"Digicel",
+			"Telesu",
+			"Uniqa"
+		],
+		"continent": "SA",
+		"currency": "SRD",
+		"languages": [
+			"nl"
+		],
+		"locale": "nl_SR",
+		"name": "Suriname",
+		"native": "Suriname",
+		"phone": "597",
+		"timezones": [
+			"America/Paramaribo"
+		]
+	},
+	"ST": {
+		"capital": "S\u00e3o Tom\u00e9",
+		"carriers": [
+			"CSTmovel"
+		],
+		"continent": "AF",
+		"currency": "STN",
+		"languages": [
+			"pt"
+		],
+		"locale": "pt_ST",
+		"name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+		"native": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+		"phone": "239",
+		"timezones": [
+			"Africa/Sao_Tome"
+		]
+	},
+	"SV": {
+		"capital": "San Salvador",
+		"carriers": [
+			"Claro",
+			"CTE Telecom Personal",
+			"digicel",
+			"movistar",
+			"Telemovil EL Salvador"
+		],
+		"continent": "NA",
+		"currency": "SVC,USD",
+		"languages": [
+			"es"
+		],
+		"locale": "es_SV",
+		"name": "El Salvador",
+		"native": "El Salvador",
+		"phone": "503",
+		"timezones": [
+			"America/El_Salvador"
+		]
+	},
+	"SY": {
+		"capital": "Damascus",
+		"carriers": [
+			"MTN Syria",
+			"SyriaTel"
+		],
+		"continent": "AS",
+		"currency": "SYP",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_SY",
+		"name": "Syria",
+		"native": "\u0633\u0648\u0631\u064a\u0627",
+		"phone": "963",
+		"timezones": [
+			"Asia/Damascus"
+		]
+	},
+	"SZ": {
+		"capital": "Lobamba",
+		"carriers": [
+			"Swazi MTN"
+		],
+		"continent": "AF",
+		"currency": "SZL",
+		"languages": [
+			"en",
+			"ss"
+		],
+		"locale": "en_SZ",
+		"name": "Swaziland",
+		"native": "Swaziland",
+		"phone": "268",
+		"timezones": [
+			"Africa/Mbabane"
+		]
+	},
+	"TC": {
+		"capital": "Cockburn Town",
+		"carriers": [
+			"C&W",
+			"Digicel",
+			"Islandcom"
+		],
+		"continent": "NA",
+		"currency": "USD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_TC",
+		"name": "Turks and Caicos Islands",
+		"native": "Turks and Caicos Islands",
+		"phone": "1649",
+		"timezones": [
+			"America/Grand_Turk"
+		]
+	},
+	"TD": {
+		"capital": "N'Djamena",
+		"carriers": [
+			"Salam",
+			"TAWALI",
+			"TIGO - Millicom",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "XAF",
+		"languages": [
+			"fr",
+			"ar"
+		],
+		"locale": "fr_TD",
+		"name": "Chad",
+		"native": "Tchad",
+		"phone": "235",
+		"timezones": [
+			"Africa/Ndjamena"
+		]
+	},
+	"TG": {
+		"capital": "Lom\u00e9",
+		"carriers": [
+			"Moov",
+			"Telecel",
+			"Togo Cell"
+		],
+		"continent": "AF",
+		"currency": "XOF",
+		"languages": [
+			"fr"
+		],
+		"locale": "fr_TG",
+		"name": "Togo",
+		"native": "Togo",
+		"phone": "228",
+		"timezones": [
+			"Africa/Lome"
+		]
+	},
+	"TH": {
+		"capital": "Bangkok",
+		"carriers": [
+			"ACT Mobile",
+			"Advanced Info Service",
+			"CAT CDMA",
+			"DTAC",
+			"True Move",
+			"WCS IQ"
+		],
+		"continent": "AS",
+		"currency": "THB",
+		"languages": [
+			"th"
+		],
+		"locale": "th_TH",
+		"name": "Thailand",
+		"native": "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+		"phone": "66",
+		"timezones": [
+			"Asia/Bangkok"
+		]
+	},
+	"TJ": {
+		"capital": "Dushanbe",
+		"carriers": [
+			"Babilon-M",
+			"CTJTHSC Tajik-tel",
+			"Indigo",
+			"MLT",
+			"Somoncom",
+			"Tcell"
+		],
+		"continent": "AS",
+		"currency": "TJS",
+		"languages": [
+			"tg",
+			"ru"
+		],
+		"locale": "tg_TJ",
+		"name": "Tajikistan",
+		"native": "\u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
+		"phone": "992",
+		"timezones": [
+			"Asia/Dushanbe"
+		]
+	},
+	"TL": {
+		"capital": "Dili",
+		"carriers": [
+			"Timor Telecom"
+		],
+		"continent": "OC",
+		"currency": "USD",
+		"languages": [
+			"pt"
+		],
+		"locale": "pt_TL",
+		"name": "East Timor",
+		"native": "Timor-Leste",
+		"phone": "670",
+		"timezones": [
+			"Asia/Dili"
+		]
+	},
+	"TM": {
+		"capital": "Ashgabat",
+		"carriers": [
+			"MTS",
+			"TM-Cell"
+		],
+		"continent": "AS",
+		"currency": "TMT",
+		"languages": [
+			"tk",
+			"ru"
+		],
+		"locale": "tk_TM",
+		"name": "Turkmenistan",
+		"native": "T\u00fcrkmenistan",
+		"phone": "993",
+		"timezones": [
+			"Asia/Ashgabat"
+		]
+	},
+	"TN": {
+		"capital": "Tunis",
+		"carriers": [
+			"Orange",
+			"Tunicell",
+			"Tunisiana"
+		],
+		"continent": "AF",
+		"currency": "TND",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_TN",
+		"name": "Tunisia",
+		"native": "\u062a\u0648\u0646\u0633",
+		"phone": "216",
+		"timezones": [
+			"Africa/Tunis"
+		]
+	},
+	"TO": {
+		"capital": "Nuku'alofa",
+		"carriers": [
+			"Digicel",
+			"Shoreline Communication",
+			"Tonga Communications Corporation"
+		],
+		"continent": "OC",
+		"currency": "TOP",
+		"languages": [
+			"en",
+			"to"
+		],
+		"locale": "en_TO",
+		"name": "Tonga",
+		"native": "Tonga",
+		"phone": "676",
+		"timezones": [
+			"Pacific/Tongatapu"
+		]
+	},
+	"TR": {
+		"capital": "Ankara",
+		"carriers": [
+			"Avea",
+			"Aycell",
+			"Turkcell",
+			"Vodafone"
+		],
+		"continent": "AS",
+		"currency": "TRY",
+		"languages": [
+			"tr"
+		],
+		"locale": "tr_TR",
+		"name": "Turkey",
+		"native": "T\u00fcrkiye",
+		"phone": "90",
+		"timezones": [
+			"Europe/Istanbul"
+		]
+	},
+	"TT": {
+		"capital": "Port of Spain",
+		"carriers": [
+			"bmobile",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "TTD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_TT",
+		"name": "Trinidad and Tobago",
+		"native": "Trinidad and Tobago",
+		"phone": "1868",
+		"timezones": [
+			"America/Port_of_Spain"
+		]
+	},
+	"TV": {
+		"capital": "Funafuti",
+		"carriers": [
+			"TTC"
+		],
+		"continent": "OC",
+		"currency": "AUD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_TV",
+		"name": "Tuvalu",
+		"native": "Tuvalu",
+		"phone": "688",
+		"timezones": [
+			"Pacific/Funafuti"
+		]
+	},
+	"TW": {
+		"capital": "Taipei",
+		"carriers": [
+			"APTG",
+			"Chunghwa LDM",
+			"Chungwa",
+			"FarEasTone",
+			"KG Telecom",
+			"MobiTai",
+			"Taiwan Mobile",
+			"TransAsia",
+			"Tuntex",
+			"VIBO"
+		],
+		"continent": "AS",
+		"currency": "TWD",
+		"languages": [
+			"zh"
+		],
+		"locale": "zh_TW",
+		"name": "Taiwan",
+		"native": "\u81fa\u7063",
+		"phone": "886",
+		"timezones": [
+			"Asia/Taipei"
+		]
+	},
+	"TZ": {
+		"capital": "Dodoma",
+		"carriers": [
+			"Hits",
+			"Mobitel",
+			"Sasatel",
+			"SmileCom",
+			"Tritel",
+			"TTCL Mobile",
+			"Vodacom",
+			"Zain",
+			"Zantel"
+		],
+		"continent": "AF",
+		"currency": "TZS",
+		"languages": [
+			"sw",
+			"en"
+		],
+		"locale": "sw_TZ",
+		"name": "Tanzania",
+		"native": "Tanzania",
+		"phone": "255",
+		"timezones": [
+			"Africa/Dar_es_Salaam"
+		]
+	},
+	"UA": {
+		"capital": "Kyiv",
+		"carriers": [
+			"Beeline",
+			"CDMA Ukraine",
+			"Golden Telecom",
+			"IT",
+			"Kyivstar",
+			"life:)",
+			"MTS",
+			"PEOPLEnet",
+			"Utel"
+		],
+		"continent": "EU",
+		"currency": "UAH",
+		"languages": [
+			"uk"
+		],
+		"locale": "uk_UA",
+		"name": "Ukraine",
+		"native": "\u0423\u043a\u0440\u0430\u0457\u043d\u0430",
+		"phone": "380",
+		"timezones": [
+			"Europe/Kiev",
+			"Europe/Uzhgorod",
+			"Europe/Zaporozhye"
+		]
+	},
+	"UG": {
+		"capital": "Kampala",
+		"carriers": [
+			"MTN",
+			"Orange",
+			"Uganda Telecom Ltd.",
+			"Warid Telecom",
+			"Zain"
+		],
+		"continent": "AF",
+		"currency": "UGX",
+		"languages": [
+			"en",
+			"sw"
+		],
+		"locale": "en_UG",
+		"name": "Uganda",
+		"native": "Uganda",
+		"phone": "256",
+		"timezones": [
+			"Africa/Kampala"
+		]
+	},
+	"US": {
+		"capital": "Washington D.C.",
+		"carriers": [
+			"Advantage",
+			"Aeris",
+			"Airadigm",
+			"Airlink PCS",
+			"Airpeak",
+			"Airtel",
+			"Alaska Digitel",
+			"Alltel",
+			"AmeriLink PCS",
+			"AT&T",
+			"AT&T Mobility",
+			"Caprock",
+			"Carolina Phone",
+			"Cell One Amarillo",
+			"Cellular One",
+			"Cellular One of East Texas",
+			"Cellular Properties",
+			"Centennial",
+			"Chariton Valley",
+			"Chinook Wireless",
+			"Choice Phone",
+			"Cincinnati Bell",
+			"Cingular Wireless",
+			"Coleman County Telecom",
+			"Commnet Wireless",
+			"Concho",
+			"Conestoga",
+			"Consolidated Telcom",
+			"Convey",
+			"Corr",
+			"Cricket Communications",
+			"Digital Cellular",
+			"Dutch Harbor",
+			"Easterbrooke",
+			"Endless Mountains Wireless",
+			"Epic Touch",
+			"Farmers Cellular",
+			"Farmers Wireless",
+			"First Cellular",
+			"Get Mobile Inc",
+			"Globalstar",
+			"High Plains Wireless",
+			"Highland Cellular",
+			"i CAN_GSM",
+			"i wireless",
+			"Indigo Wireless",
+			"Jasper",
+			"Long Lines Wireless",
+			"MCI",
+			"Mid-Tex Cellular",
+			"Missouri RSA 5 Partnership",
+			"MobileTel",
+			"Nextel",
+			"North Sight Communications Inc.",
+			"Northstar",
+			"Oklahoma Western",
+			"PACE",
+			"Panhandle",
+			"PetroCom",
+			"Pine Cellular",
+			"PinPoint",
+			"Plateau Wireless",
+			"PTI Pacifica",
+			"SeaMobile",
+			"SIMMETRY",
+			"Simmetry",
+			"Southern Communications Services",
+			"Sprint",
+			"Sprocket",
+			"SunCom",
+			"T-Mobile",
+			"Taylor",
+			"Testing",
+			"Union Telephone Company",
+			"VeriSign",
+			"Verizon",
+			"Viaero",
+			"West Central",
+			"West Virginia Wireless",
+			"Westlink",
+			"Wikes Cellular",
+			"Wilkes Cellular",
+			"Wireless Alliance",
+			"XIT Wireless"
+		],
+		"continent": "NA",
+		"currency": "USD,USN,USS",
+		"languages": [
+			"en"
+		],
+		"locale": "en_US",
+		"name": "United States",
+		"native": "United States",
+		"phone": "1",
+		"timezones": [
+			"America/New_York",
+			"America/Detroit",
+			"America/Kentucky/Louisville",
+			"America/Kentucky/Monticello",
+			"America/Indiana/Indianapolis",
+			"America/Indiana/Vincennes",
+			"America/Indiana/Winamac",
+			"America/Indiana/Marengo",
+			"America/Indiana/Petersburg",
+			"America/Indiana/Vevay",
+			"America/Chicago",
+			"America/Indiana/Tell_City",
+			"America/Indiana/Knox",
+			"America/Menominee",
+			"America/North_Dakota/Center",
+			"America/North_Dakota/New_Salem",
+			"America/North_Dakota/Beulah",
+			"America/Denver",
+			"America/Boise",
+			"America/Phoenix",
+			"America/Los_Angeles",
+			"America/Anchorage",
+			"America/Juneau",
+			"America/Sitka",
+			"America/Metlakatla",
+			"America/Yakutat",
+			"America/Nome",
+			"America/Adak",
+			"Pacific/Honolulu"
+		]
+	},
+	"UY": {
+		"capital": "Montevideo",
+		"carriers": [
+			"Ancel",
+			"Claro",
+			"Movistar"
+		],
+		"continent": "SA",
+		"currency": "UYI,UYU",
+		"languages": [
+			"es"
+		],
+		"locale": "es_UY",
+		"name": "Uruguay",
+		"native": "Uruguay",
+		"phone": "598",
+		"timezones": [
+			"America/Montevideo"
+		]
+	},
+	"UZ": {
+		"capital": "Tashkent",
+		"carriers": [
+			"Beeline",
+			"Buztel",
+			"MTS",
+			"Perfectum Mobile",
+			"Ucell",
+			"Uzmacom"
+		],
+		"continent": "AS",
+		"currency": "UZS",
+		"languages": [
+			"uz",
+			"ru"
+		],
+		"locale": "uz_UZ",
+		"name": "Uzbekistan",
+		"native": "O\u2018zbekiston",
+		"phone": "998",
+		"timezones": [
+			"Asia/Samarkand",
+			"Asia/Tashkent"
+		]
+	},
+	"VC": {
+		"capital": "Kingstown",
+		"carriers": [
+			"Cable & Wireless",
+			"Cingular Wireless",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "XCD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_VC",
+		"name": "Saint Vincent and the Grenadines",
+		"native": "Saint Vincent and the Grenadines",
+		"phone": "1784",
+		"timezones": [
+			"America/St_Vincent"
+		]
+	},
+	"VE": {
+		"capital": "Caracas",
+		"carriers": [
+			"Digitel",
+			"Movilnet",
+			"movistar"
+		],
+		"continent": "SA",
+		"currency": "VES",
+		"languages": [
+			"es"
+		],
+		"locale": "es_VE",
+		"name": "Venezuela",
+		"native": "Venezuela",
+		"phone": "58",
+		"timezones": [
+			"America/Caracas"
+		]
+	},
+	"VG": {
+		"capital": "Road Town",
+		"carriers": [
+			"Cable & Wireless",
+			"Caribbean Cellular Telephone",
+			"Digicel"
+		],
+		"continent": "NA",
+		"currency": "USD",
+		"languages": [
+			"en"
+		],
+		"locale": "en_VG",
+		"name": "British Virgin Islands",
+		"native": "British Virgin Islands",
+		"phone": "1284",
+		"timezones": [
+			"America/Tortola"
+		]
+	},
+	"VN": {
+		"capital": "Hanoi",
+		"carriers": [
+			"3G EVNTelecom",
+			"Beeline VN",
+			"E-Mobile",
+			"HT Mobile",
+			"MobiFone",
+			"S-Fone",
+			"Viettel Mobile",
+			"Vinaphone"
+		],
+		"continent": "AS",
+		"currency": "VND",
+		"languages": [
+			"vi"
+		],
+		"locale": "vi_VN",
+		"name": "Vietnam",
+		"native": "Vi\u1ec7t Nam",
+		"phone": "84",
+		"timezones": [
+			"Asia/Ho_Chi_Minh"
+		]
+	},
+	"VU": {
+		"capital": "Port Vila",
+		"carriers": [
+			"SMILE"
+		],
+		"continent": "OC",
+		"currency": "VUV",
+		"languages": [
+			"bi",
+			"en",
+			"fr"
+		],
+		"locale": "bi_VU",
+		"name": "Vanuatu",
+		"native": "Vanuatu",
+		"phone": "678",
+		"timezones": [
+			"Pacific/Efate"
+		]
+	},
+	"WS": {
+		"capital": "Apia",
+		"carriers": [
+			"Digicel",
+			"SamoaTel"
+		],
+		"continent": "OC",
+		"currency": "WST",
+		"languages": [
+			"sm",
+			"en"
+		],
+		"locale": "sm_WS",
+		"name": "Samoa",
+		"native": "Samoa",
+		"phone": "685",
+		"timezones": [
+			"Pacific/Apia"
+		]
+	},
+	"YE": {
+		"capital": "Sana'a",
+		"carriers": [
+			"HiTS-UNITEL",
+			"MTN",
+			"SabaFon",
+			"Yemen Mobile"
+		],
+		"continent": "AS",
+		"currency": "YER",
+		"languages": [
+			"ar"
+		],
+		"locale": "ar_YE",
+		"name": "Yemen",
+		"native": "\u0627\u0644\u064a\u064e\u0645\u064e\u0646",
+		"phone": "967",
+		"timezones": [
+			"Asia/Aden"
+		]
+	},
+	"ZA": {
+		"capital": "Pretoria",
+		"carriers": [
+			"Bokamoso Consortium",
+			"Cape Town Metropolitan Council",
+			"Cell C",
+			"Ilizwi Telecommunications",
+			"Karabo Telecoms (Pty) Ltd.",
+			"MTN",
+			"Neotel",
+			"SAPS Gauteng",
+			"Sentech",
+			"Telkom Mobile / 8.ta",
+			"Thinta Thinta Telecommunications",
+			"Vodacom"
+		],
+		"continent": "AF",
+		"currency": "ZAR",
+		"languages": [
+			"af",
+			"en",
+			"nr",
+			"st",
+			"ss",
+			"tn",
+			"ts",
+			"ve",
+			"xh",
+			"zu"
+		],
+		"locale": "af_ZA",
+		"name": "South Africa",
+		"native": "South Africa",
+		"phone": "27",
+		"timezones": [
+			"Africa/Johannesburg"
+		]
+	},
+	"ZM": {
+		"capital": "Lusaka",
+		"carriers": [
+			"MTN",
+			"Zain",
+			"ZAMTEL"
+		],
+		"continent": "AF",
+		"currency": "ZMK",
+		"languages": [
+			"en"
+		],
+		"locale": "en_ZM",
+		"name": "Zambia",
+		"native": "Zambia",
+		"phone": "260",
+		"timezones": [
+			"Africa/Lusaka"
+		]
+	}
+}

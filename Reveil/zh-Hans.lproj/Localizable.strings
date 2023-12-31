@@ -1,0 +1,1028 @@
+/* About */
+"ABOUT" = "关于";
+
+/* Access Point */
+"ACCESS_POINT" = "接入点";
+
+/* Address */
+"ADDRESS" = "IP 地址";
+
+/* %d Addresses */
+"ADDRESSES_COUNT" = "%d 个 IP 地址";
+
+/* Anonymous */
+"ANONYMOUS" = "匿名";
+
+/* Apple Wireless Direct Link */
+"APPLE_WIRELESS_DIRECT_LINK" = "Apple 无线直连网络";
+
+/* Attributes */
+"ATTRIBUTES" = "属性";
+
+/* Available blocks */
+"AVAIL_BLOCKS" = "可用块";
+
+/* Fork was able to create a new process (sandbox violation) */
+"AVAILABLE_FORK" = "fork 调用能够创建新进程（违反沙盒规定）";
+
+/* Dynamic linker is unreliable */
+"BAD_DYNAMIC_LINKER" = "动态链接器不可靠";
+
+/* Capacity */
+"BATTERY_CAPACITY" = "容量";
+
+/* Battery Capacity */
+"BATTERY_CAPACITY_FULL" = "电池容量";
+
+/* Charging */
+"BATTERY_CHARGING" = "充电中";
+
+/* Full */
+"BATTERY_FULL" = "已充满";
+
+/* Battery Information */
+"BATTERY_INFORMATION" = "电池信息";
+
+/* Level */
+"BATTERY_LEVEL" = "剩余";
+
+/* Battery Level */
+"BATTERY_LEVEL_FULL" = "剩余电量";
+
+/* State */
+"BATTERY_STATE" = "状态";
+
+/* Battery State */
+"BATTERY_STATE_FULL" = "电池状态";
+
+/* Unknown */
+"BATTERY_UNKNOWN" = "未知";
+
+/* Unplugged */
+"BATTERY_UNPLUGGED" = "放电中";
+
+/* Used */
+"BATTERY_USED" = "已使用";
+
+/* Battery Used */
+"BATTERY_USED_FULL" = "已使用电量";
+
+/* Block size */
+"BLOCK_SIZE" = "块大小";
+
+/* Blocks */
+"BLOCKS" = "块";
+
+/* Bootrom Version */
+"BOOTROM_VERSION" = "Bootrom 版本";
+
+/* Broadcast */
+"BROADCAST" = "广播地址";
+
+/* Build Date */
+"BUILD_DATE" = "构建日期";
+
+/* Byte Order */
+"BYTE_ORDER" = "字节序";
+
+/* Cache Line */
+"CACHE_LINE" = "缓存行";
+
+/* Cellular Connection */
+"CELLULAR_CONNECTION" = "蜂窝数据连接";
+
+/* Collisions */
+"COLLISIONS" = "冲突";
+
+/* Compressed */
+"COMPRESSED" = "压缩";
+
+/* Compressor */
+"COMPRESSOR" = "压缩器";
+
+/* Contact */
+"CONTACT" = "联系我们";
+
+/* 82flex@gmail.com */
+"CONTACT_EMAIL" = "82flex@gmail.com";
+
+/* Copied to clipboard */
+"COPIED_TO_CLIPBOARD" = "已拷贝到剪贴板";
+
+/* Copyright © 2023-2024 82Flex Team.\nAll rights reserved. */
+"COPYRIGHT_STRING" = "版权所有 © 2023-2024 82Flex Team.\n保留所有权利";
+
+/* COW Faults */
+"COW_FAULTS" = "写时复制错误";
+
+/* CPU Architecture */
+"CPU_ARCHITECTURE" = "CPU 架构";
+
+/* CPU Family */
+"CPU_FAMILY" = "CPU 系列";
+
+/* CPU Information */
+"CPU_INFORMATION" = "CPU 信息";
+
+/* CPU USAGE */
+"CPU_USAGE" = "CPU 使用率";
+
+/* CPU Load */
+"CPU_USAGE_LOAD" = "CPU 负载";
+
+/* Ad Hoc signed */
+"CS_ADHOC" = "特设签名";
+
+/* Force expiration checking */
+"CS_CHECK_EXPIRATION" = "强制检查代码签名是否到期";
+
+/* Has Data Vault controller entitlement */
+"CS_DATAVAULT_CONTROLLER" = "持有 Data Vault 控制器权限";
+
+/* Process is currently or has previously been debugged and allowed to run with invalid pages */
+"CS_DEBUGGED" = "进程当前或之前已被调试，并允许运行无效页";
+
+/* Code is dev signed, cannot be loaded into product signed code */
+"CS_DEV_CODE" = "代码已被开发者签名，不能被加载到产品签名代码中";
+
+/* Dyld used to load this is a platform binary */
+"CS_DYLD_PLATFORM" = "加载此进程的动态链接器是平台化的二进制";
+
+/* Require enforcement */
+"CS_ENFORCEMENT" = "强制执行是必须的";
+
+/* Code signature permits restricted entitlements */
+"CS_ENTITLEMENTS_VALIDATED" = "代码签名允许持有受限的权限";
+
+/* Set CS_INSTALLER on any exec'ed process */
+"CS_EXEC_INHERIT_SIP" = "为此进程执行的任何其他进程设置 CS_INSTALLER 标志位";
+
+/* Set CS_ENFORCEMENT on any exec'ed process */
+"CS_EXEC_SET_ENFORCEMENT" = "为此进程执行的任何其他进程设置 CS_ENFORCEMENT 标志位";
+
+/* Set CS_HARD on any exec'ed process */
+"CS_EXEC_SET_HARD" = "为此进程执行的任何其他进程设置 CS_HARD 标志位";
+
+/* Set CS_KILL on any exec'ed process */
+"CS_EXEC_SET_KILL" = "为此进程执行的任何其他进程设置 CS_KILL 标志位";
+
+/* Has get-task-allow entitlement */
+"CS_GET_TASK_ALLOW" = "持有 get-task-allow 权限";
+
+/* Don't load invalid pages */
+"CS_HARD" = "拒绝加载无效页";
+
+/* Has installer entitlement */
+"CS_INSTALLER" = "拥有安装器权限";
+
+/* Kill process if it becomes invalid */
+"CS_KILL" = "如果进程无效则将其终止";
+
+/* Was killed by kernel for invalidity */
+"CS_KILLED" = "曾因无效而被内核终止";
+
+/* Has com.apple.rootless.restricted-nvram-variables.heritable entitlement */
+"CS_NVRAM_UNRESTRICTED" = "持有 com.apple.rootless.restricted-nvram-variables.heritable 权限";
+
+/* This is a platform binary */
+"CS_PLATFORM_BINARY" = "平台化的二进制";
+
+/* Platform binary by the fact of path (OS X only) */
+"CS_PLATFORM_PATH" = "从实际路径继承的平台化的二进制（仅适用于 OS X）";
+
+/* Require library validation */
+"CS_REQUIRE_LV" = "共享库验证是必须的";
+
+/* Tell dyld to treat restricted */
+"CS_RESTRICT" = "使动态链接器施加对此进程的限制";
+
+/* Process has a signature (may have gone invalid) */
+"CS_SIGNED" = "此进程已签名（即使已经失效）";
+
+/* Unknown flag (0x%08x) */
+"CS_UNKNOWN_FLAG" = "未知标志位 (0x%08x)";
+
+/* Dynamically valid */
+"CS_VALID" = "代码签名有效";
+
+/* Dashboard */
+"DASHBOARD" = "仪表盘";
+
+/* Debugger attached */
+"DEBUGGER_ATTACHED" = "已挂载调试器";
+
+/* Decompressed */
+"DECOMPRESSED" = "解压";
+
+/* Details */
+"DETAILS" = "详情";
+
+/* Developer */
+"DEVELOPER" = "开发者";
+
+/* Device */
+"DEVICE" = "设备";
+
+/* Device Information */
+"DEVICE_INFORMATION" = "设备信息";
+
+/* Device Model */
+"DEVICE_MODEL" = "设备型号";
+
+/* Device Name */
+"DEVICE_NAME" = "设备名称";
+
+/* Library validation is disabled */
+"DISABLED_LIBRARY_VALIDATION" = "已禁用共享链接库校验";
+
+/* Free */
+"DISK_FREE" = "空闲";
+
+/* Disk Free */
+"DISK_FREE_LONG" = "可用存储空间";
+
+/* DISK SPACE */
+"DISK_SPACE" = "存储空间";
+
+/* Total */
+"DISK_TOTAL" = "总计";
+
+/* Disk Total */
+"DISK_TOTAL_LONG" = "总存储空间";
+
+/* Used */
+"DISK_USED" = "已使用";
+
+/* Disk Used */
+"DISK_USED_LONG" = "已使用存储空间";
+
+/* Display Resolution */
+"DISPLAY_RESOLUTION" = "显示分辨率";
+
+/* Download */
+"DOWNLOAD" = "下载";
+
+/* Dropped */
+"DROPPED" = "丢弃";
+
+/* Library validation is enabled */
+"ENABLED_LIBRARY_VALIDATION" = "已启用共享链接库校验";
+
+/* Valid code signing status */
+"EXPECTED_CODE_SIGNING_STATUS" = "有效的代码签名状态";
+
+/* Export Data */
+"EXPORT_DATA" = "导出数据";
+
+/* Faults */
+"FAULTS" = "错误";
+
+/* File-backed */
+"FILE_BACKED" = "外部";
+
+/* File Systems */
+"FILE_SYSTEMS" = "文件系统";
+
+/* Flags */
+"FLAGS" = "标志位";
+
+/* Flavor */
+"FLAVOR" = "子类型";
+
+/* Free blocks */
+"FREE_BLOCKS" = "空闲块";
+
+/* Free: %@ */
+"FREE_DESCRIPTION" = "空闲：%@";
+
+/* Free nodes */
+"FREE_NODES" = "空闲节点";
+
+/* Exception ports were set */
+"HAS_EXCEPTION_PORT" = "已设置异常端口";
+
+/* Signal handlers were set */
+"HAS_SIGNAL_HANDLER" = "已设置信号处理器";
+
+/* Hits */
+"HITS" = "命中数";
+
+/* Hooked libraries found */
+"HOOKED_LIBRARIES_FOUND" = "发现钩住的共享库";
+
+/* Host ID */
+"HOST_ID" = "宿主 ID";
+
+/* Host Name */
+"HOST_NAME" = "设备别名";
+
+/* Identifier */
+"IDENTIFIER" = "标识符";
+
+/* Receive all multicast packets */
+"IFF_ALLMULTI" = "接收所有组播报文";
+
+/* Use alternate physical connection */
+"IFF_ALTPHYS" = "使用备用物理连接";
+
+/* Broadcast address valid */
+"IFF_BROADCAST" = "广播地址有效";
+
+/* Turn on debugging */
+"IFF_DEBUG" = "打开调试功能";
+
+/* Per link layer defined bit 0 */
+"IFF_LINK0" = "逐个链路层定义的位 0";
+
+/* Per link layer defined bit 1 */
+"IFF_LINK1" = "逐个链路层定义的位 1";
+
+/* Per link layer defined bit 2 */
+"IFF_LINK2" = "逐个链路层定义的位 2";
+
+/* Is a loopback net */
+"IFF_LOOPBACK" = "回环网络";
+
+/* Supports multicast */
+"IFF_MULTICAST" = "支持组播";
+
+/* No address resolution protocol */
+"IFF_NOARP" = "无地址解析协议";
+
+/* Obsolete: avoid use of trailers */
+"IFF_NOTRAILERS" = "弃用：避免使用尾部标签";
+
+/* Transmission in progress */
+"IFF_OACTIVE" = "传输中";
+
+/* Interface is point-to-point link */
+"IFF_POINTOPOINT" = "点对点链路";
+
+/* Receive all packets */
+"IFF_PROMISC" = "接收所有报文";
+
+/* Resources allocated */
+"IFF_RUNNING" = "资源已分配";
+
+/* Can't hear own transmissions */
+"IFF_SIMPLEX" = "无法收到自己的传输信号";
+
+/* Interface is up */
+"IFF_UP" = "接口已连接";
+
+/* Binary is in trust cache */
+"IN_TRUST_CACHE" = "二进制文件处于信任缓存中";
+
+/* Injected libraries found */
+"INJECTED_LIBRARIES_FOUND" = "发现注入的共享库";
+
+/* Input Errors */
+"INPUT_ERRORS" = "输入错误";
+
+/* Interface Name */
+"INTERFACE_NAME" = "接口名称";
+
+/* IP Layer Capture */
+"IP_LAYER_CAPTURE" = "IP 层捕获接口";
+
+/* IPSec Tunnel */
+"IPSEC_TUNNEL" = "IPSec 隧道";
+
+/* Kernel Maximum Groups */
+"KERNEL_MAXIMUM_GROUPS" = "内核最大分组数量";
+
+/* Kernel Maximum Processes */
+"KERNEL_MAXIMUM_PROCESSES" = "内核最大进程数量";
+
+/* Kernel Maximum Vnodes */
+"KERNEL_MAXIMUM_VNODES" = "内核最大虚拟节点数量";
+
+/* Kernel Page Size */
+"KERNEL_PAGE_SIZE" = "内核页面大小";
+
+/* Kernel Release */
+"KERNEL_RELEASE" = "内核发布号";
+
+/* Kernel Version */
+"KERNEL_VERSION" = "内核版本";
+
+/* Parent process is launchd */
+"KNOWN_PARENT_PROCESS" = "父进程为 launchd";
+
+/* L1 Data Cache Size */
+"L1_DATA_CACHE_SIZE" = "L1 数据缓存尺寸";
+
+/* L1 Instruction Cache Size */
+"L1_INST_CACHE_SIZE" = "L1 指令缓存尺寸";
+
+/* L2 Cache Size */
+"L2_CACHE_SIZE" = "L2 缓存尺寸";
+
+/* Last Change */
+"LAST_CHANGE" = "最后更新时间";
+
+/* Line Speed */
+"LINE_SPEED" = "波特率";
+
+/* %@/s */
+"LINE_SPEED_FMT" = "%@ 每秒";
+
+/* Lookups */
+"LOOKUPS" = "查询数";
+
+/* Loopback */
+"LOOPBACK" = "本地回环接口";
+
+/* Low Latency WAN */
+"LOW_LATENCY_WAN" = "低延迟广域网";
+
+/* MAC Address */
+"MAC_ADDRESS_IDX" = "MAC 地址";
+
+/* Marketing Name */
+"MARKETING_NAME" = "销售名称";
+
+/* Max Files per Process */
+"MAX_FILES_PER_PROCESS" = "单进程最大打开文件数量";
+
+/* Max Socket Buffer Size */
+"MAX_SOCKET_BUFFER_SIZE" = "套接字最大缓冲区尺寸";
+
+/* Active */
+"MEMORY_ACTIVE" = "活动";
+
+/* Active Memory */
+"MEMORY_ACTIVE_LONG" = "活动内存";
+
+/* Anonymous Memory */
+"MEMORY_ANONYMOUS" = "匿名内存";
+
+/* Compressed Memory */
+"MEMORY_COMPRESSED" = "压缩内存";
+
+/* Compressor Memory */
+"MEMORY_COMPRESSOR" = "压缩器内存";
+
+/* Memory COW Faults */
+"MEMORY_COW_FAULTS" = "内存写时复制错误数";
+
+/* Decompressed Memory */
+"MEMORY_DECOMPRESSED" = "解压内存";
+
+/* Memory Faults */
+"MEMORY_FAULTS" = "内存错误数";
+
+/* File-backed Memory */
+"MEMORY_FILE_BACKED" = "外部内存";
+
+/* Free */
+"MEMORY_FREE" = "空闲";
+
+/* Free Memory */
+"MEMORY_FREE_LONG" = "可用内存";
+
+/* Memory Hits */
+"MEMORY_HITS" = "内存命中数";
+
+/* Inactive */
+"MEMORY_INACTIVE" = "不活动";
+
+/* Inactive Memory */
+"MEMORY_INACTIVE_LONG" = "不活动内存";
+
+/* Memory Information */
+"MEMORY_INFORMATION" = "内存信息";
+
+/* Memory Lookups */
+"MEMORY_LOOKUPS" = "内存查询数";
+
+/* Others */
+"MEMORY_OTHERS" = "其他";
+
+/* Others Memory */
+"MEMORY_OTHERS_LONG" = "其他内存";
+
+/* Purgeable */
+"MEMORY_PURGEABLE" = "可清除";
+
+/* Purgeable Memory */
+"MEMORY_PURGEABLE_LONG" = "可清除内存";
+
+/* Memory Purges */
+"MEMORY_PURGES" = "内存清除数";
+
+/* Memory Size */
+"MEMORY_SIZE" = "内存大小";
+
+/* Speculative Memory */
+"MEMORY_SPECULATIVE" = "推测内存";
+
+/* Swapped In Memory */
+"MEMORY_SWAPPED_IN" = "换入内存";
+
+/* Swapped Out Memory */
+"MEMORY_SWAPPED_OUT" = "换出内存";
+
+/* Throttled Memory */
+"MEMORY_THROTTLED" = "丢弃内存";
+
+/* Uncompressed Memory */
+"MEMORY_UNCOMPRESSED" = "未压缩内存";
+
+/* MEMORY USAGE */
+"MEMORY_USAGE" = "内存使用率";
+
+/* Wired */
+"MEMORY_WIRED" = "固定";
+
+/* Wired Memory */
+"MEMORY_WIRED_LONG" = "固定内存";
+
+/* Zero Filled Memory */
+"MEMORY_ZERO_FILLED" = "零填充内存";
+
+/* Metric */
+"METRIC" = "路由度量";
+
+/* File system written to asynchronously */
+"MNT_ASYNC" = "以异步方式写入";
+
+/* File system was mounted by automounter */
+"MNT_AUTOMOUNTED" = "由自动挂载器加载";
+
+/* File system supports content protection */
+"MNT_CPROTECT" = "支持内容保护";
+
+/* File system should defer writes */
+"MNT_DEFWRITE" = "推迟写入";
+
+/* File system is not appropriate path to user data */
+"MNT_DONTBROWSE" = "不适合用户数据的路径";
+
+/* File system supports volfs */
+"MNT_DOVOLFS" = "支持 VOLFS";
+
+/* File system is exported */
+"MNT_EXPORTED" = "被导出";
+
+/* VFS will ignore ownership information on file system objects */
+"MNT_IGNORE_OWNERSHIP" = "VFS 将忽略对象的所有权信息";
+
+/* File system is journaled */
+"MNT_JOURNALED" = "具有日志功能";
+
+/* File system is stored locally */
+"MNT_LOCAL" = "存储于本地";
+
+/* MAC support for individual labels */
+"MNT_MULTILABEL" = "介质访问控制支持单个标签";
+
+/* Disable update of file access time */
+"MNT_NOATIME" = "禁止更新文件访问时间";
+
+/* Don't interpret special files */
+"MNT_NODEV" = "不解析特殊文件";
+
+/* Can't exec from file system */
+"MNT_NOEXEC" = "禁止执行";
+
+/* Don't follow symlink when resolving mount point */
+"MNT_NOFOLLOW" = "解析挂载点时不跟踪符号链接";
+
+/* Setuid bits are not honored on this file system */
+"MNT_NOSUID" = "不支持 setuid 位";
+
+/* Don't allow user extended attributes */
+"MNT_NOUSERXATTR" = "不允许用户扩展属性";
+
+/* File system is quarantined */
+"MNT_QUARANTINE" = "被隔离";
+
+/* Quotas are enabled on this file system */
+"MNT_QUOTA" = "已启用配额";
+
+/* A read-only file system */
+"MNT_RDONLY" = "只读";
+
+/* File system can be removed from the system by user */
+"MNT_REMOVABLE" = "可被用户从系统移除";
+
+/* This file system is the root of the file system */
+"MNT_ROOTFS" = "根文件系统";
+
+/* The mount is a snapshot */
+"MNT_SNAPSHOT" = "挂载为快照";
+
+/* Enable strict update of file access time */
+"MNT_STRICTATIME" = "严格更新文件访问时间";
+
+/* File system is written to synchronously */
+"MNT_SYNCHRONOUS" = "以同步方式写入";
+
+/* Union with underlying file system */
+"MNT_UNION" = "与底层文件系统结合";
+
+/* Modifications found */
+"MODIFICATIONS_FOUND" = "发现异常修改";
+
+/* Execution state was modified */
+"MODIFIED_EXECUTION_STATE" = "执行状态已被篡改";
+
+/* Mount Point */
+"MOUNT_POINT" = "挂载点";
+
+/* MTU */
+"MTU" = "MTU";
+
+/* Multicast Received */
+"MULTICAST_RECEIVED" = "已接收组播报文";
+
+/* Multicast Sent */
+"MULTICAST_SENT" = "已发送组播报文";
+
+/* Netmask */
+"NETMASK" = "子网掩码";
+
+/* Network */
+"NETWORK" = "网络";
+
+/* Network Details */
+"NETWORK_DETAILS" = "网络详情";
+
+/* Network Interfaces */
+"NETWORK_INTERFACES" = "网络接口";
+
+/* NETWORK USAGE */
+"NETWORK_USAGE" = "网络使用率";
+
+/* %@ Usage */
+"NETWORK_USAGE_OF" = "%@ 的使用率";
+
+/* No debugger attached */
+"NO_DEBUGGER_ATTACHED" = "未挂载调试器";
+
+/* Exception ports not set */
+"NO_EXCEPTION_PORT" = "未设置异常端口";
+
+/* No hooked library */
+"NO_HOOKED_LIBRARY" = "未发现钩住的共享库";
+
+/* No injected library */
+"NO_INJECTED_LIBRARY" = "未发现注入的共享库";
+
+/* No issues found */
+"NO_ISSUES_FOUND" = "未发现异常";
+
+/* No suspicious process flag P_SELECT */
+"NO_P_SELECT_FLAG" = "未发现可疑的进程标志位 P_SELECT";
+
+/* No HTTP/HTTPS proxy */
+"NO_PROXY_SETTINGS" = "未设置 HTTP/HTTPS 代理";
+
+/* Signal handlers not set */
+"NO_SIGNAL_HANDLER" = "未设置信号处理器";
+
+/* No suspicious environment variable */
+"NO_SUSPICIOUS_ENVIRONMENT_VARIABLE" = "未发现可疑的环境变量";
+
+/* No suspicious file */
+"NO_SUSPICIOUS_FILE" = "未发现可疑的文件";
+
+/* No suspicious library */
+"NO_SUSPICIOUS_LIBRARY" = "未发现可疑的共享库";
+
+/* No suspicious Objective-C class */
+"NO_SUSPICIOUS_OBJC_CLASS" = "未发现可疑的 Objective-C 类";
+
+/* No suspicious opened port */
+"NO_SUSPICIOUS_OPENED_PORT" = "未发现可疑的已打开端口";
+
+/* No suspicious symbolic link */
+"NO_SUSPICIOUS_SYMBOLIC_LINK" = "未发现可疑的符号链接";
+
+/* No suspicious url scheme */
+"NO_SUSPICIOUS_URL_SCHEME" = "未发现可疑的 URL Scheme";
+
+/* No suspicious writable directory */
+"NO_SUSPICIOUS_WRITABLE_DIRECTORY" = "未发现可疑的可写入目录";
+
+/* No suspicious writable file */
+"NO_SUSPICIOUS_WRITABLE_FILE" = "未发现可疑的可写入文件";
+
+/* No unsigned executable page found */
+"NO_UNSIGNED_EXECUTABLE_PAGE" = "未找到未经过签名的可执行页面";
+
+/* Nodes */
+"NODES" = "节点";
+
+/* Run on a hardware device */
+"NOT_IN_SIMULATOR" = "运行在硬件设备上";
+
+/* Binary is not in trust cache */
+"NOT_IN_TRUST_CACHE" = "二进制文件不在信任缓存中";
+
+/* Number of Cores */
+"NUMBER_OF_CORES" = "核心数量";
+
+/* Number of CPU Cores */
+"NUMBER_OF_CPU_CORES" = "CPU 核心数量";
+
+/* Number of File Systems */
+"NUMBER_OF_FILE_SYSTEMS" = "文件系统数量";
+
+/* Number of Network Interfaces */
+"NUMBER_OF_NETWORK_INTERFACES" = "网络接口数量";
+
+/* Operating System */
+"OPERATING_SYSTEM" = "操作系统";
+
+/* Optimal transfer size */
+"OPTIMAL_TRANSFER_SIZE" = "I/O 优化大小";
+
+/* Main bundle has a valid bundle identifier */
+"ORIGINAL_BUNDLE_IDENTIFIER" = "主要捆绑包标识符有效";
+
+/* All keys in entitlements are trusted */
+"ORIGINAL_ENTITLEMENTS" = "已验证权限配置文件";
+
+/* Main executable is trusted */
+"ORIGINAL_MACH_O" = "已验证主要可执行文件";
+
+/* Mobile provisioning profile is trusted */
+"ORIGINAL_MOBILE_PROVISIONING_PROFILE" = "已验证应用程序分发配置文件";
+
+/* Others */
+"OTHERS" = "其他";
+
+/* Output Errors */
+"OUTPUT_ERRORS" = "输出错误";
+
+/* Owner */
+"OWNER" = "所有者";
+
+/* Suspicious process flag P_SELECT found */
+"P_SELECT_FLAG_FOUND" = "发现可疑的进程标志位 P_SELECT";
+
+/* Packet Layer Capture */
+"PACKET_LAYER_CAPTURE" = "数据包层捕获接口";
+
+/* Packets Received */
+"PACKETS_RECEIVED" = "已接收报文";
+
+/* Packets Sent */
+"PACKETS_SENT" = "已发送报文";
+
+/* PageIns */
+"PAGE_INS" = "换入页数";
+
+/* Page Ins */
+"PAGE_INS_LONG" = "内存换入页数";
+
+/* PageOuts */
+"PAGE_OUTS" = "换出页数";
+
+/* Page Outs */
+"PAGE_OUTS_LONG" = "内存换出页数";
+
+/* Page Reactivations */
+"PAGE_REACTIVATIONS" = "内存再生页数";
+
+/* Page Size */
+"PAGE_SIZE" = "页面大小";
+
+/* Personal Hotspot */
+"PERSONAL_HOTSPOT" = "个人热点";
+
+/* Physical Memory */
+"PHYSICAL_MEMORY" = "物理内存";
+
+/* Pin */
+"PIN" = "收藏";
+
+/* Pinned %@ */
+"PINNED_FMT" = "已收藏 %@";
+
+/* Point-to-Point Protocol */
+"POINT_TO_POINT_PROTOCOL" = "点对点协议接口";
+
+/* Host port is privileged */
+"PRIVILEGED_HOST_PORT" = "宿主端口的权限被提升";
+
+/* Processor */
+"PROCESSOR" = "处理器";
+
+/* Protocol #%d - %@ */
+"PROTOCOL_IDX" = "协议 #%d - %@";
+
+/* System HTTP/HTTPS proxy found */
+"PROXY_SETTINGS_FOUND" = "检测到全局 HTTP/HTTPS 代理";
+
+/* Purges */
+"PURGES" = "清除数";
+
+/* Radio Tech */
+"RADIO_TECH" = "无线技术";
+
+/* Reactivations */
+"REACTIVATIONS" = "再生页数";
+
+/* Received */
+"RECEIVED" = "已接收";
+
+/* Reveil */
+"Reveil" = "Reveil";
+
+/* RFC2893 Tunnel */
+"RFC2893_TUNNEL" = "RFC2893 隧道";
+
+/* RFC3056 Tunnel */
+"RFC3056_TUNNEL" = "RFC3056 隧道";
+
+/* Simulator environment detected */
+"RUN_IN_SIMULATOR" = "检测到模拟器环境";
+
+/* Scanning… */
+"SCANNING" = "扫描中";
+
+/* Seatbelt special port is available */
+"SEATBELT_SPECIAL_PORT_IS_AVAILABLE" = "已开放沙盒特权端口";
+
+/* Security */
+"SECURITY" = "安全";
+
+/* Sent */
+"SENT" = "已发送";
+
+/* System volume is signed */
+"SIGNED_SYSTEM_VOLUME" = "系统卷是经过签名的";
+
+/* Speculative */
+"SPECULATIVE" = "推测";
+
+/* Spent Receiving */
+"SPENT_RECEIVING" = "接收计时";
+
+/* Spent Xmitting */
+"SPENT_XMITTING" = "发送计时";
+
+/* Dynamic linker is stock */
+"STOCK_DYNAMIC_LINKER" = "动态链接器是可靠的";
+
+/* Suspicious environment variables found */
+"SUSPICIOUS_ENVIRONMENT_VARIABLES_FOUND" = "发现可疑的环境变量";
+
+/* Suspicious files found */
+"SUSPICIOUS_FILES_FOUND" = "发现可疑的文件";
+
+/* Suspicious libraries found */
+"SUSPICIOUS_LIBRARIES_FOUND" = "发现可疑的共享库";
+
+/* Suspicious Objective-C classes found */
+"SUSPICIOUS_OBJC_CLASSES_FOUND" = "发现可疑的 Objective-C 类";
+
+/* Suspicious opened ports found */
+"SUSPICIOUS_OPENED_PORTS_FOUND" = "发现可疑的已打开端口";
+
+/* Suspicious symbolic links found */
+"SUSPICIOUS_SYMBOLIC_LINKS_FOUND" = "发现可疑的符号链接";
+
+/* Suspicious url schemes found */
+"SUSPICIOUS_URL_SCHEMES_FOUND" = "发现可疑的 URL Scheme";
+
+/* Suspicious writable directories found */
+"SUSPICIOUS_WRITABLE_DIRECTORIES_FOUND" = "发现可疑的可写入目录";
+
+/* Suspicious writable files found */
+"SUSPICIOUS_WRITABLE_FILES_FOUND" = "发现可疑的可写入文件";
+
+/* Swapped In */
+"SWAPPED_IN" = "换入";
+
+/* Swapped Out */
+"SWAPPED_OUT" = "换出";
+
+/* System */
+"SYSTEM" = "系统";
+
+/* Main bundle identifier was tampered */
+"TAMPERED_BUNDLE_IDENTIFIER" = "主要捆绑包标识符被篡改";
+
+/* Unknown keys found in entitlements */
+"TAMPERED_ENTITLEMENTS" = "权限配置文件被篡改";
+
+/* Main executable was tampered */
+"TAMPERED_MACH_O" = "主要可执行文件被篡改";
+
+/* Mobile provisioning profile was tampered */
+"TAMPERED_MOBILE_PROVISIONING_PROFILE" = "应用程序分发配置文件被篡改";
+
+/* TB Frequency */
+"TB_FREQ" = "时基频率";
+
+/* Throttled */
+"THROTTLED" = "抑制";
+
+/* Total Download */
+"TOTAL_DOWNLOAD" = "总下载量";
+
+/* Total Download of %@ */
+"TOTAL_DOWNLOAD_OF_INTERFACE" = "%@ 的总下载量";
+
+/* Total Upload */
+"TOTAL_UPLOAD" = "总上传量";
+
+/* Total Upload of %@ */
+"TOTAL_UPLOAD_OF_INTERFACE" = "%@ 的总上传量";
+
+/* Process task port was obtained */
+"TOUCHED_PROCESS_TASK_PORT" = "检测到进程任务端口被额外引用";
+
+/* Type */
+"TYPE" = "类型";
+
+/* Sandbox blocks call to fork(2) */
+"UNABLE_TO_FORK" = "沙盒阻止了对 fork(2) 的调用";
+
+/* Seatbelt special port is not available */
+"UNAVAILABLE_SEATBELT_SPECIAL_PORT" = "未开放沙盒特权端口";
+
+/* Uncompressed */
+"UNCOMPRESSED" = "未压缩";
+
+/* Unexpected code signing status */
+"UNEXPECTED_CODE_SIGNING_STATUS" = "异常的代码签名状态";
+
+/* Unknown */
+"UNKNOWN" = "未知";
+
+/* Unknown parent process */
+"UNKNOWN_PARENT_PROCESS" = "未知的父进程";
+
+/* Execution state was not modified */
+"UNMODIFIED_EXECUTION_STATE" = "执行状态未被篡改";
+
+/* Unpin */
+"UNPIN" = "取消收藏";
+
+/* Unpinned %@ */
+"UNPINNED_FMT" = "已取消收藏 %@";
+
+/* Host port is not privileged */
+"UNPRIVILEGED_HOST_PORT" = "受限的宿主端口";
+
+/* Unsigned executable pages found */
+"UNSIGNED_EXECUTABLE_PAGES_FOUND" = "发现未签名的可执行页面";
+
+/* System volume is not signed */
+"UNSIGNED_SYSTEM_VOLUME" = "系统卷未经过签名";
+
+/* Unsupported */
+"UNSUPPORTED" = "不支持";
+
+/* Process task port was not obtained */
+"UNTOUCHED_PROCESS_TASK_PORT" = "未发现进程任务端口被额外引用";
+
+/* Upload */
+"UPLOAD" = "上传";
+
+/* Uptime */
+"UPTIME" = "运行时长";
+
+/* Idle */
+"USAGE_IDLE" = "空闲";
+
+/* Load */
+"USAGE_LOAD" = "负载";
+
+/* User */
+"USAGE_USER" = "用户";
+
+/* USB Dual Role Device */
+"USB_DUAL_ROLE_DEVICE" = "USB 双重设备";
+
+/* USB Packet Capture */
+"USB_PACKET_CAPTURE" = "USB 数据包捕获接口";
+
+/* Used: %@ */
+"USED_DESCRIPTION" = "已使用：%@";
+
+/* User Memory */
+"USER_MEMORY" = "用户内存";
+
+/* User Mode Tunnel */
+"USER_MODE_TUNNEL" = "用户模式隧道";
+
+/* Version */
+"VERSION" = "版本";
+
+/* Website */
+"WEBSITE" = "首页";
+
+/* Wi-Fi Peer to Peer */
+"WIFI_PEER_TO_PEER" = "点对点无线网络";
+
+/* Wired/Wireless */
+"WIRED_WIRELESS" = "有线/无线网络";
+
+/* Zero Filled */
+"ZERO_FILLED" = "零填充";

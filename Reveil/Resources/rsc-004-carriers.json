@@ -1,0 +1,7158 @@
+{
+	"AD": [
+		{
+			"brand": "Mobiland",
+			"code": "21303",
+			"mcc": "213",
+			"mnc": "03"
+		}
+	],
+	"AE": [
+		{
+			"brand": "du",
+			"code": "42403",
+			"mcc": "424",
+			"mnc": "03"
+		},
+		{
+			"brand": "Etisalat",
+			"code": "42402",
+			"mcc": "424",
+			"mnc": "02"
+		}
+	],
+	"AF": [
+		{
+			"brand": "AWCC",
+			"code": "41201",
+			"mcc": "412",
+			"mnc": "01"
+		},
+		{
+			"brand": "Areeba",
+			"code": "41240",
+			"mcc": "412",
+			"mnc": "40"
+		},
+		{
+			"brand": "Etisalat",
+			"code": "41250",
+			"mcc": "412",
+			"mnc": "50"
+		},
+		{
+			"brand": "Roshan",
+			"code": "41220",
+			"mcc": "412",
+			"mnc": "20"
+		}
+	],
+	"AG": [
+		{
+			"brand": "APUA",
+			"code": "344030",
+			"mcc": "344",
+			"mnc": "030"
+		},
+		{
+			"brand": "bmobile",
+			"code": "344920",
+			"mcc": "344",
+			"mnc": "920"
+		},
+		{
+			"brand": "Digicel",
+			"code": "344930",
+			"mcc": "344",
+			"mnc": "930"
+		}
+	],
+	"AI": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "365840",
+			"mcc": "365",
+			"mnc": "840"
+		},
+		{
+			"brand": "Weblinks Limited",
+			"code": "365010",
+			"mcc": "365",
+			"mnc": "010"
+		}
+	],
+	"AL": [
+		{
+			"brand": "AMC",
+			"code": "27601",
+			"mcc": "276",
+			"mnc": "01"
+		},
+		{
+			"brand": "Eagle Mobile",
+			"code": "27603",
+			"mcc": "276",
+			"mnc": "03"
+		},
+		{
+			"brand": "Plus Communication",
+			"code": "27604",
+			"mcc": "276",
+			"mnc": "04"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "27602",
+			"mcc": "276",
+			"mnc": "02"
+		}
+	],
+	"AM": [
+		{
+			"brand": "Beeline",
+			"code": "28301",
+			"mcc": "283",
+			"mnc": "01"
+		},
+		{
+			"brand": "Orange",
+			"code": "28310",
+			"mcc": "283",
+			"mnc": "10"
+		},
+		{
+			"brand": "VivaCell-MTS",
+			"code": "28305",
+			"mcc": "283",
+			"mnc": "05"
+		}
+	],
+	"AO": [
+		{
+			"brand": "MOVICEL",
+			"code": "63104",
+			"mcc": "631",
+			"mnc": "04"
+		},
+		{
+			"brand": "UNITEL",
+			"code": "63102",
+			"mcc": "631",
+			"mnc": "02"
+		}
+	],
+	"AR": [
+		{
+			"brand": "Claro",
+			"code": "722310",
+			"mcc": "722",
+			"mnc": "310"
+		},
+		{
+			"brand": "Hutchinson (PORT HABLE)",
+			"code": "722350",
+			"mcc": "722",
+			"mnc": "350"
+		},
+		{
+			"brand": "Movistar",
+			"code": "722010",
+			"mcc": "722",
+			"mnc": "010"
+		},
+		{
+			"brand": "Nextel",
+			"code": "722020",
+			"mcc": "722",
+			"mnc": "020"
+		},
+		{
+			"brand": "Personal",
+			"code": "72234",
+			"mcc": "722",
+			"mnc": "34"
+		},
+		{
+			"brand": "Telecom Personal SA",
+			"code": "722341",
+			"mcc": "722",
+			"mnc": "341"
+		}
+	],
+	"AS": [
+		{
+			"brand": "Bluesky",
+			"code": "54411",
+			"mcc": "544",
+			"mnc": "11"
+		}
+	],
+	"AT": [
+		{
+			"brand": "3",
+			"code": "23210",
+			"mcc": "232",
+			"mnc": "10"
+		},
+		{
+			"brand": "A1",
+			"code": "23201",
+			"mcc": "232",
+			"mnc": "01"
+		},
+		{
+			"brand": "Barablu",
+			"code": "23215",
+			"mcc": "232",
+			"mnc": "15"
+		},
+		{
+			"brand": "bob",
+			"code": "23211",
+			"mcc": "232",
+			"mnc": "11"
+		},
+		{
+			"brand": "GSM-R A",
+			"code": "23291",
+			"mcc": "232",
+			"mnc": "91"
+		},
+		{
+			"brand": "Orange",
+			"code": "23205",
+			"mcc": "232",
+			"mnc": "05"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "23203",
+			"mcc": "232",
+			"mnc": "03"
+		},
+		{
+			"brand": "yesss",
+			"code": "23212",
+			"mcc": "232",
+			"mnc": "12"
+		}
+	],
+	"AU": [
+		{
+			"brand": "3",
+			"code": "50506",
+			"mcc": "505",
+			"mnc": "06"
+		},
+		{
+			"brand": "3GIS",
+			"code": "50515",
+			"mcc": "505",
+			"mnc": "15"
+		},
+		{
+			"brand": "AAPT",
+			"code": "50514",
+			"mcc": "505",
+			"mnc": "14"
+		},
+		{
+			"brand": "Advanced Communications Technologies",
+			"code": "50524",
+			"mcc": "505",
+			"mnc": "24"
+		},
+		{
+			"brand": "Airnet",
+			"code": "50509",
+			"mcc": "505",
+			"mnc": "09"
+		},
+		{
+			"brand": "Crazy John's",
+			"code": "50538",
+			"mcc": "505",
+			"mnc": "38"
+		},
+		{
+			"brand": "Department of Defence",
+			"code": "50504",
+			"mcc": "505",
+			"mnc": "04"
+		},
+		{
+			"brand": "Localstar",
+			"code": "50588",
+			"mcc": "505",
+			"mnc": "88"
+		},
+		{
+			"brand": "Norfolk Telecom",
+			"code": "50510",
+			"mcc": "505",
+			"mnc": "10"
+		},
+		{
+			"brand": "One. Tel",
+			"code": "50508",
+			"mcc": "505",
+			"mnc": "08"
+		},
+		{
+			"brand": "OPTUS",
+			"code": "50502",
+			"mcc": "505",
+			"mnc": "02"
+		},
+		{
+			"brand": "Ozitel",
+			"code": "50505",
+			"mcc": "505",
+			"mnc": "05"
+		},
+		{
+			"brand": "Railcorp",
+			"code": "50513",
+			"mcc": "505",
+			"mnc": "13"
+		},
+		{
+			"brand": "SOUL",
+			"code": "50521",
+			"mcc": "505",
+			"mnc": "21"
+		},
+		{
+			"brand": "Telstra",
+			"code": "50501",
+			"mcc": "505",
+			"mnc": "01"
+		},
+		{
+			"brand": "Victorian Rail Track",
+			"code": "50516",
+			"mcc": "505",
+			"mnc": "16"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "50503",
+			"mcc": "505",
+			"mnc": "03"
+		},
+		{
+			"brand": "YES OPTUS",
+			"code": "50590",
+			"mcc": "505",
+			"mnc": "90"
+		}
+	],
+	"AW": [
+		{
+			"brand": "Digicel",
+			"code": "36302",
+			"mcc": "363",
+			"mnc": "02"
+		},
+		{
+			"brand": "Digicell",
+			"code": "36320",
+			"mcc": "363",
+			"mnc": "20"
+		},
+		{
+			"brand": "SETAR",
+			"code": "36301",
+			"mcc": "363",
+			"mnc": "01"
+		}
+	],
+	"AZ": [
+		{
+			"brand": "Azercell",
+			"code": "40001",
+			"mcc": "400",
+			"mnc": "01"
+		},
+		{
+			"brand": "Bakcell",
+			"code": "40002",
+			"mcc": "400",
+			"mnc": "02"
+		},
+		{
+			"brand": "FONEX",
+			"code": "40003",
+			"mcc": "400",
+			"mnc": "03"
+		},
+		{
+			"brand": "Nar Mobile",
+			"code": "40004",
+			"mcc": "400",
+			"mnc": "04"
+		}
+	],
+	"BA": [
+		{
+			"brand": "BH Mobile",
+			"code": "21890",
+			"mcc": "218",
+			"mnc": "90"
+		},
+		{
+			"brand": "ERONET",
+			"code": "21803",
+			"mcc": "218",
+			"mnc": "03"
+		},
+		{
+			"brand": "m:tel",
+			"code": "21805",
+			"mcc": "218",
+			"mnc": "05"
+		}
+	],
+	"BB": [
+		{
+			"brand": "bmobile",
+			"code": "342600",
+			"mcc": "342",
+			"mnc": "600"
+		},
+		{
+			"brand": "Digicel",
+			"code": "342750",
+			"mcc": "342",
+			"mnc": "750"
+		},
+		{
+			"brand": "Sunbeach Communications",
+			"code": "342820",
+			"mcc": "342",
+			"mnc": "820"
+		}
+	],
+	"BD": [
+		{
+			"brand": "Aktel",
+			"code": "47002",
+			"mcc": "470",
+			"mnc": "02"
+		},
+		{
+			"brand": "Banglalink",
+			"code": "47003",
+			"mcc": "470",
+			"mnc": "03"
+		},
+		{
+			"brand": "Citycell",
+			"code": "47005",
+			"mcc": "470",
+			"mnc": "05"
+		},
+		{
+			"brand": "Grameenphone",
+			"code": "47001",
+			"mcc": "470",
+			"mnc": "01"
+		},
+		{
+			"brand": "TeleTalk",
+			"code": "47004",
+			"mcc": "470",
+			"mnc": "04"
+		},
+		{
+			"brand": "Warid",
+			"code": "47007",
+			"mcc": "470",
+			"mnc": "07"
+		}
+	],
+	"BE": [
+		{
+			"brand": "BASE",
+			"code": "20620",
+			"mcc": "206",
+			"mnc": "20"
+		},
+		{
+			"brand": "Mobistar",
+			"code": "20610",
+			"mcc": "206",
+			"mnc": "10"
+		},
+		{
+			"brand": "Proximus",
+			"code": "20601",
+			"mcc": "206",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telenet",
+			"code": "20605",
+			"mcc": "206",
+			"mnc": "05"
+		}
+	],
+	"BF": [
+		{
+			"brand": "Onatel",
+			"code": "61301",
+			"mcc": "613",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telecel Faso",
+			"code": "61303",
+			"mcc": "613",
+			"mnc": "03"
+		},
+		{
+			"brand": "Zain",
+			"code": "61302",
+			"mcc": "613",
+			"mnc": "02"
+		}
+	],
+	"BG": [
+		{
+			"brand": "GLOBUL",
+			"code": "28405",
+			"mcc": "284",
+			"mnc": "05"
+		},
+		{
+			"brand": "M-Tel",
+			"code": "28401",
+			"mcc": "284",
+			"mnc": "01"
+		},
+		{
+			"brand": "Undisclosed",
+			"code": "28404",
+			"mcc": "284",
+			"mnc": "04"
+		},
+		{
+			"brand": "Vivatel",
+			"code": "28403",
+			"mcc": "284",
+			"mnc": "03"
+		}
+	],
+	"BH": [
+		{
+			"brand": "Batelco",
+			"code": "42601",
+			"mcc": "426",
+			"mnc": "01"
+		},
+		{
+			"brand": "MTC-VFBH",
+			"code": "42602",
+			"mcc": "426",
+			"mnc": "02"
+		},
+		{
+			"brand": "VIVA",
+			"code": "42604",
+			"mcc": "426",
+			"mnc": "04"
+		}
+	],
+	"BI": [
+		{
+			"brand": "Africell",
+			"code": "64202",
+			"mcc": "642",
+			"mnc": "02"
+		},
+		{
+			"brand": "HiTs Telecom",
+			"code": "64208",
+			"mcc": "642",
+			"mnc": "08"
+		},
+		{
+			"brand": "Smart Mobile",
+			"code": "64207",
+			"mcc": "642",
+			"mnc": "07"
+		},
+		{
+			"brand": "Spacetel",
+			"code": "64201",
+			"mcc": "642",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telecel",
+			"code": "64203",
+			"mcc": "642",
+			"mnc": "03"
+		},
+		{
+			"brand": "U-COM Burundi",
+			"code": "64282",
+			"mcc": "642",
+			"mnc": "82"
+		}
+	],
+	"BJ": [
+		{
+			"brand": "Areeba",
+			"code": "61603",
+			"mcc": "616",
+			"mnc": "03"
+		},
+		{
+			"brand": "BBCOM",
+			"code": "61600",
+			"mcc": "616",
+			"mnc": "00"
+		},
+		{
+			"brand": "Glo",
+			"code": "61605",
+			"mcc": "616",
+			"mnc": "05"
+		},
+		{
+			"brand": "Libercom",
+			"code": "61601",
+			"mcc": "616",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telecel",
+			"code": "61602",
+			"mcc": "616",
+			"mnc": "02"
+		}
+	],
+	"BM": [
+		{
+			"brand": "Digicel",
+			"code": "31038",
+			"mcc": "310",
+			"mnc": "38"
+		},
+		{
+			"brand": "Digicel Bermuda",
+			"code": "35001",
+			"mcc": "350",
+			"mnc": "01"
+		},
+		{
+			"brand": "Mobility",
+			"code": "35002",
+			"mcc": "350",
+			"mnc": "02"
+		}
+	],
+	"BN": [
+		{
+			"brand": "B-Mobile",
+			"code": "52802",
+			"mcc": "528",
+			"mnc": "02"
+		},
+		{
+			"brand": "DTSCom",
+			"code": "52811",
+			"mcc": "528",
+			"mnc": "11"
+		},
+		{
+			"brand": "Jabatan Telekom",
+			"code": "52801",
+			"mcc": "528",
+			"mnc": "01"
+		}
+	],
+	"BO": [
+		{
+			"brand": "Entel",
+			"code": "73602",
+			"mcc": "736",
+			"mnc": "02"
+		},
+		{
+			"brand": "Nuevatel",
+			"code": "73601",
+			"mcc": "736",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tigo",
+			"code": "73603",
+			"mcc": "736",
+			"mnc": "03"
+		}
+	],
+	"BR": [
+		{
+			"brand": "aiou",
+			"code": "72437",
+			"mcc": "724",
+			"mnc": "37"
+		},
+		{
+			"brand": "Amazonia Celular",
+			"code": "72424",
+			"mcc": "724",
+			"mnc": "24"
+		},
+		{
+			"brand": "Brasil Telecom",
+			"code": "72416",
+			"mcc": "724",
+			"mnc": "16"
+		},
+		{
+			"brand": "Claro",
+			"code": "72405",
+			"mcc": "724",
+			"mnc": "05"
+		},
+		{
+			"brand": "CTBC Cellular",
+			"code": "72432",
+			"mcc": "724",
+			"mnc": "32"
+		},
+		{
+			"brand": "CTBC Celular",
+			"code": "72407",
+			"mcc": "724",
+			"mnc": "07"
+		},
+		{
+			"brand": "Nextel",
+			"code": "72400",
+			"mcc": "724",
+			"mnc": "00"
+		},
+		{
+			"brand": "Sercomtel",
+			"code": "72415",
+			"mcc": "724",
+			"mnc": "15"
+		},
+		{
+			"brand": "TIM",
+			"code": "72402",
+			"mcc": "724",
+			"mnc": "02"
+		},
+		{
+			"brand": "TNL PCS",
+			"code": "72431",
+			"mcc": "724",
+			"mnc": "31"
+		},
+		{
+			"brand": "Vivo",
+			"code": "72406",
+			"mcc": "724",
+			"mnc": "06"
+		}
+	],
+	"BS": [
+		{
+			"brand": "BaTelCo",
+			"code": "364390",
+			"mcc": "364",
+			"mnc": "390"
+		}
+	],
+	"BT": [
+		{
+			"brand": "B-Mobile",
+			"code": "40211",
+			"mcc": "402",
+			"mnc": "11"
+		},
+		{
+			"brand": "TashiCell",
+			"code": "40277",
+			"mcc": "402",
+			"mnc": "77"
+		}
+	],
+	"BW": [
+		{
+			"brand": "BTC Mobile",
+			"code": "65204",
+			"mcc": "652",
+			"mnc": "04"
+		},
+		{
+			"brand": "Mascom",
+			"code": "65201",
+			"mcc": "652",
+			"mnc": "01"
+		},
+		{
+			"brand": "Orange",
+			"code": "65202",
+			"mcc": "652",
+			"mnc": "02"
+		}
+	],
+	"BY": [
+		{
+			"brand": "BelCel JV",
+			"code": "257501",
+			"mcc": "257",
+			"mnc": "501"
+		},
+		{
+			"brand": "DIALLOG",
+			"code": "25703",
+			"mcc": "257",
+			"mnc": "03"
+		},
+		{
+			"brand": "life:)",
+			"code": "25704",
+			"mcc": "257",
+			"mnc": "04"
+		},
+		{
+			"brand": "MTS",
+			"code": "25702",
+			"mcc": "257",
+			"mnc": "02"
+		},
+		{
+			"brand": "Velcom",
+			"code": "25701",
+			"mcc": "257",
+			"mnc": "01"
+		}
+	],
+	"BZ": [
+		{
+			"brand": "Belize Telemedia",
+			"code": "70267",
+			"mcc": "702",
+			"mnc": "67"
+		},
+		{
+			"brand": "International Telecommunications Ltd.",
+			"code": "70268",
+			"mcc": "702",
+			"mnc": "68"
+		},
+		{
+			"brand": "Smart",
+			"code": "70299",
+			"mcc": "702",
+			"mnc": "99"
+		}
+	],
+	"CA": [
+		{
+			"brand": "Airtel Wireless",
+			"code": "302290",
+			"mcc": "302",
+			"mnc": "290"
+		},
+		{
+			"brand": "BC Tel Mobility",
+			"code": "302652",
+			"mcc": "302",
+			"mnc": "652"
+		},
+		{
+			"brand": "Bell",
+			"code": "302610",
+			"mcc": "302",
+			"mnc": "610"
+		},
+		{
+			"brand": "Bell / Telus / SaskTel",
+			"code": "302880",
+			"mcc": "302",
+			"mnc": "880"
+		},
+		{
+			"brand": "Bell Mobility",
+			"code": "302651",
+			"mcc": "302",
+			"mnc": "651"
+		},
+		{
+			"brand": "DMTS",
+			"code": "302380",
+			"mcc": "302",
+			"mnc": "380"
+		},
+		{
+			"brand": "Fido",
+			"code": "302370",
+			"mcc": "302",
+			"mnc": "370"
+		},
+		{
+			"brand": "FIRST",
+			"code": "302350",
+			"mcc": "302",
+			"mnc": "350"
+		},
+		{
+			"brand": "Globalstar",
+			"code": "302710",
+			"mcc": "302",
+			"mnc": "710"
+		},
+		{
+			"brand": "ICE Wireless",
+			"code": "302620",
+			"mcc": "302",
+			"mnc": "620"
+		},
+		{
+			"brand": "MB Tel Mobility",
+			"code": "302701",
+			"mcc": "302",
+			"mnc": "701"
+		},
+		{
+			"brand": "Mobilicity",
+			"code": "302320",
+			"mcc": "302",
+			"mnc": "320"
+		},
+		{
+			"brand": "MT&T Mobility",
+			"code": "302702",
+			"mcc": "302",
+			"mnc": "702"
+		},
+		{
+			"brand": "MTS",
+			"code": "302660",
+			"mcc": "302",
+			"mnc": "660"
+		},
+		{
+			"brand": "MTS Mobility",
+			"code": "302655",
+			"mcc": "302",
+			"mnc": "655"
+		},
+		{
+			"brand": "New Tel Mobility",
+			"code": "302703",
+			"mcc": "302",
+			"mnc": "703"
+		},
+		{
+			"brand": "Rogers Wireless",
+			"code": "302720",
+			"mcc": "302",
+			"mnc": "720"
+		},
+		{
+			"brand": "Sask Tel Mobility",
+			"code": "302654",
+			"mcc": "302",
+			"mnc": "654"
+		},
+		{
+			"brand": "SaskTel",
+			"code": "302680",
+			"mcc": "302",
+			"mnc": "680"
+		},
+		{
+			"brand": "Tbay Mobility",
+			"code": "302656",
+			"mcc": "302",
+			"mnc": "656"
+		},
+		{
+			"brand": "Telus",
+			"code": "302220",
+			"mcc": "302",
+			"mnc": "220"
+		},
+		{
+			"brand": "Telus (Quebec) Mobility",
+			"code": "302657",
+			"mcc": "302",
+			"mnc": "657"
+		},
+		{
+			"brand": "Telus Mobility",
+			"code": "302360",
+			"mcc": "302",
+			"mnc": "360"
+		},
+		{
+			"brand": "Videotron",
+			"code": "302500",
+			"mcc": "302",
+			"mnc": "500"
+		},
+		{
+			"brand": "WIND Mobile",
+			"code": "302490",
+			"mcc": "302",
+			"mnc": "490"
+		}
+	],
+	"CD": [
+		{
+			"brand": "Libertis Telecom",
+			"code": "62910",
+			"mcc": "629",
+			"mnc": "10"
+		},
+		{
+			"brand": "Warid Telecom",
+			"code": "62907",
+			"mcc": "629",
+			"mnc": "07"
+		},
+		{
+			"brand": "Zain",
+			"code": "62901",
+			"mcc": "629",
+			"mnc": "01"
+		}
+	],
+	"CF": [
+		{
+			"brand": "CTP",
+			"code": "62301",
+			"mcc": "623",
+			"mnc": "01"
+		},
+		{
+			"brand": "Nationlink",
+			"code": "62304",
+			"mcc": "623",
+			"mnc": "04"
+		},
+		{
+			"brand": "Orange",
+			"code": "62303",
+			"mcc": "623",
+			"mnc": "03"
+		},
+		{
+			"brand": "TC",
+			"code": "62302",
+			"mcc": "623",
+			"mnc": "02"
+		}
+	],
+	"CH": [
+		{
+			"brand": "3G Mobile AG",
+			"code": "22850",
+			"mcc": "228",
+			"mnc": "50"
+		},
+		{
+			"brand": "BebbiCell AG",
+			"code": "22851",
+			"mcc": "228",
+			"mnc": "51"
+		},
+		{
+			"brand": "IN&Phone",
+			"code": "22807",
+			"mcc": "228",
+			"mnc": "07"
+		},
+		{
+			"brand": "Orange",
+			"code": "22803",
+			"mcc": "228",
+			"mnc": "03"
+		},
+		{
+			"brand": "SBB AG",
+			"code": "22806",
+			"mcc": "228",
+			"mnc": "06"
+		},
+		{
+			"brand": "Sunrise",
+			"code": "22802",
+			"mcc": "228",
+			"mnc": "02"
+		},
+		{
+			"brand": "Swisscom",
+			"code": "22801",
+			"mcc": "228",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tele2",
+			"code": "22808",
+			"mcc": "228",
+			"mnc": "08"
+		},
+		{
+			"brand": "Togewanet AG (Comfone)",
+			"code": "22805",
+			"mcc": "228",
+			"mnc": "05"
+		}
+	],
+	"CI": [
+		{
+			"brand": "Cora de Comstar",
+			"code": "61201",
+			"mcc": "612",
+			"mnc": "01"
+		},
+		{
+			"brand": "KoZ",
+			"code": "61204",
+			"mcc": "612",
+			"mnc": "04"
+		},
+		{
+			"brand": "Moov",
+			"code": "61202",
+			"mcc": "612",
+			"mnc": "02"
+		},
+		{
+			"brand": "MTN",
+			"code": "61205",
+			"mcc": "612",
+			"mnc": "05"
+		},
+		{
+			"brand": "Orange",
+			"code": "61203",
+			"mcc": "612",
+			"mnc": "03"
+		},
+		{
+			"brand": "ORICEL",
+			"code": "61206",
+			"mcc": "612",
+			"mnc": "06"
+		}
+	],
+	"CK": [
+		{
+			"brand": "Telecom Cook",
+			"code": "54801",
+			"mcc": "548",
+			"mnc": "01"
+		}
+	],
+	"CL": [
+		{
+			"brand": "Claro",
+			"code": "73003",
+			"mcc": "730",
+			"mnc": "03"
+		},
+		{
+			"brand": "Entel",
+			"code": "73001",
+			"mcc": "730",
+			"mnc": "01"
+		},
+		{
+			"brand": "movistar",
+			"code": "73002",
+			"mcc": "730",
+			"mnc": "02"
+		},
+		{
+			"brand": "Nextel",
+			"code": "73004",
+			"mcc": "730",
+			"mnc": "04"
+		},
+		{
+			"brand": "VTR Movil",
+			"code": "73008",
+			"mcc": "730",
+			"mnc": "08"
+		},
+		{
+			"brand": "Will",
+			"code": "73099",
+			"mcc": "730",
+			"mnc": "99"
+		}
+	],
+	"CM": [
+		{
+			"brand": "MTN Cameroon",
+			"code": "62401",
+			"mcc": "624",
+			"mnc": "01"
+		},
+		{
+			"brand": "Orange",
+			"code": "62402",
+			"mcc": "624",
+			"mnc": "02"
+		}
+	],
+	"CN": [
+		{
+			"brand": "China Unicom",
+			"code": "46006",
+			"mcc": "460",
+			"mnc": "06"
+		},
+		{
+			"brand": "China Mobile",
+			"code": "46000",
+			"mcc": "460",
+			"mnc": "00"
+		},
+		{
+			"brand": "China Telecom",
+			"code": "46003",
+			"mcc": "460",
+			"mnc": "03"
+		},
+		{
+			"brand": "China Tietong",
+			"code": "46020",
+			"mcc": "460",
+			"mnc": "20"
+		},
+		{
+			"brand": "China Unicom",
+			"code": "46001",
+			"mcc": "460",
+			"mnc": "01"
+		}
+	],
+	"CO": [
+		{
+			"brand": "Colombia Telecomunicaciones S.A. - Telecom",
+			"code": "732001",
+			"mcc": "732",
+			"mnc": "001"
+		},
+		{
+			"brand": "Comcel",
+			"code": "732101",
+			"mcc": "732",
+			"mnc": "101"
+		},
+		{
+			"brand": "Edatel",
+			"code": "732002",
+			"mcc": "732",
+			"mnc": "002"
+		},
+		{
+			"brand": "movistar",
+			"code": "732102",
+			"mcc": "732",
+			"mnc": "102"
+		},
+		{
+			"brand": "Tigo",
+			"code": "732103",
+			"mcc": "732",
+			"mnc": "103"
+		}
+	],
+	"CR": [
+		{
+			"brand": "ICE",
+			"code": "71201",
+			"mcc": "712",
+			"mnc": "01"
+		},
+		{
+			"brand": "movistar",
+			"code": "71204",
+			"mcc": "712",
+			"mnc": "04"
+		}
+	],
+	"CU": [
+		{
+			"brand": "ETECSA",
+			"code": "36801",
+			"mcc": "368",
+			"mnc": "01"
+		}
+	],
+	"CV": [
+		{
+			"brand": "CVMOVEL",
+			"code": "62501",
+			"mcc": "625",
+			"mnc": "01"
+		},
+		{
+			"brand": "T+",
+			"code": "62502",
+			"mcc": "625",
+			"mnc": "02"
+		}
+	],
+	"CY": [
+		{
+			"brand": "Cytamobile-Vodafone",
+			"code": "28001",
+			"mcc": "280",
+			"mnc": "01"
+		},
+		{
+			"brand": "MTN",
+			"code": "28010",
+			"mcc": "280",
+			"mnc": "10"
+		}
+	],
+	"CZ": [
+		{
+			"brand": "EUROTEL PRAHA",
+			"code": "23002",
+			"mcc": "230",
+			"mnc": "02"
+		},
+		{
+			"brand": "OSKAR",
+			"code": "23003",
+			"mcc": "230",
+			"mnc": "03"
+		},
+		{
+			"brand": "OSNO TELECOMUNICATION, s.r.o.",
+			"code": "23006",
+			"mcc": "230",
+			"mnc": "06"
+		},
+		{
+			"brand": "SZDC s.o.",
+			"code": "23098",
+			"mcc": "230",
+			"mnc": "98"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "23001",
+			"mcc": "230",
+			"mnc": "01"
+		},
+		{
+			"brand": "TRAVEL TELEKOMMUNIKATION, s.r.o.",
+			"code": "23005",
+			"mcc": "230",
+			"mnc": "05"
+		},
+		{
+			"brand": "U:fon",
+			"code": "23004",
+			"mcc": "230",
+			"mnc": "04"
+		},
+		{
+			"brand": "R&D Centre at FEE, CTU",
+			"code": "23099",
+			"mcc": "230",
+			"mnc": "99"
+		}
+	],
+	"DE": [
+		{
+			"brand": "27C3",
+			"code": "26242",
+			"mcc": "262",
+			"mnc": "42"
+		},
+		{
+			"brand": "Airdata",
+			"code": "26215",
+			"mcc": "262",
+			"mnc": "15"
+		},
+		{
+			"brand": "Arcor AG & Co",
+			"code": "26210",
+			"mcc": "262",
+			"mnc": "10"
+		},
+		{
+			"brand": "DB Telematik",
+			"code": "26260",
+			"mcc": "262",
+			"mnc": "60"
+		},
+		{
+			"brand": "Debitel",
+			"code": "262901",
+			"mcc": "262",
+			"mnc": "901"
+		},
+		{
+			"brand": "Dolphin Telecom",
+			"code": "26212",
+			"mcc": "262",
+			"mnc": "12"
+		},
+		{
+			"brand": "E-Plus",
+			"code": "26203",
+			"mcc": "262",
+			"mnc": "03"
+		},
+		{
+			"brand": "Group 3G UMTS",
+			"code": "26214",
+			"mcc": "262",
+			"mnc": "14"
+		},
+		{
+			"brand": "LYCA",
+			"code": "26243",
+			"mcc": "262",
+			"mnc": "43"
+		},
+		{
+			"brand": "Mobilcom Multimedia",
+			"code": "26213",
+			"mcc": "262",
+			"mnc": "13"
+		},
+		{
+			"brand": "Nash Technologies",
+			"code": "26292",
+			"mcc": "262",
+			"mnc": "92"
+		},
+		{
+			"brand": "O2",
+			"code": "26207",
+			"mcc": "262",
+			"mnc": "07"
+		},
+		{
+			"brand": "Siemens AG",
+			"code": "26276",
+			"mcc": "262",
+			"mnc": "76"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "26201",
+			"mcc": "262",
+			"mnc": "01"
+		},
+		{
+			"brand": "vistream",
+			"code": "26216",
+			"mcc": "262",
+			"mnc": "16"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "26202",
+			"mcc": "262",
+			"mnc": "02"
+		}
+	],
+	"DJ": [
+		{
+			"brand": "Evatis",
+			"code": "63801",
+			"mcc": "638",
+			"mnc": "01"
+		}
+	],
+	"DK": [
+		{
+			"brand": "3",
+			"code": "23806",
+			"mcc": "238",
+			"mnc": "06"
+		},
+		{
+			"brand": "ApS KBUS",
+			"code": "23805",
+			"mcc": "238",
+			"mnc": "05"
+		},
+		{
+			"brand": "Barablu Mobile Ltd.",
+			"code": "23807",
+			"mcc": "238",
+			"mnc": "07"
+		},
+		{
+			"brand": "Dansk Beredskabskommunikation A/S",
+			"code": "23809",
+			"mcc": "238",
+			"mnc": "09"
+		},
+		{
+			"brand": "Ericsson Danmark A/S",
+			"code": "23840",
+			"mcc": "238",
+			"mnc": "40"
+		},
+		{
+			"brand": "Lycamobile Denmark Ltd",
+			"code": "23812",
+			"mcc": "238",
+			"mnc": "12"
+		},
+		{
+			"brand": "MIGway A/S",
+			"code": "23803",
+			"mcc": "238",
+			"mnc": "03"
+		},
+		{
+			"brand": "Sonofon",
+			"code": "23877",
+			"mcc": "238",
+			"mnc": "77"
+		},
+		{
+			"brand": "TDC",
+			"code": "23801",
+			"mcc": "238",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telenor",
+			"code": "23802",
+			"mcc": "238",
+			"mnc": "02"
+		},
+		{
+			"brand": "Telia",
+			"code": "23820",
+			"mcc": "238",
+			"mnc": "20"
+		}
+	],
+	"DM": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "366110",
+			"mcc": "366",
+			"mnc": "110"
+		},
+		{
+			"brand": "Digicel",
+			"code": "366020",
+			"mcc": "366",
+			"mnc": "020"
+		}
+	],
+	"DO": [
+		{
+			"brand": "Claro",
+			"code": "37002",
+			"mcc": "370",
+			"mnc": "02"
+		},
+		{
+			"brand": "Orange",
+			"code": "37001",
+			"mcc": "370",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tricom S.A.",
+			"code": "37003",
+			"mcc": "370",
+			"mnc": "03"
+		},
+		{
+			"brand": "ViVa",
+			"code": "37004",
+			"mcc": "370",
+			"mnc": "04"
+		}
+	],
+	"DZ": [
+		{
+			"brand": "Djezzy",
+			"code": "60302",
+			"mcc": "603",
+			"mnc": "02"
+		},
+		{
+			"brand": "Mobilis",
+			"code": "60301",
+			"mcc": "603",
+			"mnc": "01"
+		},
+		{
+			"brand": "Nedjma",
+			"code": "60303",
+			"mcc": "603",
+			"mnc": "03"
+		}
+	],
+	"EC": [
+		{
+			"brand": "Alegro",
+			"code": "74002",
+			"mcc": "740",
+			"mnc": "02"
+		},
+		{
+			"brand": "Movistar",
+			"code": "74000",
+			"mcc": "740",
+			"mnc": "00"
+		},
+		{
+			"brand": "Porta",
+			"code": "74001",
+			"mcc": "740",
+			"mnc": "01"
+		}
+	],
+	"EE": [
+		{
+			"brand": "AS Bravocom Mobiil",
+			"code": "24805",
+			"mcc": "248",
+			"mnc": "05"
+		},
+		{
+			"brand": "Elisa",
+			"code": "24802",
+			"mcc": "248",
+			"mnc": "02"
+		},
+		{
+			"brand": "EMT",
+			"code": "24801",
+			"mcc": "248",
+			"mnc": "01"
+		},
+		{
+			"brand": "OY Top Connect",
+			"code": "24804",
+			"mcc": "248",
+			"mnc": "04"
+		},
+		{
+			"brand": "OY ViaTel",
+			"code": "24806",
+			"mcc": "248",
+			"mnc": "06"
+		},
+		{
+			"brand": "Tele 2",
+			"code": "24803",
+			"mcc": "248",
+			"mnc": "03"
+		}
+	],
+	"EG": [
+		{
+			"brand": "Etisalat",
+			"code": "60203",
+			"mcc": "602",
+			"mnc": "03"
+		},
+		{
+			"brand": "Mobinil",
+			"code": "60201",
+			"mcc": "602",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "60202",
+			"mcc": "602",
+			"mnc": "02"
+		}
+	],
+	"ER": [
+		{
+			"brand": "Eritel",
+			"code": "65701",
+			"mcc": "657",
+			"mnc": "01"
+		}
+	],
+	"ES": [
+		{
+			"brand": "Barablu",
+			"code": "21423",
+			"mcc": "214",
+			"mnc": "23"
+		},
+		{
+			"brand": "BT",
+			"code": "21415",
+			"mcc": "214",
+			"mnc": "15"
+		},
+		{
+			"brand": "DigiMobil",
+			"code": "21422",
+			"mcc": "214",
+			"mnc": "22"
+		},
+		{
+			"brand": "Eroski",
+			"code": "21424",
+			"mcc": "214",
+			"mnc": "24"
+		},
+		{
+			"brand": "Euskaltel",
+			"code": "21408",
+			"mcc": "214",
+			"mnc": "08"
+		},
+		{
+			"brand": "Fonyou",
+			"code": "21420",
+			"mcc": "214",
+			"mnc": "20"
+		},
+		{
+			"brand": "LycaMobile",
+			"code": "21425",
+			"mcc": "214",
+			"mnc": "25"
+		},
+		{
+			"brand": "movistar",
+			"code": "21407",
+			"mcc": "214",
+			"mnc": "07"
+		},
+		{
+			"brand": "Mobil R",
+			"code": "21417",
+			"mcc": "214",
+			"mnc": "17"
+		},
+		{
+			"brand": "ONO",
+			"code": "21418",
+			"mcc": "214",
+			"mnc": "18"
+		},
+		{
+			"brand": "Orange",
+			"code": "21403",
+			"mcc": "214",
+			"mnc": "03"
+		},
+		{
+			"brand": "Simyo",
+			"code": "21419",
+			"mcc": "214",
+			"mnc": "19"
+		},
+		{
+			"brand": "TeleCable",
+			"code": "21416",
+			"mcc": "214",
+			"mnc": "16"
+		},
+		{
+			"brand": "TME",
+			"code": "21405",
+			"mcc": "214",
+			"mnc": "05"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "21401",
+			"mcc": "214",
+			"mnc": "01"
+		},
+		{
+			"brand": "Yoigo",
+			"code": "21404",
+			"mcc": "214",
+			"mnc": "04"
+		}
+	],
+	"ET": [
+		{
+			"brand": "ETMTN",
+			"code": "63601",
+			"mcc": "636",
+			"mnc": "01"
+		}
+	],
+	"FI": [
+		{
+			"brand": "AMT",
+			"code": "24414",
+			"mcc": "244",
+			"mnc": "14"
+		},
+		{
+			"brand": "DNA",
+			"code": "24403",
+			"mcc": "244",
+			"mnc": "03"
+		},
+		{
+			"brand": "Elisa",
+			"code": "24405",
+			"mcc": "244",
+			"mnc": "05"
+		},
+		{
+			"brand": "Nokia",
+			"code": "24407",
+			"mcc": "244",
+			"mnc": "07"
+		},
+		{
+			"brand": "SAMK",
+			"code": "24415",
+			"mcc": "244",
+			"mnc": "15"
+		},
+		{
+			"brand": "Saunalahti",
+			"code": "24421",
+			"mcc": "244",
+			"mnc": "21"
+		},
+		{
+			"brand": "Scnl Truphone",
+			"code": "24429",
+			"mcc": "244",
+			"mnc": "29"
+		},
+		{
+			"brand": "Sonera",
+			"code": "24491",
+			"mcc": "244",
+			"mnc": "91"
+		},
+		{
+			"brand": "TDC Oy",
+			"code": "24410",
+			"mcc": "244",
+			"mnc": "10"
+		},
+		{
+			"brand": "Unknown",
+			"code": "24408",
+			"mcc": "244",
+			"mnc": "08"
+		},
+		{
+			"brand": "VIRVE",
+			"code": "24411",
+			"mcc": "244",
+			"mnc": "11"
+		}
+	],
+	"FJ": [
+		{
+			"brand": "Digicel",
+			"code": "54202",
+			"mcc": "542",
+			"mnc": "02"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "54201",
+			"mcc": "542",
+			"mnc": "01"
+		}
+	],
+	"FM": [
+		{
+			"brand": "FSM Telecom",
+			"code": "55001",
+			"mcc": "550",
+			"mnc": "01"
+		}
+	],
+	"FO": [
+		{
+			"brand": "Faroese Telecom",
+			"code": "28801",
+			"mcc": "288",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "28802",
+			"mcc": "288",
+			"mnc": "02"
+		}
+	],
+	"FR": [
+		{
+			"brand": "Bouygues",
+			"code": "20820",
+			"mcc": "208",
+			"mnc": "20"
+		},
+		{
+			"brand": "France Telecom Mobile",
+			"code": "20801",
+			"mcc": "208",
+			"mnc": "01"
+		},
+		{
+			"brand": "Free Mobile",
+			"code": "20814",
+			"mcc": "208",
+			"mnc": "14"
+		},
+		{
+			"brand": "Globalstar Europe",
+			"code": "20805",
+			"mcc": "208",
+			"mnc": "05"
+		},
+		{
+			"brand": "Orange",
+			"code": "20800",
+			"mcc": "208",
+			"mnc": "00"
+		},
+		{
+			"brand": "SFR",
+			"code": "20810",
+			"mcc": "208",
+			"mnc": "10"
+		},
+		{
+			"brand": "Transatel Mobile",
+			"code": "20822",
+			"mcc": "208",
+			"mnc": "22"
+		}
+	],
+	"GA": [
+		{
+			"brand": "Azur",
+			"code": "62804",
+			"mcc": "628",
+			"mnc": "04"
+		},
+		{
+			"brand": "Libertis",
+			"code": "62801",
+			"mcc": "628",
+			"mnc": "01"
+		},
+		{
+			"brand": "Moov (Telecel) Gabon S.A.",
+			"code": "62802",
+			"mcc": "628",
+			"mnc": "02"
+		},
+		{
+			"brand": "Zain",
+			"code": "62803",
+			"mcc": "628",
+			"mnc": "03"
+		}
+	],
+	"GB": [
+		{
+			"brand": "3",
+			"code": "23420",
+			"mcc": "234",
+			"mnc": "20"
+		},
+		{
+			"brand": "BT",
+			"code": "23400",
+			"mcc": "234",
+			"mnc": "00"
+		},
+		{
+			"brand": "Cable & Wireless / Sure Mobile (Isle of Man)",
+			"code": "23455",
+			"mcc": "234",
+			"mnc": "55"
+		},
+		{
+			"brand": "Cloud9",
+			"code": "23418",
+			"mcc": "234",
+			"mnc": "18"
+		},
+		{
+			"brand": "Jersey Telenet",
+			"code": "23403",
+			"mcc": "234",
+			"mnc": "03"
+		},
+		{
+			"brand": "JT-Wave",
+			"code": "23450",
+			"mcc": "234",
+			"mnc": "50"
+		},
+		{
+			"brand": "Manx Telecom",
+			"code": "23458",
+			"mcc": "234",
+			"mnc": "58"
+		},
+		{
+			"brand": "MCom",
+			"code": "23401",
+			"mcc": "234",
+			"mnc": "01"
+		},
+		{
+			"brand": "O2",
+			"code": "23402",
+			"mcc": "234",
+			"mnc": "02"
+		},
+		{
+			"brand": "Orange",
+			"code": "23433",
+			"mcc": "234",
+			"mnc": "33"
+		},
+		{
+			"brand": "Railtrack",
+			"code": "23412",
+			"mcc": "234",
+			"mnc": "12"
+		},
+		{
+			"brand": "Routo Telecom",
+			"code": "23422",
+			"mcc": "234",
+			"mnc": "22"
+		},
+		{
+			"brand": "Sure Mobile",
+			"code": "23409",
+			"mcc": "234",
+			"mnc": "09"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "23430",
+			"mcc": "234",
+			"mnc": "30"
+		},
+		{
+			"brand": "Telaware",
+			"code": "23419",
+			"mcc": "234",
+			"mnc": "19"
+		},
+		{
+			"brand": "Tesco Mobile",
+			"code": "234100",
+			"mcc": "234",
+			"mnc": "100"
+		},
+		{
+			"brand": "BT",
+			"code": "23477",
+			"mcc": "234",
+			"mnc": "77"
+		},
+		{
+			"brand": "Virgin",
+			"code": "23431",
+			"mcc": "234",
+			"mnc": "31"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "23415",
+			"mcc": "234",
+			"mnc": "15"
+		}
+	],
+	"GD": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "352110",
+			"mcc": "352",
+			"mnc": "110"
+		},
+		{
+			"brand": "Digicel",
+			"code": "352030",
+			"mcc": "352",
+			"mnc": "030"
+		}
+	],
+	"GE": [
+		{
+			"brand": "A-Mobile",
+			"code": "28988",
+			"mcc": "289",
+			"mnc": "88"
+		},
+		{
+			"brand": "Aquafon",
+			"code": "28967",
+			"mcc": "289",
+			"mnc": "67"
+		},
+		{
+			"brand": "Beeline",
+			"code": "28204",
+			"mcc": "282",
+			"mnc": "04"
+		},
+		{
+			"brand": "Geocell",
+			"code": "28201",
+			"mcc": "282",
+			"mnc": "01"
+		},
+		{
+			"brand": "Iberiatel",
+			"code": "28203",
+			"mcc": "282",
+			"mnc": "03"
+		},
+		{
+			"brand": "Magti",
+			"code": "28202",
+			"mcc": "282",
+			"mnc": "02"
+		},
+		{
+			"brand": "Silknet",
+			"code": "28205",
+			"mcc": "282",
+			"mnc": "05"
+		}
+	],
+	"GF": [
+		{
+			"brand": "Digicel",
+			"code": "73801",
+			"mcc": "738",
+			"mnc": "01"
+		},
+		{
+			"brand": "GT&T Cellink Plus",
+			"code": "73802",
+			"mcc": "738",
+			"mnc": "02"
+		}
+	],
+	"GH": [
+		{
+			"brand": "Airtel",
+			"code": "62006",
+			"mcc": "620",
+			"mnc": "06"
+		},
+		{
+			"brand": "Ghana Telecom Mobile",
+			"code": "62002",
+			"mcc": "620",
+			"mnc": "02"
+		},
+		{
+			"brand": "Kasapa / Hutchison Telecom",
+			"code": "62004",
+			"mcc": "620",
+			"mnc": "04"
+		},
+		{
+			"brand": "MTN",
+			"code": "62001",
+			"mcc": "620",
+			"mnc": "01"
+		},
+		{
+			"brand": "tiGO",
+			"code": "62003",
+			"mcc": "620",
+			"mnc": "03"
+		}
+	],
+	"GI": [
+		{
+			"brand": "CTS Mobile",
+			"code": "26606",
+			"mcc": "266",
+			"mnc": "06"
+		},
+		{
+			"brand": "GibTel",
+			"code": "26601",
+			"mcc": "266",
+			"mnc": "01"
+		}
+	],
+	"GL": [
+		{
+			"brand": "TELE Greenland A/S",
+			"code": "29001",
+			"mcc": "290",
+			"mnc": "01"
+		}
+	],
+	"GM": [
+		{
+			"brand": "Africel",
+			"code": "60702",
+			"mcc": "607",
+			"mnc": "02"
+		},
+		{
+			"brand": "Comium",
+			"code": "60703",
+			"mcc": "607",
+			"mnc": "03"
+		},
+		{
+			"brand": "Gamcel",
+			"code": "60701",
+			"mcc": "607",
+			"mnc": "01"
+		},
+		{
+			"brand": "QCell",
+			"code": "60704",
+			"mcc": "607",
+			"mnc": "04"
+		}
+	],
+	"GN": [
+		{
+			"brand": "Cellcom",
+			"code": "61105",
+			"mcc": "611",
+			"mnc": "05"
+		},
+		{
+			"brand": "Lagui",
+			"code": "61102",
+			"mcc": "611",
+			"mnc": "02"
+		},
+		{
+			"brand": "MTN",
+			"code": "61104",
+			"mcc": "611",
+			"mnc": "04"
+		},
+		{
+			"brand": "Spacetel",
+			"code": "61101",
+			"mcc": "611",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telecel Guinee",
+			"code": "61103",
+			"mcc": "611",
+			"mnc": "03"
+		}
+	],
+	"GP": [
+		{
+			"brand": "Digicel",
+			"code": "34020",
+			"mcc": "340",
+			"mnc": "20"
+		},
+		{
+			"brand": "MIO GSM",
+			"code": "34008",
+			"mcc": "340",
+			"mnc": "08"
+		},
+		{
+			"brand": "Orange",
+			"code": "34001",
+			"mcc": "340",
+			"mnc": "01"
+		},
+		{
+			"brand": "Outremer",
+			"code": "34002",
+			"mcc": "340",
+			"mnc": "02"
+		},
+		{
+			"brand": "Telcell",
+			"code": "34003",
+			"mcc": "340",
+			"mnc": "03"
+		}
+	],
+	"GQ": [
+		{
+			"brand": "Hits GQ",
+			"code": "62703",
+			"mcc": "627",
+			"mnc": "03"
+		},
+		{
+			"brand": "Orange GQ",
+			"code": "62701",
+			"mcc": "627",
+			"mnc": "01"
+		}
+	],
+	"GR": [
+		{
+			"brand": "Cosmote",
+			"code": "20201",
+			"mcc": "202",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "20205",
+			"mcc": "202",
+			"mnc": "05"
+		},
+		{
+			"brand": "Wind",
+			"code": "20209",
+			"mcc": "202",
+			"mnc": "09"
+		}
+	],
+	"GT": [
+		{
+			"brand": "Claro",
+			"code": "70401",
+			"mcc": "704",
+			"mnc": "01"
+		},
+		{
+			"brand": "Comcel / Tigo",
+			"code": "70402",
+			"mcc": "704",
+			"mnc": "02"
+		},
+		{
+			"brand": "movistar",
+			"code": "70403",
+			"mcc": "704",
+			"mnc": "03"
+		}
+	],
+	"GU": [
+		{
+			"brand": "Guam Telephone Authority",
+			"code": "310033",
+			"mcc": "310",
+			"mnc": "033"
+		},
+		{
+			"brand": "Guamcell",
+			"code": "310370",
+			"mcc": "310",
+			"mnc": "370"
+		},
+		{
+			"brand": "i CAN_GSM",
+			"code": "311250",
+			"mcc": "311",
+			"mnc": "250"
+		},
+		{
+			"brand": "IT&E Wireless",
+			"code": "310032",
+			"mcc": "310",
+			"mnc": "032"
+		},
+		{
+			"brand": "mPulse",
+			"code": "310140",
+			"mcc": "310",
+			"mnc": "140"
+		}
+	],
+	"GW": [
+		{
+			"brand": "Areeba",
+			"code": "63202",
+			"mcc": "632",
+			"mnc": "02"
+		},
+		{
+			"brand": "Orange",
+			"code": "63203",
+			"mcc": "632",
+			"mnc": "03"
+		}
+	],
+	"HK": [
+		{
+			"brand": "3 (3G)",
+			"code": "45403",
+			"mcc": "454",
+			"mnc": "03"
+		},
+		{
+			"brand": "3 CDMA",
+			"code": "45405",
+			"mcc": "454",
+			"mnc": "05"
+		},
+		{
+			"brand": "3 Dual (2G)",
+			"code": "45404",
+			"mcc": "454",
+			"mnc": "04"
+		},
+		{
+			"brand": "C Peoples",
+			"code": "45412",
+			"mcc": "454",
+			"mnc": "12"
+		},
+		{
+			"brand": "China Motion Telecom",
+			"code": "45409",
+			"mcc": "454",
+			"mnc": "09"
+		},
+		{
+			"brand": "China Unicom",
+			"code": "45407",
+			"mcc": "454",
+			"mnc": "07"
+		},
+		{
+			"brand": "China-Hongkong Telecom",
+			"code": "45411",
+			"mcc": "454",
+			"mnc": "11"
+		},
+		{
+			"brand": "CITIC Telecom 1616",
+			"code": "45401",
+			"mcc": "454",
+			"mnc": "01"
+		},
+		{
+			"brand": "CSL",
+			"code": "45400",
+			"mcc": "454",
+			"mnc": "00"
+		},
+		{
+			"brand": "CSL 3G",
+			"code": "45402",
+			"mcc": "454",
+			"mnc": "02"
+		},
+		{
+			"brand": "Hong Kong CSL Limited",
+			"code": "45418",
+			"mcc": "454",
+			"mnc": "18"
+		},
+		{
+			"brand": "Hutchison Telecom",
+			"code": "45414",
+			"mcc": "454",
+			"mnc": "14"
+		},
+		{
+			"brand": "New World",
+			"code": "45410",
+			"mcc": "454",
+			"mnc": "10"
+		},
+		{
+			"brand": "PCCW",
+			"code": "45416",
+			"mcc": "454",
+			"mnc": "16"
+		},
+		{
+			"brand": "SmarTone Mobile Comms",
+			"code": "45415",
+			"mcc": "454",
+			"mnc": "15"
+		},
+		{
+			"brand": "Smartone-Vodafone",
+			"code": "45406",
+			"mcc": "454",
+			"mnc": "06"
+		},
+		{
+			"brand": "Trident",
+			"code": "45408",
+			"mcc": "454",
+			"mnc": "08"
+		}
+	],
+	"HN": [
+		{
+			"brand": "Celtel / Tigo",
+			"code": "70802",
+			"mcc": "708",
+			"mnc": "02"
+		},
+		{
+			"brand": "Claro",
+			"code": "70801",
+			"mcc": "708",
+			"mnc": "01"
+		},
+		{
+			"brand": "DIGICEL",
+			"code": "70840",
+			"mcc": "708",
+			"mnc": "40"
+		},
+		{
+			"brand": "Hondutel",
+			"code": "70830",
+			"mcc": "708",
+			"mnc": "30"
+		}
+	],
+	"HR": [
+		{
+			"brand": "T-Mobile",
+			"code": "21901",
+			"mcc": "219",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tele2",
+			"code": "21902",
+			"mcc": "219",
+			"mnc": "02"
+		},
+		{
+			"brand": "VIPnet",
+			"code": "21910",
+			"mcc": "219",
+			"mnc": "10"
+		}
+	],
+	"HT": [
+		{
+			"brand": "Comcel / Voila",
+			"code": "372010",
+			"mcc": "372",
+			"mnc": "010"
+		},
+		{
+			"brand": "Digicel",
+			"code": "37202",
+			"mcc": "372",
+			"mnc": "02"
+		},
+		{
+			"brand": "NATCOM",
+			"code": "37203",
+			"mcc": "372",
+			"mnc": "03"
+		}
+	],
+	"HU": [
+		{
+			"brand": "Pannon",
+			"code": "21601",
+			"mcc": "216",
+			"mnc": "01"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "21630",
+			"mcc": "216",
+			"mnc": "30"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "21670",
+			"mcc": "216",
+			"mnc": "70"
+		}
+	],
+	"ID": [
+		{
+			"brand": "3",
+			"code": "51089",
+			"mcc": "510",
+			"mnc": "89"
+		},
+		{
+			"brand": "AXIS",
+			"code": "51008",
+			"mcc": "510",
+			"mnc": "08"
+		},
+		{
+			"brand": "Ceria",
+			"code": "51027",
+			"mcc": "510",
+			"mnc": "27"
+		},
+		{
+			"brand": "Esia",
+			"code": "51099",
+			"mcc": "510",
+			"mnc": "99"
+		},
+		{
+			"brand": "Fren/Hepi",
+			"code": "51028",
+			"mcc": "510",
+			"mnc": "28"
+		},
+		{
+			"brand": "IM3",
+			"code": "51021",
+			"mcc": "510",
+			"mnc": "21"
+		},
+		{
+			"brand": "INDOSAT",
+			"code": "51001",
+			"mcc": "510",
+			"mnc": "01"
+		},
+		{
+			"brand": "PSN",
+			"code": "51000",
+			"mcc": "510",
+			"mnc": "00"
+		},
+		{
+			"brand": "SMART",
+			"code": "51009",
+			"mcc": "510",
+			"mnc": "09"
+		},
+		{
+			"brand": "StarOne",
+			"code": "51003",
+			"mcc": "510",
+			"mnc": "03"
+		},
+		{
+			"brand": "TelkomFlexi",
+			"code": "51007",
+			"mcc": "510",
+			"mnc": "07"
+		},
+		{
+			"brand": "TELKOMMobile",
+			"code": "51020",
+			"mcc": "510",
+			"mnc": "20"
+		},
+		{
+			"brand": "Telkomsel",
+			"code": "51010",
+			"mcc": "510",
+			"mnc": "10"
+		},
+		{
+			"brand": "XL",
+			"code": "51011",
+			"mcc": "510",
+			"mnc": "11"
+		}
+	],
+	"IE": [
+		{
+			"brand": "3",
+			"code": "27205",
+			"mcc": "272",
+			"mnc": "05"
+		},
+		{
+			"brand": "Access Telecom",
+			"code": "27204",
+			"mcc": "272",
+			"mnc": "04"
+		},
+		{
+			"brand": "Clever Communications",
+			"code": "27209",
+			"mcc": "272",
+			"mnc": "09"
+		},
+		{
+			"brand": "E-Mobile",
+			"code": "27200",
+			"mcc": "272",
+			"mnc": "00"
+		},
+		{
+			"brand": "Eircom",
+			"code": "27207",
+			"mcc": "272",
+			"mnc": "07"
+		},
+		{
+			"brand": "Liffey Telecom",
+			"code": "27211",
+			"mcc": "272",
+			"mnc": "11"
+		},
+		{
+			"brand": "Meteor",
+			"code": "27203",
+			"mcc": "272",
+			"mnc": "03"
+		},
+		{
+			"brand": "O2",
+			"code": "27202",
+			"mcc": "272",
+			"mnc": "02"
+		},
+		{
+			"brand": "Tesco Mobile",
+			"code": "272020",
+			"mcc": "272",
+			"mnc": "020"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "27201",
+			"mcc": "272",
+			"mnc": "01"
+		}
+	],
+	"IL": [
+		{
+			"brand": "Cellcom",
+			"code": "42502",
+			"mcc": "425",
+			"mnc": "02"
+		},
+		{
+			"brand": "Mirs",
+			"code": "42577",
+			"mcc": "425",
+			"mnc": "77"
+		},
+		{
+			"brand": "Orange",
+			"code": "42501",
+			"mcc": "425",
+			"mnc": "01"
+		},
+		{
+			"brand": "Pelephone",
+			"code": "42503",
+			"mcc": "425",
+			"mnc": "03"
+		}
+	],
+	"IN": [
+		{
+			"brand": "AIRCEL",
+			"code": "40417",
+			"mcc": "404",
+			"mnc": "17"
+		},
+		{
+			"brand": "Aircell Digilink",
+			"code": "40460",
+			"mcc": "404",
+			"mnc": "60"
+		},
+		{
+			"brand": "Aircell Digilink Essar Cellph.",
+			"code": "40415",
+			"mcc": "404",
+			"mnc": "15"
+		},
+		{
+			"brand": "Airtel",
+			"code": "40406",
+			"mcc": "404",
+			"mnc": "06"
+		},
+		{
+			"brand": "AirTel",
+			"code": "40553",
+			"mcc": "405",
+			"mnc": "53"
+		},
+		{
+			"brand": "Airtel - Haryana",
+			"code": "40496",
+			"mcc": "404",
+			"mnc": "96"
+		},
+		{
+			"brand": "Airtel - Punjab",
+			"code": "40402",
+			"mcc": "404",
+			"mnc": "02"
+		},
+		{
+			"brand": "Airtel / Bharti Telenet",
+			"code": "40403",
+			"mcc": "404",
+			"mnc": "03"
+		},
+		{
+			"brand": "Airtel Gujrat",
+			"code": "40493",
+			"mcc": "404",
+			"mnc": "93"
+		},
+		{
+			"brand": "Airtel Maharashtra & Goa",
+			"code": "40490",
+			"mcc": "404",
+			"mnc": "90"
+		},
+		{
+			"brand": "Airtel Mumbai",
+			"code": "40492",
+			"mcc": "404",
+			"mnc": "92"
+		},
+		{
+			"brand": "BPL Mobile Cellular",
+			"code": "40443",
+			"mcc": "404",
+			"mnc": "43"
+		},
+		{
+			"brand": "BPL Mobile Mumbai",
+			"code": "40421",
+			"mcc": "404",
+			"mnc": "21"
+		},
+		{
+			"brand": "BPL USWest Cellular / Cellular Comms",
+			"code": "40427",
+			"mcc": "404",
+			"mnc": "27"
+		},
+		{
+			"brand": "BSNL",
+			"code": "40434",
+			"mcc": "404",
+			"mnc": "34"
+		},
+		{
+			"brand": "BSNL J&K",
+			"code": "40462",
+			"mcc": "404",
+			"mnc": "62"
+		},
+		{
+			"brand": "BSNL Kerala",
+			"code": "40472",
+			"mcc": "404",
+			"mnc": "72"
+		},
+		{
+			"brand": "BSNL Maharashtra & Goa",
+			"code": "40466",
+			"mcc": "404",
+			"mnc": "66"
+		},
+		{
+			"brand": "BTA Cellcom",
+			"code": "40478",
+			"mcc": "404",
+			"mnc": "78"
+		},
+		{
+			"brand": "Dishnet Wireless",
+			"code": "40448",
+			"mcc": "404",
+			"mnc": "48"
+		},
+		{
+			"brand": "Escorts",
+			"code": "40482",
+			"mcc": "404",
+			"mnc": "82"
+		},
+		{
+			"brand": "Escorts Telecom",
+			"code": "40487",
+			"mcc": "404",
+			"mnc": "87"
+		},
+		{
+			"brand": "Essar / Sterling Cellular",
+			"code": "40411",
+			"mcc": "404",
+			"mnc": "11"
+		},
+		{
+			"brand": "Etisalat DB(cheers)",
+			"code": "405912",
+			"mcc": "405",
+			"mnc": "912"
+		},
+		{
+			"brand": "Hutch",
+			"code": "40566",
+			"mcc": "405",
+			"mnc": "66"
+		},
+		{
+			"brand": "Hutchinson Essar South",
+			"code": "40486",
+			"mcc": "404",
+			"mnc": "86"
+		},
+		{
+			"brand": "Hutchison Essar South",
+			"code": "40413",
+			"mcc": "404",
+			"mnc": "13"
+		},
+		{
+			"brand": "IDEA",
+			"code": "40419",
+			"mcc": "404",
+			"mnc": "19"
+		},
+		{
+			"brand": "Idea (Escotel) Haryana",
+			"code": "40412",
+			"mcc": "404",
+			"mnc": "12"
+		},
+		{
+			"brand": "Idea (Escotel) UP West",
+			"code": "40456",
+			"mcc": "404",
+			"mnc": "56"
+		},
+		{
+			"brand": "IDEA CELLULAR - Delhi",
+			"code": "40404",
+			"mcc": "404",
+			"mnc": "04"
+		},
+		{
+			"brand": "IDEA Cellular - Gujarat",
+			"code": "40424",
+			"mcc": "404",
+			"mnc": "24"
+		},
+		{
+			"brand": "IDEA Cellular - Maharashtra",
+			"code": "40422",
+			"mcc": "404",
+			"mnc": "22"
+		},
+		{
+			"brand": "Loop Mobile",
+			"code": "405855",
+			"mcc": "405",
+			"mnc": "855"
+		},
+		{
+			"brand": "MTNL - Delhi",
+			"code": "40468",
+			"mcc": "404",
+			"mnc": "68"
+		},
+		{
+			"brand": "MTNL - Mumbai",
+			"code": "40469",
+			"mcc": "404",
+			"mnc": "69"
+		},
+		{
+			"brand": "Reliance",
+			"code": "40450",
+			"mcc": "404",
+			"mnc": "50"
+		},
+		{
+			"brand": "Reliance Telecom Private",
+			"code": "40409",
+			"mcc": "404",
+			"mnc": "09"
+		},
+		{
+			"brand": "RPG MAA",
+			"code": "40441",
+			"mcc": "404",
+			"mnc": "41"
+		},
+		{
+			"brand": "S Tel",
+			"code": "405881",
+			"mcc": "405",
+			"mnc": "881"
+		},
+		{
+			"brand": "Spice Telecom - Karnataka",
+			"code": "40444",
+			"mcc": "404",
+			"mnc": "44"
+		},
+		{
+			"brand": "Spice Telecom - Punjab",
+			"code": "40414",
+			"mcc": "404",
+			"mnc": "14"
+		},
+		{
+			"brand": "Srinivas Cellcom / Aircel",
+			"code": "40442",
+			"mcc": "404",
+			"mnc": "42"
+		},
+		{
+			"brand": "TATA Cellular / Idea Cellular",
+			"code": "40407",
+			"mcc": "404",
+			"mnc": "07"
+		},
+		{
+			"brand": "TATA Teleservice",
+			"code": "405025",
+			"mcc": "405",
+			"mnc": "025"
+		},
+		{
+			"brand": "Uninor",
+			"code": "405818",
+			"mcc": "405",
+			"mnc": "818"
+		},
+		{
+			"brand": "Videocon Datacom",
+			"code": "405824",
+			"mcc": "405",
+			"mnc": "824"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "40420",
+			"mcc": "404",
+			"mnc": "20"
+		},
+		{
+			"brand": "Vodafone - Gujarat",
+			"code": "40405",
+			"mcc": "404",
+			"mnc": "05"
+		},
+		{
+			"brand": "Vodafone - Haryana",
+			"code": "40401",
+			"mcc": "404",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodafone - Kolkata",
+			"code": "40430",
+			"mcc": "404",
+			"mnc": "30"
+		},
+		{
+			"brand": "Vodafone IN",
+			"code": "405750",
+			"mcc": "405",
+			"mnc": "750"
+		}
+	],
+	"IQ": [
+		{
+			"brand": "Asia Cell",
+			"code": "41805",
+			"mcc": "418",
+			"mnc": "05"
+		},
+		{
+			"brand": "Korek",
+			"code": "41840",
+			"mcc": "418",
+			"mnc": "40"
+		},
+		{
+			"brand": "Mobitel",
+			"code": "41845",
+			"mcc": "418",
+			"mnc": "45"
+		},
+		{
+			"brand": "Omnnea",
+			"code": "41892",
+			"mcc": "418",
+			"mnc": "92"
+		},
+		{
+			"brand": "SanaTel",
+			"code": "41808",
+			"mcc": "418",
+			"mnc": "08"
+		},
+		{
+			"brand": "Zain IQ",
+			"code": "41820",
+			"mcc": "418",
+			"mnc": "20"
+		}
+	],
+	"IR": [
+		{
+			"brand": "Irancell",
+			"code": "43235",
+			"mcc": "432",
+			"mnc": "35"
+		},
+		{
+			"brand": "Iraphone",
+			"code": "43293",
+			"mcc": "432",
+			"mnc": "93"
+		},
+		{
+			"brand": "MCI",
+			"code": "43211",
+			"mcc": "432",
+			"mnc": "11"
+		},
+		{
+			"brand": "MTCE",
+			"code": "43219",
+			"mcc": "432",
+			"mnc": "19"
+		},
+		{
+			"brand": "Taliya",
+			"code": "43232",
+			"mcc": "432",
+			"mnc": "32"
+		},
+		{
+			"brand": "TCI",
+			"code": "43270",
+			"mcc": "432",
+			"mnc": "70"
+		},
+		{
+			"brand": "TKC",
+			"code": "43214",
+			"mcc": "432",
+			"mnc": "14"
+		}
+	],
+	"IS": [
+		{
+			"brand": "IceCell",
+			"code": "27407",
+			"mcc": "274",
+			"mnc": "07"
+		},
+		{
+			"brand": "Nova",
+			"code": "27411",
+			"mcc": "274",
+			"mnc": "11"
+		},
+		{
+			"brand": "Nuii Niu Ehf",
+			"code": "27406",
+			"mcc": "274",
+			"mnc": "06"
+		},
+		{
+			"brand": "On-waves",
+			"code": "27408",
+			"mcc": "274",
+			"mnc": "08"
+		},
+		{
+			"brand": "Siminn",
+			"code": "27401",
+			"mcc": "274",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tal",
+			"code": "27412",
+			"mcc": "274",
+			"mnc": "12"
+		},
+		{
+			"brand": "Viking",
+			"code": "27404",
+			"mcc": "274",
+			"mnc": "04"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "27402",
+			"mcc": "274",
+			"mnc": "02"
+		}
+	],
+	"IT": [
+		{
+			"brand": "3 Italia",
+			"code": "22299",
+			"mcc": "222",
+			"mnc": "99"
+		},
+		{
+			"brand": "Blu",
+			"code": "22298",
+			"mcc": "222",
+			"mnc": "98"
+		},
+		{
+			"brand": "Elsacom",
+			"code": "22202",
+			"mcc": "222",
+			"mnc": "02"
+		},
+		{
+			"brand": "IPSE 2000",
+			"code": "22277",
+			"mcc": "222",
+			"mnc": "77"
+		},
+		{
+			"brand": "Noverca",
+			"code": "22207",
+			"mcc": "222",
+			"mnc": "07"
+		},
+		{
+			"brand": "RFI",
+			"code": "22230",
+			"mcc": "222",
+			"mnc": "30"
+		},
+		{
+			"brand": "TIM",
+			"code": "22201",
+			"mcc": "222",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "22210",
+			"mcc": "222",
+			"mnc": "10"
+		},
+		{
+			"brand": "Wind",
+			"code": "22288",
+			"mcc": "222",
+			"mnc": "88"
+		}
+	],
+	"JM": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "338020",
+			"mcc": "338",
+			"mnc": "020"
+		},
+		{
+			"brand": "Claro",
+			"code": "338070",
+			"mcc": "338",
+			"mnc": "070"
+		},
+		{
+			"brand": "Digicel",
+			"code": "338050",
+			"mcc": "338",
+			"mnc": "050"
+		}
+	],
+	"JO": [
+		{
+			"brand": "Orange",
+			"code": "41677",
+			"mcc": "416",
+			"mnc": "77"
+		},
+		{
+			"brand": "Umniah",
+			"code": "41603",
+			"mcc": "416",
+			"mnc": "03"
+		},
+		{
+			"brand": "XPress Telecom",
+			"code": "41602",
+			"mcc": "416",
+			"mnc": "02"
+		},
+		{
+			"brand": "Zain",
+			"code": "41601",
+			"mcc": "416",
+			"mnc": "01"
+		}
+	],
+	"JP": [
+		{
+			"brand": "DoCoMo",
+			"code": "44001",
+			"mcc": "440",
+			"mnc": "01"
+		},
+		{
+			"brand": "eMobile",
+			"code": "44000",
+			"mcc": "440",
+			"mnc": "00"
+		},
+		{
+			"brand": "KDDI",
+			"code": "44007",
+			"mcc": "440",
+			"mnc": "07"
+		},
+		{
+			"brand": "Okinawa Cellular Telephone",
+			"code": "44078",
+			"mcc": "440",
+			"mnc": "78"
+		},
+		{
+			"brand": "SoftBank",
+			"code": "44020",
+			"mcc": "440",
+			"mnc": "20"
+		},
+		{
+			"brand": "TU-KA",
+			"code": "44080",
+			"mcc": "440",
+			"mnc": "80"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "44004",
+			"mcc": "440",
+			"mnc": "04"
+		}
+	],
+	"KE": [
+		{
+			"brand": "Orange Kenya",
+			"code": "63907",
+			"mcc": "639",
+			"mnc": "07"
+		},
+		{
+			"brand": "Safaricom",
+			"code": "63902",
+			"mcc": "639",
+			"mnc": "02"
+		},
+		{
+			"brand": "yu",
+			"code": "63905",
+			"mcc": "639",
+			"mnc": "05"
+		},
+		{
+			"brand": "Zain",
+			"code": "63903",
+			"mcc": "639",
+			"mnc": "03"
+		}
+	],
+	"KG": [
+		{
+			"brand": "Bitel",
+			"code": "43701",
+			"mcc": "437",
+			"mnc": "01"
+		},
+		{
+			"brand": "Fonex",
+			"code": "43703",
+			"mcc": "437",
+			"mnc": "03"
+		},
+		{
+			"brand": "MegaCom",
+			"code": "43705",
+			"mcc": "437",
+			"mnc": "05"
+		},
+		{
+			"brand": "O!",
+			"code": "43709",
+			"mcc": "437",
+			"mnc": "09"
+		}
+	],
+	"KH": [
+		{
+			"brand": "Beeline",
+			"code": "45609",
+			"mcc": "456",
+			"mnc": "09"
+		},
+		{
+			"brand": "Camshin / Shinawatra",
+			"code": "45618",
+			"mcc": "456",
+			"mnc": "18"
+		},
+		{
+			"brand": "Excell",
+			"code": "45611",
+			"mcc": "456",
+			"mnc": "11"
+		},
+		{
+			"brand": "hello",
+			"code": "45602",
+			"mcc": "456",
+			"mnc": "02"
+		},
+		{
+			"brand": "Metfone",
+			"code": "45608",
+			"mcc": "456",
+			"mnc": "08"
+		},
+		{
+			"brand": "Mobitel",
+			"code": "45601",
+			"mcc": "456",
+			"mnc": "01"
+		},
+		{
+			"brand": "qb",
+			"code": "45604",
+			"mcc": "456",
+			"mnc": "04"
+		},
+		{
+			"brand": "S Telecom",
+			"code": "45603",
+			"mcc": "456",
+			"mnc": "03"
+		},
+		{
+			"brand": "Smart Mobile",
+			"code": "45606",
+			"mcc": "456",
+			"mnc": "06"
+		},
+		{
+			"brand": "Star-Cell",
+			"code": "45605",
+			"mcc": "456",
+			"mnc": "05"
+		}
+	],
+	"KI": [
+		{
+			"brand": "Kiribati Frigate",
+			"code": "54509",
+			"mcc": "545",
+			"mnc": "09"
+		}
+	],
+	"KM": [
+		{
+			"brand": "HURI - SNPT",
+			"code": "65401",
+			"mcc": "654",
+			"mnc": "01"
+		}
+	],
+	"KN": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "356110",
+			"mcc": "356",
+			"mnc": "110"
+		},
+		{
+			"brand": "Chippie",
+			"code": "356070",
+			"mcc": "356",
+			"mnc": "070"
+		},
+		{
+			"brand": "Digicel",
+			"code": "356050",
+			"mcc": "356",
+			"mnc": "050"
+		}
+	],
+	"KP": [
+		{
+			"brand": "Koryolink",
+			"code": "467192",
+			"mcc": "467",
+			"mnc": "192"
+		},
+		{
+			"brand": "SUN NET",
+			"code": "467193",
+			"mcc": "467",
+			"mnc": "193"
+		}
+	],
+	"KR": [
+		{
+			"brand": "KT",
+			"code": "45004",
+			"mcc": "450",
+			"mnc": "04"
+		},
+		{
+			"brand": "KTF",
+			"code": "45008",
+			"mcc": "450",
+			"mnc": "08"
+		},
+		{
+			"brand": "KTF CDMA",
+			"code": "45002",
+			"mcc": "450",
+			"mnc": "02"
+		},
+		{
+			"brand": "LGU+",
+			"code": "45006",
+			"mcc": "450",
+			"mnc": "06"
+		},
+		{
+			"brand": "Power 017",
+			"code": "45003",
+			"mcc": "450",
+			"mnc": "03"
+		},
+		{
+			"brand": "SK Telecom",
+			"code": "45005",
+			"mcc": "450",
+			"mnc": "05"
+		}
+	],
+	"KW": [
+		{
+			"brand": "Viva",
+			"code": "41904",
+			"mcc": "419",
+			"mnc": "04"
+		},
+		{
+			"brand": "Wataniya",
+			"code": "41903",
+			"mcc": "419",
+			"mnc": "03"
+		},
+		{
+			"brand": "Zain",
+			"code": "41902",
+			"mcc": "419",
+			"mnc": "02"
+		}
+	],
+	"KY": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "346140",
+			"mcc": "346",
+			"mnc": "140"
+		},
+		{
+			"brand": "Digicel",
+			"code": "346050",
+			"mcc": "346",
+			"mnc": "050"
+		}
+	],
+	"KZ": [
+		{
+			"brand": "Beeline",
+			"code": "40101",
+			"mcc": "401",
+			"mnc": "01"
+		},
+		{
+			"brand": "Dalacom",
+			"code": "40107",
+			"mcc": "401",
+			"mnc": "07"
+		},
+		{
+			"brand": "K'Cell",
+			"code": "40102",
+			"mcc": "401",
+			"mnc": "02"
+		},
+		{
+			"brand": "Kazakhtelecom",
+			"code": "40108",
+			"mcc": "401",
+			"mnc": "08"
+		},
+		{
+			"brand": "Mobile Telecom Service",
+			"code": "40177",
+			"mcc": "401",
+			"mnc": "77"
+		}
+	],
+	"LA": [
+		{
+			"brand": "ETL",
+			"code": "45702",
+			"mcc": "457",
+			"mnc": "02"
+		},
+		{
+			"brand": "LaoTel",
+			"code": "45701",
+			"mcc": "457",
+			"mnc": "01"
+		},
+		{
+			"brand": "LAT",
+			"code": "45703",
+			"mcc": "457",
+			"mnc": "03"
+		},
+		{
+			"brand": "Tigo",
+			"code": "45708",
+			"mcc": "457",
+			"mnc": "08"
+		}
+	],
+	"LB": [
+		{
+			"brand": "Alfa",
+			"code": "41501",
+			"mcc": "415",
+			"mnc": "01"
+		},
+		{
+			"brand": "MTC-Touch",
+			"code": "41503",
+			"mcc": "415",
+			"mnc": "03"
+		},
+		{
+			"brand": "Ogero Mobile",
+			"code": "41505",
+			"mcc": "415",
+			"mnc": "05"
+		}
+	],
+	"LC": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "358110",
+			"mcc": "358",
+			"mnc": "110"
+		},
+		{
+			"brand": "Digicel",
+			"code": "358050",
+			"mcc": "358",
+			"mnc": "050"
+		}
+	],
+	"LI": [
+		{
+			"brand": "Cubic Telecom",
+			"code": "29504",
+			"mcc": "295",
+			"mnc": "04"
+		},
+		{
+			"brand": "FL1",
+			"code": "29505",
+			"mcc": "295",
+			"mnc": "05"
+		},
+		{
+			"brand": "Orange",
+			"code": "29502",
+			"mcc": "295",
+			"mnc": "02"
+		},
+		{
+			"brand": "Swisscom",
+			"code": "29501",
+			"mcc": "295",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tele 2",
+			"code": "29577",
+			"mcc": "295",
+			"mnc": "77"
+		}
+	],
+	"LK": [
+		{
+			"brand": "Airtel",
+			"code": "41305",
+			"mcc": "413",
+			"mnc": "05"
+		},
+		{
+			"brand": "Dialog",
+			"code": "41302",
+			"mcc": "413",
+			"mnc": "02"
+		},
+		{
+			"brand": "Hutch Sri Lanka",
+			"code": "41308",
+			"mcc": "413",
+			"mnc": "08"
+		},
+		{
+			"brand": "Mobitel",
+			"code": "41301",
+			"mcc": "413",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tigo",
+			"code": "41303",
+			"mcc": "413",
+			"mnc": "03"
+		}
+	],
+	"LR": [
+		{
+			"brand": "Megafon",
+			"code": "25030",
+			"mcc": "250",
+			"mnc": "30"
+		}
+	],
+	"LS": [
+		{
+			"brand": "Econet Ezin-cel",
+			"code": "65102",
+			"mcc": "651",
+			"mnc": "02"
+		},
+		{
+			"brand": "Vodacom",
+			"code": "65101",
+			"mcc": "651",
+			"mnc": "01"
+		}
+	],
+	"LT": [
+		{
+			"brand": "BITE",
+			"code": "24602",
+			"mcc": "246",
+			"mnc": "02"
+		},
+		{
+			"brand": "LitRail",
+			"code": "24605",
+			"mcc": "246",
+			"mnc": "05"
+		},
+		{
+			"brand": "Mediafon",
+			"code": "24606",
+			"mcc": "246",
+			"mnc": "06"
+		},
+		{
+			"brand": "Omnitel",
+			"code": "24601",
+			"mcc": "246",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tele 2",
+			"code": "24603",
+			"mcc": "246",
+			"mnc": "03"
+		}
+	],
+	"LU": [
+		{
+			"brand": "LuxGSM",
+			"code": "27001",
+			"mcc": "270",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tango",
+			"code": "27077",
+			"mcc": "270",
+			"mnc": "77"
+		},
+		{
+			"brand": "Voxmobile",
+			"code": "27099",
+			"mcc": "270",
+			"mnc": "99"
+		}
+	],
+	"LV": [
+		{
+			"brand": "Bite",
+			"code": "24705",
+			"mcc": "247",
+			"mnc": "05"
+		},
+		{
+			"brand": "Camel Mobile",
+			"code": "24709",
+			"mcc": "247",
+			"mnc": "09"
+		},
+		{
+			"brand": "IZZI",
+			"code": "24708",
+			"mcc": "247",
+			"mnc": "08"
+		},
+		{
+			"brand": "LMT",
+			"code": "24701",
+			"mcc": "247",
+			"mnc": "01"
+		},
+		{
+			"brand": "MTS",
+			"code": "24707",
+			"mcc": "247",
+			"mnc": "07"
+		},
+		{
+			"brand": "Rigatta",
+			"code": "24706",
+			"mcc": "247",
+			"mnc": "06"
+		},
+		{
+			"brand": "Tele2",
+			"code": "24702",
+			"mcc": "247",
+			"mnc": "02"
+		},
+		{
+			"brand": "TRIATEL",
+			"code": "24703",
+			"mcc": "247",
+			"mnc": "03"
+		}
+	],
+	"LY": [
+		{
+			"brand": "Al-Jeel Phone",
+			"code": "60602",
+			"mcc": "606",
+			"mnc": "02"
+		},
+		{
+			"brand": "Hatef Libya",
+			"code": "60606",
+			"mcc": "606",
+			"mnc": "06"
+		},
+		{
+			"brand": "Libya Phone",
+			"code": "60603",
+			"mcc": "606",
+			"mnc": "03"
+		},
+		{
+			"brand": "Libyana",
+			"code": "60600",
+			"mcc": "606",
+			"mnc": "00"
+		},
+		{
+			"brand": "Madar",
+			"code": "60601",
+			"mcc": "606",
+			"mnc": "01"
+		}
+	],
+	"MA": [
+		{
+			"brand": "IAM",
+			"code": "60401",
+			"mcc": "604",
+			"mnc": "01"
+		},
+		{
+			"brand": "INWI",
+			"code": "60405",
+			"mcc": "604",
+			"mnc": "05"
+		},
+		{
+			"brand": "Meditel",
+			"code": "60400",
+			"mcc": "604",
+			"mnc": "00"
+		}
+	],
+	"MC": [
+		{
+			"brand": "Office des Telephones",
+			"code": "21201",
+			"mcc": "212",
+			"mnc": "01"
+		}
+	],
+	"MD": [
+		{
+			"brand": "Eventis",
+			"code": "25904",
+			"mcc": "259",
+			"mnc": "04"
+		},
+		{
+			"brand": "IDC",
+			"code": "25903",
+			"mcc": "259",
+			"mnc": "03"
+		},
+		{
+			"brand": "Moldcell",
+			"code": "25902",
+			"mcc": "259",
+			"mnc": "02"
+		},
+		{
+			"brand": "Orange",
+			"code": "25901",
+			"mcc": "259",
+			"mnc": "01"
+		},
+		{
+			"brand": "Unite",
+			"code": "25905",
+			"mcc": "259",
+			"mnc": "05"
+		}
+	],
+	"ME": [
+		{
+			"brand": "m:tel CG",
+			"code": "29703",
+			"mcc": "297",
+			"mnc": "03"
+		},
+		{
+			"brand": "ProMonte",
+			"code": "22002",
+			"mcc": "220",
+			"mnc": "02"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "22004",
+			"mcc": "220",
+			"mnc": "04"
+		},
+		{
+			"brand": "Telenor Montenegro",
+			"code": "29701",
+			"mcc": "297",
+			"mnc": "01"
+		}
+	],
+	"MG": [
+		{
+			"brand": "Orange",
+			"code": "64602",
+			"mcc": "646",
+			"mnc": "02"
+		},
+		{
+			"brand": "Sacel",
+			"code": "64603",
+			"mcc": "646",
+			"mnc": "03"
+		},
+		{
+			"brand": "Telma",
+			"code": "64604",
+			"mcc": "646",
+			"mnc": "04"
+		},
+		{
+			"brand": "Zain",
+			"code": "64601",
+			"mcc": "646",
+			"mnc": "01"
+		}
+	],
+	"MK": [
+		{
+			"brand": "Cosmofon",
+			"code": "29402",
+			"mcc": "294",
+			"mnc": "02"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "29401",
+			"mcc": "294",
+			"mnc": "01"
+		},
+		{
+			"brand": "VIP",
+			"code": "29403",
+			"mcc": "294",
+			"mnc": "03"
+		}
+	],
+	"ML": [
+		{
+			"brand": "Malitel",
+			"code": "61001",
+			"mcc": "610",
+			"mnc": "01"
+		},
+		{
+			"brand": "Orange",
+			"code": "61002",
+			"mcc": "610",
+			"mnc": "02"
+		}
+	],
+	"MM": [
+		{
+			"brand": "MPT",
+			"code": "41401",
+			"mcc": "414",
+			"mnc": "01"
+		}
+	],
+	"MN": [
+		{
+			"brand": "G.Mobile",
+			"code": "42898",
+			"mcc": "428",
+			"mnc": "98"
+		},
+		{
+			"brand": "MobiCom",
+			"code": "42899",
+			"mcc": "428",
+			"mnc": "99"
+		},
+		{
+			"brand": "Skytel",
+			"code": "42891",
+			"mcc": "428",
+			"mnc": "91"
+		},
+		{
+			"brand": "Unitel",
+			"code": "42888",
+			"mcc": "428",
+			"mnc": "88"
+		}
+	],
+	"MO": [
+		{
+			"brand": "3",
+			"code": "45503",
+			"mcc": "455",
+			"mnc": "03"
+		},
+		{
+			"brand": "China Telecom",
+			"code": "45502",
+			"mcc": "455",
+			"mnc": "02"
+		},
+		{
+			"brand": "CTM",
+			"code": "45501",
+			"mcc": "455",
+			"mnc": "01"
+		},
+		{
+			"brand": "SmarTone",
+			"code": "45500",
+			"mcc": "455",
+			"mnc": "00"
+		}
+	],
+	"MR": [
+		{
+			"brand": "Chinguitel",
+			"code": "60902",
+			"mcc": "609",
+			"mnc": "02"
+		},
+		{
+			"brand": "Mattel",
+			"code": "60901",
+			"mcc": "609",
+			"mnc": "01"
+		},
+		{
+			"brand": "Mauritel",
+			"code": "60910",
+			"mcc": "609",
+			"mnc": "10"
+		}
+	],
+	"MT": [
+		{
+			"brand": "GO",
+			"code": "27821",
+			"mcc": "278",
+			"mnc": "21"
+		},
+		{
+			"brand": "Melita",
+			"code": "27877",
+			"mcc": "278",
+			"mnc": "77"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "27801",
+			"mcc": "278",
+			"mnc": "01"
+		}
+	],
+	"MU": [
+		{
+			"brand": "Emtel",
+			"code": "61710",
+			"mcc": "617",
+			"mnc": "10"
+		},
+		{
+			"brand": "Mahanagar Telephone (Mauritius) Ltd.",
+			"code": "61702",
+			"mcc": "617",
+			"mnc": "02"
+		},
+		{
+			"brand": "Orange",
+			"code": "61701",
+			"mcc": "617",
+			"mnc": "01"
+		}
+	],
+	"MV": [
+		{
+			"brand": "Dhiraagu",
+			"code": "47201",
+			"mcc": "472",
+			"mnc": "01"
+		},
+		{
+			"brand": "Wataniya",
+			"code": "47202",
+			"mcc": "472",
+			"mnc": "02"
+		}
+	],
+	"MW": [
+		{
+			"brand": "TNM",
+			"code": "65001",
+			"mcc": "650",
+			"mnc": "01"
+		},
+		{
+			"brand": "Zain",
+			"code": "65010",
+			"mcc": "650",
+			"mnc": "10"
+		}
+	],
+	"MX": [
+		{
+			"brand": "Iusacell",
+			"code": "334050",
+			"mcc": "334",
+			"mnc": "050"
+		},
+		{
+			"brand": "movistar",
+			"code": "33403",
+			"mcc": "334",
+			"mnc": "03"
+		},
+		{
+			"brand": "Nextel",
+			"code": "33401",
+			"mcc": "334",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telcel",
+			"code": "33402",
+			"mcc": "334",
+			"mnc": "02"
+		}
+	],
+	"MY": [
+		{
+			"brand": "ATUR 450",
+			"code": "50201",
+			"mcc": "502",
+			"mnc": "01"
+		},
+		{
+			"brand": "Baraka Telecom Sdn Bhd (MVNE)",
+			"code": "502151",
+			"mcc": "502",
+			"mnc": "151"
+		},
+		{
+			"brand": "Celcom",
+			"code": "50213",
+			"mcc": "502",
+			"mnc": "13"
+		},
+		{
+			"brand": "DiGi",
+			"code": "50216",
+			"mcc": "502",
+			"mnc": "16"
+		},
+		{
+			"brand": "DiGi Telecommunications",
+			"code": "50210",
+			"mcc": "502",
+			"mnc": "10"
+		},
+		{
+			"brand": "Electcoms Wireless Sdn Bhd",
+			"code": "50220",
+			"mcc": "502",
+			"mnc": "20"
+		},
+		{
+			"brand": "Maxis",
+			"code": "50212",
+			"mcc": "502",
+			"mnc": "12"
+		},
+		{
+			"brand": "Telekom Malaysia Berhad for PSTN SMS",
+			"code": "50214",
+			"mcc": "502",
+			"mnc": "14"
+		},
+		{
+			"brand": "TM Homeline",
+			"code": "50211",
+			"mcc": "502",
+			"mnc": "11"
+		},
+		{
+			"brand": "Tune Talk Sdn Bhd",
+			"code": "502150",
+			"mcc": "502",
+			"mnc": "150"
+		},
+		{
+			"brand": "U Mobile",
+			"code": "50218",
+			"mcc": "502",
+			"mnc": "18"
+		},
+		{
+			"brand": "Yes",
+			"code": "502152",
+			"mcc": "502",
+			"mnc": "152"
+		}
+	],
+	"MZ": [
+		{
+			"brand": "mCel",
+			"code": "64301",
+			"mcc": "643",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodacom",
+			"code": "64304",
+			"mcc": "643",
+			"mnc": "04"
+		}
+	],
+	"NA": [
+		{
+			"brand": "Cell One",
+			"code": "64903",
+			"mcc": "649",
+			"mnc": "03"
+		},
+		{
+			"brand": "MTC",
+			"code": "64901",
+			"mcc": "649",
+			"mnc": "01"
+		},
+		{
+			"brand": "switch",
+			"code": "64902",
+			"mcc": "649",
+			"mnc": "02"
+		}
+	],
+	"NC": [
+		{
+			"brand": "Mobilis",
+			"code": "54601",
+			"mcc": "546",
+			"mnc": "01"
+		}
+	],
+	"NE": [
+		{
+			"brand": "Orange",
+			"code": "61404",
+			"mcc": "614",
+			"mnc": "04"
+		},
+		{
+			"brand": "SahelCom",
+			"code": "61401",
+			"mcc": "614",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telecel",
+			"code": "61403",
+			"mcc": "614",
+			"mnc": "03"
+		},
+		{
+			"brand": "Zain",
+			"code": "61402",
+			"mcc": "614",
+			"mnc": "02"
+		}
+	],
+	"NG": [
+		{
+			"brand": "Etisalat",
+			"code": "62160",
+			"mcc": "621",
+			"mnc": "60"
+		},
+		{
+			"brand": "Glo",
+			"code": "62150",
+			"mcc": "621",
+			"mnc": "50"
+		},
+		{
+			"brand": "M-Tel",
+			"code": "62140",
+			"mcc": "621",
+			"mnc": "40"
+		},
+		{
+			"brand": "MTN",
+			"code": "62130",
+			"mcc": "621",
+			"mnc": "30"
+		},
+		{
+			"brand": "Visafone",
+			"code": "62125",
+			"mcc": "621",
+			"mnc": "25"
+		},
+		{
+			"brand": "Zain",
+			"code": "62120",
+			"mcc": "621",
+			"mnc": "20"
+		}
+	],
+	"NI": [
+		{
+			"brand": "Claro",
+			"code": "71021",
+			"mcc": "710",
+			"mnc": "21"
+		},
+		{
+			"brand": "movistar",
+			"code": "71030",
+			"mcc": "710",
+			"mnc": "30"
+		},
+		{
+			"brand": "SERCOM",
+			"code": "71073",
+			"mcc": "710",
+			"mnc": "73"
+		}
+	],
+	"NL": [
+		{
+			"brand": "6Gmobile",
+			"code": "20414",
+			"mcc": "204",
+			"mnc": "14"
+		},
+		{
+			"brand": "ASPIDER Solutions Nederland B.V.",
+			"code": "20423",
+			"mcc": "204",
+			"mnc": "23"
+		},
+		{
+			"brand": "Breezz Nederland B.V.",
+			"code": "20427",
+			"mcc": "204",
+			"mnc": "27"
+		},
+		{
+			"brand": "CapX B.V.",
+			"code": "20425",
+			"mcc": "204",
+			"mnc": "25"
+		},
+		{
+			"brand": "eleena (MVNE)",
+			"code": "20407",
+			"mcc": "204",
+			"mnc": "07"
+		},
+		{
+			"brand": "Elephant Talk Communications Premium Rate Services",
+			"code": "20405",
+			"mcc": "204",
+			"mnc": "05"
+		},
+		{
+			"brand": "Intercity Mobile Communications B.V.",
+			"code": "20417",
+			"mcc": "204",
+			"mnc": "17"
+		},
+		{
+			"brand": "KPN",
+			"code": "20408",
+			"mcc": "204",
+			"mnc": "08"
+		},
+		{
+			"brand": "KPN Mobile The Netherlands B.V.",
+			"code": "20469",
+			"mcc": "204",
+			"mnc": "69"
+		},
+		{
+			"brand": "Lycamobile",
+			"code": "20409",
+			"mcc": "204",
+			"mnc": "09"
+		},
+		{
+			"brand": "Ministerie van Defensie",
+			"code": "20422",
+			"mcc": "204",
+			"mnc": "22"
+		},
+		{
+			"brand": "Mixe Communication Solutions B.V.",
+			"code": "20419",
+			"mcc": "204",
+			"mnc": "19"
+		},
+		{
+			"brand": "Mundio Mobile (Netherlands) Ltd",
+			"code": "20406",
+			"mcc": "204",
+			"mnc": "06"
+		},
+		{
+			"brand": "NS Railinfrabeheer B.V.",
+			"code": "20421",
+			"mcc": "204",
+			"mnc": "21"
+		},
+		{
+			"brand": "Orange Nederland",
+			"code": "20420",
+			"mcc": "204",
+			"mnc": "20"
+		},
+		{
+			"brand": "Private Mobility Nederland B.V.",
+			"code": "20424",
+			"mcc": "204",
+			"mnc": "24"
+		},
+		{
+			"brand": "RadioAccess B.V.",
+			"code": "20467",
+			"mcc": "204",
+			"mnc": "67"
+		},
+		{
+			"brand": "SpeakUp B.V.",
+			"code": "20426",
+			"mcc": "204",
+			"mnc": "26"
+		},
+		{
+			"brand": "T-Mobile / Ben",
+			"code": "20416",
+			"mcc": "204",
+			"mnc": "16"
+		},
+		{
+			"brand": "Tele2 Netherlands",
+			"code": "20402",
+			"mcc": "204",
+			"mnc": "02"
+		},
+		{
+			"brand": "Telfort / O2",
+			"code": "20412",
+			"mcc": "204",
+			"mnc": "12"
+		},
+		{
+			"brand": "Unica Installatietechniek B.V",
+			"code": "20413",
+			"mcc": "204",
+			"mnc": "13"
+		},
+		{
+			"brand": "Unify Group Holding B.V.",
+			"code": "20468",
+			"mcc": "204",
+			"mnc": "68"
+		},
+		{
+			"brand": "UPC Nederland B.V.",
+			"code": "20418",
+			"mcc": "204",
+			"mnc": "18"
+		},
+		{
+			"brand": "VastMobiel B.V.",
+			"code": "20401",
+			"mcc": "204",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "20404",
+			"mcc": "204",
+			"mnc": "04"
+		},
+		{
+			"brand": "Voiceworks B.V.",
+			"code": "20403",
+			"mcc": "204",
+			"mnc": "03"
+		}
+	],
+	"NO": [
+		{
+			"brand": "Barablu Mobile Norway Ltd",
+			"code": "24209",
+			"mcc": "242",
+			"mnc": "09"
+		},
+		{
+			"brand": "Ice",
+			"code": "24206",
+			"mcc": "242",
+			"mnc": "06"
+		},
+		{
+			"brand": "Jernbaneverket AS",
+			"code": "24220",
+			"mcc": "242",
+			"mnc": "20"
+		},
+		{
+			"brand": "Lyca",
+			"code": "24223",
+			"mcc": "242",
+			"mnc": "23"
+		},
+		{
+			"brand": "MTU",
+			"code": "24203",
+			"mcc": "242",
+			"mnc": "03"
+		},
+		{
+			"brand": "NetCom",
+			"code": "24202",
+			"mcc": "242",
+			"mnc": "02"
+		},
+		{
+			"brand": "Network Norway",
+			"code": "24205",
+			"mcc": "242",
+			"mnc": "05"
+		},
+		{
+			"brand": "SystemNet",
+			"code": "24211",
+			"mcc": "242",
+			"mnc": "11"
+		},
+		{
+			"brand": "TDC Mobil AS",
+			"code": "24208",
+			"mcc": "242",
+			"mnc": "08"
+		},
+		{
+			"brand": "Tele2",
+			"code": "24204",
+			"mcc": "242",
+			"mnc": "04"
+		},
+		{
+			"brand": "Telenor",
+			"code": "24201",
+			"mcc": "242",
+			"mnc": "01"
+		},
+		{
+			"brand": "Ventelo",
+			"code": "24207",
+			"mcc": "242",
+			"mnc": "07"
+		}
+	],
+	"NP": [
+		{
+			"brand": "Mero Mobile",
+			"code": "42902",
+			"mcc": "429",
+			"mnc": "02"
+		},
+		{
+			"brand": "Nepal Telecom",
+			"code": "42901",
+			"mcc": "429",
+			"mnc": "01"
+		},
+		{
+			"brand": "SmartCell",
+			"code": "42904",
+			"mcc": "429",
+			"mnc": "04"
+		},
+		{
+			"brand": "United Telecom Limited",
+			"code": "42903",
+			"mcc": "429",
+			"mnc": "03"
+		}
+	],
+	"NR": [
+		{
+			"brand": "Digicel",
+			"code": "53602",
+			"mcc": "536",
+			"mnc": "02"
+		}
+	],
+	"NU": [
+		{
+			"brand": "Telecom Niue",
+			"code": "55501",
+			"mcc": "555",
+			"mnc": "01"
+		}
+	],
+	"NZ": [
+		{
+			"brand": "NZ Comms",
+			"code": "53024",
+			"mcc": "530",
+			"mnc": "24"
+		},
+		{
+			"brand": "Telecom",
+			"code": "53000",
+			"mcc": "530",
+			"mnc": "00"
+		},
+		{
+			"brand": "TelstraClear",
+			"code": "53004",
+			"mcc": "530",
+			"mnc": "04"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "53001",
+			"mcc": "530",
+			"mnc": "01"
+		},
+		{
+			"brand": "Woosh",
+			"code": "53003",
+			"mcc": "530",
+			"mnc": "03"
+		}
+	],
+	"OM": [
+		{
+			"brand": "Nawras",
+			"code": "42203",
+			"mcc": "422",
+			"mnc": "03"
+		},
+		{
+			"brand": "Oman Mobile",
+			"code": "42202",
+			"mcc": "422",
+			"mnc": "02"
+		}
+	],
+	"PA": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "71401",
+			"mcc": "714",
+			"mnc": "01"
+		},
+		{
+			"brand": "Digicel",
+			"code": "71404",
+			"mcc": "714",
+			"mnc": "04"
+		},
+		{
+			"brand": "laro",
+			"code": "71403",
+			"mcc": "714",
+			"mnc": "03"
+		},
+		{
+			"brand": "movistar",
+			"code": "71402",
+			"mcc": "714",
+			"mnc": "02"
+		}
+	],
+	"PE": [
+		{
+			"brand": "Claro",
+			"code": "71610",
+			"mcc": "716",
+			"mnc": "10"
+		},
+		{
+			"brand": "movistar",
+			"code": "71606",
+			"mcc": "716",
+			"mnc": "06"
+		},
+		{
+			"brand": "NEXTEL",
+			"code": "71607",
+			"mcc": "716",
+			"mnc": "07"
+		}
+	],
+	"PF": [
+		{
+			"brand": "VINI",
+			"code": "54720",
+			"mcc": "547",
+			"mnc": "20"
+		}
+	],
+	"PG": [
+		{
+			"brand": "B-Mobile",
+			"code": "53701",
+			"mcc": "537",
+			"mnc": "01"
+		},
+		{
+			"brand": "Digicel",
+			"code": "53703",
+			"mcc": "537",
+			"mnc": "03"
+		}
+	],
+	"PH": [
+		{
+			"brand": "ACeS Philippines",
+			"code": "51511",
+			"mcc": "515",
+			"mnc": "11"
+		},
+		{
+			"brand": "Digitel",
+			"code": "51505",
+			"mcc": "515",
+			"mnc": "05"
+		},
+		{
+			"brand": "Globe",
+			"code": "51502",
+			"mcc": "515",
+			"mnc": "02"
+		},
+		{
+			"brand": "Islacom",
+			"code": "51501",
+			"mcc": "515",
+			"mnc": "01"
+		},
+		{
+			"brand": "Nextel",
+			"code": "51588",
+			"mcc": "515",
+			"mnc": "88"
+		},
+		{
+			"brand": "Red Mobile",
+			"code": "51518",
+			"mcc": "515",
+			"mnc": "18"
+		},
+		{
+			"brand": "Smart Gold",
+			"code": "51503",
+			"mcc": "515",
+			"mnc": "03"
+		}
+	],
+	"PK": [
+		{
+			"brand": "Instaphone",
+			"code": "41008",
+			"mcc": "410",
+			"mnc": "08"
+		},
+		{
+			"brand": "Mobilink",
+			"code": "41001",
+			"mcc": "410",
+			"mnc": "01"
+		},
+		{
+			"brand": "Telenor",
+			"code": "41006",
+			"mcc": "410",
+			"mnc": "06"
+		},
+		{
+			"brand": "Ufone",
+			"code": "41003",
+			"mcc": "410",
+			"mnc": "03"
+		},
+		{
+			"brand": "Warid",
+			"code": "41007",
+			"mcc": "410",
+			"mnc": "07"
+		},
+		{
+			"brand": "Zong",
+			"code": "41004",
+			"mcc": "410",
+			"mnc": "04"
+		}
+	],
+	"PL": [
+		{
+			"brand": "Aero2",
+			"code": "26017",
+			"mcc": "260",
+			"mnc": "17"
+		},
+		{
+			"brand": "CenterNet",
+			"code": "26015",
+			"mcc": "260",
+			"mnc": "15"
+		},
+		{
+			"brand": "Cyfrowy Polsat",
+			"code": "26012",
+			"mcc": "260",
+			"mnc": "12"
+		},
+		{
+			"brand": "E-Telko",
+			"code": "26008",
+			"mcc": "260",
+			"mnc": "08"
+		},
+		{
+			"brand": "Mobyland",
+			"code": "26016",
+			"mcc": "260",
+			"mnc": "16"
+		},
+		{
+			"brand": "Nordisk Polska",
+			"code": "26011",
+			"mcc": "260",
+			"mnc": "11"
+		},
+		{
+			"brand": "Orange",
+			"code": "26003",
+			"mcc": "260",
+			"mnc": "03"
+		},
+		{
+			"brand": "Play",
+			"code": "26006",
+			"mcc": "260",
+			"mnc": "06"
+		},
+		{
+			"brand": "Plus",
+			"code": "26001",
+			"mcc": "260",
+			"mnc": "01"
+		},
+		{
+			"brand": "Centertel",
+			"code": "26005",
+			"mcc": "260",
+			"mnc": "05"
+		},
+		{
+			"brand": "Premium Internet",
+			"code": "26007",
+			"mcc": "260",
+			"mnc": "07"
+		},
+		{
+			"brand": "Sferia",
+			"code": "26013",
+			"mcc": "260",
+			"mnc": "13"
+		},
+		{
+			"brand": "T-mobile",
+			"code": "26002",
+			"mcc": "260",
+			"mnc": "02"
+		},
+		{
+			"brand": "Tele2",
+			"code": "26004",
+			"mcc": "260",
+			"mnc": "04"
+		},
+		{
+			"brand": "Telefony Opalenickie",
+			"code": "26010",
+			"mcc": "260",
+			"mnc": "10"
+		},
+		{
+			"brand": "Telekomunikacja Kolejowa",
+			"code": "26009",
+			"mcc": "260",
+			"mnc": "09"
+		}
+	],
+	"PM": [
+		{
+			"brand": "Ameris",
+			"code": "30801",
+			"mcc": "308",
+			"mnc": "01"
+		}
+	],
+	"PR": [
+		{
+			"brand": "Claro",
+			"code": "33011",
+			"mcc": "330",
+			"mnc": "11"
+		},
+		{
+			"brand": "Open Mobile",
+			"code": "33000",
+			"mcc": "330",
+			"mnc": "00"
+		}
+	],
+	"PS": [
+		{
+			"brand": "JAWWAL",
+			"code": "42505",
+			"mcc": "425",
+			"mnc": "05"
+		},
+		{
+			"brand": "Wataniya",
+			"code": "42506",
+			"mcc": "425",
+			"mnc": "06"
+		}
+	],
+	"PT": [
+		{
+			"brand": "Optimus",
+			"code": "26803",
+			"mcc": "268",
+			"mnc": "03"
+		},
+		{
+			"brand": "TMN",
+			"code": "26806",
+			"mcc": "268",
+			"mnc": "06"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "26801",
+			"mcc": "268",
+			"mnc": "01"
+		},
+		{
+			"brand": "Zapp",
+			"code": "26821",
+			"mcc": "268",
+			"mnc": "21"
+		}
+	],
+	"PW": [
+		{
+			"brand": "Palau Mobile",
+			"code": "55280",
+			"mcc": "552",
+			"mnc": "80"
+		},
+		{
+			"brand": "PNCC",
+			"code": "55201",
+			"mcc": "552",
+			"mnc": "01"
+		}
+	],
+	"PY": [
+		{
+			"brand": "Claro",
+			"code": "74402",
+			"mcc": "744",
+			"mnc": "02"
+		},
+		{
+			"brand": "Copaco",
+			"code": "74406",
+			"mcc": "744",
+			"mnc": "06"
+		},
+		{
+			"brand": "Personal",
+			"code": "74405",
+			"mcc": "744",
+			"mnc": "05"
+		},
+		{
+			"brand": "Tigo",
+			"code": "74404",
+			"mcc": "744",
+			"mnc": "04"
+		},
+		{
+			"brand": "VOX",
+			"code": "74401",
+			"mcc": "744",
+			"mnc": "01"
+		}
+	],
+	"QA": [
+		{
+			"brand": "Ministry of Interior",
+			"code": "42705",
+			"mcc": "427",
+			"mnc": "05"
+		},
+		{
+			"brand": "Qatarnet",
+			"code": "42701",
+			"mcc": "427",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "42702",
+			"mcc": "427",
+			"mnc": "02"
+		}
+	],
+	"RE": [
+		{
+			"brand": "Orange",
+			"code": "64700",
+			"mcc": "647",
+			"mnc": "00"
+		},
+		{
+			"brand": "Outremer",
+			"code": "64702",
+			"mcc": "647",
+			"mnc": "02"
+		},
+		{
+			"brand": "SFR Reunion",
+			"code": "64710",
+			"mcc": "647",
+			"mnc": "10"
+		}
+	],
+	"RO": [
+		{
+			"brand": "Cosmote",
+			"code": "22603",
+			"mcc": "226",
+			"mnc": "03"
+		},
+		{
+			"brand": "DIGI.mobil",
+			"code": "22605",
+			"mcc": "226",
+			"mnc": "05"
+		},
+		{
+			"brand": "Enigma-System",
+			"code": "22611",
+			"mcc": "226",
+			"mnc": "11"
+		},
+		{
+			"brand": "Orange",
+			"code": "22610",
+			"mcc": "226",
+			"mnc": "10"
+		},
+		{
+			"brand": "Romtelecom",
+			"code": "22602",
+			"mcc": "226",
+			"mnc": "02"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "22601",
+			"mcc": "226",
+			"mnc": "01"
+		},
+		{
+			"brand": "Zapp",
+			"code": "22604",
+			"mcc": "226",
+			"mnc": "04"
+		}
+	],
+	"RS": [
+		{
+			"brand": "Telekom Srbija",
+			"code": "22003",
+			"mcc": "220",
+			"mnc": "03"
+		},
+		{
+			"brand": "Telenor",
+			"code": "22001",
+			"mcc": "220",
+			"mnc": "01"
+		},
+		{
+			"brand": "VIP Mobile",
+			"code": "22005",
+			"mcc": "220",
+			"mnc": "05"
+		}
+	],
+	"RU": [
+		{
+			"brand": "Baykalwestcom",
+			"code": "25012",
+			"mcc": "250",
+			"mnc": "12"
+		},
+		{
+			"brand": "Beeline",
+			"code": "25028",
+			"mcc": "250",
+			"mnc": "28"
+		},
+		{
+			"brand": "DTC",
+			"code": "25010",
+			"mcc": "250",
+			"mnc": "10"
+		},
+		{
+			"brand": "ETK",
+			"code": "25005",
+			"mcc": "250",
+			"mnc": "05"
+		},
+		{
+			"brand": "INDIGO",
+			"code": "25019",
+			"mcc": "250",
+			"mnc": "19"
+		},
+		{
+			"brand": "KUGSM",
+			"code": "25013",
+			"mcc": "250",
+			"mnc": "13"
+		},
+		{
+			"brand": "MegaFon",
+			"code": "25002",
+			"mcc": "250",
+			"mnc": "02"
+		},
+		{
+			"brand": "Mobicom - Novosibirsk",
+			"code": "25023",
+			"mcc": "250",
+			"mnc": "23"
+		},
+		{
+			"brand": "MOTIV",
+			"code": "25035",
+			"mcc": "250",
+			"mnc": "35"
+		},
+		{
+			"brand": "MTS",
+			"code": "25001",
+			"mcc": "250",
+			"mnc": "01"
+		},
+		{
+			"brand": "NCC",
+			"code": "25003",
+			"mcc": "250",
+			"mnc": "03"
+		},
+		{
+			"brand": "NTC",
+			"code": "25016",
+			"mcc": "250",
+			"mnc": "16"
+		},
+		{
+			"brand": "Orensot",
+			"code": "25011",
+			"mcc": "250",
+			"mnc": "11"
+		},
+		{
+			"brand": "Primtelefon",
+			"code": "25092",
+			"mcc": "250",
+			"mnc": "92"
+		},
+		{
+			"brand": "Sibchallenge",
+			"code": "25004",
+			"mcc": "250",
+			"mnc": "04"
+		},
+		{
+			"brand": "Skylink",
+			"code": "25006",
+			"mcc": "250",
+			"mnc": "06"
+		},
+		{
+			"brand": "SMARTS",
+			"code": "25007",
+			"mcc": "250",
+			"mnc": "07"
+		},
+		{
+			"brand": "Stavtelesot / North Caucasian GSM",
+			"code": "25044",
+			"mcc": "250",
+			"mnc": "44"
+		},
+		{
+			"brand": "Tambov GSM",
+			"code": "25038",
+			"mcc": "250",
+			"mnc": "38"
+		},
+		{
+			"brand": "Tele2",
+			"code": "25020",
+			"mcc": "250",
+			"mnc": "20"
+		},
+		{
+			"brand": "Telecom XXI",
+			"code": "25093",
+			"mcc": "250",
+			"mnc": "93"
+		},
+		{
+			"brand": "Utel",
+			"code": "25017",
+			"mcc": "250",
+			"mnc": "17"
+		}
+	],
+	"RW": [
+		{
+			"brand": "MTN",
+			"code": "63510",
+			"mcc": "635",
+			"mnc": "10"
+		},
+		{
+			"brand": "Rwandatel",
+			"code": "63512",
+			"mcc": "635",
+			"mnc": "12"
+		},
+		{
+			"brand": "Tigo",
+			"code": "63513",
+			"mcc": "635",
+			"mnc": "13"
+		}
+	],
+	"SA": [
+		{
+			"brand": "EAE",
+			"code": "42007",
+			"mcc": "420",
+			"mnc": "07"
+		},
+		{
+			"brand": "Mobily",
+			"code": "42003",
+			"mcc": "420",
+			"mnc": "03"
+		},
+		{
+			"brand": "STC",
+			"code": "42001",
+			"mcc": "420",
+			"mnc": "01"
+		},
+		{
+			"brand": "Zain SA",
+			"code": "42004",
+			"mcc": "420",
+			"mnc": "04"
+		}
+	],
+	"SB": [
+		{
+			"brand": "BREEZE",
+			"code": "54001",
+			"mcc": "540",
+			"mnc": "01"
+		}
+	],
+	"SC": [
+		{
+			"brand": "Cable & Wireless (Seychelles) Ltd.",
+			"code": "63301",
+			"mcc": "633",
+			"mnc": "01"
+		},
+		{
+			"brand": "Mediatech International",
+			"code": "63302",
+			"mcc": "633",
+			"mnc": "02"
+		},
+		{
+			"brand": "Telecom Airtel",
+			"code": "63310",
+			"mcc": "633",
+			"mnc": "10"
+		}
+	],
+	"SD": [
+		{
+			"brand": "Mobitel / Mobile Telephone Company",
+			"code": "63401",
+			"mcc": "634",
+			"mnc": "01"
+		},
+		{
+			"brand": "MTN",
+			"code": "63402",
+			"mcc": "634",
+			"mnc": "02"
+		},
+		{
+			"brand": "Sudani One",
+			"code": "63407",
+			"mcc": "634",
+			"mnc": "07"
+		},
+		{
+			"brand": "Vivacell",
+			"code": "63405",
+			"mcc": "634",
+			"mnc": "05"
+		}
+	],
+	"SE": [
+		{
+			"brand": "3",
+			"code": "24002",
+			"mcc": "240",
+			"mnc": "02"
+		},
+		{
+			"brand": "3G Infrastructure Services",
+			"code": "24004",
+			"mcc": "240",
+			"mnc": "04"
+		},
+		{
+			"brand": "42IT",
+			"code": "24016",
+			"mcc": "240",
+			"mnc": "16"
+		},
+		{
+			"brand": "Banverket",
+			"code": "24021",
+			"mcc": "240",
+			"mnc": "21"
+		},
+		{
+			"brand": "Barablu Mobile Scandinavia",
+			"code": "24012",
+			"mcc": "240",
+			"mnc": "12"
+		},
+		{
+			"brand": "Beepsend",
+			"code": "24026",
+			"mcc": "240",
+			"mnc": "26"
+		},
+		{
+			"brand": "DigiTelMobile",
+			"code": "24025",
+			"mcc": "240",
+			"mnc": "25"
+		},
+		{
+			"brand": "Gotanet",
+			"code": "24017",
+			"mcc": "240",
+			"mnc": "17"
+		},
+		{
+			"brand": "Halebop",
+			"code": "24000",
+			"mcc": "240",
+			"mnc": "00"
+		},
+		{
+			"brand": "Lindholmen Science Park",
+			"code": "24011",
+			"mcc": "240",
+			"mnc": "11"
+		},
+		{
+			"brand": "Mobile Arts AB",
+			"code": "24033",
+			"mcc": "240",
+			"mnc": "33"
+		},
+		{
+			"brand": "Nordisk Mobiltelefon",
+			"code": "24003",
+			"mcc": "240",
+			"mnc": "03"
+		},
+		{
+			"brand": "SpringMobil",
+			"code": "24010",
+			"mcc": "240",
+			"mnc": "10"
+		},
+		{
+			"brand": "Sweden 2G",
+			"code": "24024",
+			"mcc": "240",
+			"mnc": "24"
+		},
+		{
+			"brand": "Sweden 3G",
+			"code": "24005",
+			"mcc": "240",
+			"mnc": "05"
+		},
+		{
+			"brand": "TDC Mobil",
+			"code": "24014",
+			"mcc": "240",
+			"mnc": "14"
+		},
+		{
+			"brand": "Tele2Comviq",
+			"code": "24007",
+			"mcc": "240",
+			"mnc": "07"
+		},
+		{
+			"brand": "Telenor",
+			"code": "24006",
+			"mcc": "240",
+			"mnc": "06"
+		},
+		{
+			"brand": "Telenor Mobile Sverige",
+			"code": "24009",
+			"mcc": "240",
+			"mnc": "09"
+		},
+		{
+			"brand": "TeliaSonera Mobile Networks",
+			"code": "24001",
+			"mcc": "240",
+			"mnc": "01"
+		},
+		{
+			"brand": "Ventelo Sverige",
+			"code": "24013",
+			"mcc": "240",
+			"mnc": "13"
+		},
+		{
+			"brand": "Wireless Maingate",
+			"code": "24020",
+			"mcc": "240",
+			"mnc": "20"
+		},
+		{
+			"brand": "Wireless Maingate Nordic",
+			"code": "24015",
+			"mcc": "240",
+			"mnc": "15"
+		}
+	],
+	"SG": [
+		{
+			"brand": "Digital Trunked Radio Network",
+			"code": "52512",
+			"mcc": "525",
+			"mnc": "12"
+		},
+		{
+			"brand": "M1",
+			"code": "52503",
+			"mcc": "525",
+			"mnc": "03"
+		},
+		{
+			"brand": "SingTel",
+			"code": "52501",
+			"mcc": "525",
+			"mnc": "01"
+		},
+		{
+			"brand": "SingTel-G18",
+			"code": "52502",
+			"mcc": "525",
+			"mnc": "02"
+		},
+		{
+			"brand": "StarHub",
+			"code": "52505",
+			"mcc": "525",
+			"mnc": "05"
+		}
+	],
+	"SI": [
+		{
+			"brand": "Mobitel",
+			"code": "29341",
+			"mcc": "293",
+			"mnc": "41"
+		},
+		{
+			"brand": "SI.mobil - Vodafone",
+			"code": "29340",
+			"mcc": "293",
+			"mnc": "40"
+		},
+		{
+			"brand": "T-2",
+			"code": "29364",
+			"mcc": "293",
+			"mnc": "64"
+		},
+		{
+			"brand": "Tusmobil",
+			"code": "29370",
+			"mcc": "293",
+			"mnc": "70"
+		}
+	],
+	"SK": [
+		{
+			"brand": "Mobile Entertainment Company",
+			"code": "23105",
+			"mcc": "231",
+			"mnc": "05"
+		},
+		{
+			"brand": "O2",
+			"code": "23106",
+			"mcc": "231",
+			"mnc": "06"
+		},
+		{
+			"brand": "Orange",
+			"code": "23101",
+			"mcc": "231",
+			"mnc": "01"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "23102",
+			"mcc": "231",
+			"mnc": "02"
+		},
+		{
+			"brand": "Unient Communications",
+			"code": "23103",
+			"mcc": "231",
+			"mnc": "03"
+		},
+		{
+			"brand": "ZSR",
+			"code": "23199",
+			"mcc": "231",
+			"mnc": "99"
+		}
+	],
+	"SL": [
+		{
+			"brand": "Africell",
+			"code": "61905",
+			"mcc": "619",
+			"mnc": "05"
+		},
+		{
+			"brand": "Comium",
+			"code": "61904",
+			"mcc": "619",
+			"mnc": "04"
+		},
+		{
+			"brand": "Datatel",
+			"code": "61903",
+			"mcc": "619",
+			"mnc": "03"
+		},
+		{
+			"brand": "LeoneCel",
+			"code": "61909",
+			"mcc": "619",
+			"mnc": "09"
+		},
+		{
+			"brand": "Millicom",
+			"code": "61902",
+			"mcc": "619",
+			"mnc": "02"
+		},
+		{
+			"brand": "Mobitel",
+			"code": "61925",
+			"mcc": "619",
+			"mnc": "25"
+		},
+		{
+			"brand": "Zain",
+			"code": "61901",
+			"mcc": "619",
+			"mnc": "01"
+		}
+	],
+	"SM": [
+		{
+			"brand": "PRIMA",
+			"code": "29201",
+			"mcc": "292",
+			"mnc": "01"
+		}
+	],
+	"SN": [
+		{
+			"brand": "Expresso",
+			"code": "60803",
+			"mcc": "608",
+			"mnc": "03"
+		},
+		{
+			"brand": "Sentel GSM",
+			"code": "60802",
+			"mcc": "608",
+			"mnc": "02"
+		},
+		{
+			"brand": "Sonatel ALIZE",
+			"code": "60801",
+			"mcc": "608",
+			"mnc": "01"
+		}
+	],
+	"SO": [
+		{
+			"brand": "Golis",
+			"code": "63730",
+			"mcc": "637",
+			"mnc": "30"
+		},
+		{
+			"brand": "Hormuud",
+			"code": "63725",
+			"mcc": "637",
+			"mnc": "25"
+		},
+		{
+			"brand": "Nationlink",
+			"code": "63710",
+			"mcc": "637",
+			"mnc": "10"
+		},
+		{
+			"brand": "Nationlink Telecom",
+			"code": "63760",
+			"mcc": "637",
+			"mnc": "60"
+		},
+		{
+			"brand": "Somafone",
+			"code": "63704",
+			"mcc": "637",
+			"mnc": "04"
+		},
+		{
+			"brand": "Telcom Mobile",
+			"code": "638",
+			"mcc": "638",
+			"mnc": "NULL"
+		},
+		{
+			"brand": "Telesom",
+			"code": "63701",
+			"mcc": "637",
+			"mnc": "01"
+		}
+	],
+	"SR": [
+		{
+			"brand": "Digicel",
+			"code": "74603",
+			"mcc": "746",
+			"mnc": "03"
+		},
+		{
+			"brand": "Telesu",
+			"code": "74602",
+			"mcc": "746",
+			"mnc": "02"
+		},
+		{
+			"brand": "Uniqa",
+			"code": "74604",
+			"mcc": "746",
+			"mnc": "04"
+		}
+	],
+	"ST": [
+		{
+			"brand": "CSTmovel",
+			"code": "62601",
+			"mcc": "626",
+			"mnc": "01"
+		}
+	],
+	"SV": [
+		{
+			"brand": "Claro",
+			"code": "70610",
+			"mcc": "706",
+			"mnc": "10"
+		},
+		{
+			"brand": "CTE Telecom Personal",
+			"code": "70601",
+			"mcc": "706",
+			"mnc": "01"
+		},
+		{
+			"brand": "digicel",
+			"code": "70602",
+			"mcc": "706",
+			"mnc": "02"
+		},
+		{
+			"brand": "movistar",
+			"code": "70604",
+			"mcc": "706",
+			"mnc": "04"
+		},
+		{
+			"brand": "Telemovil EL Salvador",
+			"code": "70603",
+			"mcc": "706",
+			"mnc": "03"
+		}
+	],
+	"SY": [
+		{
+			"brand": "MTN Syria",
+			"code": "41702",
+			"mcc": "417",
+			"mnc": "02"
+		},
+		{
+			"brand": "SyriaTel",
+			"code": "41701",
+			"mcc": "417",
+			"mnc": "01"
+		}
+	],
+	"SZ": [
+		{
+			"brand": "Swazi MTN",
+			"code": "65310",
+			"mcc": "653",
+			"mnc": "10"
+		}
+	],
+	"TC": [
+		{
+			"brand": "C&W",
+			"code": "376350",
+			"mcc": "376",
+			"mnc": "350"
+		},
+		{
+			"brand": "Digicel",
+			"code": "33805",
+			"mcc": "338",
+			"mnc": "05"
+		},
+		{
+			"brand": "Islandcom",
+			"code": "376352",
+			"mcc": "376",
+			"mnc": "352"
+		}
+	],
+	"TD": [
+		{
+			"brand": "Salam",
+			"code": "62204",
+			"mcc": "622",
+			"mnc": "04"
+		},
+		{
+			"brand": "TAWALI",
+			"code": "62202",
+			"mcc": "622",
+			"mnc": "02"
+		},
+		{
+			"brand": "TIGO - Millicom",
+			"code": "62203",
+			"mcc": "622",
+			"mnc": "03"
+		},
+		{
+			"brand": "Zain",
+			"code": "62201",
+			"mcc": "622",
+			"mnc": "01"
+		}
+	],
+	"TG": [
+		{
+			"brand": "Moov",
+			"code": "61503",
+			"mcc": "615",
+			"mnc": "03"
+		},
+		{
+			"brand": "Telecel",
+			"code": "61505",
+			"mcc": "615",
+			"mnc": "05"
+		},
+		{
+			"brand": "Togo Cell",
+			"code": "61501",
+			"mcc": "615",
+			"mnc": "01"
+		}
+	],
+	"TH": [
+		{
+			"brand": "ACT Mobile",
+			"code": "52015",
+			"mcc": "520",
+			"mnc": "15"
+		},
+		{
+			"brand": "Advanced Info Service",
+			"code": "52001",
+			"mcc": "520",
+			"mnc": "01"
+		},
+		{
+			"brand": "CAT CDMA",
+			"code": "52000",
+			"mcc": "520",
+			"mnc": "00"
+		},
+		{
+			"brand": "DTAC",
+			"code": "52018",
+			"mcc": "520",
+			"mnc": "18"
+		},
+		{
+			"brand": "True Move",
+			"code": "52099",
+			"mcc": "520",
+			"mnc": "99"
+		},
+		{
+			"brand": "WCS IQ",
+			"code": "52010",
+			"mcc": "520",
+			"mnc": "10"
+		}
+	],
+	"TJ": [
+		{
+			"brand": "Babilon-M",
+			"code": "43604",
+			"mcc": "436",
+			"mnc": "04"
+		},
+		{
+			"brand": "CTJTHSC Tajik-tel",
+			"code": "43605",
+			"mcc": "436",
+			"mnc": "05"
+		},
+		{
+			"brand": "Indigo",
+			"code": "43602",
+			"mcc": "436",
+			"mnc": "02"
+		},
+		{
+			"brand": "MLT",
+			"code": "43603",
+			"mcc": "436",
+			"mnc": "03"
+		},
+		{
+			"brand": "Somoncom",
+			"code": "43601",
+			"mcc": "436",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tcell",
+			"code": "43612",
+			"mcc": "436",
+			"mnc": "12"
+		}
+	],
+	"TL": [
+		{
+			"brand": "Timor Telecom",
+			"code": "51402",
+			"mcc": "514",
+			"mnc": "02"
+		}
+	],
+	"TM": [
+		{
+			"brand": "MTS",
+			"code": "43801",
+			"mcc": "438",
+			"mnc": "01"
+		},
+		{
+			"brand": "TM-Cell",
+			"code": "43802",
+			"mcc": "438",
+			"mnc": "02"
+		}
+	],
+	"TN": [
+		{
+			"brand": "Orange",
+			"code": "60501",
+			"mcc": "605",
+			"mnc": "01"
+		},
+		{
+			"brand": "Tunicell",
+			"code": "60502",
+			"mcc": "605",
+			"mnc": "02"
+		},
+		{
+			"brand": "Tunisiana",
+			"code": "60503",
+			"mcc": "605",
+			"mnc": "03"
+		}
+	],
+	"TO": [
+		{
+			"brand": "Digicel",
+			"code": "53988",
+			"mcc": "539",
+			"mnc": "88"
+		},
+		{
+			"brand": "Shoreline Communication",
+			"code": "53943",
+			"mcc": "539",
+			"mnc": "43"
+		},
+		{
+			"brand": "Tonga Communications Corporation",
+			"code": "53901",
+			"mcc": "539",
+			"mnc": "01"
+		}
+	],
+	"TR": [
+		{
+			"brand": "Avea",
+			"code": "28603",
+			"mcc": "286",
+			"mnc": "03"
+		},
+		{
+			"brand": "Aycell",
+			"code": "28604",
+			"mcc": "286",
+			"mnc": "04"
+		},
+		{
+			"brand": "Turkcell",
+			"code": "28601",
+			"mcc": "286",
+			"mnc": "01"
+		},
+		{
+			"brand": "Vodafone",
+			"code": "28602",
+			"mcc": "286",
+			"mnc": "02"
+		}
+	],
+	"TT": [
+		{
+			"brand": "bmobile",
+			"code": "37412",
+			"mcc": "374",
+			"mnc": "12"
+		},
+		{
+			"brand": "Digicel",
+			"code": "37413",
+			"mcc": "374",
+			"mnc": "13"
+		}
+	],
+	"TV": [
+		{
+			"brand": "TTC",
+			"code": "55301",
+			"mcc": "553",
+			"mnc": "01"
+		}
+	],
+	"TW": [
+		{
+			"brand": "APTG",
+			"code": "46602",
+			"mcc": "466",
+			"mnc": "02"
+		},
+		{
+			"brand": "Chunghwa LDM",
+			"code": "46611",
+			"mcc": "466",
+			"mnc": "11"
+		},
+		{
+			"brand": "Chungwa",
+			"code": "46692",
+			"mcc": "466",
+			"mnc": "92"
+		},
+		{
+			"brand": "FarEasTone",
+			"code": "46601",
+			"mcc": "466",
+			"mnc": "01"
+		},
+		{
+			"brand": "KG Telecom",
+			"code": "46688",
+			"mcc": "466",
+			"mnc": "88"
+		},
+		{
+			"brand": "MobiTai",
+			"code": "46693",
+			"mcc": "466",
+			"mnc": "93"
+		},
+		{
+			"brand": "Taiwan Mobile",
+			"code": "46697",
+			"mcc": "466",
+			"mnc": "97"
+		},
+		{
+			"brand": "TransAsia",
+			"code": "46699",
+			"mcc": "466",
+			"mnc": "99"
+		},
+		{
+			"brand": "Tuntex",
+			"code": "46606",
+			"mcc": "466",
+			"mnc": "06"
+		},
+		{
+			"brand": "VIBO",
+			"code": "46689",
+			"mcc": "466",
+			"mnc": "89"
+		}
+	],
+	"TZ": [
+		{
+			"brand": "Hits",
+			"code": "64009",
+			"mcc": "640",
+			"mnc": "09"
+		},
+		{
+			"brand": "Mobitel",
+			"code": "64002",
+			"mcc": "640",
+			"mnc": "02"
+		},
+		{
+			"brand": "Sasatel",
+			"code": "64006",
+			"mcc": "640",
+			"mnc": "06"
+		},
+		{
+			"brand": "SmileCom",
+			"code": "64011",
+			"mcc": "640",
+			"mnc": "11"
+		},
+		{
+			"brand": "Tritel",
+			"code": "64001",
+			"mcc": "640",
+			"mnc": "01"
+		},
+		{
+			"brand": "TTCL Mobile",
+			"code": "64007",
+			"mcc": "640",
+			"mnc": "07"
+		},
+		{
+			"brand": "Vodacom",
+			"code": "64004",
+			"mcc": "640",
+			"mnc": "04"
+		},
+		{
+			"brand": "Zain",
+			"code": "64005",
+			"mcc": "640",
+			"mnc": "05"
+		},
+		{
+			"brand": "Zantel",
+			"code": "64003",
+			"mcc": "640",
+			"mnc": "03"
+		}
+	],
+	"UA": [
+		{
+			"brand": "Beeline",
+			"code": "25502",
+			"mcc": "255",
+			"mnc": "02"
+		},
+		{
+			"brand": "CDMA Ukraine",
+			"code": "25523",
+			"mcc": "255",
+			"mnc": "23"
+		},
+		{
+			"brand": "Golden Telecom",
+			"code": "25505",
+			"mcc": "255",
+			"mnc": "05"
+		},
+		{
+			"brand": "IT",
+			"code": "25504",
+			"mcc": "255",
+			"mnc": "04"
+		},
+		{
+			"brand": "Kyivstar",
+			"code": "25503",
+			"mcc": "255",
+			"mnc": "03"
+		},
+		{
+			"brand": "life:)",
+			"code": "25506",
+			"mcc": "255",
+			"mnc": "06"
+		},
+		{
+			"brand": "MTS",
+			"code": "25501",
+			"mcc": "255",
+			"mnc": "01"
+		},
+		{
+			"brand": "PEOPLEnet",
+			"code": "25521",
+			"mcc": "255",
+			"mnc": "21"
+		},
+		{
+			"brand": "Utel",
+			"code": "25507",
+			"mcc": "255",
+			"mnc": "07"
+		}
+	],
+	"UG": [
+		{
+			"brand": "MTN",
+			"code": "64110",
+			"mcc": "641",
+			"mnc": "10"
+		},
+		{
+			"brand": "Orange",
+			"code": "64114",
+			"mcc": "641",
+			"mnc": "14"
+		},
+		{
+			"brand": "Uganda Telecom Ltd.",
+			"code": "64111",
+			"mcc": "641",
+			"mnc": "11"
+		},
+		{
+			"brand": "Warid Telecom",
+			"code": "64122",
+			"mcc": "641",
+			"mnc": "22"
+		},
+		{
+			"brand": "Zain",
+			"code": "64101",
+			"mcc": "641",
+			"mnc": "01"
+		}
+	],
+	"US": [
+		{
+			"brand": "Advantage",
+			"code": "310880",
+			"mcc": "310",
+			"mnc": "880"
+		},
+		{
+			"brand": "Aeris",
+			"code": "310850",
+			"mcc": "310",
+			"mnc": "850"
+		},
+		{
+			"brand": "Airadigm",
+			"code": "310640",
+			"mcc": "310",
+			"mnc": "640"
+		},
+		{
+			"brand": "Airlink PCS",
+			"code": "310780",
+			"mcc": "310",
+			"mnc": "780"
+		},
+		{
+			"brand": "Airpeak",
+			"code": "310034",
+			"mcc": "310",
+			"mnc": "034"
+		},
+		{
+			"brand": "Airtel",
+			"code": "310510",
+			"mcc": "310",
+			"mnc": "510"
+		},
+		{
+			"brand": "Alaska Digitel",
+			"code": "310430",
+			"mcc": "310",
+			"mnc": "430"
+		},
+		{
+			"brand": "Alltel",
+			"code": "310500",
+			"mcc": "310",
+			"mnc": "500"
+		},
+		{
+			"brand": "AmeriLink PCS",
+			"code": "310630",
+			"mcc": "310",
+			"mnc": "630"
+		},
+		{
+			"brand": "AT&T",
+			"code": "310038",
+			"mcc": "310",
+			"mnc": "038"
+		},
+		{
+			"brand": "AT&T Mobility",
+			"code": "310380",
+			"mcc": "310",
+			"mnc": "380"
+		},
+		{
+			"brand": "Caprock",
+			"code": "310830",
+			"mcc": "310",
+			"mnc": "830"
+		},
+		{
+			"brand": "Carolina Phone",
+			"code": "310350",
+			"mcc": "310",
+			"mnc": "350"
+		},
+		{
+			"brand": "Cell One Amarillo",
+			"code": "311130",
+			"mcc": "311",
+			"mnc": "130"
+		},
+		{
+			"brand": "Cellular One",
+			"code": "310320",
+			"mcc": "310",
+			"mnc": "320"
+		},
+		{
+			"brand": "Cellular One of East Texas",
+			"code": "310390",
+			"mcc": "310",
+			"mnc": "390"
+		},
+		{
+			"brand": "Cellular Properties",
+			"code": "311190",
+			"mcc": "311",
+			"mnc": "190"
+		},
+		{
+			"brand": "Centennial",
+			"code": "310030",
+			"mcc": "310",
+			"mnc": "030"
+		},
+		{
+			"brand": "Chariton Valley",
+			"code": "311010",
+			"mcc": "311",
+			"mnc": "010"
+		},
+		{
+			"brand": "Chinook Wireless",
+			"code": "310570",
+			"mcc": "310",
+			"mnc": "570"
+		},
+		{
+			"brand": "Choice Phone",
+			"code": "310480",
+			"mcc": "310",
+			"mnc": "480"
+		},
+		{
+			"brand": "Cincinnati Bell",
+			"code": "310420",
+			"mcc": "310",
+			"mnc": "420"
+		},
+		{
+			"brand": "Cingular Wireless",
+			"code": "311180",
+			"mcc": "311",
+			"mnc": "180"
+		},
+		{
+			"brand": "Coleman County Telecom",
+			"code": "310620",
+			"mcc": "310",
+			"mnc": "620"
+		},
+		{
+			"brand": "Commnet Wireless",
+			"code": "311040",
+			"mcc": "311",
+			"mnc": "040"
+		},
+		{
+			"brand": "Concho",
+			"code": "310040",
+			"mcc": "310",
+			"mnc": "040"
+		},
+		{
+			"brand": "Conestoga",
+			"code": "310690",
+			"mcc": "310",
+			"mnc": "690"
+		},
+		{
+			"brand": "Consolidated Telcom",
+			"code": "310060",
+			"mcc": "310",
+			"mnc": "060"
+		},
+		{
+			"brand": "Convey",
+			"code": "310740",
+			"mcc": "310",
+			"mnc": "740"
+		},
+		{
+			"brand": "Corr",
+			"code": "310080",
+			"mcc": "310",
+			"mnc": "080"
+		},
+		{
+			"brand": "Cricket Communications",
+			"code": "310016",
+			"mcc": "310",
+			"mnc": "016"
+		},
+		{
+			"brand": "Digital Cellular",
+			"code": "310940",
+			"mcc": "310",
+			"mnc": "940"
+		},
+		{
+			"brand": "Dutch Harbor",
+			"code": "310190",
+			"mcc": "310",
+			"mnc": "190"
+		},
+		{
+			"brand": "Easterbrooke",
+			"code": "311070",
+			"mcc": "311",
+			"mnc": "070"
+		},
+		{
+			"brand": "Endless Mountains Wireless",
+			"code": "311160",
+			"mcc": "311",
+			"mnc": "160"
+		},
+		{
+			"brand": "Epic Touch",
+			"code": "310610",
+			"mcc": "310",
+			"mnc": "610"
+		},
+		{
+			"brand": "Farmers Cellular",
+			"code": "311060",
+			"mcc": "311",
+			"mnc": "060"
+		},
+		{
+			"brand": "Farmers Wireless",
+			"code": "310311",
+			"mcc": "310",
+			"mnc": "311"
+		},
+		{
+			"brand": "First Cellular",
+			"code": "310910",
+			"mcc": "310",
+			"mnc": "910"
+		},
+		{
+			"brand": "Get Mobile Inc",
+			"code": "310300",
+			"mcc": "310",
+			"mnc": "300"
+		},
+		{
+			"brand": "Globalstar",
+			"code": "310970",
+			"mcc": "310",
+			"mnc": "970"
+		},
+		{
+			"brand": "High Plains Wireless",
+			"code": "311100",
+			"mcc": "311",
+			"mnc": "100"
+		},
+		{
+			"brand": "Highland Cellular",
+			"code": "310070",
+			"mcc": "310",
+			"mnc": "070"
+		},
+		{
+			"brand": "i CAN_GSM",
+			"code": "310400",
+			"mcc": "310",
+			"mnc": "400"
+		},
+		{
+			"brand": "i wireless",
+			"code": "310770",
+			"mcc": "310",
+			"mnc": "770"
+		},
+		{
+			"brand": "Indigo Wireless",
+			"code": "311030",
+			"mcc": "311",
+			"mnc": "030"
+		},
+		{
+			"brand": "Jasper",
+			"code": "310650",
+			"mcc": "310",
+			"mnc": "650"
+		},
+		{
+			"brand": "Long Lines Wireless",
+			"code": "311090",
+			"mcc": "311",
+			"mnc": "090"
+		},
+		{
+			"brand": "MCI",
+			"code": "310010",
+			"mcc": "310",
+			"mnc": "010"
+		},
+		{
+			"brand": "Mid-Tex Cellular",
+			"code": "310000",
+			"mcc": "310",
+			"mnc": "000"
+		},
+		{
+			"brand": "Missouri RSA 5 Partnership",
+			"code": "311020",
+			"mcc": "311",
+			"mnc": "020"
+		},
+		{
+			"brand": "MobileTel",
+			"code": "310013",
+			"mcc": "310",
+			"mnc": "013"
+		},
+		{
+			"brand": "Nextel",
+			"code": "316010",
+			"mcc": "316",
+			"mnc": "010"
+		},
+		{
+			"brand": "North Sight Communications Inc.",
+			"code": "310017",
+			"mcc": "310",
+			"mnc": "017"
+		},
+		{
+			"brand": "Northstar",
+			"code": "310670",
+			"mcc": "310",
+			"mnc": "670"
+		},
+		{
+			"brand": "Oklahoma Western",
+			"code": "310540",
+			"mcc": "310",
+			"mnc": "540"
+		},
+		{
+			"brand": "PACE",
+			"code": "310870",
+			"mcc": "310",
+			"mnc": "870"
+		},
+		{
+			"brand": "Panhandle",
+			"code": "310760",
+			"mcc": "310",
+			"mnc": "760"
+		},
+		{
+			"brand": "PetroCom",
+			"code": "311170",
+			"mcc": "311",
+			"mnc": "170"
+		},
+		{
+			"brand": "Pine Cellular",
+			"code": "311080",
+			"mcc": "311",
+			"mnc": "080"
+		},
+		{
+			"brand": "PinPoint",
+			"code": "310790",
+			"mcc": "310",
+			"mnc": "790"
+		},
+		{
+			"brand": "Plateau Wireless",
+			"code": "310100",
+			"mcc": "310",
+			"mnc": "100"
+		},
+		{
+			"brand": "PTI Pacifica",
+			"code": "310110",
+			"mcc": "310",
+			"mnc": "110"
+		},
+		{
+			"brand": "SeaMobile",
+			"code": "310730",
+			"mcc": "310",
+			"mnc": "730"
+		},
+		{
+			"brand": "SIMMETRY",
+			"code": "310046",
+			"mcc": "310",
+			"mnc": "046"
+		},
+		{
+			"brand": "Simmetry",
+			"code": "310460",
+			"mcc": "310",
+			"mnc": "460"
+		},
+		{
+			"brand": "Southern Communications Services",
+			"code": "316011",
+			"mcc": "316",
+			"mnc": "011"
+		},
+		{
+			"brand": "Sprint",
+			"code": "310120",
+			"mcc": "310",
+			"mnc": "120"
+		},
+		{
+			"brand": "Sprocket",
+			"code": "311140",
+			"mcc": "311",
+			"mnc": "140"
+		},
+		{
+			"brand": "SunCom",
+			"code": "310490",
+			"mcc": "310",
+			"mnc": "490"
+		},
+		{
+			"brand": "T-Mobile",
+			"code": "310026",
+			"mcc": "310",
+			"mnc": "026"
+		},
+		{
+			"brand": "Taylor",
+			"code": "310900",
+			"mcc": "310",
+			"mnc": "900"
+		},
+		{
+			"brand": "Testing",
+			"code": "310014",
+			"mcc": "310",
+			"mnc": "014"
+		},
+		{
+			"brand": "Union Telephone Company",
+			"code": "310020",
+			"mcc": "310",
+			"mnc": "020"
+		},
+		{
+			"brand": "VeriSign",
+			"code": "310520",
+			"mcc": "310",
+			"mnc": "520"
+		},
+		{
+			"brand": "Verizon",
+			"code": "310004",
+			"mcc": "310",
+			"mnc": "004"
+		},
+		{
+			"brand": "Viaero",
+			"code": "310450",
+			"mcc": "310",
+			"mnc": "450"
+		},
+		{
+			"brand": "West Central",
+			"code": "310180",
+			"mcc": "310",
+			"mnc": "180"
+		},
+		{
+			"brand": "West Virginia Wireless",
+			"code": "310530",
+			"mcc": "310",
+			"mnc": "530"
+		},
+		{
+			"brand": "Westlink",
+			"code": "310340",
+			"mcc": "310",
+			"mnc": "340"
+		},
+		{
+			"brand": "Wikes Cellular",
+			"code": "311050",
+			"mcc": "311",
+			"mnc": "050"
+		},
+		{
+			"brand": "Wilkes Cellular",
+			"code": "311150",
+			"mcc": "311",
+			"mnc": "150"
+		},
+		{
+			"brand": "Wireless Alliance",
+			"code": "310890",
+			"mcc": "310",
+			"mnc": "890"
+		},
+		{
+			"brand": "XIT Wireless",
+			"code": "310950",
+			"mcc": "310",
+			"mnc": "950"
+		}
+	],
+	"UY": [
+		{
+			"brand": "Ancel",
+			"code": "74800",
+			"mcc": "748",
+			"mnc": "00"
+		},
+		{
+			"brand": "Claro",
+			"code": "74810",
+			"mcc": "748",
+			"mnc": "10"
+		},
+		{
+			"brand": "Movistar",
+			"code": "74807",
+			"mcc": "748",
+			"mnc": "07"
+		}
+	],
+	"UZ": [
+		{
+			"brand": "Beeline",
+			"code": "43404",
+			"mcc": "434",
+			"mnc": "04"
+		},
+		{
+			"brand": "Buztel",
+			"code": "43401",
+			"mcc": "434",
+			"mnc": "01"
+		},
+		{
+			"brand": "MTS",
+			"code": "43407",
+			"mcc": "434",
+			"mnc": "07"
+		},
+		{
+			"brand": "Perfectum Mobile",
+			"code": "43406",
+			"mcc": "434",
+			"mnc": "06"
+		},
+		{
+			"brand": "Ucell",
+			"code": "43405",
+			"mcc": "434",
+			"mnc": "05"
+		},
+		{
+			"brand": "Uzmacom",
+			"code": "43402",
+			"mcc": "434",
+			"mnc": "02"
+		}
+	],
+	"VC": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "360110",
+			"mcc": "360",
+			"mnc": "110"
+		},
+		{
+			"brand": "Cingular Wireless",
+			"code": "360100",
+			"mcc": "360",
+			"mnc": "100"
+		},
+		{
+			"brand": "Digicel",
+			"code": "360050",
+			"mcc": "360",
+			"mnc": "050"
+		}
+	],
+	"VE": [
+		{
+			"brand": "Digitel",
+			"code": "73401",
+			"mcc": "734",
+			"mnc": "01"
+		},
+		{
+			"brand": "Movilnet",
+			"code": "73406",
+			"mcc": "734",
+			"mnc": "06"
+		},
+		{
+			"brand": "movistar",
+			"code": "73404",
+			"mcc": "734",
+			"mnc": "04"
+		}
+	],
+	"VG": [
+		{
+			"brand": "Cable & Wireless",
+			"code": "348170",
+			"mcc": "348",
+			"mnc": "170"
+		},
+		{
+			"brand": "Caribbean Cellular Telephone",
+			"code": "348570",
+			"mcc": "348",
+			"mnc": "570"
+		},
+		{
+			"brand": "Digicel",
+			"code": "348770",
+			"mcc": "348",
+			"mnc": "770"
+		}
+	],
+	"VN": [
+		{
+			"brand": "3G EVNTelecom",
+			"code": "45208",
+			"mcc": "452",
+			"mnc": "08"
+		},
+		{
+			"brand": "Beeline VN",
+			"code": "45207",
+			"mcc": "452",
+			"mnc": "07"
+		},
+		{
+			"brand": "E-Mobile",
+			"code": "45206",
+			"mcc": "452",
+			"mnc": "06"
+		},
+		{
+			"brand": "HT Mobile",
+			"code": "45205",
+			"mcc": "452",
+			"mnc": "05"
+		},
+		{
+			"brand": "MobiFone",
+			"code": "45201",
+			"mcc": "452",
+			"mnc": "01"
+		},
+		{
+			"brand": "S-Fone",
+			"code": "45203",
+			"mcc": "452",
+			"mnc": "03"
+		},
+		{
+			"brand": "Viettel Mobile",
+			"code": "45204",
+			"mcc": "452",
+			"mnc": "04"
+		},
+		{
+			"brand": "Vinaphone",
+			"code": "45202",
+			"mcc": "452",
+			"mnc": "02"
+		}
+	],
+	"VU": [
+		{
+			"brand": "SMILE",
+			"code": "54101",
+			"mcc": "541",
+			"mnc": "01"
+		}
+	],
+	"WS": [
+		{
+			"brand": "Digicel",
+			"code": "54901",
+			"mcc": "549",
+			"mnc": "01"
+		},
+		{
+			"brand": "SamoaTel",
+			"code": "54927",
+			"mcc": "549",
+			"mnc": "27"
+		}
+	],
+	"YE": [
+		{
+			"brand": "HiTS-UNITEL",
+			"code": "42104",
+			"mcc": "421",
+			"mnc": "04"
+		},
+		{
+			"brand": "MTN",
+			"code": "42102",
+			"mcc": "421",
+			"mnc": "02"
+		},
+		{
+			"brand": "SabaFon",
+			"code": "42101",
+			"mcc": "421",
+			"mnc": "01"
+		},
+		{
+			"brand": "Yemen Mobile",
+			"code": "42103",
+			"mcc": "421",
+			"mnc": "03"
+		}
+	],
+	"ZA": [
+		{
+			"brand": "Bokamoso Consortium",
+			"code": "65530",
+			"mcc": "655",
+			"mnc": "30"
+		},
+		{
+			"brand": "Cape Town Metropolitan Council",
+			"code": "65521",
+			"mcc": "655",
+			"mnc": "21"
+		},
+		{
+			"brand": "Cell C",
+			"code": "65507",
+			"mcc": "655",
+			"mnc": "07"
+		},
+		{
+			"brand": "Ilizwi Telecommunications",
+			"code": "65532",
+			"mcc": "655",
+			"mnc": "32"
+		},
+		{
+			"brand": "Karabo Telecoms (Pty) Ltd.",
+			"code": "65531",
+			"mcc": "655",
+			"mnc": "31"
+		},
+		{
+			"brand": "MTN",
+			"code": "65510",
+			"mcc": "655",
+			"mnc": "10"
+		},
+		{
+			"brand": "Neotel",
+			"code": "65513",
+			"mcc": "655",
+			"mnc": "13"
+		},
+		{
+			"brand": "SAPS Gauteng",
+			"code": "65511",
+			"mcc": "655",
+			"mnc": "11"
+		},
+		{
+			"brand": "Sentech",
+			"code": "65506",
+			"mcc": "655",
+			"mnc": "06"
+		},
+		{
+			"brand": "Telkom Mobile / 8.ta",
+			"code": "65502",
+			"mcc": "655",
+			"mnc": "02"
+		},
+		{
+			"brand": "Thinta Thinta Telecommunications",
+			"code": "65533",
+			"mcc": "655",
+			"mnc": "33"
+		},
+		{
+			"brand": "Vodacom",
+			"code": "65501",
+			"mcc": "655",
+			"mnc": "01"
+		}
+	],
+	"ZM": [
+		{
+			"brand": "MTN",
+			"code": "64502",
+			"mcc": "645",
+			"mnc": "02"
+		},
+		{
+			"brand": "Zain",
+			"code": "64501",
+			"mcc": "645",
+			"mnc": "01"
+		},
+		{
+			"brand": "ZAMTEL",
+			"code": "64503",
+			"mcc": "645",
+			"mnc": "03"
+		}
+	]
+}
