@@ -1,8 +1,8 @@
-# ReveilApp
+# Reveil
 
 [![Build and Analyze](https://github.com/Lessica/ReveilApp/actions/workflows/build-analyze.yml/badge.svg)](https://github.com/Lessica/ReveilApp/actions/workflows/build-analyze.yml)
 
-ReveilApp is a replication of [UnveilApp](https://unveilapp.com) in pure SwiftUI.
+Reveil is a replication of [Unveil](https://unveilapp.com) in pure SwiftUI.
 
 ![Screenshot](./Artworks/Screenshot.png)
 
@@ -44,4 +44,4 @@ ReveilApp is licensed under the [MIT License](LICENSE).
 
 ---
 
-Copyright (c) 2023 82Flex & Lakr Aream, All rights reserved.
+Copyright (c) 2023-2024 82Flex & Lakr Aream, All rights reserved.
