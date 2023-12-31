@@ -57,7 +57,7 @@ struct AboutView: View {
                     .padding(.bottom, 32)
 
                 Section {
-                    Link(destination: URL(string: "https://github.com/Lessica/ReveilApp")!) {
+                    Link(destination: URL(string: "https://github.com/Lessica/Reveil")!) {
                         LinkCell(
                             label: NSLocalizedString("WEBSITE", comment: "Website"),
                             iconName: "github-mark-white",
