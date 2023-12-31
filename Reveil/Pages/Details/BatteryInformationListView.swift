@@ -28,7 +28,7 @@ struct BatteryInformationListView: View, ModuleListView {
         )
         .navigationTitle(module.moduleName)
         .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(false), String(describing: BatteryInformation.self),
+            wrappedValue: Pin(false), .BatteryInformation,
             store: PinStorage.shared.userDefaults
         )))
         .onReceive(GlobalTimer.shared.$tick) { _ in

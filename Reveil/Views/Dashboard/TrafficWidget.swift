@@ -132,8 +132,8 @@ struct TrafficWidget: View {
                             .font(Font.system(.body).weight(.regular))
                             .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
 
-                        AnimatedText(receivedDescription)
-                            .font(Font.system(.body).weight(.regular))
+                        Text(receivedDescription)
+                            .font(Font.system(.body).weight(.regular).monospacedDigit())
                             .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
                             .lineLimit(1)
                     }
@@ -164,8 +164,8 @@ struct TrafficWidget: View {
                             .font(Font.system(.body).weight(.regular))
                             .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
 
-                        AnimatedText(sentDescription)
-                            .font(Font.system(.body).weight(.regular))
+                        Text(sentDescription)
+                            .font(Font.system(.body).weight(.regular).monospacedDigit())
                             .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
                             .lineLimit(1)
                     }

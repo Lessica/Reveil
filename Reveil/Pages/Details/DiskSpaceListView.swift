@@ -28,7 +28,7 @@ struct DiskSpaceListView: View, ModuleListView {
         )
         .navigationTitle(module.moduleName)
         .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(true), String(describing: DiskSpace.self),
+            wrappedValue: Pin(true), .DiskSpace,
             store: PinStorage.shared.userDefaults
         )))
         .onReceive(GlobalTimer.shared.$tick) { _ in

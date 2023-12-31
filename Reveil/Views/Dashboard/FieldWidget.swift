@@ -26,7 +26,7 @@ struct FieldWidget: View {
 
             HStack {
                 Text(entry.value)
-                    .font(Font.system(.body).weight(.regular))
+                    .font(Font.system(.body).weight(.regular).monospacedDigit())
                     .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
                     .multilineTextAlignment(.leading)
                     .lineLimit(3)

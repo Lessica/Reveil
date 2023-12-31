@@ -44,7 +44,7 @@ struct ActivityWidget: View {
 
             HStack {
                 AnimatedText(String(format: "%.2f%%", Double(entry.values.last ?? 0) * 100.0))
-                    .font(Font.system(.title).weight(.medium))
+                    .font(Font.system(.title).weight(.medium).monospacedDigit())
                     .foregroundColor(.accentColor)
                     .lineLimit(1)
                 Spacer()

@@ -65,10 +65,10 @@ struct AboutView: View {
                         )
                     }
 
-                    Link(destination: URL(string: "https://twitter.com/82Flex")!) {
+                    Link(destination: URL(string: "https://github.com/Lessica")!) {
                         LinkCell(
                             label: NSLocalizedString("DEVELOPER", comment: "Developer"),
-                            description: "@82Flex",
+                            description: "@Lessica",
                             hasClosure: true
                         )
                     }
@@ -99,7 +99,7 @@ struct AboutView: View {
                         description: gBuildDateString
                     )
                 } footer: {
-                    Text(NSLocalizedString("COPYRIGHT_STRING", comment: "Copyright © 2023-2024 82Flex Team.\nAll rights reserved."))
+                    Text(NSLocalizedString("COPYRIGHT_STRING", comment: "Copyright © 2023-2024 Lessica & Lakr Aream.\nAll rights reserved."))
                         .font(Font.system(.footnote))
                         .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
                         .multilineTextAlignment(.center)

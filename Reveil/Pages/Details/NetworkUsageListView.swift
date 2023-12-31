@@ -28,7 +28,7 @@ struct NetworkUsageListView: View, ModuleListView {
         )
         .navigationTitle(module.moduleName)
         .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(false), String(describing: NetworkUsage.self),
+            wrappedValue: Pin(false), .NetworkUsage,
             store: PinStorage.shared.userDefaults
         )))
         .onReceive(GlobalTimer.shared.$tick) { _ in

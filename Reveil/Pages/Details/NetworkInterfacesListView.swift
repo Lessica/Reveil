@@ -39,7 +39,7 @@ struct NetworkInterfacesListView: View, ModuleListView {
         .navigationTitle(module.moduleName)
         .navigationBarItems(
             trailing: PinButton(pin: AppCodableStorage(
-                wrappedValue: Pin(false), String(describing: NetworkInterfaces.self),
+                wrappedValue: Pin(false), .NetworkInterfaces,
                 store: PinStorage.shared.userDefaults
             ))
         )

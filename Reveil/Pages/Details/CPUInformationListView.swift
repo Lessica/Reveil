@@ -28,7 +28,7 @@ struct CPUInformationListView: View, ModuleListView {
         )
         .navigationTitle(module.moduleName)
         .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(true), String(describing: CPUInformation.self),
+            wrappedValue: Pin(true), EntryKey.CPUInformation,
             store: PinStorage.shared.userDefaults
         )))
         .onReceive(GlobalTimer.shared.$tick) { _ in

@@ -10,6 +10,9 @@ import Foundation
 enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
     typealias RawValue = String
 
+    // Security
+    case Security
+
     // Device Information
     case DeviceName
     case MarketingName
@@ -205,6 +208,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
 
     init?(rawValue: String) {
         switch rawValue {
+        case "Security":
+            self = .Security
         case "DeviceName":
             self = .DeviceName
         case "MarketingName":
@@ -467,6 +472,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
 
     var rawValue: String {
         switch self {
+        case .Security:
+            "Security"
         case .DeviceName:
             "DeviceName"
         case .MarketingName:

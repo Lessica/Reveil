@@ -17,7 +17,9 @@ struct DashboardView: View {
     var body: some View {
         ScrollView(.vertical) {
             VStack {
-                Section { CheckmarkWidget() }
+                if PinStorage.shared.isPinned(forKey: .Security) {
+                    Section { CheckmarkWidget() }
+                }
 
                 ForEach(viewModel.entries, id: \.key) { entry in
                     Section {

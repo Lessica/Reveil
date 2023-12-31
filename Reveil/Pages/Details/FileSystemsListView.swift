@@ -39,7 +39,7 @@ struct FileSystemsListView: View, ModuleListView {
         .navigationTitle(module.moduleName)
         .navigationBarItems(
             trailing: PinButton(pin: AppCodableStorage(
-                wrappedValue: Pin(false), String(describing: FileSystems.self),
+                wrappedValue: Pin(false), .FileSystems,
                 store: PinStorage.shared.userDefaults
             ))
         )

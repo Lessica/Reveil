@@ -65,7 +65,7 @@ private struct FieldCell_Internal: View {
             Spacer()
 
             Text(description)
-                .font(.system(.body))
+                .font(.system(.body).monospacedDigit())
                 .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
                 .multilineTextAlignment(.trailing)
         }
@@ -84,9 +84,9 @@ struct FieldCell: View {
             delegate: delegate,
             isPinnable: entry.key.isPinnable,
             pin: entry.key.isPinnable ? AppCodableStorage(
-                wrappedValue: Pin(false), entry.key.rawValue,
+                wrappedValue: Pin(false), entry.key,
                 store: PinStorage.shared.userDefaults
-            ) : AppCodableStorage(wrappedValue: Pin(false), String())
+            ) : AppCodableStorage(wrappedValue: Pin(false), .Custom(name: String()))
         )
     }
 }

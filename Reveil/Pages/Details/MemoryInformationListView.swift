@@ -28,7 +28,7 @@ struct MemoryInformationListView: View, ModuleListView {
         )
         .navigationTitle(module.moduleName)
         .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(true), String(describing: MemoryInformation.self),
+            wrappedValue: Pin(true), .MemoryInformation,
             store: PinStorage.shared.userDefaults
         )))
         .onReceive(GlobalTimer.shared.$tick) { _ in

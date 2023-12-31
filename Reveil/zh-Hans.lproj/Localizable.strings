@@ -109,8 +109,8 @@
 /* Copied to clipboard */
 "COPIED_TO_CLIPBOARD" = "已拷贝到剪贴板";
 
-/* Copyright © 2023-2024 82Flex Team.\nAll rights reserved. */
-"COPYRIGHT_STRING" = "版权所有 © 2023-2024 82Flex Team.\n保留所有权利";
+/* Copyright © 2023-2024 Lessica & Lakr Aream.\nAll rights reserved. */
+"COPYRIGHT_STRING" = "版权所有 © 2023-2024 Lessica & Lakr Aream.\n保留所有权利";
 
 /* COW Faults */
 "COW_FAULTS" = "写时复制错误";

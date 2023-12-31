@@ -72,9 +72,11 @@ struct SecurityPresets: Codable {
     var secureEntitlementKeys: Set<String> = [
         "get-task-allow",
         "application-identifier",
+        "keychain-access-groups",
         "com.apple.developer.team-identifier",
         "com.apple.security.app-sandbox",
         "com.apple.security.network.client",
+        "com.apple.private.security.container-required",
     ]
 
     var secureMainBundleIdentifiers: Set<String> = [

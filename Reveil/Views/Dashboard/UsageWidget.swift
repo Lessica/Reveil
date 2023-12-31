@@ -31,14 +31,14 @@ struct UsageWidget: View {
 
             HStack(alignment: .lastTextBaseline) {
                 AnimatedText(String(format: "%.2f%%", (entry.firstRatio ?? 0.0) * 100.0))
-                    .font(Font.system(.title).weight(.medium))
+                    .font(Font.system(.title).weight(.medium).monospacedDigit())
                     .foregroundColor(.accentColor)
                     .lineLimit(1)
                 Spacer()
 
                 if let lastDescription = entry.lastDescription {
                     Text(lastDescription)
-                        .font(Font.system(.body).weight(.regular))
+                        .font(Font.system(.body).weight(.regular).monospacedDigit())
                         .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
                         .lineLimit(1)
                 }
