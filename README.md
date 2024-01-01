@@ -1,6 +1,8 @@
 # Reveil
 
-[![Build and Analyze](https://github.com/Lessica/ReveilApp/actions/workflows/build-analyze.yml/badge.svg)](https://github.com/Lessica/ReveilApp/actions/workflows/build-analyze.yml)
+[![Build and Analyze](https://github.com/Lessica/ReveilApp/actions/workflows/build-analyze.yml/badge.svg)](https://github.com/Lessica/ReveilApp/actions/workflows/build-analyze.yml) [![Build Archive](https://github.com/Lessica/ReveilApp/actions/workflows/build-archive.yml/badge.svg)](https://github.com/Lessica/ReveilApp/actions/workflows/build-analyze.yml) ![Latest Release](https://img.shields.io/github/v/release/Lessica/Reveil)
+ ![MIT License](https://img.shields.io/github/license/Lessica/Reveil)
+
 
 Reveil is a replication of [Unveil](https://unveilapp.com) in pure SwiftUI.
 
