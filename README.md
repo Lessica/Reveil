@@ -40,8 +40,8 @@ And not limited to the above.
 
 ## License
 
-ReveilApp is licensed under the [MIT License](LICENSE).
+Reveil is licensed under the [MIT License](LICENSE).
 
 ---
 
-Copyright (c) 2023-2024 82Flex & Lakr Aream, All rights reserved.
+Copyright (c) 2023-2024 Lessica & Lakr Aream, All rights reserved.

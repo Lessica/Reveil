@@ -30,9 +30,12 @@ struct CheckmarkWidget: View {
         return Color(PlatformColor.secondarySystemBackgroundAlias)
     }
 
-    var textColor: Color {
-        if isInsecure { return .white }
-        return .primary
+    var labelColor: Color {
+        return isInsecure ? .white : .primary
+    }
+
+    var descriptionColor: Color {
+        return isInsecure ? .white : .accent
     }
 
     var body: some View {
@@ -48,6 +51,7 @@ struct CheckmarkWidget: View {
                         .font(Font.system(.body).weight(.regular))
                 }
             }
+            .foregroundColor(labelColor)
 
             HStack {
                 Image(systemName: isLoading ? "magnifyingglass.circle.fill" : (isInsecure ? "xmark.circle.fill" : "checkmark.circle.fill"))
@@ -57,8 +61,8 @@ struct CheckmarkWidget: View {
                     .lineLimit(1)
                 Spacer()
             }
+            .foregroundColor(descriptionColor)
         }
-        .foregroundColor(textColor)
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.all, 12)
         .background(
