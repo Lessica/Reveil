@@ -13,11 +13,19 @@ struct AnimatedText: View {
         self.text = text
     }
 
+    var isAnimatedTextEnabled: Bool {
+        StandardUserDefaults.shared.isAnimatedTextEnabled && !ProcessInfo.processInfo.isLowPowerModeEnabled
+    }
+
     var body: some View {
-        if #available(iOS 16.0, *) {
-            Text(text)
-                .contentTransition(.numericText())
-                .animation(.spring(duration: 0.2), value: text)
+        if isAnimatedTextEnabled {
+            if #available(iOS 17.0, *) {
+                Text(text)
+                    .contentTransition(.numericText())
+                    .animation(.spring(duration: 0.2), value: text)
+            } else {
+                Text(text)
+            }
         } else {
             Text(text)
         }

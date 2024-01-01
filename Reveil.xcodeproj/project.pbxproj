@@ -38,6 +38,8 @@
 		0FA065812B3D83E6000A7ECE /* ObjCClassItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F16593C2AFA702C00268572 /* ObjCClassItem.swift */; };
 		0FA065822B3D83E6000A7ECE /* URLSchemeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1659392AF9FD4500268572 /* URLSchemeItem.swift */; };
 		0FA065852B3D8436000A7ECE /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 0FA065842B3D8436000A7ECE /* ArgumentParser */; };
+		0FA065872B42803B000A7ECE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0FA065862B42803B000A7ECE /* Settings.bundle */; };
+		0FA065892B4282BC000A7ECE /* StandardUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA065882B4282BC000A7ECE /* StandardUserDefaults.swift */; };
 		0FD0D2682AE0CB27001DD1E8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0D2672AE0CB27001DD1E8 /* Entry.swift */; };
 		0FD0D26A2AE0CD95001DD1E8 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0D2692AE0CD95001DD1E8 /* Dashboard.swift */; };
 		0FD0D26C2AE0D39C001DD1E8 /* EntryExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0D26B2AE0D39C001DD1E8 /* EntryExporter.swift */; };
@@ -222,6 +224,8 @@
 		0F7E1A582AD5976A0016F31A /* NetworkUsageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUsageListView.swift; sourceTree = "<group>"; };
 		0FA065782B3D8363000A7ECE /* ReveilHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReveilHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA0657A2B3D8363000A7ECE /* PresetsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsHelper.swift; sourceTree = "<group>"; };
+		0FA065862B42803B000A7ECE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		0FA065882B4282BC000A7ECE /* StandardUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardUserDefaults.swift; sourceTree = "<group>"; };
 		0FD0D2672AE0CB27001DD1E8 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		0FD0D2692AE0CD95001DD1E8 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		0FD0D26B2AE0D39C001DD1E8 /* EntryExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryExporter.swift; sourceTree = "<group>"; };
@@ -408,6 +412,7 @@
 				0F4955F42ADAD2F200227265 /* DefaultsWriter.swift */,
 				0F4955F52ADAD2F200227265 /* PropertyListRepresentable.swift */,
 				0F4955F32ADAD2F200227265 /* AppCodableStorage.swift */,
+				0FA065882B4282BC000A7ECE /* StandardUserDefaults.swift */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -492,6 +497,7 @@
 				CC21B5242ACD4B87003EC114 /* rsc-005-ipad-models.json */,
 				CC21B5252ACD4B87003EC114 /* rsc-006-ipod-models.json */,
 				0F0819372ADAE97200BB626C /* PinStorage.plist */,
+				0FA065862B42803B000A7ECE /* Settings.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -891,6 +897,7 @@
 				CC21B4BD2ACAE5E5003EC114 /* Localizable.strings in Resources */,
 				CC21B52A2ACD4B87003EC114 /* rsc-005-ipad-models.json in Resources */,
 				0F0819382ADAE97200BB626C /* PinStorage.plist in Resources */,
+				0FA065872B42803B000A7ECE /* Settings.bundle in Resources */,
 				CC4AE2BC2ACAA4B500DA23AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -976,6 +983,7 @@
 				CCA095F92AEE219300F5E55F /* CheckResult.swift in Sources */,
 				0F16593D2AFA702C00268572 /* ObjCClassItem.swift in Sources */,
 				0F4955DE2AD83A3800227265 /* NetworkDetailsListView.swift in Sources */,
+				0FA065892B4282BC000A7ECE /* StandardUserDefaults.swift in Sources */,
 				CC21B5492ACE809D003EC114 /* MemoryInformation.swift in Sources */,
 				0F4955F62ADAD2F200227265 /* DefaultsKeyObservation.swift in Sources */,
 				CC21B4EA2ACB1E9E003EC114 /* TrafficWidget.swift in Sources */,

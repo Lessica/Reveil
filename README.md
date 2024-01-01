@@ -4,6 +4,10 @@
 
 Reveil is a replication of [Unveil](https://unveilapp.com) in pure SwiftUI.
 
+**IMPORTANT**: iOS 15 and above is required.
+
+> Currently, Reveil is in early development, and we are working hard to make it better.
+
 ![Screenshot](./Artworks/Screenshot.png)
 
 ## Why we developed this again?

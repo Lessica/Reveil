@@ -5,11 +5,18 @@
 //  Created by Lessica on 2023/10/3.
 //
 
+import ColorfulX
 import SwiftUI
 
 struct CheckmarkWidget: View {
     @StateObject var securityModel: Security = .shared
     @State var openDetail: Bool = false
+
+    var isAnimatedBackgroundEnabled: Bool {
+        StandardUserDefaults.shared.isAnimatedBackgroundEnabled && !ProcessInfo.processInfo.isLowPowerModeEnabled
+    }
+
+    var isLowFrameRateEnabled: Bool = StandardUserDefaults.shared.isLowFrameRateEnabled
 
     var label: String { securityModel.description }
     var isLoading: Bool { securityModel.isLoading }
@@ -25,17 +32,19 @@ struct CheckmarkWidget: View {
         ).capitalized
     }
 
-    var backgroundColor: Color {
-        if isInsecure { return Color("SecurityLeaks") }
-        return Color(PlatformColor.secondarySystemBackgroundAlias)
+    var animatedBackgroundColors: [Color] {
+        if isLoading { return ColorfulPreset.aurora.colors }
+        if isInsecure { return [.red, .pink, .red, .pink] }
+        return [.accent, .accent, .accent, .accent]
     }
 
-    var labelColor: Color {
-        return isInsecure ? .white : .primary
-    }
-
-    var descriptionColor: Color {
-        return isInsecure ? .white : .accent
+    var colorfulBackground: some View {
+        ColorfulView(
+            color: .init(get: { animatedBackgroundColors }, set: { _ in }),
+            speed: isAnimatedBackgroundEnabled ? .constant(0.5) : .constant(0),
+            transitionInterval: isAnimatedBackgroundEnabled ? .constant(1) : .constant(0),
+            frameLimit: isLowFrameRateEnabled ? 30 : 60
+        )
     }
 
     var body: some View {
@@ -51,7 +60,6 @@ struct CheckmarkWidget: View {
                         .font(Font.system(.body).weight(.regular))
                 }
             }
-            .foregroundColor(labelColor)
 
             HStack {
                 Image(systemName: isLoading ? "magnifyingglass.circle.fill" : (isInsecure ? "xmark.circle.fill" : "checkmark.circle.fill"))
@@ -61,19 +69,14 @@ struct CheckmarkWidget: View {
                     .lineLimit(1)
                 Spacer()
             }
-            .foregroundColor(descriptionColor)
         }
+        .foregroundColor(.white)
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.all, 12)
-        .background(
-            RoundedRectangle(cornerRadius: 4)
-                .foregroundColor(backgroundColor)
-                .opacity(isInsecure ? 0.75 : 0.25)
-        )
-        .overlay {
-            RoundedRectangle(cornerRadius: 4)
-                .stroke(Color(PlatformColor.separatorAlias), lineWidth: 1)
-                .opacity(isInsecure ? 0 : 1)
+        .background {
+            self.colorfulBackground
+                .opacity(0.75)
+                .clipShape(RoundedRectangle(cornerRadius: 4))
         }
         .onChange(of: isLoading) { _ in
             if isLoading { openDetail = false }
