@@ -12,7 +12,7 @@ struct DashboardView: View {
     @StateObject private var securityModel = Security.shared
     @State private var isNavigationLinkActive = false
 
-    let session = UUID()
+    @State private var shouldTick: Bool = false
 
     var body: some View {
         ScrollView(.vertical) {
@@ -42,8 +42,17 @@ struct DashboardView: View {
             }
             .padding()
         }
-        .onAppear { GlobalTimer.shared.use(session: session) }
-        .onDisappear { GlobalTimer.shared.remove(session: session) }
+        .onReceive(GlobalTimer.shared.$tick) { _ in
+            if shouldTick {
+                Dashboard.shared.updateEntries()
+            }
+        }
+        .onAppear {
+            shouldTick = true
+        }
+        .onDisappear {
+            shouldTick = false
+        }
     }
 
     @ViewBuilder

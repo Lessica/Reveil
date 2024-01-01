@@ -114,7 +114,6 @@ final class Dashboard: ObservableObject {
     }
 
     func updateEntries() {
-        defer { objectWillChange.send() }
         cachedModules.forEach { $0.reloadData() }
         for entry in entries {
             guard let targetModule = cachedModuleMappings[entry.key] else {
