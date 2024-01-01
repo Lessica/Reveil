@@ -17,8 +17,10 @@ struct AnimatedText: View {
         StandardUserDefaults.shared.isAnimatedTextEnabled && !ProcessInfo.processInfo.isLowPowerModeEnabled
     }
 
+    var isLegacyUIEnabled: Bool = StandardUserDefaults.shared.isLegacyUIEnabled
+
     var body: some View {
-        if isAnimatedTextEnabled {
+        if !isLegacyUIEnabled && isAnimatedTextEnabled {
             if #available(iOS 17.0, *) {
                 Text(text)
                     .contentTransition(.numericText())

@@ -17,6 +17,11 @@ struct CheckmarkWidget: View {
     }
 
     var isLowFrameRateEnabled: Bool = StandardUserDefaults.shared.isLowFrameRateEnabled
+    var isLegacyUIEnabled: Bool = StandardUserDefaults.shared.isLegacyUIEnabled
+
+    var usesLegacyStyle: Bool {
+        isLegacyUIEnabled || !isAnimatedBackgroundEnabled
+    }
 
     var label: String { securityModel.description }
     var isLoading: Bool { securityModel.isLoading }
@@ -30,6 +35,25 @@ struct CheckmarkWidget: View {
                     : NSLocalizedString("NO_ISSUES_FOUND", comment: "No issues found")
                 )
         ).capitalized
+    }
+
+    var labelColor: Color {
+        if usesLegacyStyle {
+            return isInsecure ? .white : .primary
+        }
+        return .white
+    }
+
+    var descriptionColor: Color {
+        if usesLegacyStyle {
+            return isInsecure ? .white : .accent
+        }
+        return .white
+    }
+
+    var backgroundColor: Color {
+        if isInsecure { return Color("SecurityLeaks") }
+        return Color(PlatformColor.secondarySystemBackgroundAlias)
     }
 
     var animatedBackgroundColors: [Color] {
@@ -60,6 +84,7 @@ struct CheckmarkWidget: View {
                         .font(Font.system(.body).weight(.regular))
                 }
             }
+            .foregroundColor(labelColor)
 
             HStack {
                 Image(systemName: isLoading ? "magnifyingglass.circle.fill" : (isInsecure ? "xmark.circle.fill" : "checkmark.circle.fill"))
@@ -69,14 +94,27 @@ struct CheckmarkWidget: View {
                     .lineLimit(1)
                 Spacer()
             }
+            .foregroundColor(descriptionColor)
         }
-        .foregroundColor(.white)
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.all, 12)
         .background {
-            self.colorfulBackground
-                .opacity(0.75)
-                .clipShape(RoundedRectangle(cornerRadius: 4))
+            if usesLegacyStyle {
+                RoundedRectangle(cornerRadius: 4)
+                    .foregroundColor(backgroundColor)
+                    .opacity(isInsecure ? 0.75 : 0.25)
+            } else {
+                self.colorfulBackground
+                    .opacity(0.75)
+                    .clipShape(RoundedRectangle(cornerRadius: 4))
+            }
+        }
+        .overlay {
+            if usesLegacyStyle && !isInsecure {
+                RoundedRectangle(cornerRadius: 4)
+                    .stroke(Color(PlatformColor.separatorAlias), lineWidth: 1)
+                    .opacity(isInsecure ? 0 : 1)
+            }
         }
         .onChange(of: isLoading) { _ in
             if isLoading { openDetail = false }

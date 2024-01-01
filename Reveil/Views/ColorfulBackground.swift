@@ -17,6 +17,7 @@ struct ColorfulBackground: View {
     }
 
     var isLowFrameRateEnabled: Bool = StandardUserDefaults.shared.isLowFrameRateEnabled
+    var isLegacyUIEnabled: Bool = StandardUserDefaults.shared.isLegacyUIEnabled
 
     var colorfulView: some View {
         if colorScheme == .light {
@@ -38,7 +39,9 @@ struct ColorfulBackground: View {
 
     var body: some View {
         Group {
-            self.colorfulView
+            if !isLegacyUIEnabled {
+                self.colorfulView
+            }
         }
         .background(Color(PlatformColor.systemBackground))
         .ignoresSafeArea()

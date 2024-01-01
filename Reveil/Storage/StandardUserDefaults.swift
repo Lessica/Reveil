@@ -7,6 +7,7 @@
 
 import Foundation
 
+private let gDefaultsKeyLegacyUI = "LegacyUI"
 private let gDefaultsKeyAnimatedText = "AnimatedText"
 private let gDefaultsKeyAnimatedBackground = "AnimatedBackground"
 private let gDefaultsKeyLowFrameRate = "LowFrameRate"
@@ -21,6 +22,10 @@ class StandardUserDefaults {
             gDefaultsKeyLowFrameRate: false,
         ])
     }
+
+    lazy var isLegacyUIEnabled: Bool = {
+        UserDefaults.standard.bool(forKey: gDefaultsKeyLegacyUI)
+    }()
 
     lazy var isAnimatedTextEnabled: Bool = {
         UserDefaults.standard.bool(forKey: gDefaultsKeyAnimatedText)
