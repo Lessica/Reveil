@@ -63,8 +63,14 @@ BOOL isCdHashInTrustCache(NSData *cdHash)
     if (amfiServiceDict)
     {
         io_connect_t connect;
-        io_service_t amfiService = IOServiceGetMatchingService(kIOMainPortDefault, amfiServiceDict);
-        kr = IOServiceOpen(amfiService, mach_task_self(), 0, &connect);
+        if (@available(iOS 15.0, *)) {
+            io_service_t amfiService = IOServiceGetMatchingService(kIOMainPortDefault, amfiServiceDict);
+            kr = IOServiceOpen(amfiService, mach_task_self(), 0, &connect);
+        } else {
+            // Fallback on earlier versions
+            io_service_t amfiService = IOServiceGetMatchingService(0 /* kIOMasterPortDefault */, amfiServiceDict);
+            kr = IOServiceOpen(amfiService, mach_task_self(), 0, &connect);
+        }
         if (kr != KERN_SUCCESS)
         {
             NSLog(@"Failed to open amfi service %d %s", kr, mach_error_string(kr));

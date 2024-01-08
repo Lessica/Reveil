@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUIBackports
 
 private struct FieldCell_Internal: View {
     let label: String
@@ -36,7 +37,7 @@ private struct FieldCell_Internal: View {
                 Text(label)
                     .font(Font.system(.body))
 
-                if isPinnable {
+                if #available(iOS 15.0, *), isPinnable {
                     Menu {
                         if pin.isPinned {
                             Button {
@@ -59,6 +60,8 @@ private struct FieldCell_Internal: View {
                     } primaryAction: {
                         pin = Pin(negate: pin)
                     }
+                } else {
+                    // Fallback on earlier versions
                 }
             }
 

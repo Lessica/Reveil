@@ -6,8 +6,8 @@
 //
 
 import UIKit
-
 import SwiftUI
+import SwiftUIBackports
 
 struct ContentView: View {
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
@@ -67,7 +67,7 @@ struct SidebarView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(NSLocalizedString("DASHBOARD", comment: "Dashboard")) {
+                Backport.Section(NSLocalizedString("DASHBOARD", comment: "Dashboard")) {
                     NavigationLink {
                         DashboardView()
                             .navigationTitle(NSLocalizedString("DASHBOARD", comment: "Dashboard"))
@@ -77,11 +77,11 @@ struct SidebarView: View {
                     }
                 }
 
-                Section(NSLocalizedString("DETAILS", comment: "Details")) {
+                Backport.Section(NSLocalizedString("DETAILS", comment: "Details")) {
                     DetailsView.createDetailsList()
                 }
 
-                Section(NSLocalizedString("ABOUT", comment: "About")) {
+                Backport.Section(NSLocalizedString("ABOUT", comment: "About")) {
                     NavigationLink {
                         AboutView()
                             .background(ColorfulBackground())

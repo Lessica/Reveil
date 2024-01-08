@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUIBackports
 
 struct ToastView: View {
     let label: String
@@ -21,7 +22,7 @@ struct ToastView: View {
             }
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(.thinMaterial)
+            .background(thinMaterial: true)
             .cornerRadius(8)
         }
         .padding()

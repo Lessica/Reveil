@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUIBackports
 
 struct DashboardView: View {
     @StateObject private var viewModel = Dashboard.shared
@@ -30,14 +31,14 @@ struct DashboardView: View {
                                     .foregroundColor(Color(PlatformColor.secondarySystemBackgroundAlias))
                                     .opacity(0.25)
                             )
-                            .overlay {
+                            .backport.overlay {
                                 RoundedRectangle(cornerRadius: 4)
                                     .stroke(Color(PlatformColor.separatorAlias), lineWidth: 1)
                             }
-                            .overlay { navigationLinkBuilder(entry) }
+                            .backport.overlay { navigationLinkBuilder(entry) }
                     }
                     .padding(entry === viewModel.entries.last ? .bottom : [], 8)
-                    .listSectionSeparator(.hidden)
+                    .listSectionSeparator(hidden: true)
                 }
             }
             .padding()

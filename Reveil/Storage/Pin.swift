@@ -13,7 +13,7 @@ struct Pin: PropertyListRepresentable {
 
     init(_ isPinned: Bool) {
         self.isPinned = isPinned
-        lastChange = Date.now.timeIntervalSinceReferenceDate
+        lastChange = Date().timeIntervalSinceReferenceDate
     }
 
     init(negate pin: Self) {

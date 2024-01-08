@@ -88,7 +88,6 @@
 		CC21B5332ACD5FB9003EC114 /* OperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B5322ACD5FB9003EC114 /* OperatingSystem.swift */; };
 		CC21B5352ACD6112003EC114 /* OperatingSystemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B5342ACD6112003EC114 /* OperatingSystemListView.swift */; };
 		CC21B5372ACD92B9003EC114 /* GlobalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B5362ACD92B9003EC114 /* GlobalTimer.swift */; };
-		CC21B5392ACD9E2A003EC114 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B5382ACD9E2A003EC114 /* Delay.swift */; };
 		CC21B53B2ACDA7E1003EC114 /* CPUInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B53A2ACDA7E1003EC114 /* CPUInformation.swift */; };
 		CC21B53D2ACDA80F003EC114 /* CPUInformationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B53C2ACDA80F003EC114 /* CPUInformationListView.swift */; };
 		CC21B53F2ACDAC33003EC114 /* UsageEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B53E2ACDAC33003EC114 /* UsageEntry.swift */; };
@@ -106,6 +105,9 @@
 		CC21B55B2AD04F84003EC114 /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B55A2AD04F84003EC114 /* FileSystem.swift */; };
 		CC21B55D2AD055FC003EC114 /* NetworkInterfacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B55C2AD055FC003EC114 /* NetworkInterfacesListView.swift */; };
 		CC21B55F2AD0586B003EC114 /* NetworkInterfaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B55E2AD0586B003EC114 /* NetworkInterfaceListView.swift */; };
+		CC3F94252B4C506B00E67A19 /* View+ListSectionSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94242B4C506B00E67A19 /* View+ListSectionSeparator.swift */; };
+		CC3F94272B4C51DD00E67A19 /* View+Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94262B4C51DD00E67A19 /* View+Material.swift */; };
+		CC3F94292B4C52B000E67A19 /* View+ForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94282B4C52B000E67A19 /* View+ForegroundStyle.swift */; };
 		CC4AE2B82ACAA4B400DA23AC /* ReveilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AE2B72ACAA4B400DA23AC /* ReveilApp.swift */; };
 		CC4AE2BA2ACAA4B400DA23AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AE2B92ACAA4B400DA23AC /* ContentView.swift */; };
 		CC4AE2BC2ACAA4B500DA23AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4AE2BB2ACAA4B500DA23AC /* Assets.xcassets */; };
@@ -116,6 +118,7 @@
 		CC549F072AFA9F1800219CF8 /* EntryUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC549F062AFA9F1800219CF8 /* EntryUpdater.swift */; };
 		CC5AE1BB2AD1A4420087F082 /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5AE1BA2AD1A4420087F082 /* SocketAddress.swift */; };
 		CC5AE1BF2AD2F2010087F082 /* ifaddrs_safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5AE1BE2AD2F2010087F082 /* ifaddrs_safe.swift */; };
+		CC7C87942B4C459300B6A639 /* SwiftUIBackports in Frameworks */ = {isa = PBXBuildFile; productRef = CC7C87932B4C459300B6A639 /* SwiftUIBackports */; };
 		CC7DC2912AF3EB1300D50EDC /* library_stub.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DC2902AF3EB1300D50EDC /* library_stub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC7DC29B2AF3EBD600D50EDC /* library_stub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7DC29A2AF3EBD600D50EDC /* library_stub.m */; };
 		CC7DC29D2AF3ECA500D50EDC /* library_stub.zip in Resources */ = {isa = PBXBuildFile; fileRef = CC7DC29C2AF3ECA500D50EDC /* library_stub.zip */; };
@@ -273,7 +276,6 @@
 		CC21B5322ACD5FB9003EC114 /* OperatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingSystem.swift; sourceTree = "<group>"; };
 		CC21B5342ACD6112003EC114 /* OperatingSystemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingSystemListView.swift; sourceTree = "<group>"; };
 		CC21B5362ACD92B9003EC114 /* GlobalTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTimer.swift; sourceTree = "<group>"; };
-		CC21B5382ACD9E2A003EC114 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		CC21B53A2ACDA7E1003EC114 /* CPUInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUInformation.swift; sourceTree = "<group>"; };
 		CC21B53C2ACDA80F003EC114 /* CPUInformationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUInformationListView.swift; sourceTree = "<group>"; };
 		CC21B53E2ACDAC33003EC114 /* UsageEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageEntry.swift; sourceTree = "<group>"; };
@@ -291,6 +293,9 @@
 		CC21B55A2AD04F84003EC114 /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
 		CC21B55C2AD055FC003EC114 /* NetworkInterfacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterfacesListView.swift; sourceTree = "<group>"; };
 		CC21B55E2AD0586B003EC114 /* NetworkInterfaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterfaceListView.swift; sourceTree = "<group>"; };
+		CC3F94242B4C506B00E67A19 /* View+ListSectionSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ListSectionSeparator.swift"; sourceTree = "<group>"; };
+		CC3F94262B4C51DD00E67A19 /* View+Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Material.swift"; sourceTree = "<group>"; };
+		CC3F94282B4C52B000E67A19 /* View+ForegroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ForegroundStyle.swift"; sourceTree = "<group>"; };
 		CC4AE2B42ACAA4B400DA23AC /* Reveil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reveil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4AE2B72ACAA4B400DA23AC /* ReveilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReveilApp.swift; sourceTree = "<group>"; };
 		CC4AE2B92ACAA4B400DA23AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -366,6 +371,7 @@
 				CCD54D2C2AD9047D007ED1AF /* Collections in Frameworks */,
 				50E143122B401108000A7191 /* ColorfulX in Frameworks */,
 				CCA0956D2AE8D5E900F5E55F /* UIKit.framework in Frameworks */,
+				CC7C87942B4C459300B6A639 /* SwiftUIBackports in Frameworks */,
 				CCD54D2E2AD9047D007ED1AF /* DequeModule in Frameworks */,
 				5024F6EC2B1829EE000CEAB5 /* library_stub.framework in Frameworks */,
 				CCA0956F2AE8D5EE00F5E55F /* SwiftUI.framework in Frameworks */,
@@ -464,8 +470,8 @@
 		CC21B5162ACD459E003EC114 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CC3F94232B4C505600E67A19 /* Backports */,
 				CC549EFD2AFA7DB300219CF8 /* Foundation */,
-				CC21B5382ACD9E2A003EC114 /* Delay.swift */,
 				CCA095CB2AE8E6D100F5E55F /* Color+Platform.swift */,
 				CC9D249A2B3D954F00A18513 /* URL+Path.swift */,
 				50E1430F2B400C6F000A7191 /* Brand.swift */,
@@ -520,6 +526,16 @@
 				CC0052692B134FA500DBF808 /* BatteryInformationListView.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		CC3F94232B4C505600E67A19 /* Backports */ = {
+			isa = PBXGroup;
+			children = (
+				CC3F94242B4C506B00E67A19 /* View+ListSectionSeparator.swift */,
+				CC3F94262B4C51DD00E67A19 /* View+Material.swift */,
+				CC3F94282B4C52B000E67A19 /* View+ForegroundStyle.swift */,
+			);
+			path = Backports;
 			sourceTree = "<group>";
 		};
 		CC4AE2AB2ACAA4B400DA23AC = {
@@ -811,6 +827,7 @@
 				0F08193C2ADAF1C600BB626C /* DictionaryCoder */,
 				CC7DC2A02AF3EEBB00D50EDC /* ZIPFoundation */,
 				50E143112B401108000A7191 /* ColorfulX */,
+				CC7C87932B4C459300B6A639 /* SwiftUIBackports */,
 			);
 			productName = Reveil;
 			productReference = CC4AE2B42ACAA4B400DA23AC /* Reveil.app */;
@@ -871,6 +888,7 @@
 				CC7DC29F2AF3EEBB00D50EDC /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 				0FA065832B3D8436000A7ECE /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 				50E1430E2B400422000A7191 /* XCRemoteSwiftPackageReference "ColorfulX" */,
+				CC7C87922B4C459300B6A639 /* XCRemoteSwiftPackageReference "SwiftUIBackports" */,
 			);
 			productRefGroup = CC4AE2B52ACAA4B400DA23AC /* Products */;
 			projectDirPath = "";
@@ -958,6 +976,7 @@
 			files = (
 				0F4955F92ADAD2F200227265 /* PropertyListRepresentable.swift in Sources */,
 				50E143102B400C6F000A7191 /* Brand.swift in Sources */,
+				CC3F94292B4C52B000E67A19 /* View+ForegroundStyle.swift in Sources */,
 				0FF1CDBF2AD57109004A6D43 /* NetworkUsage.swift in Sources */,
 				CC21B54F2ACF26AD003EC114 /* DiskSpaceListView.swift in Sources */,
 				0F08193A2ADAEA3400BB626C /* PinStorage.swift in Sources */,
@@ -1002,9 +1021,9 @@
 				CC21B5572AD04EAB003EC114 /* NetworkInterfaces.swift in Sources */,
 				CC21B54D2ACF24E2003EC114 /* DiskSpace.swift in Sources */,
 				0F2CA1282AE946B200C76A78 /* SecurityView.swift in Sources */,
+				CC3F94252B4C506B00E67A19 /* View+ListSectionSeparator.swift in Sources */,
 				0FD0D26C2AE0D39C001DD1E8 /* EntryExporter.swift in Sources */,
 				CC21B4CA2ACAF5DA003EC114 /* CPUActivity.swift in Sources */,
-				CC21B5392ACD9E2A003EC114 /* Delay.swift in Sources */,
 				CC549F072AFA9F1800219CF8 /* EntryUpdater.swift in Sources */,
 				CC0052642B13458000DBF808 /* BatteryInformation.swift in Sources */,
 				CCA095ED2AED419B00F5E55F /* FishHookChecker.swift in Sources */,
@@ -1064,6 +1083,7 @@
 				CC21B5512ACF2874003EC114 /* FileSystems.swift in Sources */,
 				0F2CA1262AE6AF8B00C76A78 /* HighlightedEntryKey.swift in Sources */,
 				0FD0D26A2AE0CD95001DD1E8 /* Dashboard.swift in Sources */,
+				CC3F94272B4C51DD00E67A19 /* View+Material.swift in Sources */,
 				CC21B4CC2ACAF6FB003EC114 /* MemoryActivity.swift in Sources */,
 				0FD0D2682AE0CB27001DD1E8 /* Entry.swift in Sources */,
 				0F4955ED2ADAA0F100227265 /* BasicNumeric.swift in Sources */,
@@ -1123,7 +1143,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -1142,7 +1162,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -1277,7 +1297,7 @@
 				CODE_SIGN_ENTITLEMENTS = Reveil/Reveil.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = GXZ23M5TP2;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
@@ -1294,7 +1314,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1320,7 +1340,7 @@
 				CODE_SIGN_ENTITLEMENTS = Reveil/Reveil.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = GXZ23M5TP2;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
@@ -1337,7 +1357,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1373,7 +1393,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -1383,7 +1403,7 @@
 					"@loader_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -1392,7 +1412,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1421,7 +1441,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -1431,7 +1451,7 @@
 					"@loader_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -1440,7 +1460,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1516,6 +1536,14 @@
 				minimumVersion = 2.2.13;
 			};
 		};
+		CC7C87922B4C459300B6A639 /* XCRemoteSwiftPackageReference "SwiftUIBackports" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shaps80/SwiftUIBackports.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
 		CC7DC29F2AF3EEBB00D50EDC /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
@@ -1549,6 +1577,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 50E1430E2B400422000A7191 /* XCRemoteSwiftPackageReference "ColorfulX" */;
 			productName = ColorfulX;
+		};
+		CC7C87932B4C459300B6A639 /* SwiftUIBackports */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC7C87922B4C459300B6A639 /* XCRemoteSwiftPackageReference "SwiftUIBackports" */;
+			productName = SwiftUIBackports;
 		};
 		CC7DC2A02AF3EEBB00D50EDC /* ZIPFoundation */ = {
 			isa = XCSwiftPackageProductDependency;

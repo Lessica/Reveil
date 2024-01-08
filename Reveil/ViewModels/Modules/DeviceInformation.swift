@@ -41,11 +41,7 @@ final class DeviceInformation: Module {
             return nil
         }
 
-        let techName: String = if firstValue == CTRadioAccessTechnologyNR {
-            "5G New Radio (NR)"
-        } else if firstValue == CTRadioAccessTechnologyNRNSA {
-            "5G New Radio Non-Standalone (NRNSA)"
-        } else if firstValue == CTRadioAccessTechnologyLTE {
+        let techName: String = if firstValue == CTRadioAccessTechnologyLTE {
             "Long-Term Evolution (LTE)"
         } else if firstValue == CTRadioAccessTechnologyeHRPD {
             "Enhanced High Rate Packet Data (eHRPD)"
@@ -68,7 +64,18 @@ final class DeviceInformation: Module {
         } else if firstValue == CTRadioAccessTechnologyGPRS {
             "General Packet Radio Service (GPRS)"
         } else {
-            BasicEntry.unknownValue
+            if #available(iOS 14.1, *) {
+                if firstValue == CTRadioAccessTechnologyNR {
+                    "5G New Radio (NR)"
+                } else if firstValue == CTRadioAccessTechnologyNRNSA {
+                    "5G New Radio Non-Standalone (NRNSA)"
+                } else {
+                    BasicEntry.unknownValue
+                }
+            } else {
+                // Fallback on earlier versions
+                BasicEntry.unknownValue
+            }
         }
 
         return techName

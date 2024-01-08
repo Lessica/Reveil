@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUIBackports
 
 struct DetailsListView: View, FieldCellDelegate {
     let basicEntries: [BasicEntry]
@@ -15,7 +16,7 @@ struct DetailsListView: View, FieldCellDelegate {
 
     private let pasteboard = UIPasteboard.general
 
-    @Environment(\.dismiss) private var dismissAction
+    @Environment(\.backportDismiss) private var dismissAction
     @EnvironmentObject private var highlightedEntryKey: HighlightedEntryKey
 
     @State private var selectedEntryKey: EntryKey?
@@ -28,7 +29,7 @@ struct DetailsListView: View, FieldCellDelegate {
                     Section {
                         UsageCell(entry: usageEntry, style: usageStyle)
                     }
-                    .listSectionSeparator(.hidden)
+                    .listSectionSeparator(hidden: true)
                 }
 
                 if let trafficEntries {
@@ -43,15 +44,15 @@ struct DetailsListView: View, FieldCellDelegate {
                             .frame(maxWidth: .infinity, alignment: .leading)
                         }
                     }
-                    .listSectionSeparator(.hidden, edges: .top)
-                    .listSectionSeparator(.visible, edges: .bottom)
+                    .listSectionSeparator(topHidden: true)
+                    .listSectionSeparator(bottomHidden: false)
                 }
 
                 sectionGroupBuilder(basicEntries)
             }
             .listStyle(.plain)
             .frame(maxWidth: .infinity)
-            .overlay(alignment: .bottom) { toastOverlay() }
+            .backport.overlay(alignment: .bottom) { toastOverlay() }
             .onAppear {
                 if let object = highlightedEntryKey.object {
                     selectedEntryKeys.removeAll(keepingCapacity: true)
@@ -116,12 +117,12 @@ struct DetailsListView: View, FieldCellDelegate {
                 Section {
                     sectionBuilder(entryGroup.entries)
                 }
-                .listSectionSeparator(.hidden)
+                .listSectionSeparator(hidden: true)
             } else {
-                Section(entryGroup.title) {
+                Backport.Section(entryGroup.title) {
                     sectionBuilder(entryGroup.entries)
                 }
-                .listSectionSeparator(.hidden)
+                .listSectionSeparator(hidden: true)
             }
         }
     }

@@ -61,7 +61,7 @@ struct DetailsView: View {
                 }
             }
         }
-        .listSectionSeparator(.hidden, edges: .top)
+        .listSectionSeparator(topHidden: true)
     }
 
     var body: some View {
@@ -69,7 +69,7 @@ struct DetailsView: View {
             Self.createDetailsList()
         }
         .listStyle(.plain)
-        .listSectionSeparator(.hidden)
+        .listSectionSeparator(hidden: true)
     }
 }
 

@@ -114,7 +114,7 @@ struct AboutView: View {
                     try? data.write(to: tempUrl, options: .atomic)
                     quickLookExport = tempUrl
                 }
-                .foregroundStyle(.accent)
+                .foregroundStyle(accent: true)
                 .quickLookPreview($quickLookExport)
             }
             .padding()
