@@ -17,7 +17,7 @@ struct NetworkDetailListView: View, ModuleListView {
             guard let pfx = NetworkPrefix(rawValue: prefix) else {
                 return nil
             }
-            item = pfx
+            self.item = pfx
         default:
             return nil
         }
@@ -46,9 +46,11 @@ struct NetworkDetailListView: View, ModuleListView {
             }
         }
         .onAppear {
-            entries = NetworkDetails.shared.entries(prefix: item)
-            trafficEntries = NetworkDetails.shared.trafficEntries(prefix: item)
-            trafficEntries.forEach { $0.invalidate() }
+            if let module = module as? NetworkDetails {
+                entries = module.entries(prefix: item)
+                trafficEntries = module.trafficEntries(prefix: item)
+                trafficEntries.forEach { $0.invalidate() }
+            }
             shouldTick = true
         }
         .onDisappear {

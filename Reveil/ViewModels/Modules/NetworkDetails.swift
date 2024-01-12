@@ -10,8 +10,11 @@ import Foundation
 final class NetworkDetails: Module {
     static let shared = NetworkDetails()
 
+    private var netStats: NetworkStatistics
+    private let netTraffic = NetworkTraffic()
+
     private init() {
-        netStats = NetworkTraffic.shared.getStatistics()
+        netStats = netTraffic.getStatistics()
     }
 
     let moduleName = NSLocalizedString("NETWORK_DETAILS", comment: "Network Details")
@@ -60,8 +63,6 @@ final class NetworkDetails: Module {
         return basicEntryIO.pair
     }
 
-    private var netStats: NetworkStatistics
-
     var basicEntries: [BasicEntry] {
         reloadData()
         return totalEntryMappings.flatMap(\.value.pair)
@@ -71,7 +72,7 @@ final class NetworkDetails: Module {
     let usageEntry: UsageEntry<Double>? = nil
 
     func reloadData() {
-        netStats = NetworkTraffic.shared.getStatistics()
+        netStats = netTraffic.getStatistics()
     }
 
     func update(prefix: NetworkPrefix) {

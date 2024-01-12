@@ -10,8 +10,11 @@ import SwiftUI
 final class NetworkUsage: Module {
     static let shared = NetworkUsage()
 
+    private var netStats: NetworkStatistics
+    private let netTraffic = NetworkTraffic()
+
     private init() {
-        netStats = NetworkTraffic.shared.getStatistics()
+        netStats = netTraffic.getStatistics()
     }
 
     let moduleName = NSLocalizedString("NETWORK_USAGE", comment: "Network Usage")
@@ -31,15 +34,13 @@ final class NetworkUsage: Module {
 
     lazy var usageEntry: UsageEntry<Double>? = usageEntry(key: .NetworkUsage)
 
-    private var netStats: NetworkStatistics
-
     lazy var basicEntries: [BasicEntry] = {
         reloadData()
         return updatableEntryKeys.compactMap { basicEntry(key: $0) }
     }()
 
     func reloadData() {
-        netStats = NetworkTraffic.shared.getStatistics()
+        netStats = netTraffic.getStatistics()
     }
 
     func updateEntries() {

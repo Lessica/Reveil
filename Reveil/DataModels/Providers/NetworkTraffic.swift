@@ -8,9 +8,6 @@
 import QuartzCore
 
 final class NetworkTraffic {
-    static let shared = NetworkTraffic()
-    private init() {}
-
     private var lastStatistics: NetworkStatistics?
 
     func getStatistics() -> NetworkStatistics {
