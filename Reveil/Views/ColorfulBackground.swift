@@ -10,6 +10,7 @@ import SwiftUI
 
 
 struct ColorfulBackground: View {
+    @State var isPaused: Bool = false
     @Environment(\.colorScheme) var colorScheme
 
     var isAnimatedBackgroundEnabled: Bool {
@@ -23,14 +24,14 @@ struct ColorfulBackground: View {
         if colorScheme == .light {
             ColorfulView(
                 color: .constant(ColorfulPreset.winter.colors),
-                speed: isAnimatedBackgroundEnabled ? .constant(0.5) : .constant(0),
+                speed: isAnimatedBackgroundEnabled && !isPaused ? .constant(0.5) : .constant(0),
                 frameLimit: isLowFrameRateEnabled ? 30 : 60
             )
             .opacity(0.5)
         } else {
             ColorfulView(
                 color: .constant(ColorfulPreset.aurora.colors),
-                speed: isAnimatedBackgroundEnabled ? .constant(0.5) : .constant(0),
+                speed: isAnimatedBackgroundEnabled && !isPaused ? .constant(0.5) : .constant(0),
                 frameLimit: isLowFrameRateEnabled ? 30 : 60
             )
             .opacity(0.25)
@@ -45,5 +46,11 @@ struct ColorfulBackground: View {
         }
         .background(Color(PlatformColor.systemBackground))
         .ignoresSafeArea()
+        .onAppear {
+            isPaused = false
+        }
+        .onDisappear {
+            isPaused = true
+        }
     }
 }
