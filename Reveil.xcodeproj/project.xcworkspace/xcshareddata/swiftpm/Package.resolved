@@ -3,10 +3,10 @@
     {
       "identity" : "colorfulx",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Lakr233/ColorfulX",
+      "location" : "https://github.com/Lakr233/ColorfulX.git",
       "state" : {
-        "revision" : "81aab3def2cef303ceb4c98ffe9f700363d2dbb0",
-        "version" : "2.2.18"
+        "branch" : "bugfix/displaylink-memory-leaks",
+        "revision" : "019149d122448193471a94e85df0e4f943e3dc5f"
       }
     },
     {

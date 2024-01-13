@@ -53,7 +53,6 @@
 		504B8C632B40243C00AABC12 /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B8C622B40243C00AABC12 /* AnimatedText.swift */; };
 		504B8C652B4033F600AABC12 /* ColorfulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B8C642B4033F600AABC12 /* ColorfulBackground.swift */; };
 		50E143102B400C6F000A7191 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1430F2B400C6F000A7191 /* Brand.swift */; };
-		50E143122B401108000A7191 /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = 50E143112B401108000A7191 /* ColorfulX */; };
 		CC0052642B13458000DBF808 /* BatteryInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052632B13457F00DBF808 /* BatteryInformation.swift */; };
 		CC0052672B1347F200DBF808 /* BatteryActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052662B1347F200DBF808 /* BatteryActivity.swift */; };
 		CC00526A2B134FD000DBF808 /* BatteryInformationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052692B134FA500DBF808 /* BatteryInformationListView.swift */; };
@@ -108,6 +107,7 @@
 		CC3F94252B4C506B00E67A19 /* View+ListSectionSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94242B4C506B00E67A19 /* View+ListSectionSeparator.swift */; };
 		CC3F94272B4C51DD00E67A19 /* View+Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94262B4C51DD00E67A19 /* View+Material.swift */; };
 		CC3F94292B4C52B000E67A19 /* View+ForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94282B4C52B000E67A19 /* View+ForegroundStyle.swift */; };
+		CC3F942F2B5240A300E67A19 /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = CC3F942E2B5240A300E67A19 /* ColorfulX */; };
 		CC4AE2B82ACAA4B400DA23AC /* ReveilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AE2B72ACAA4B400DA23AC /* ReveilApp.swift */; };
 		CC4AE2BA2ACAA4B400DA23AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AE2B92ACAA4B400DA23AC /* ContentView.swift */; };
 		CC4AE2BC2ACAA4B500DA23AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4AE2BB2ACAA4B500DA23AC /* Assets.xcassets */; };
@@ -368,8 +368,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3F942F2B5240A300E67A19 /* ColorfulX in Frameworks */,
 				CCD54D2C2AD9047D007ED1AF /* Collections in Frameworks */,
-				50E143122B401108000A7191 /* ColorfulX in Frameworks */,
 				CCA0956D2AE8D5E900F5E55F /* UIKit.framework in Frameworks */,
 				CC7C87942B4C459300B6A639 /* SwiftUIBackports in Frameworks */,
 				CCD54D2E2AD9047D007ED1AF /* DequeModule in Frameworks */,
@@ -826,8 +826,8 @@
 				CCD54D2F2AD9047D007ED1AF /* OrderedCollections */,
 				0F08193C2ADAF1C600BB626C /* DictionaryCoder */,
 				CC7DC2A02AF3EEBB00D50EDC /* ZIPFoundation */,
-				50E143112B401108000A7191 /* ColorfulX */,
 				CC7C87932B4C459300B6A639 /* SwiftUIBackports */,
+				CC3F942E2B5240A300E67A19 /* ColorfulX */,
 			);
 			productName = Reveil;
 			productReference = CC4AE2B42ACAA4B400DA23AC /* Reveil.app */;
@@ -887,8 +887,8 @@
 				0F08193B2ADAF1C600BB626C /* XCRemoteSwiftPackageReference "DictionaryCoder" */,
 				CC7DC29F2AF3EEBB00D50EDC /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 				0FA065832B3D8436000A7ECE /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
-				50E1430E2B400422000A7191 /* XCRemoteSwiftPackageReference "ColorfulX" */,
 				CC7C87922B4C459300B6A639 /* XCRemoteSwiftPackageReference "SwiftUIBackports" */,
+				CC3F942D2B5240A300E67A19 /* XCRemoteSwiftPackageReference "ColorfulX" */,
 			);
 			productRefGroup = CC4AE2B52ACAA4B400DA23AC /* Products */;
 			projectDirPath = "";
@@ -1528,12 +1528,12 @@
 				minimumVersion = 1.3.0;
 			};
 		};
-		50E1430E2B400422000A7191 /* XCRemoteSwiftPackageReference "ColorfulX" */ = {
+		CC3F942D2B5240A300E67A19 /* XCRemoteSwiftPackageReference "ColorfulX" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lakr233/ColorfulX";
+			repositoryURL = "https://github.com/Lakr233/ColorfulX.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.13;
+				branch = "bugfix/displaylink-memory-leaks";
+				kind = branch;
 			};
 		};
 		CC7C87922B4C459300B6A639 /* XCRemoteSwiftPackageReference "SwiftUIBackports" */ = {
@@ -1573,9 +1573,9 @@
 			package = 0FA065832B3D8436000A7ECE /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
 		};
-		50E143112B401108000A7191 /* ColorfulX */ = {
+		CC3F942E2B5240A300E67A19 /* ColorfulX */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 50E1430E2B400422000A7191 /* XCRemoteSwiftPackageReference "ColorfulX" */;
+			package = CC3F942D2B5240A300E67A19 /* XCRemoteSwiftPackageReference "ColorfulX" */;
 			productName = ColorfulX;
 		};
 		CC7C87932B4C459300B6A639 /* SwiftUIBackports */ = {
