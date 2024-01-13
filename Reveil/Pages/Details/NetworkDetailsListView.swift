@@ -14,7 +14,7 @@ struct NetworkDetailsListView: View, ModuleListView {
 
     init?(entryKey _: EntryKey) { nil }
 
-    @Environment(\.backportDismiss) private var dismissAction
+    @Environment(\.dismiss) private var dismissAction
 
     @State var items: [NetworkPrefix] = []
 

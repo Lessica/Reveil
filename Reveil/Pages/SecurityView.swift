@@ -6,12 +6,11 @@
 //
 
 import SwiftUI
-import SwiftUIBackports
 
 struct SecurityView: View {
     @StateObject private var securityModel = Security.shared
 
-    @Environment(\.backportDismiss) private var dismissAction
+    @Environment(\.dismiss) private var dismissAction
 
     var body: some View {
         DetailsListView(basicEntries: securityModel.basicEntries)

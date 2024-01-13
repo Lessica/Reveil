@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIBackports
 
 struct FileSystemsListView: View, ModuleListView {
     let module: Module = FileSystems.shared
@@ -19,7 +18,7 @@ struct FileSystemsListView: View, ModuleListView {
         }
     }
 
-    @Environment(\.backportDismiss) private var dismissAction
+    @Environment(\.dismiss) private var dismissAction
 
     @State var items: [FileSystem] = []
 

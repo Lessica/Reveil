@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIBackports
 
 struct ToastView: View {
     let label: String

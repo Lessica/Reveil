@@ -7,7 +7,6 @@
 
 import ColorfulX
 import SwiftUI
-import SwiftUIBackports
 
 struct CheckmarkWidget: View {
     @StateObject var securityModel: Security = .shared
@@ -99,7 +98,7 @@ struct CheckmarkWidget: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.all, 12)
-        .backport.background {
+        .background {
             if usesLegacyStyle {
                 RoundedRectangle(cornerRadius: 4)
                     .foregroundColor(backgroundColor)
@@ -110,7 +109,7 @@ struct CheckmarkWidget: View {
                     .clipShape(RoundedRectangle(cornerRadius: 4))
             }
         }
-        .backport.overlay {
+        .overlay {
             if usesLegacyStyle && !isInsecure {
                 RoundedRectangle(cornerRadius: 4)
                     .stroke(Color(PlatformColor.separatorAlias), lineWidth: 1)

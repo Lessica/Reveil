@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIBackports
 
 struct NetworkInterfacesListView: View, ModuleListView {
     let module: Module = NetworkInterfaces.shared
@@ -19,7 +18,7 @@ struct NetworkInterfacesListView: View, ModuleListView {
         }
     }
 
-    @Environment(\.backportDismiss) private var dismissAction
+    @Environment(\.dismiss) private var dismissAction
 
     @State var items: [NetworkInterface] = []
 

@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIBackports
 
 struct DetailsListView: View, FieldCellDelegate {
     let basicEntries: [BasicEntry]
@@ -16,7 +15,7 @@ struct DetailsListView: View, FieldCellDelegate {
 
     private let pasteboard = UIPasteboard.general
 
-    @Environment(\.backportDismiss) private var dismissAction
+    @Environment(\.dismiss) private var dismissAction
     @EnvironmentObject private var highlightedEntryKey: HighlightedEntryKey
 
     @State private var selectedEntryKey: EntryKey?
@@ -54,7 +53,7 @@ struct DetailsListView: View, FieldCellDelegate {
             }
             .listStyle(.plain)
             .frame(maxWidth: .infinity)
-            .backport.overlay(alignment: .bottom) { toastOverlay() }
+            .overlay(alignment: .bottom) { toastOverlay() }
             .onAppear {
                 if let object = highlightedEntryKey.object {
                     selectedEntryKeys.removeAll(keepingCapacity: true)
@@ -121,7 +120,7 @@ struct DetailsListView: View, FieldCellDelegate {
                 }
                 .listSectionSeparator(hidden: true)
             } else {
-                Backport.Section(entryGroup.title) {
+                Section(entryGroup.title) {
                     sectionBuilder(entryGroup.entries)
                 }
                 .listSectionSeparator(hidden: true)

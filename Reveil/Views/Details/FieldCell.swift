@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIBackports
 
 private struct FieldCell_Internal: View {
     let label: String
