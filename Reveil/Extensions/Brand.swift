@@ -14,10 +14,18 @@ extension View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .principal) {
-                    Image("IconShape")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .foregroundColor(.accentColor)
+                    if #available(iOS 15.0, *) {
+                        Image("IconShape")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.accentColor)
+                    } else {
+                        Image("IconShape")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.accentColor)
+                            .frame(width: 44, height: 44)
+                    }
                 }
             }
     }
