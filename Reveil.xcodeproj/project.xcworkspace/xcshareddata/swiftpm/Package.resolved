@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Lakr233/ColorfulX.git",
       "state" : {
-        "branch" : "bugfix/displaylink-memory-leaks",
-        "revision" : "019149d122448193471a94e85df0e4f943e3dc5f"
+        "revision" : "a422557a7c2cac7c6348f6a650dfa08260e6c4e6",
+        "version" : "2.3.0"
       }
     },
     {

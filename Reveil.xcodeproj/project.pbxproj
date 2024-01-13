@@ -1532,8 +1532,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Lakr233/ColorfulX.git";
 			requirement = {
-				branch = "bugfix/displaylink-memory-leaks";
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
 			};
 		};
 		CC7C87922B4C459300B6A639 /* XCRemoteSwiftPackageReference "SwiftUIBackports" */ = {
