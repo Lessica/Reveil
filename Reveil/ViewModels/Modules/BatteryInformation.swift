@@ -39,13 +39,15 @@ final class BatteryInformation: Module {
 
     private lazy var batteryCapacity: Double = DeviceInformation.shared.gModelDictionary?["battery_capacity"] as? Double ?? 0
 
-    private lazy var batteryCapacityDescription: String = if batteryCapacity > 0,
-                                                             let numericCapacity = gLargeNumberFormatter.string(from: NSNumber(value: Int64(batteryCapacity * 1000.0)))
-    {
-        String(format: "%@ mAh", numericCapacity)
-    } else {
-        BasicEntry.unknownValue
-    }
+    private lazy var batteryCapacityDescription: String = {
+        if batteryCapacity > 0,
+           let numericCapacity = gLargeNumberFormatter.string(from: NSNumber(value: Int64(batteryCapacity * 1000.0)))
+        {
+            return String(format: "%@ mAh", numericCapacity)
+        } else {
+            return BasicEntry.unknownValue
+        }
+    }()
 
     lazy var basicEntries: [BasicEntry] = {
         reloadData()

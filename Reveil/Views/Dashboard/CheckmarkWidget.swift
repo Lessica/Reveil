@@ -47,7 +47,7 @@ struct CheckmarkWidget: View {
 
     var descriptionColor: Color {
         if usesLegacyStyle {
-            return isInsecure ? .white : .accent
+            return isInsecure ? .white : .accentColor
         }
         return .white
     }
@@ -60,7 +60,7 @@ struct CheckmarkWidget: View {
     var animatedBackgroundColors: [Color] {
         if isLoading { return ColorfulPreset.aurora.colors }
         if isInsecure { return [.red, .pink, .red, .pink] }
-        return [.accent, .accent, .accent, .accent]
+        return [.accentColor, .accentColor, .accentColor, .accentColor]
     }
 
     var colorfulBackground: some View {

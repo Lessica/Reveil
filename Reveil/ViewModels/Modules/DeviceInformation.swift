@@ -41,40 +41,41 @@ final class DeviceInformation: Module {
             return nil
         }
 
-        let techName: String = if firstValue == CTRadioAccessTechnologyLTE {
-            "Long-Term Evolution (LTE)"
+        let techName: String
+        if firstValue == CTRadioAccessTechnologyLTE {
+            techName = "Long-Term Evolution (LTE)"
         } else if firstValue == CTRadioAccessTechnologyeHRPD {
-            "Enhanced High Rate Packet Data (eHRPD)"
+            techName = "Enhanced High Rate Packet Data (eHRPD)"
         } else if firstValue == CTRadioAccessTechnologyCDMAEVDORevB {
-            "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. B"
+            techName = "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. B"
         } else if firstValue == CTRadioAccessTechnologyCDMAEVDORevA {
-            "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. A"
+            techName = "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. A"
         } else if firstValue == CTRadioAccessTechnologyCDMAEVDORev0 {
-            "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. 0"
+            techName = "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. 0"
         } else if firstValue == CTRadioAccessTechnologyCDMA1x {
-            "Code Division Multiple Access (CDMA) 1x"
+            techName = "Code Division Multiple Access (CDMA) 1x"
         } else if firstValue == CTRadioAccessTechnologyHSUPA {
-            "High-Speed Uplink Packet Acess (HSUPA)"
+            techName = "High-Speed Uplink Packet Acess (HSUPA)"
         } else if firstValue == CTRadioAccessTechnologyHSDPA {
-            "High-Speed Downlink Packet Access (HSDPA)"
+            techName = "High-Speed Downlink Packet Access (HSDPA)"
         } else if firstValue == CTRadioAccessTechnologyWCDMA {
-            "Wideband Code Division Multiple Access (WCDMA)"
+            techName = "Wideband Code Division Multiple Access (WCDMA)"
         } else if firstValue == CTRadioAccessTechnologyEdge {
-            "Enhanced Data rates for GSM Evolution (EDGE)"
+            techName = "Enhanced Data rates for GSM Evolution (EDGE)"
         } else if firstValue == CTRadioAccessTechnologyGPRS {
-            "General Packet Radio Service (GPRS)"
+            techName = "General Packet Radio Service (GPRS)"
         } else {
             if #available(iOS 14.1, *) {
                 if firstValue == CTRadioAccessTechnologyNR {
-                    "5G New Radio (NR)"
+                    techName = "5G New Radio (NR)"
                 } else if firstValue == CTRadioAccessTechnologyNRNSA {
-                    "5G New Radio Non-Standalone (NRNSA)"
+                    techName = "5G New Radio Non-Standalone (NRNSA)"
                 } else {
-                    BasicEntry.unknownValue
+                    techName = BasicEntry.unknownValue
                 }
             } else {
                 // Fallback on earlier versions
-                BasicEntry.unknownValue
+                techName = BasicEntry.unknownValue
             }
         }
 

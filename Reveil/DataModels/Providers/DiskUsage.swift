@@ -19,9 +19,9 @@ final class DiskUsage {
         if let systemAttributes = try? FileManager.default.attributesOfFileSystem(forPath: NSHomeDirectory() as String),
            let space = (systemAttributes[FileAttributeKey.systemSize] as? NSNumber)?.int64Value
         {
-            space
+            return space
         } else {
-            0
+            return 0
         }
     }
 
@@ -29,9 +29,9 @@ final class DiskUsage {
 
     private static func getFreeDiskSpaceInBytes() -> Int64 {
         if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeAvailableCapacityForImportantUsageKey]).volumeAvailableCapacityForImportantUsage {
-            space
+            return space
         } else {
-            0
+            return 0
         }
     }
 

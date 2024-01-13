@@ -87,10 +87,11 @@ final class IntegrityChecker {
     }
 
     static func checkMachO(_ imageName: String?, with expectedSha256Values: Set<String>) -> Bool {
-        let target: IntegrityCheckerTarget = if let imageName {
-            IntegrityCheckerTarget.customImage(imageName)
+        let target: IntegrityCheckerTarget
+        if let imageName = imageName {
+            target = IntegrityCheckerTarget.customImage(imageName)
         } else {
-            .default
+            target = .default
         }
         if let hashValue = getMachOFileHashValue(target) {
             return expectedSha256Values.contains(hashValue)

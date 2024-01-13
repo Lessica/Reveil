@@ -178,9 +178,9 @@ enum IPAddress: Hashable, Equatable, Strideable, CustomStringConvertible, Codabl
     func broadcastAddress(netmask: IPAddress) -> IPAddress? {
         switch (self, netmask) {
         case let (.IPv4(local), .IPv4(mask)):
-            .IPv4(in_addr(s_addr: local.s_addr | ~mask.s_addr))
+            return .IPv4(in_addr(s_addr: local.s_addr | ~mask.s_addr))
         default:
-            nil
+            return nil
         }
     }
 
@@ -576,9 +576,9 @@ enum SocketAddress: Hashable, Equatable, Codable {
     func toHostAndPort() -> (host: IPAddress, port: UInt16)? {
         switch self {
         case let .Internet(host, port):
-            (host, port)
+            return (host, port)
         case .Link:
-            nil
+            return nil
         }
     }
 
@@ -586,9 +586,9 @@ enum SocketAddress: Hashable, Equatable, Codable {
     var host: IPAddress? {
         switch self {
         case let .Internet(host, _):
-            host
+            return host
         case .Link:
-            nil
+            return nil
         }
     }
 
@@ -599,18 +599,18 @@ enum SocketAddress: Hashable, Equatable, Codable {
     func toNSURL(path: String, scheme: String = "http") -> NSURL? {
         switch self {
         case .Internet:
-            NSURL(string: "\(scheme)://\(stringValue)\(path)")
+            return NSURL(string: "\(scheme)://\(stringValue)\(path)")
         case .Link:
-            nil
+            return nil
         }
     }
 
     func toURL(path: String, scheme: String = "http") -> URL? {
         switch self {
         case .Internet:
-            URL(string: "\(scheme)://\(stringValue)\(path)")
+            return URL(string: "\(scheme)://\(stringValue)\(path)")
         case .Link:
-            nil
+            return nil
         }
     }
 

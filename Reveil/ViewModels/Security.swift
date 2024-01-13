@@ -87,10 +87,11 @@ final class Security: ObservableObject, StaticEntryProvider, Explainable {
     private lazy var currentExecutablePath: String? = {
         var pathSize = PATH_MAX
         let pathPtr = UnsafeMutablePointer<CChar>.allocate(capacity: Int(pathSize))
-        let path: String? = if _NSGetExecutablePath(pathPtr, &pathSize) == 0 {
-            String(cString: pathPtr)
+        let path: String?
+        if _NSGetExecutablePath(pathPtr, &pathSize) == 0 {
+            path = String(cString: pathPtr)
         } else {
-            Bundle(for: Self.self).executablePath
+            path = Bundle(for: Self.self).executablePath
         }
         pathPtr.deallocate()
         return path

@@ -24,11 +24,11 @@ extension FileIntegrityCheck: Explainable {
     var description: String {
         switch self {
         case let .bundleID(exceptedBundleID):
-            "The expected bundle identify was \(exceptedBundleID)"
+            return "The expected bundle identify was \(exceptedBundleID)"
         case let .mobileProvision(expectedSha256Value):
-            "The expected hash value of Mobile Provision file was \(expectedSha256Value)"
+            return "The expected hash value of Mobile Provision file was \(expectedSha256Value)"
         case let .machO(imageName, expectedSha256Value):
-            "The expected hash value of \"__TEXT.__text\" data of \(imageName) Mach-O file was \(expectedSha256Value)"
+            return "The expected hash value of \"__TEXT.__text\" data of \(imageName) Mach-O file was \(expectedSha256Value)"
         }
     }
 }
