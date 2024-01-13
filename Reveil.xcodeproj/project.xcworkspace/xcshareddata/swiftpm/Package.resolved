@@ -3,10 +3,10 @@
     {
       "identity" : "colorfulx",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Lessica/ColorfulX.git",
+      "location" : "https://github.com/Lakr233/ColorfulX.git",
       "state" : {
-        "branch" : "backport/xcode-14",
-        "revision" : "c7661c6198520b67f4f78f72afd721a92398fa08"
+        "revision" : "11aae9e92a2f846ed26d275d0d3d6fad85d16837",
+        "version" : "2.3.1"
       }
     },
     {
