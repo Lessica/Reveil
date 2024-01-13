@@ -3,14 +3,17 @@
 [![Build and Analyze](https://github.com/Lessica/Reveil/actions/workflows/build-analyze.yml/badge.svg)](https://github.com/Lessica/Reveil/actions/workflows/build-analyze.yml) [![Build Archive](https://github.com/Lessica/Reveil/actions/workflows/build-archive.yml/badge.svg)](https://github.com/Lessica/Reveil/actions/workflows/build-archive.yml) ![Latest Release](https://img.shields.io/github/v/release/Lessica/Reveil)
  ![MIT License](https://img.shields.io/github/license/Lessica/Reveil)
 
-
 Reveil is a replication of [Unveil](https://unveilapp.com) in pure SwiftUI.
-
-**IMPORTANT**: iOS 15 and above is required.
 
 > Currently, Reveil is in early development, and we are working hard to make it better.
 
 ![Screenshot](./Artworks/Screenshot.png)
+
+## Requirements
+
+- Xcode 15 or later
+- Requires iOS 15.0 or later
+- If you're using Xcode 14 or targetting iOS 14, please use the `backport/ios-14` branch.
 
 ## Why we developed this again?
 
@@ -18,7 +21,7 @@ Unveil - The most advanced system and security analysis tool. Never got any upda
 
 So we decided to make this app alive again, and open-source it, that's cool. Also, Reveil utilizes complex and innovative techniques to detect possible software modifications or security threats within the iOS application sandbox without relying on exclusive libraries.
 
-## Features 
+## Features
 
 - State-of-the-art Security Analysis
 - Visualizes CPU usage (Total/User/Idle), displays CPU specifications, and average load information.
