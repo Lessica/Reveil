@@ -54,4 +54,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Reveil_${{ env.MARKETING_VERSION }}
-          path: Reveil.xcarchive
+          path: |
+            Reveil.xcarchive
+            Reveil_${{ env.MARKETING_VERSION }}.tipa
