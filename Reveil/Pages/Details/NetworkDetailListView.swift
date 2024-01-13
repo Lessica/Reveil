@@ -41,8 +41,8 @@ struct NetworkDetailListView: View, ModuleListView {
         )
         .navigationTitle(item.description)
         .onReceive(GlobalTimer.shared.$tick) { _ in
-            if shouldTick {
-                NetworkDetails.shared.update(prefix: item)
+            if shouldTick, let module = module as? NetworkDetails {
+                module.update(prefix: item)
             }
         }
         .onAppear {

@@ -18,14 +18,19 @@ struct NetworkDetailsListView: View, ModuleListView {
 
     @State var items: [NetworkPrefix] = []
 
+    @ViewBuilder
+    func childDetailListView(prefix: NetworkPrefix) -> some View {
+        NavigationLink(prefix.description) {
+            NetworkDetailListView(item: prefix)
+                .environmentObject(HighlightedEntryKey())
+        }
+    }
+
     var body: some View {
         List {
             Section {
                 ForEach(items, id: \.id) { item in
-                    NavigationLink(item.description) {
-                        NetworkDetailListView(item: item)
-                            .environmentObject(HighlightedEntryKey())
-                    }
+                    childDetailListView(prefix: item)
                 }
             }
             .listSectionSeparator(hidden: true)

@@ -45,7 +45,7 @@ struct DashboardView: View {
         }
         .onReceive(GlobalTimer.shared.$tick) { _ in
             if shouldTick {
-                Dashboard.shared.updateEntries()
+                viewModel.updateEntries()
             }
         }
         .onAppear {
