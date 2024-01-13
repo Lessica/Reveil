@@ -85,7 +85,6 @@ final class DefaultsWriter<Value: PropertyListRepresentable>: ObservableObject {
     }
 }
 
-@MainActor
 var sharedDefaultsWriters: [WhichDefaultsAndKey: Any] = [:]
 
 struct WhichDefaultsAndKey: Hashable {
@@ -94,7 +93,6 @@ struct WhichDefaultsAndKey: Hashable {
 }
 
 extension DefaultsWriter {
-    @MainActor
     public static func shared(defaultValue: PropertyListRepresentable, key: String, defaults: UserDefaults) -> Self {
         let kdPr = WhichDefaultsAndKey(defaults: defaults, key: key)
         if let existing = sharedDefaultsWriters[kdPr] {

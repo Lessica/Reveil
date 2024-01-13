@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@MainActor
 @propertyWrapper
 struct AppCodableStorage<Value: PropertyListRepresentable>: DynamicProperty {
     private let triggerUpdate: ObservedObject<DefaultsWriter<Value>>
