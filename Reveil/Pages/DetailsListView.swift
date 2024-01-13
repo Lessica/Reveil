@@ -30,6 +30,7 @@ struct DetailsListView: View, FieldCellDelegate {
                         UsageCell(entry: usageEntry, style: usageStyle)
                     }
                     .listSectionSeparator(hidden: true)
+                    .listRowBackground(Color.clear)
                 }
 
                 if let trafficEntries {
@@ -46,6 +47,7 @@ struct DetailsListView: View, FieldCellDelegate {
                     }
                     .listSectionSeparator(topHidden: true)
                     .listSectionSeparator(bottomHidden: false)
+                    .listRowBackground(Color.clear)
                 }
 
                 sectionGroupBuilder(basicEntries)
