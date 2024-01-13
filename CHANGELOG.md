@@ -1,5 +1,6 @@
 # Changes
 
+- Minimum Deployment Target: iOS 15
 - Backporting: remove buggy support for Mac Catalyst
 - Feature: add option for the legacy UI
 - UX: add section title for the sidebar on iPad
