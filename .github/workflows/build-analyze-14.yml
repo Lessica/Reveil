@@ -1,4 +1,4 @@
-name: Xcode - Build and Analyze
+name: Xcode - Build and Analyze (Xcode 14)
 
 on:
   push:

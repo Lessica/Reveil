@@ -1,4 +1,4 @@
-name: Xcode - Build Archive
+name: Xcode - Build Archive (iOS 14)
 
 on:
   push:
