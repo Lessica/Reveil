@@ -3,7 +3,7 @@ name: Xcode - Build Archive
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - 'v2.*.*'
 
 env:
   MARKETING_VERSION: 0.0.0
