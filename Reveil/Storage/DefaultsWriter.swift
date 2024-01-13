@@ -78,9 +78,9 @@ final class DefaultsWriter<Value: PropertyListRepresentable>: ObservableObject {
 
     static func read(from defaults: UserDefaults, key: String) -> Value? {
         if let o = defaults.object(forKey: key) {
-            try? Value(propertyList: o)
+            return try? Value(propertyList: o)
         } else {
-            nil
+            return nil
         }
     }
 }

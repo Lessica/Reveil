@@ -16,15 +16,15 @@ final class EntitlementsReader {
         var localizedDescription: String {
             switch self {
             case .binaryOpeningError:
-                "Error while opening application binary for reading"
+                return "Error while opening application binary for reading"
             case .unknownBinaryFormat:
-                "The binary format is not supported"
+                return "The binary format is not supported"
             case .codeSignatureCommandMissing:
-                "Unable to find code signature load command"
+                return "Unable to find code signature load command"
             case .signatureReadingError:
-                "Signature reading error occurred"
+                return "Signature reading error occurred"
             case .unsupportedFatBinary:
-                "Fat application binaries are unsupported"
+                return "Fat application binaries are unsupported"
             }
         }
     }

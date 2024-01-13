@@ -254,8 +254,8 @@ enum IPAddress: Hashable, Equatable, Strideable, CustomStringConvertible, Codabl
     /// Gets the address family of this instance. Returns either `AF_INET` or `AF_INET6`.
     var family: Int32 {
         switch self {
-        case .IPv4: AF_INET
-        case .IPv6: AF_INET6
+        case .IPv4: return AF_INET
+        case .IPv6: return AF_INET6
         }
     }
 
@@ -492,9 +492,9 @@ enum SocketAddress: Hashable, Equatable, Codable {
     var stringValue: String {
         switch self {
         case let .Internet(host, port):
-            "\(host.stringValue(withBrackets: true)):\(port)"
+            return "\(host.stringValue(withBrackets: true)):\(port)"
         case let .Link(address, _):
-            "\(address)"
+            return "\(address)"
         }
     }
 
@@ -631,20 +631,20 @@ enum SocketAddress: Hashable, Equatable, Codable {
     var family: Int32 {
         switch self {
         case let .Internet(host, _):
-            host.family
+            return host.family
         case .Link:
-            AF_LINK
+            return AF_LINK
         }
     }
 
     static func == (lhs: SocketAddress, rhs: SocketAddress) -> Bool {
         switch (lhs, rhs) {
         case let (.Internet(lh, lp), .Internet(rh, rp)):
-            lp == rp && lh == rh
+            return lp == rp && lh == rh
         case let (.Link(la, lt), .Link(ra, rt)):
-            la == ra && lt == rt
+            return la == ra && lt == rt
         default:
-            false
+            return false
         }
     }
 }

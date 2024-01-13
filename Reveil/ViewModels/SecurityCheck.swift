@@ -17,11 +17,11 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         var prefix: String {
             switch self {
             case .unchanged:
-                "?"
+                return "?"
             case .failed:
-                "!"
+                return "!"
             case .passed:
-                ""
+                return ""
             }
         }
     }
@@ -152,71 +152,71 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
     var rawValue: String {
         switch self {
         case let .noSuspiciousFile(status):
-            status.prefix + "noSuspiciousFiles"
+            return status.prefix + "noSuspiciousFiles"
         case let .noSuspiciousLibrary(status):
-            status.prefix + "noSuspiciousLibraries"
+            return status.prefix + "noSuspiciousLibraries"
         case let .noSuspiciousSymbolicLink(status):
-            status.prefix + "noSuspiciousSymbolicLinks"
+            return status.prefix + "noSuspiciousSymbolicLinks"
         case let .noSuspiciousOpenedPort(status):
-            status.prefix + "noSuspiciousOpenedPorts"
+            return status.prefix + "noSuspiciousOpenedPorts"
         case let .noSuspiciousURLScheme(status):
-            status.prefix + "noSuspiciousURLScheme"
+            return status.prefix + "noSuspiciousURLScheme"
         case let .noSuspiciousObjCClass(status):
-            status.prefix + "noSuspiciousObjCClass"
+            return status.prefix + "noSuspiciousObjCClass"
         case let .noSuspiciousAccessibleFile(status):
-            status.prefix + "noSuspiciousAccessibleFile"
+            return status.prefix + "noSuspiciousAccessibleFile"
         case let .noSuspiciousAccessibleDirectory(status):
-            status.prefix + "noSuspiciousAccessibleDirectory"
+            return status.prefix + "noSuspiciousAccessibleDirectory"
         case let .noSuspiciousEnvironmentVariables(status):
-            status.prefix + "noSuspiciousEnvironmentVariables"
+            return status.prefix + "noSuspiciousEnvironmentVariables"
         case let .identifiedBundleIdentifier(status):
-            status.prefix + "identifiedBundleIdentifier"
+            return status.prefix + "identifiedBundleIdentifier"
         case let .identifiedMobileProvisioningProfile(status):
-            status.prefix + "identifiedMobileProvisioningProfile"
+            return status.prefix + "identifiedMobileProvisioningProfile"
         case let .identifiedMachO(status):
-            status.prefix + "identifiedMachO"
+            return status.prefix + "identifiedMachO"
         case let .identifiedEntitlements(status):
-            status.prefix + "identifiedEntitlements"
+            return status.prefix + "identifiedEntitlements"
         case let .expectedCodeSigningStatus(status):
-            status.prefix + "expectedCodeSigningStatus"
+            return status.prefix + "expectedCodeSigningStatus"
         case let .notProxied(status):
-            status.prefix + "notProxied"
+            return status.prefix + "notProxied"
         case let .noInjectedLibrary(status):
-            status.prefix + "noInjectedLibrary"
+            return status.prefix + "noInjectedLibrary"
         case let .noHookedLibrary(status):
-            status.prefix + "noHookedLibrary"
+            return status.prefix + "noHookedLibrary"
         case let .unableToFork(status):
-            status.prefix + "unableToFork"
+            return status.prefix + "unableToFork"
         case let .notInSimulator(status):
-            status.prefix + "notInSimulator"
+            return status.prefix + "notInSimulator"
         case let .noDebuggerAttached(status):
-            status.prefix + "noDebuggerAttached"
+            return status.prefix + "noDebuggerAttached"
         case let .knownParentProcess(status):
-            status.prefix + "knownParentProcess"
+            return status.prefix + "knownParentProcess"
         case let .noUnsignedExecutablePage(status):
-            status.prefix + "noUnsignedExecutablePage"
+            return status.prefix + "noUnsignedExecutablePage"
         case let .unavailableSeatbeltSpecialPort(status):
-            status.prefix + "unavailableSeatbeltSpecialPort"
+            return status.prefix + "unavailableSeatbeltSpecialPort"
         case let .signedSystemVolume(status):
-            status.prefix + "signedSystemVolume"
+            return status.prefix + "signedSystemVolume"
         case let .noPSelectFlag(status):
-            status.prefix + "noPSelectFlag"
+            return status.prefix + "noPSelectFlag"
         case let .unprivilegedHostPort(status):
-            status.prefix + "unprivilegedHostPort"
+            return status.prefix + "unprivilegedHostPort"
         case let .enabledLibraryValidation(status):
-            status.prefix + "enabledLibraryValidation"
+            return status.prefix + "enabledLibraryValidation"
         case let .stockDynamicLinker(status):
-            status.prefix + "stockDynamicLinker"
+            return status.prefix + "stockDynamicLinker"
         case let .unmodifiedExecutionState(status):
-            status.prefix + "unmodifiedExecutionState"
+            return status.prefix + "unmodifiedExecutionState"
         case let .untouchedProcessTaskPort(status):
-            status.prefix + "untouchedProcessTaskPort"
+            return status.prefix + "untouchedProcessTaskPort"
         case let .notInTrustCache(status):
-            status.prefix + "notInTrustCache"
+            return status.prefix + "notInTrustCache"
         case let .noExceptionPort(status):
-            status.prefix + "noExceptionPort"
+            return status.prefix + "noExceptionPort"
         case let .noSignalHandler(status):
-            status.prefix + "noSignalHandler"
+            return status.prefix + "noSignalHandler"
         }
     }
 
@@ -376,135 +376,135 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
     var description: String {
         switch self {
         case let .noSuspiciousFile(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_FILES_FOUND", comment: "Suspicious files found") :
                 NSLocalizedString("NO_SUSPICIOUS_FILE", comment: "No suspicious file")
         case let .noSuspiciousLibrary(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_LIBRARIES_FOUND", comment: "Suspicious libraries found") :
                 NSLocalizedString("NO_SUSPICIOUS_LIBRARY", comment: "No suspicious library")
         case let .noSuspiciousSymbolicLink(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_SYMBOLIC_LINKS_FOUND", comment: "Suspicious symbolic links found") :
                 NSLocalizedString("NO_SUSPICIOUS_SYMBOLIC_LINK", comment: "No suspicious symbolic link")
         case let .noSuspiciousOpenedPort(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_OPENED_PORTS_FOUND", comment: "Suspicious opened ports found") :
                 NSLocalizedString("NO_SUSPICIOUS_OPENED_PORT", comment: "No suspicious opened port")
         case let .noSuspiciousURLScheme(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_URL_SCHEMES_FOUND", comment: "Suspicious url schemes found") :
                 NSLocalizedString("NO_SUSPICIOUS_URL_SCHEME", comment: "No suspicious url scheme")
         case let .noSuspiciousObjCClass(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_OBJC_CLASSES_FOUND", comment: "Suspicious Objective-C classes found") :
                 NSLocalizedString("NO_SUSPICIOUS_OBJC_CLASS", comment: "No suspicious Objective-C class")
         case let .noSuspiciousAccessibleFile(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_WRITABLE_FILES_FOUND", comment: "Suspicious writable files found") :
                 NSLocalizedString("NO_SUSPICIOUS_WRITABLE_FILE", comment: "No suspicious writable file")
         case let .noSuspiciousAccessibleDirectory(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_WRITABLE_DIRECTORIES_FOUND", comment: "Suspicious writable directories found") :
                 NSLocalizedString("NO_SUSPICIOUS_WRITABLE_DIRECTORY", comment: "No suspicious writable directory")
         case let .noSuspiciousEnvironmentVariables(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SUSPICIOUS_ENVIRONMENT_VARIABLES_FOUND", comment: "Suspicious environment variables found") :
                 NSLocalizedString("NO_SUSPICIOUS_ENVIRONMENT_VARIABLE", comment: "No suspicious environment variable")
         case let .identifiedBundleIdentifier(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("TAMPERED_BUNDLE_IDENTIFIER", comment: "Main bundle identifier was tampered") :
                 NSLocalizedString("ORIGINAL_BUNDLE_IDENTIFIER", comment: "Main bundle has a valid bundle identifier")
         case let .identifiedMobileProvisioningProfile(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("TAMPERED_MOBILE_PROVISIONING_PROFILE", comment: "Mobile provisioning profile was tampered") :
                 NSLocalizedString("ORIGINAL_MOBILE_PROVISIONING_PROFILE", comment: "Mobile provisioning profile is trusted")
         case let .identifiedMachO(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("TAMPERED_MACH_O", comment: "Main executable was tampered") :
                 NSLocalizedString("ORIGINAL_MACH_O", comment: "Main executable is trusted")
         case let .identifiedEntitlements(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("TAMPERED_ENTITLEMENTS", comment: "Unknown keys found in entitlements") :
                 NSLocalizedString("ORIGINAL_ENTITLEMENTS", comment: "All keys in entitlements are trusted")
         case let .expectedCodeSigningStatus(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("UNEXPECTED_CODE_SIGNING_STATUS", comment: "Unexpected code signing status") :
                 NSLocalizedString("EXPECTED_CODE_SIGNING_STATUS", comment: "Valid code signing status")
         case let .notProxied(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("PROXY_SETTINGS_FOUND", comment: "System HTTP/HTTPS proxy found") :
                 NSLocalizedString("NO_PROXY_SETTINGS", comment: "No HTTP/HTTPS proxy")
         case let .noInjectedLibrary(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("INJECTED_LIBRARIES_FOUND", comment: "Injected libraries found") :
                 NSLocalizedString("NO_INJECTED_LIBRARY", comment: "No injected library")
         case let .noHookedLibrary(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("HOOKED_LIBRARIES_FOUND", comment: "Hooked libraries found") :
                 NSLocalizedString("NO_HOOKED_LIBRARY", comment: "No hooked library")
         case let .unableToFork(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("AVAILABLE_FORK", comment: "Fork was able to create a new process (sandbox violation)") :
                 NSLocalizedString("UNABLE_TO_FORK", comment: "Sandbox blocks call to fork(2)")
         case let .notInSimulator(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("RUN_IN_SIMULATOR", comment: "Simulator environment detected") :
                 NSLocalizedString("NOT_IN_SIMULATOR", comment: "Run on a hardware device")
         case let .noDebuggerAttached(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("DEBUGGER_ATTACHED", comment: "Debugger attached") :
                 NSLocalizedString("NO_DEBUGGER_ATTACHED", comment: "No debugger attached")
         case let .knownParentProcess(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("UNKNOWN_PARENT_PROCESS", comment: "Unknown parent process") :
                 NSLocalizedString("KNOWN_PARENT_PROCESS", comment: "Parent process is launchd")
         case let .noUnsignedExecutablePage(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("UNSIGNED_EXECUTABLE_PAGES_FOUND", comment: "Unsigned executable pages found") :
                 NSLocalizedString("NO_UNSIGNED_EXECUTABLE_PAGE", comment: "No unsigned executable page found")
         case let .unavailableSeatbeltSpecialPort(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("SEATBELT_SPECIAL_PORT_IS_AVAILABLE", comment: "Seatbelt special port is available") :
                 NSLocalizedString("UNAVAILABLE_SEATBELT_SPECIAL_PORT", comment: "Seatbelt special port is not available")
         case let .signedSystemVolume(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("UNSIGNED_SYSTEM_VOLUME", comment: "System volume is not signed") :
                 NSLocalizedString("SIGNED_SYSTEM_VOLUME", comment: "System volume is signed")
         case let .noPSelectFlag(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("P_SELECT_FLAG_FOUND", comment: "Suspicious process flag P_SELECT found") :
                 NSLocalizedString("NO_P_SELECT_FLAG", comment: "No suspicious process flag P_SELECT")
         case let .unprivilegedHostPort(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("PRIVILEGED_HOST_PORT", comment: "Host port is privileged") :
                 NSLocalizedString("UNPRIVILEGED_HOST_PORT", comment: "Host port is not privileged")
         case let .enabledLibraryValidation(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("DISABLED_LIBRARY_VALIDATION", comment: "Library validation is disabled") :
                 NSLocalizedString("ENABLED_LIBRARY_VALIDATION", comment: "Library validation is enabled")
         case let .stockDynamicLinker(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("BAD_DYNAMIC_LINKER", comment: "Dynamic linker is unreliable") :
                 NSLocalizedString("STOCK_DYNAMIC_LINKER", comment: "Dynamic linker is reliable")
         case let .unmodifiedExecutionState(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("MODIFIED_EXECUTION_STATE", comment: "Execution state was modified") :
                 NSLocalizedString("UNMODIFIED_EXECUTION_STATE", comment: "Execution state was not modified")
         case let .untouchedProcessTaskPort(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("TOUCHED_PROCESS_TASK_PORT", comment: "Process task port was obtained") :
                 NSLocalizedString("UNTOUCHED_PROCESS_TASK_PORT", comment: "Process task port was not obtained")
         case let .notInTrustCache(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("IN_TRUST_CACHE", comment: "Binary is in trust cache") :
                 NSLocalizedString("NOT_IN_TRUST_CACHE", comment: "Binary is not in trust cache")
         case let .noExceptionPort(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("HAS_EXCEPTION_PORT", comment: "Exception ports were set") :
                 NSLocalizedString("NO_EXCEPTION_PORT", comment: "Exception ports not set")
         case let .noSignalHandler(status):
-            status == .failed ?
+            return status == .failed ?
                 NSLocalizedString("HAS_SIGNAL_HANDLER", comment: "Signal handlers were set") :
                 NSLocalizedString("NO_SIGNAL_HANDLER", comment: "Signal handlers not set")
         }
@@ -513,153 +513,153 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
     var type: SecurityCheckType {
         switch self {
         case .noSuspiciousFile:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
         case .noSuspiciousLibrary:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
         case .noSuspiciousSymbolicLink:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
         case .noSuspiciousOpenedPort:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
         case .noSuspiciousURLScheme:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
         case .noSuspiciousObjCClass:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
         case .noSuspiciousEnvironmentVariables:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
         case .notInTrustCache:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
         case .signedSystemVolume:
-            .jailbreakEnvironment
+            return .jailbreakEnvironment
 
         case .noSuspiciousAccessibleFile:
-            .sandboxViolation
+            return .sandboxViolation
         case .noSuspiciousAccessibleDirectory:
-            .sandboxViolation
+            return .sandboxViolation
         case .unableToFork:
-            .sandboxViolation
+            return .sandboxViolation
         case .unavailableSeatbeltSpecialPort:
-            .sandboxViolation
+            return .sandboxViolation
         case .unprivilegedHostPort:
-            .sandboxViolation
+            return .sandboxViolation
         case .untouchedProcessTaskPort:
-            .sandboxViolation
+            return .sandboxViolation
 
         case .identifiedBundleIdentifier:
-            .staticIntegrity
+            return .staticIntegrity
         case .identifiedMobileProvisioningProfile:
-            .staticIntegrity
+            return .staticIntegrity
         case .identifiedMachO:
-            .staticIntegrity
+            return .staticIntegrity
         case .identifiedEntitlements:
-            .staticIntegrity
+            return .staticIntegrity
 
         case .noInjectedLibrary:
-            .dynamicIntegrity
+            return .dynamicIntegrity
         case .noHookedLibrary:
-            .dynamicIntegrity
+            return .dynamicIntegrity
         case .noUnsignedExecutablePage:
-            .dynamicIntegrity
+            return .dynamicIntegrity
         case .enabledLibraryValidation:
-            .dynamicIntegrity
+            return .dynamicIntegrity
         case .expectedCodeSigningStatus:
-            .dynamicIntegrity
+            return .dynamicIntegrity
         case .stockDynamicLinker:
-            .dynamicIntegrity
+            return .dynamicIntegrity
         case .noPSelectFlag:
-            .dynamicIntegrity
+            return .dynamicIntegrity
 
         case .notInSimulator:
-            .debuggerEmulator
+            return .debuggerEmulator
         case .knownParentProcess:
-            .debuggerEmulator
+            return .debuggerEmulator
         case .noDebuggerAttached:
-            .debuggerEmulator
+            return .debuggerEmulator
         case .noExceptionPort:
-            .debuggerEmulator
+            return .debuggerEmulator
         case .noSignalHandler:
-            .debuggerEmulator
+            return .debuggerEmulator
         case .unmodifiedExecutionState:
-            .debuggerEmulator
+            return .debuggerEmulator
 
         case .notProxied:
-            .networkProxy
+            return .networkProxy
         }
     }
 
     func perform() -> SecurityCheck {
         switch self {
         case .noSuspiciousFile:
-            .noSuspiciousFile(
+            return .noSuspiciousFile(
                 JailbreakChecker.checkExistenceOfSuspiciousFiles().passed &&
                     ReverseEngineeringToolsChecker.checkExistenceOfSuspiciousFiles().passed
                     ? .passed : .failed)
         case .noSuspiciousLibrary:
-            .noSuspiciousLibrary(
+            return .noSuspiciousLibrary(
                 JailbreakChecker.checkDYLD().passed &&
                     ReverseEngineeringToolsChecker.checkDYLD().passed
                     ? .passed : .failed)
         case .noSuspiciousSymbolicLink:
-            .noSuspiciousSymbolicLink(JailbreakChecker.checkSymbolicLinks().passed ? .passed : .failed)
+            return .noSuspiciousSymbolicLink(JailbreakChecker.checkSymbolicLinks().passed ? .passed : .failed)
         case .noSuspiciousOpenedPort:
-            .noSuspiciousOpenedPort(ReverseEngineeringToolsChecker.checkOpenedPorts().passed ? .passed : .failed)
+            return .noSuspiciousOpenedPort(ReverseEngineeringToolsChecker.checkOpenedPorts().passed ? .passed : .failed)
         case .noSuspiciousURLScheme:
-            .noSuspiciousURLScheme(Security.shared.suspiciousURLSchemes.isEmpty ? .passed : .failed)
+            return .noSuspiciousURLScheme(Security.shared.suspiciousURLSchemes.isEmpty ? .passed : .failed)
         case .noSuspiciousObjCClass:
-            .noSuspiciousObjCClass(JailbreakChecker.checkSuspiciousObjCClasses().passed ? .passed : .failed)
+            return .noSuspiciousObjCClass(JailbreakChecker.checkSuspiciousObjCClasses().passed ? .passed : .failed)
         case .noSuspiciousAccessibleFile:
-            .noSuspiciousAccessibleFile(JailbreakChecker.checkSuspiciousFilesCanBeOpened().passed ? .passed : .failed)
+            return .noSuspiciousAccessibleFile(JailbreakChecker.checkSuspiciousFilesCanBeOpened().passed ? .passed : .failed)
         case .noSuspiciousAccessibleDirectory:
-            .noSuspiciousAccessibleDirectory(JailbreakChecker.checkRestrictedDirectoriesWritable().passed ? .passed : .failed)
+            return .noSuspiciousAccessibleDirectory(JailbreakChecker.checkRestrictedDirectoriesWritable().passed ? .passed : .failed)
         case .noSuspiciousEnvironmentVariables:
-            .noSuspiciousEnvironmentVariables(Security.shared.checkSuspiciousEnvironmentVariables() ? .passed : .failed)
+            return .noSuspiciousEnvironmentVariables(Security.shared.checkSuspiciousEnvironmentVariables() ? .passed : .failed)
         case .identifiedBundleIdentifier:
-            .identifiedBundleIdentifier(Security.shared.checkMainBundleIdentifier() ? .passed : .failed)
+            return .identifiedBundleIdentifier(Security.shared.checkMainBundleIdentifier() ? .passed : .failed)
         case .identifiedMobileProvisioningProfile:
-            .identifiedMobileProvisioningProfile(Security.shared.checkMobileProvisioningProfileHash() ? .passed : .failed)
+            return .identifiedMobileProvisioningProfile(Security.shared.checkMobileProvisioningProfileHash() ? .passed : .failed)
         case .identifiedMachO:
-            .identifiedMachO(Security.shared.checkMachOHash() ? .passed : .failed)
+            return .identifiedMachO(Security.shared.checkMachOHash() ? .passed : .failed)
         case .identifiedEntitlements:
-            .identifiedEntitlements(Security.shared.checkEntitlements() ? .passed : .failed)
+            return .identifiedEntitlements(Security.shared.checkEntitlements() ? .passed : .failed)
         case .expectedCodeSigningStatus:
-            .expectedCodeSigningStatus(Security.shared.checkCodeSigningStatus() ? .passed : .failed)
+            return .expectedCodeSigningStatus(Security.shared.checkCodeSigningStatus() ? .passed : .failed)
         case .notProxied:
-            .notProxied(IOSSecuritySuite.amIProxied() ? .failed : .passed)
+            return .notProxied(IOSSecuritySuite.amIProxied() ? .failed : .passed)
         case .noInjectedLibrary:
-            .noInjectedLibrary(Security.shared.hasInsecureLibraryPaths() ? .failed : .passed)
+            return .noInjectedLibrary(Security.shared.hasInsecureLibraryPaths() ? .failed : .passed)
         case .noHookedLibrary:
-            .noHookedLibrary(Security.shared.hasInsertedLibraryPaths() ? .failed : .passed)
+            return .noHookedLibrary(Security.shared.hasInsertedLibraryPaths() ? .failed : .passed)
         case .unableToFork:
-            .unableToFork(JailbreakChecker.checkFork().passed ? .passed : .failed)
+            return .unableToFork(JailbreakChecker.checkFork().passed ? .passed : .failed)
         case .notInSimulator:
-            .notInSimulator(IOSSecuritySuite.amIRunInEmulator() ? .failed : .passed)
+            return .notInSimulator(IOSSecuritySuite.amIRunInEmulator() ? .failed : .passed)
         case .noDebuggerAttached:
-            .noDebuggerAttached(IOSSecuritySuite.amIDebugged() ? .failed : .passed)
+            return .noDebuggerAttached(IOSSecuritySuite.amIDebugged() ? .failed : .passed)
         case .knownParentProcess:
-            .knownParentProcess(IOSSecuritySuite.isParentPidUnexpected() ? .failed : .passed)
+            return .knownParentProcess(IOSSecuritySuite.isParentPidUnexpected() ? .failed : .passed)
         case .noUnsignedExecutablePage:
-            .noUnsignedExecutablePage(Security.shared.checkExecutableMemoryRegions() ? .passed : .failed)
+            return .noUnsignedExecutablePage(Security.shared.checkExecutableMemoryRegions() ? .passed : .failed)
         case .unavailableSeatbeltSpecialPort:
-            .unavailableSeatbeltSpecialPort(Security.shared.checkSeatbeltSpecialPort() ? .passed : .failed)
+            return .unavailableSeatbeltSpecialPort(Security.shared.checkSeatbeltSpecialPort() ? .passed : .failed)
         case .signedSystemVolume:
-            .signedSystemVolume(Security.shared.checkSignedSystemVolume() ? .passed : .failed)
+            return .signedSystemVolume(Security.shared.checkSignedSystemVolume() ? .passed : .failed)
         case .noPSelectFlag:
-            .noPSelectFlag(ReverseEngineeringToolsChecker.checkPSelectFlag().passed ? .passed : .failed)
+            return .noPSelectFlag(ReverseEngineeringToolsChecker.checkPSelectFlag().passed ? .passed : .failed)
         case .unprivilegedHostPort:
-            .unprivilegedHostPort(Security.shared.checkPrivilegedHostPort() ? .passed : .failed)
+            return .unprivilegedHostPort(Security.shared.checkPrivilegedHostPort() ? .passed : .failed)
         case .enabledLibraryValidation:
-            .enabledLibraryValidation(Security.shared.checkLibraryValidationEnabled() ? .passed : .failed)
+            return .enabledLibraryValidation(Security.shared.checkLibraryValidationEnabled() ? .passed : .failed)
         case .stockDynamicLinker:
-            .stockDynamicLinker(Security.shared.checkDYLDEnvironmentVariables() ? .passed : .failed)
+            return .stockDynamicLinker(Security.shared.checkDYLDEnvironmentVariables() ? .passed : .failed)
         case .unmodifiedExecutionState:
-            .unmodifiedExecutionState(Security.shared.checkExecutionStates() ? .passed : .failed)
+            return .unmodifiedExecutionState(Security.shared.checkExecutionStates() ? .passed : .failed)
         case .untouchedProcessTaskPort:
-            .untouchedProcessTaskPort(Security.shared.checkExtraTaskRefs() ? .passed : .failed)
+            return .untouchedProcessTaskPort(Security.shared.checkExtraTaskRefs() ? .passed : .failed)
         case .notInTrustCache:
-            .notInTrustCache(Security.shared.checkTrustCache() ? .passed : .failed)
+            return .notInTrustCache(Security.shared.checkTrustCache() ? .passed : .failed)
         case .noExceptionPort:
-            .noExceptionPort(Security.shared.checkExceptionPorts() ? .passed : .failed)
+            return .noExceptionPort(Security.shared.checkExceptionPorts() ? .passed : .failed)
         case .noSignalHandler:
-            .noSignalHandler(Security.shared.checkSignalHandlers() ? .passed : .failed)
+            return .noSignalHandler(Security.shared.checkSignalHandlers() ? .passed : .failed)
         }
     }
 

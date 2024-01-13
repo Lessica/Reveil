@@ -62,8 +62,15 @@ struct UsageCell: View {
 
                 HStack(spacing: 0) {
                     ForEach(ratioItem, id: \.id) { item in
-                        item.color.frame(width: metrics.size.width * item.ratio)
+                        #if swift(>=5.9)
+                        item.color
+                            .frame(width: metrics.size.width * item.ratio)
                             .animation(.spring(duration: 0.25, bounce: 0, blendDuration: 0.8), value: item)
+                        #else
+                        item.color
+                            .frame(width: metrics.size.width * item.ratio)
+                            .animation(.linear(duration: 0.25), value: item)
+                        #endif
                     }
                 }
             }

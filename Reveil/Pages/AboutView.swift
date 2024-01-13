@@ -47,13 +47,13 @@ struct AboutView: View {
             VStack(alignment: .center, spacing: 20) {
                 Image("IconShape")
                     .resizable()
-                    .foregroundColor(colorScheme == .light ? .accent : .white)
+                    .foregroundColor(colorScheme == .light ? .accentColor : .white)
                     .frame(width: 128, height: 128)
 
                 Text("Good artists copy, great artists steal.")
                     .font(.system(.footnote))
                     .bold()
-                    .foregroundColor(colorScheme == .light ? .accent : .white)
+                    .foregroundColor(colorScheme == .light ? .accentColor : .white)
                     .padding(.bottom, 32)
 
                 Section {

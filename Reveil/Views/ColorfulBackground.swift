@@ -22,14 +22,14 @@ struct ColorfulBackground: View {
 
     var colorfulView: some View {
         if colorScheme == .light {
-            ColorfulView(
+            return ColorfulView(
                 color: .constant(ColorfulPreset.winter.colors),
                 speed: isAnimatedBackgroundEnabled && !isPaused ? .constant(0.5) : .constant(0),
                 frameLimit: isLowFrameRateEnabled ? 30 : 60
             )
             .opacity(0.5)
         } else {
-            ColorfulView(
+            return ColorfulView(
                 color: .constant(ColorfulPreset.aurora.colors),
                 speed: isAnimatedBackgroundEnabled && !isPaused ? .constant(0.5) : .constant(0),
                 frameLimit: isLowFrameRateEnabled ? 30 : 60

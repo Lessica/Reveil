@@ -71,86 +71,86 @@ struct CsOpsFlags: OptionSet, Hashable, Codable {
 
     var name: String {
         switch self {
-        case .CS_VALID: "CS_VALID"
-        case .CS_ADHOC: "CS_ADHOC"
-        case .CS_GET_TASK_ALLOW: "CS_GET_TASK_ALLOW"
-        case .CS_INSTALLER: "CS_INSTALLER"
-        case .CS_HARD: "CS_HARD"
-        case .CS_KILL: "CS_KILL"
-        case .CS_CHECK_EXPIRATION: "CS_CHECK_EXPIRATION"
-        case .CS_RESTRICT: "CS_RESTRICT"
-        case .CS_ENFORCEMENT: "CS_ENFORCEMENT"
-        case .CS_REQUIRE_LV: "CS_REQUIRE_LV"
-        case .CS_ENTITLEMENTS_VALIDATED: "CS_ENTITLEMENTS_VALIDATED"
-        case .CS_NVRAM_UNRESTRICTED: "CS_NVRAM_UNRESTRICTED"
-        case .CS_EXEC_SET_HARD: "CS_EXEC_SET_HARD"
-        case .CS_EXEC_SET_KILL: "CS_EXEC_SET_KILL"
-        case .CS_EXEC_SET_ENFORCEMENT: "CS_EXEC_SET_ENFORCEMENT"
-        case .CS_EXEC_INHERIT_SIP: "CS_EXEC_INHERIT_SIP"
-        case .CS_KILLED: "CS_KILLED"
-        case .CS_DYLD_PLATFORM: "CS_DYLD_PLATFORM"
-        case .CS_PLATFORM_BINARY: "CS_PLATFORM_BINARY"
-        case .CS_PLATFORM_PATH: "CS_PLATFORM_PATH"
-        case .CS_DEBUGGED: "CS_DEBUGGED"
-        case .CS_SIGNED: "CS_SIGNED"
-        case .CS_DEV_CODE: "CS_DEV_CODE"
-        case .CS_DATAVAULT_CONTROLLER: "CS_DATAVAULT_CONTROLLER"
-        default: "CS_UNKNOWN"
+        case .CS_VALID: return "CS_VALID"
+        case .CS_ADHOC: return "CS_ADHOC"
+        case .CS_GET_TASK_ALLOW: return "CS_GET_TASK_ALLOW"
+        case .CS_INSTALLER: return "CS_INSTALLER"
+        case .CS_HARD: return "CS_HARD"
+        case .CS_KILL: return "CS_KILL"
+        case .CS_CHECK_EXPIRATION: return "CS_CHECK_EXPIRATION"
+        case .CS_RESTRICT: return "CS_RESTRICT"
+        case .CS_ENFORCEMENT: return "CS_ENFORCEMENT"
+        case .CS_REQUIRE_LV: return "CS_REQUIRE_LV"
+        case .CS_ENTITLEMENTS_VALIDATED: return "CS_ENTITLEMENTS_VALIDATED"
+        case .CS_NVRAM_UNRESTRICTED: return "CS_NVRAM_UNRESTRICTED"
+        case .CS_EXEC_SET_HARD: return "CS_EXEC_SET_HARD"
+        case .CS_EXEC_SET_KILL: return "CS_EXEC_SET_KILL"
+        case .CS_EXEC_SET_ENFORCEMENT: return "CS_EXEC_SET_ENFORCEMENT"
+        case .CS_EXEC_INHERIT_SIP: return "CS_EXEC_INHERIT_SIP"
+        case .CS_KILLED: return "CS_KILLED"
+        case .CS_DYLD_PLATFORM: return "CS_DYLD_PLATFORM"
+        case .CS_PLATFORM_BINARY: return "CS_PLATFORM_BINARY"
+        case .CS_PLATFORM_PATH: return "CS_PLATFORM_PATH"
+        case .CS_DEBUGGED: return "CS_DEBUGGED"
+        case .CS_SIGNED: return "CS_SIGNED"
+        case .CS_DEV_CODE: return "CS_DEV_CODE"
+        case .CS_DATAVAULT_CONTROLLER: return "CS_DATAVAULT_CONTROLLER"
+        default: return "CS_UNKNOWN"
         }
     }
 
     var description: String {
         switch self {
         case .CS_VALID:
-            NSLocalizedString("CS_VALID", comment: "Dynamically valid")
+            return NSLocalizedString("CS_VALID", comment: "Dynamically valid")
         case .CS_ADHOC:
-            NSLocalizedString("CS_ADHOC", comment: "Ad Hoc signed")
+            return NSLocalizedString("CS_ADHOC", comment: "Ad Hoc signed")
         case .CS_GET_TASK_ALLOW:
-            NSLocalizedString("CS_GET_TASK_ALLOW", comment: "Has get-task-allow entitlement")
+            return NSLocalizedString("CS_GET_TASK_ALLOW", comment: "Has get-task-allow entitlement")
         case .CS_INSTALLER:
-            NSLocalizedString("CS_INSTALLER", comment: "Has installer entitlement")
+            return NSLocalizedString("CS_INSTALLER", comment: "Has installer entitlement")
         case .CS_HARD:
-            NSLocalizedString("CS_HARD", comment: "Don't load invalid pages")
+            return NSLocalizedString("CS_HARD", comment: "Don't load invalid pages")
         case .CS_KILL:
-            NSLocalizedString("CS_KILL", comment: "Kill process if it becomes invalid")
+            return NSLocalizedString("CS_KILL", comment: "Kill process if it becomes invalid")
         case .CS_CHECK_EXPIRATION:
-            NSLocalizedString("CS_CHECK_EXPIRATION", comment: "Force expiration checking")
+            return NSLocalizedString("CS_CHECK_EXPIRATION", comment: "Force expiration checking")
         case .CS_RESTRICT:
-            NSLocalizedString("CS_RESTRICT", comment: "Tell dyld to treat restricted")
+            return NSLocalizedString("CS_RESTRICT", comment: "Tell dyld to treat restricted")
         case .CS_ENFORCEMENT:
-            NSLocalizedString("CS_ENFORCEMENT", comment: "Require enforcement")
+            return NSLocalizedString("CS_ENFORCEMENT", comment: "Require enforcement")
         case .CS_REQUIRE_LV:
-            NSLocalizedString("CS_REQUIRE_LV", comment: "Require library validation")
+            return NSLocalizedString("CS_REQUIRE_LV", comment: "Require library validation")
         case .CS_ENTITLEMENTS_VALIDATED:
-            NSLocalizedString("CS_ENTITLEMENTS_VALIDATED", comment: "Code signature permits restricted entitlements")
+            return NSLocalizedString("CS_ENTITLEMENTS_VALIDATED", comment: "Code signature permits restricted entitlements")
         case .CS_NVRAM_UNRESTRICTED:
-            NSLocalizedString("CS_NVRAM_UNRESTRICTED", comment: "Has com.apple.rootless.restricted-nvram-variables.heritable entitlement")
+            return NSLocalizedString("CS_NVRAM_UNRESTRICTED", comment: "Has com.apple.rootless.restricted-nvram-variables.heritable entitlement")
         case .CS_EXEC_SET_HARD:
-            NSLocalizedString("CS_EXEC_SET_HARD", comment: "Set CS_HARD on any exec'ed process")
+            return NSLocalizedString("CS_EXEC_SET_HARD", comment: "Set CS_HARD on any exec'ed process")
         case .CS_EXEC_SET_KILL:
-            NSLocalizedString("CS_EXEC_SET_KILL", comment: "Set CS_KILL on any exec'ed process")
+            return NSLocalizedString("CS_EXEC_SET_KILL", comment: "Set CS_KILL on any exec'ed process")
         case .CS_EXEC_SET_ENFORCEMENT:
-            NSLocalizedString("CS_EXEC_SET_ENFORCEMENT", comment: "Set CS_ENFORCEMENT on any exec'ed process")
+            return NSLocalizedString("CS_EXEC_SET_ENFORCEMENT", comment: "Set CS_ENFORCEMENT on any exec'ed process")
         case .CS_EXEC_INHERIT_SIP:
-            NSLocalizedString("CS_EXEC_INHERIT_SIP", comment: "Set CS_INSTALLER on any exec'ed process")
+            return NSLocalizedString("CS_EXEC_INHERIT_SIP", comment: "Set CS_INSTALLER on any exec'ed process")
         case .CS_KILLED:
-            NSLocalizedString("CS_KILLED", comment: "Was killed by kernel for invalidity")
+            return NSLocalizedString("CS_KILLED", comment: "Was killed by kernel for invalidity")
         case .CS_DYLD_PLATFORM:
-            NSLocalizedString("CS_DYLD_PLATFORM", comment: "Dyld used to load this is a platform binary")
+            return NSLocalizedString("CS_DYLD_PLATFORM", comment: "Dyld used to load this is a platform binary")
         case .CS_PLATFORM_BINARY:
-            NSLocalizedString("CS_PLATFORM_BINARY", comment: "This is a platform binary")
+            return NSLocalizedString("CS_PLATFORM_BINARY", comment: "This is a platform binary")
         case .CS_PLATFORM_PATH:
-            NSLocalizedString("CS_PLATFORM_PATH", comment: "Platform binary by the fact of path (OS X only)")
+            return NSLocalizedString("CS_PLATFORM_PATH", comment: "Platform binary by the fact of path (OS X only)")
         case .CS_DEBUGGED:
-            NSLocalizedString("CS_DEBUGGED", comment: "Process is currently or has previously been debugged and allowed to run with invalid pages")
+            return NSLocalizedString("CS_DEBUGGED", comment: "Process is currently or has previously been debugged and allowed to run with invalid pages")
         case .CS_SIGNED:
-            NSLocalizedString("CS_SIGNED", comment: "Process has a signature (may have gone invalid)")
+            return NSLocalizedString("CS_SIGNED", comment: "Process has a signature (may have gone invalid)")
         case .CS_DEV_CODE:
-            NSLocalizedString("CS_DEV_CODE", comment: "Code is dev signed, cannot be loaded into prod signed code")
+            return NSLocalizedString("CS_DEV_CODE", comment: "Code is dev signed, cannot be loaded into prod signed code")
         case .CS_DATAVAULT_CONTROLLER:
-            NSLocalizedString("CS_DATAVAULT_CONTROLLER", comment: "Has Data Vault controller entitlement")
+            return NSLocalizedString("CS_DATAVAULT_CONTROLLER", comment: "Has Data Vault controller entitlement")
         default:
-            String(format: NSLocalizedString("CS_UNKNOWN_FLAG", comment: "Unknown flag (0x%08x)"), rawValue)
+            return String(format: NSLocalizedString("CS_UNKNOWN_FLAG", comment: "Unknown flag (0x%08x)"), rawValue)
         }
     }
 }

@@ -103,10 +103,11 @@ final class NetworkDetails: Module {
         switch key {
         case let .NetworkCategoryBytesDownload(prefix):
             if let pfx = NetworkPrefix(rawValue: prefix) {
-                let downloadBytes: Int64 = if let cachedDownloadBytes = netStats.receivedBytes(prefix: pfx) {
-                    cachedDownloadBytes
+                let downloadBytes: Int64
+                if let cachedDownloadBytes = netStats.receivedBytes(prefix: pfx) {
+                    downloadBytes = cachedDownloadBytes
                 } else {
-                    0
+                    downloadBytes = 0
                 }
                 return BasicEntry(
                     key: key,
@@ -116,10 +117,11 @@ final class NetworkDetails: Module {
             }
         case let .NetworkCategoryBytesUpload(prefix):
             if let pfx = NetworkPrefix(rawValue: prefix) {
-                let uploadBytes: Int64 = if let cachedUploadBytes = netStats.sentBytes(prefix: pfx) {
-                    cachedUploadBytes
+                let uploadBytes: Int64
+                if let cachedUploadBytes = netStats.sentBytes(prefix: pfx) {
+                    uploadBytes = cachedUploadBytes
                 } else {
-                    0
+                    uploadBytes = 0
                 }
                 return BasicEntry(
                     key: key,
@@ -162,10 +164,11 @@ final class NetworkDetails: Module {
             return trafficEntryIO(key: .NetworkCategoryUsage(prefix: NetworkPrefix.all.rawValue), style: style)
         case let .NetworkCategoryUsage(prefix):
             if let pfx = NetworkPrefix(rawValue: prefix) {
-                let netIO: NetworkIO = if let cachedIO = netStats.io(prefix: pfx) {
-                    cachedIO
+                let netIO: NetworkIO
+                if let cachedIO = netStats.io(prefix: pfx) {
+                    netIO = cachedIO
                 } else {
-                    NetworkIO(received: 0, sent: 0)
+                    netIO = NetworkIO(received: 0, sent: 0)
                 }
                 return TrafficEntryIO(
                     child: BasicEntry(

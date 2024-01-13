@@ -18,10 +18,11 @@ enum RuntimeHookChecker {
     }()
 
     static func amIRuntimeHook(dyldWhiteList: [String], detectionClass: AnyClass, selector: Selector, isClassMethod: Bool) -> Bool {
-        let method: Method? = if isClassMethod {
-            class_getClassMethod(detectionClass, selector)
+        let method: Method?
+        if isClassMethod {
+            method = class_getClassMethod(detectionClass, selector)
         } else {
-            class_getInstanceMethod(detectionClass, selector)
+            method = class_getInstanceMethod(detectionClass, selector)
         }
 
         if method == nil {

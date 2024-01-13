@@ -473,243 +473,243 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
     var rawValue: String {
         switch self {
         case .Security:
-            "Security"
+            return "Security"
         case .DeviceName:
-            "DeviceName"
+            return "DeviceName"
         case .MarketingName:
-            "MarketingName"
+            return "MarketingName"
         case .DeviceModel:
-            "DeviceModel"
+            return "DeviceModel"
         case .BootromVersion:
-            "BootromVersion"
+            return "BootromVersion"
         case .RadioTech:
-            "RadioTech"
+            return "RadioTech"
         case .HostName:
-            "HostName"
+            return "HostName"
         case .DisplayResolution:
-            "DisplayResolution"
+            return "DisplayResolution"
         case .System:
-            "System"
+            return "System"
         case .KernelVersion:
-            "KernelVersion"
+            return "KernelVersion"
         case .KernelRelease:
-            "KernelRelease"
+            return "KernelRelease"
         case .KernelMaximumVnodes:
-            "KernelMaximumVnodes"
+            return "KernelMaximumVnodes"
         case .KernelMaximumGroups:
-            "KernelMaximumGroups"
+            return "KernelMaximumGroups"
         case .OSMaxSocketBufferSize:
-            "OSMaxSocketBufferSize"
+            return "OSMaxSocketBufferSize"
         case .OSMaxFilesPerProcess:
-            "OSMaxFilesPerProcess"
+            return "OSMaxFilesPerProcess"
         case .KernelMaximumProcesses:
-            "KernelMaximumProcesses"
+            return "KernelMaximumProcesses"
         case .HostID:
-            "HostID"
+            return "HostID"
         case .Uptime:
-            "Uptime"
+            return "Uptime"
         case .CPUInformation:
-            "CPUInformation"
+            return "CPUInformation"
         case .CPUUsageUser:
-            "CPUUsageUser"
+            return "CPUUsageUser"
         case .CPUUsageIdle:
-            "CPUUsageIdle"
+            return "CPUUsageIdle"
         case .CPUUsageLoad:
-            "CPUUsageLoad"
+            return "CPUUsageLoad"
         case .CPUProcessor:
-            "CPUProcessor"
+            return "CPUProcessor"
         case .CPUArchitecture:
-            "CPUArchitecture"
+            return "CPUArchitecture"
         case .CPUFamily:
-            "CPUFamily"
+            return "CPUFamily"
         case .CPUNumberOfCores:
-            "CPUNumberOfCores"
+            return "CPUNumberOfCores"
         case .CPUByteOrder:
-            "CPUByteOrder"
+            return "CPUByteOrder"
         case .CPUCacheLine:
-            "CPUCacheLine"
+            return "CPUCacheLine"
         case .CPUL1ICacheSize:
-            "CPUL1ICacheSize"
+            return "CPUL1ICacheSize"
         case .CPUL1DCacheSize:
-            "CPUL1DCacheSize"
+            return "CPUL1DCacheSize"
         case .CPUL2CacheSize:
-            "CPUL2CacheSize"
+            return "CPUL2CacheSize"
         case .CPUTBFrequency:
-            "CPUTBFrequency"
+            return "CPUTBFrequency"
         case .MemoryInformation:
-            "MemoryInformation"
+            return "MemoryInformation"
         case .MemoryBytesWired:
-            "MemoryBytesWired"
+            return "MemoryBytesWired"
         case .MemoryBytesActive:
-            "MemoryBytesActive"
+            return "MemoryBytesActive"
         case .MemoryBytesInactive:
-            "MemoryBytesInactive"
+            return "MemoryBytesInactive"
         case .MemoryBytesPurgeable:
-            "MemoryBytesPurgeable"
+            return "MemoryBytesPurgeable"
         case .MemoryBytesOthers:
-            "MemoryBytesOthers"
+            return "MemoryBytesOthers"
         case .MemoryBytesFree:
-            "MemoryBytesFree"
+            return "MemoryBytesFree"
         case .MemoryPageReactivations:
-            "MemoryPageReactivations"
+            return "MemoryPageReactivations"
         case .MemoryPageIns:
-            "MemoryPageIns"
+            return "MemoryPageIns"
         case .MemoryPageOuts:
-            "MemoryPageOuts"
+            return "MemoryPageOuts"
         case .MemoryPageFaults:
-            "MemoryPageFaults"
+            return "MemoryPageFaults"
         case .MemoryPageCOWFaults:
-            "MemoryPageCOWFaults"
+            return "MemoryPageCOWFaults"
         case .MemoryPageLookups:
-            "MemoryPageLookups"
+            return "MemoryPageLookups"
         case .MemoryPageHits:
-            "MemoryPageHits"
+            return "MemoryPageHits"
         case .MemoryPagePurges:
-            "MemoryPagePurges"
+            return "MemoryPagePurges"
         case .MemoryBytesZeroFilled:
-            "MemoryBytesZeroFilled"
+            return "MemoryBytesZeroFilled"
         case .MemoryBytesSpeculative:
-            "MemoryBytesSpeculative"
+            return "MemoryBytesSpeculative"
         case .MemoryBytesDecompressed:
-            "MemoryBytesDecompressed"
+            return "MemoryBytesDecompressed"
         case .MemoryBytesCompressed:
-            "MemoryBytesCompressed"
+            return "MemoryBytesCompressed"
         case .MemoryBytesSwappedIn:
-            "MemoryBytesSwappedIn"
+            return "MemoryBytesSwappedIn"
         case .MemoryBytesSwappedOut:
-            "MemoryBytesSwappedOut"
+            return "MemoryBytesSwappedOut"
         case .MemoryBytesCompressor:
-            "MemoryBytesCompressor"
+            return "MemoryBytesCompressor"
         case .MemoryBytesThrottled:
-            "MemoryBytesThrottled"
+            return "MemoryBytesThrottled"
         case .MemoryBytesFileBacked:
-            "MemoryBytesFileBacked"
+            return "MemoryBytesFileBacked"
         case .MemoryBytesAnonymous:
-            "MemoryBytesAnonymous"
+            return "MemoryBytesAnonymous"
         case .MemoryBytesUncompressed:
-            "MemoryBytesUncompressed"
+            return "MemoryBytesUncompressed"
         case .MemorySize:
-            "MemorySize"
+            return "MemorySize"
         case .PhysicalMemory:
-            "PhysicalMemory"
+            return "PhysicalMemory"
         case .UserMemory:
-            "UserMemory"
+            return "UserMemory"
         case .KernelPageSize:
-            "KernelPageSize"
+            return "KernelPageSize"
         case .PageSize:
-            "PageSize"
+            return "PageSize"
         case .DiskSpace:
-            "DiskSpace"
+            return "DiskSpace"
         case .DiskTotal:
-            "DiskTotal"
+            return "DiskTotal"
         case .DiskUsed:
-            "DiskUsed"
+            return "DiskUsed"
         case .DiskFree:
-            "DiskFree"
+            return "DiskFree"
         case .FileSystems:
-            "FileSystems"
+            return "FileSystems"
         case let .MountPoint(path):
-            String(format: "MountPoint:%@", path)
+            return String(format: "MountPoint:%@", path)
         case let .BlockSize(path):
-            String(format: "BlockSize:%@", path)
+            return String(format: "BlockSize:%@", path)
         case let .OptimalTransferSize(path):
-            String(format: "OptimalTransferSize:%@", path)
+            return String(format: "OptimalTransferSize:%@", path)
         case let .FileSystemBlocks(path):
-            String(format: "FileSystemBlocks:%@", path)
+            return String(format: "FileSystemBlocks:%@", path)
         case let .FileSystemFreeBlocks(path):
-            String(format: "FileSystemFreeBlocks:%@", path)
+            return String(format: "FileSystemFreeBlocks:%@", path)
         case let .FileSystemAvailableBlocks(path):
-            String(format: "FileSystemAvailableBlocks:%@", path)
+            return String(format: "FileSystemAvailableBlocks:%@", path)
         case let .FileSystemNodes(path):
-            String(format: "FileSystemNodes:%@", path)
+            return String(format: "FileSystemNodes:%@", path)
         case let .FileSystemFreeNodes(path):
-            String(format: "FileSystemFreeNodes:%@", path)
+            return String(format: "FileSystemFreeNodes:%@", path)
         case let .FileSystemIdentifier(path):
-            String(format: "FileSystemIdentifier:%@", path)
+            return String(format: "FileSystemIdentifier:%@", path)
         case let .FileSystemOwner(path):
-            String(format: "FileSystemOwner:%@", path)
+            return String(format: "FileSystemOwner:%@", path)
         case let .FileSystemType(path):
-            String(format: "FileSystemType:%@", path)
+            return String(format: "FileSystemType:%@", path)
         case let .FileSystemAttributes(path):
-            String(format: "FileSystemAttributes:%@", path)
+            return String(format: "FileSystemAttributes:%@", path)
         case let .FileSystemFlavor(path):
-            String(format: "FileSystemFlavor:%@", path)
+            return String(format: "FileSystemFlavor:%@", path)
         case let .FileSystemDevice(path):
-            String(format: "FileSystemDevice:%@", path)
+            return String(format: "FileSystemDevice:%@", path)
         case .NetworkInterfaces:
-            "NetworkInterfaces"
+            return "NetworkInterfaces"
         case let .InterfaceName(name):
-            String(format: "InterfaceName:%@", name)
+            return String(format: "InterfaceName:%@", name)
         case let .InterfaceMacAddress(name):
-            String(format: "InterfaceMacAddress:%@", name)
+            return String(format: "InterfaceMacAddress:%@", name)
         case let .NetworkAddress(name, index):
-            String(format: "NetworkAddress:%@:%d", name, index)
+            return String(format: "NetworkAddress:%@:%d", name, index)
         case let .NetworkBroadcastAddress(name, index):
-            String(format: "NetworkBroadcastAddress:%@:%d", name, index)
+            return String(format: "NetworkBroadcastAddress:%@:%d", name, index)
         case let .NetworkMaskAddress(name, index):
-            String(format: "NetworkMaskAddress:%@:%d", name, index)
+            return String(format: "NetworkMaskAddress:%@:%d", name, index)
         case let .NetworkAddressCount(name):
-            String(format: "NetworkAddressCount:%@", name)
+            return String(format: "NetworkAddressCount:%@", name)
         case let .InterfaceFlags(name):
-            String(format: "InterfaceFlags:%@", name)
+            return String(format: "InterfaceFlags:%@", name)
         case let .InterfaceMTU(name):
-            String(format: "InterfaceMTU:%@", name)
+            return String(format: "InterfaceMTU:%@", name)
         case let .InterfaceMetric(name):
-            String(format: "InterfaceMetric:%@", name)
+            return String(format: "InterfaceMetric:%@", name)
         case let .InterfaceLineSpeed(name):
-            String(format: "InterfaceLineSpeed:%@", name)
+            return String(format: "InterfaceLineSpeed:%@", name)
         case let .InterfacePacketsReceived(name):
-            String(format: "InterfacePacketsReceived:%@", name)
+            return String(format: "InterfacePacketsReceived:%@", name)
         case let .InterfaceInputErrors(name):
-            String(format: "InterfaceInputErrors:%@", name)
+            return String(format: "InterfaceInputErrors:%@", name)
         case let .InterfacePacketsSent(name):
-            String(format: "InterfacePacketsSent:%@", name)
+            return String(format: "InterfacePacketsSent:%@", name)
         case let .InterfaceOutputErrors(name):
-            String(format: "InterfaceOutputErrors:%@", name)
+            return String(format: "InterfaceOutputErrors:%@", name)
         case let .InterfaceCollisions(name):
-            String(format: "InterfaceCollisions:%@", name)
+            return String(format: "InterfaceCollisions:%@", name)
         case let .InterfaceBytesReceived(name):
-            String(format: "InterfaceBytesReceived:%@", name)
+            return String(format: "InterfaceBytesReceived:%@", name)
         case let .InterfaceBytesSent(name):
-            String(format: "InterfaceBytesSent:%@", name)
+            return String(format: "InterfaceBytesSent:%@", name)
         case let .InterfaceMulticastPacketsReceived(name):
-            String(format: "InterfaceMulticastPacketsReceived:%@", name)
+            return String(format: "InterfaceMulticastPacketsReceived:%@", name)
         case let .InterfaceMulticastPacketsSent(name):
-            String(format: "InterfaceMulticastPacketsSent:%@", name)
+            return String(format: "InterfaceMulticastPacketsSent:%@", name)
         case let .InterfacePacketsDropped(name):
-            String(format: "InterfacePacketsDropped:%@", name)
+            return String(format: "InterfacePacketsDropped:%@", name)
         case let .InterfacePacketsUnsupported(name):
-            String(format: "InterfacePacketsUnsupported:%@", name)
+            return String(format: "InterfacePacketsUnsupported:%@", name)
         case let .InterfaceSpentReceiving(name):
-            String(format: "InterfaceSpentReceiving:%@", name)
+            return String(format: "InterfaceSpentReceiving:%@", name)
         case let .InterfaceSpentXmitting(name):
-            String(format: "InterfaceSpentXmitting:%@", name)
+            return String(format: "InterfaceSpentXmitting:%@", name)
         case let .InterfaceLastChange(name):
-            String(format: "InterfaceLastChange:%@", name)
+            return String(format: "InterfaceLastChange:%@", name)
         case .NetworkUsage:
-            "NetworkUsage"
+            return "NetworkUsage"
         case let .NetworkCategoryUsage(prefix):
-            String(format: "NetworkCategoryUsage:%@", prefix)
+            return String(format: "NetworkCategoryUsage:%@", prefix)
         case let .NetworkCategoryBytesDownload(prefix):
-            String(format: "NetworkCategoryBytesDownload:%@", prefix)
+            return String(format: "NetworkCategoryBytesDownload:%@", prefix)
         case let .NetworkCategoryBytesUpload(prefix):
-            String(format: "NetworkCategoryBytesUpload:%@", prefix)
+            return String(format: "NetworkCategoryBytesUpload:%@", prefix)
         case .BatteryInformation:
-            "BatteryInformation"
+            return "BatteryInformation"
         case .BatteryLevel:
-            "BatteryLevel"
+            return "BatteryLevel"
         case .BatteryUsed:
-            "BatteryUsed"
+            return "BatteryUsed"
         case .BatteryState:
-            "BatteryState"
+            return "BatteryState"
         case .BatteryCapacity:
-            "BatteryCapacity"
+            return "BatteryCapacity"
         case let .Custom(name):
-            String(format: "Custom:%@", name)
+            return String(format: "Custom:%@", name)
         case let .Section(name):
-            String(format: "Section:%@", name)
+            return String(format: "Section:%@", name)
         case let .AllowedToCopy(name):
-            String(format: "AllowedToCopy:%@", name)
+            return String(format: "AllowedToCopy:%@", name)
         }
     }
 }

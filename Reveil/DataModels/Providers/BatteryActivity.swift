@@ -23,13 +23,13 @@ final class BatteryActivity {
         var description: String {
             switch self {
             case .unknown:
-                NSLocalizedString("BATTERY_UNKNOWN", comment: "Unknown")
+                return NSLocalizedString("BATTERY_UNKNOWN", comment: "Unknown")
             case .unplugged:
-                NSLocalizedString("BATTERY_UNPLUGGED", comment: "Unplugged")
+                return NSLocalizedString("BATTERY_UNPLUGGED", comment: "Unplugged")
             case .charging:
-                NSLocalizedString("BATTERY_CHARGING", comment: "Charging")
+                return NSLocalizedString("BATTERY_CHARGING", comment: "Charging")
             case .full:
-                NSLocalizedString("BATTERY_FULL", comment: "Full")
+                return NSLocalizedString("BATTERY_FULL", comment: "Full")
             }
         }
     }

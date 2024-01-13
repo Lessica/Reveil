@@ -54,7 +54,15 @@ struct DetailsListView: View, FieldCellDelegate {
             }
             .listStyle(.plain)
             .frame(maxWidth: .infinity)
-            .backport.overlay(alignment: .bottom) { toastOverlay() }
+            .backport.overlay(alignment: .bottom) {
+                #if swift(>=5.9)
+                toastOverlay()
+                    .animation(.spring(duration: 0.25, bounce: 0.2, blendDuration: 1), value: toastShown)
+                #else
+                toastOverlay()
+                    .animation(.linear(duration: 0.25), value: toastShown)
+                #endif
+            }
             .onAppear {
                 if let object = highlightedEntryKey.object {
                     selectedEntryKeys.removeAll(keepingCapacity: true)
@@ -208,7 +216,6 @@ struct DetailsListView: View, FieldCellDelegate {
                     ))
             }
         }
-        .animation(.spring(duration: 0.25, bounce: 0.2, blendDuration: 1), value: toastShown)
     }
 }
 

@@ -89,31 +89,29 @@ final class CPUInformation: Module {
     private func cpuFamilyName(family: UInt32) -> String {
         switch family {
         case UInt32(CPUFAMILY_ARM_SWIFT):
-            "Swift"
+            return "Swift"
         case UInt32(CPUFAMILY_ARM_CYCLONE):
-            "Cyclone"
+            return "Cyclone"
         case UInt32(CPUFAMILY_ARM_TYPHOON):
-            "Typhoon"
+            return "Typhoon"
         case UInt32(CPUFAMILY_ARM_TWISTER):
-            "Twister"
+            return "Twister"
         case UInt32(CPUFAMILY_ARM_HURRICANE):
-            "Hurricane"
+            return "Hurricane"
         case UInt32(CPUFAMILY_ARM_MONSOON_MISTRAL):
-            "Monsoon & Mistral"
+            return "Monsoon & Mistral"
         case UInt32(CPUFAMILY_ARM_VORTEX_TEMPEST):
-            "Vortex & Tempest"
+            return "Vortex & Tempest"
         case UInt32(CPUFAMILY_ARM_LIGHTNING_THUNDER):
-            "Lightning & Thunder"
+            return "Lightning & Thunder"
         case UInt32(CPUFAMILY_ARM_FIRESTORM_ICESTORM):
-            "Firestorm & Icestorm"
+            return "Firestorm & Icestorm"
         case UInt32(CPUFAMILY_ARM_BLIZZARD_AVALANCHE):
-            "Blizzard & Avalanche"
+            return "Blizzard & Avalanche"
         case UInt32(CPUFAMILY_ARM_EVEREST_SAWTOOTH):
-            "Everest & Sawtooth"
-        case UInt32(CPUFAMILY_ARM_COLL):
-            "Coll"
+            return "Everest & Sawtooth"
         default:
-            BasicEntry.unknownValue
+            return BasicEntry.unknownValue
         }
     }
 
@@ -220,10 +218,11 @@ final class CPUInformation: Module {
         case .CPUByteOrder:
             if let archInfo {
                 let byteOrder = archInfo.pointee.byteorder
-                let byteOrderStr = if byteOrder == NX_LittleEndian {
-                    "1234"
+                let byteOrderStr: String
+                if byteOrder == NX_LittleEndian {
+                    byteOrderStr = "1234"
                 } else {
-                    "4321"
+                    byteOrderStr = "4321"
                 }
                 return BasicEntry(
                     key: .CPUByteOrder,

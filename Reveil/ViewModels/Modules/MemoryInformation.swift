@@ -111,19 +111,20 @@ final class MemoryInformation: Module {
     }
 
     private func getMemoryDescription(_ memoryInfo: MemoryInfo, name: MemoryDescriptionName, style: ValueStyle = .detailed) -> String {
-        let count: UInt64 = switch name {
+        let count: UInt64
+        switch name {
         case .wired:
-            memoryInfo.wired
+            count = memoryInfo.wired
         case .active:
-            memoryInfo.active
+            count = memoryInfo.active
         case .inactive:
-            memoryInfo.inactive
+            count = memoryInfo.inactive
         case .purgeable:
-            memoryInfo.purgeable
+            count = memoryInfo.purgeable
         case .others:
-            memoryInfo.others
+            count = memoryInfo.others
         case .free:
-            memoryInfo.free
+            count = memoryInfo.free
         }
         if count > UInt64(Int64.max) {
             return "+???"
