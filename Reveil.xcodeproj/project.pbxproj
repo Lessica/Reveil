@@ -107,7 +107,6 @@
 		CC3F94252B4C506B00E67A19 /* View+ListSectionSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94242B4C506B00E67A19 /* View+ListSectionSeparator.swift */; };
 		CC3F94272B4C51DD00E67A19 /* View+Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94262B4C51DD00E67A19 /* View+Material.swift */; };
 		CC3F94292B4C52B000E67A19 /* View+ForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F94282B4C52B000E67A19 /* View+ForegroundStyle.swift */; };
-		CC3F942F2B5240A300E67A19 /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = CC3F942E2B5240A300E67A19 /* ColorfulX */; };
 		CC4AE2B82ACAA4B400DA23AC /* ReveilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AE2B72ACAA4B400DA23AC /* ReveilApp.swift */; };
 		CC4AE2BA2ACAA4B400DA23AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AE2B92ACAA4B400DA23AC /* ContentView.swift */; };
 		CC4AE2BC2ACAA4B500DA23AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4AE2BB2ACAA4B500DA23AC /* Assets.xcassets */; };
@@ -128,6 +127,7 @@
 		CC7DC2B92AF7933800D50EDC /* proc_info.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DC2B82AF7933800D50EDC /* proc_info.h */; };
 		CC7DC2BB2AF7935800D50EDC /* kern_control.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DC2BA2AF7935800D50EDC /* kern_control.h */; };
 		CC7DC2BD2AF7937E00D50EDC /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DC2BC2AF7937E00D50EDC /* route.h */; };
+		CC84F06E2B52683B000B943B /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = CC84F06D2B52683B000B943B /* ColorfulX */; };
 		CC9D249C2B3D954F00A18513 /* URL+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D249A2B3D954F00A18513 /* URL+Path.swift */; };
 		CC9D249E2B3D954F00A18513 /* URL+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D249A2B3D954F00A18513 /* URL+Path.swift */; };
 		CC9D24A72B3D97C300A18513 /* IntegrityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095DC2AED419B00F5E55F /* IntegrityChecker.swift */; };
@@ -367,8 +367,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3F942F2B5240A300E67A19 /* ColorfulX in Frameworks */,
 				CCD54D2C2AD9047D007ED1AF /* Collections in Frameworks */,
+				CC84F06E2B52683B000B943B /* ColorfulX in Frameworks */,
 				CCA0956D2AE8D5E900F5E55F /* UIKit.framework in Frameworks */,
 				CCD54D2E2AD9047D007ED1AF /* DequeModule in Frameworks */,
 				5024F6EC2B1829EE000CEAB5 /* library_stub.framework in Frameworks */,
@@ -824,7 +824,7 @@
 				CCD54D2F2AD9047D007ED1AF /* OrderedCollections */,
 				0F08193C2ADAF1C600BB626C /* DictionaryCoder */,
 				CC7DC2A02AF3EEBB00D50EDC /* ZIPFoundation */,
-				CC3F942E2B5240A300E67A19 /* ColorfulX */,
+				CC84F06D2B52683B000B943B /* ColorfulX */,
 			);
 			productName = Reveil;
 			productReference = CC4AE2B42ACAA4B400DA23AC /* Reveil.app */;
@@ -884,7 +884,7 @@
 				0F08193B2ADAF1C600BB626C /* XCRemoteSwiftPackageReference "DictionaryCoder" */,
 				CC7DC29F2AF3EEBB00D50EDC /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 				0FA065832B3D8436000A7ECE /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
-				CC3F942D2B5240A300E67A19 /* XCRemoteSwiftPackageReference "ColorfulX" */,
+				CC84F06C2B52683B000B943B /* XCRemoteSwiftPackageReference "ColorfulX" */,
 			);
 			productRefGroup = CC4AE2B52ACAA4B400DA23AC /* Products */;
 			projectDirPath = "";
@@ -1524,20 +1524,20 @@
 				minimumVersion = 1.3.0;
 			};
 		};
-		CC3F942D2B5240A300E67A19 /* XCRemoteSwiftPackageReference "ColorfulX" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lakr233/ColorfulX.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.3.0;
-			};
-		};
 		CC7DC29F2AF3EEBB00D50EDC /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.9.17;
+			};
+		};
+		CC84F06C2B52683B000B943B /* XCRemoteSwiftPackageReference "ColorfulX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lessica/ColorfulX.git";
+			requirement = {
+				branch = "backport/xcode-14";
+				kind = branch;
 			};
 		};
 		CCD54D2A2AD9047D007ED1AF /* XCRemoteSwiftPackageReference "swift-collections" */ = {
@@ -1561,15 +1561,15 @@
 			package = 0FA065832B3D8436000A7ECE /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
 		};
-		CC3F942E2B5240A300E67A19 /* ColorfulX */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CC3F942D2B5240A300E67A19 /* XCRemoteSwiftPackageReference "ColorfulX" */;
-			productName = ColorfulX;
-		};
 		CC7DC2A02AF3EEBB00D50EDC /* ZIPFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CC7DC29F2AF3EEBB00D50EDC /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
 			productName = ZIPFoundation;
+		};
+		CC84F06D2B52683B000B943B /* ColorfulX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC84F06C2B52683B000B943B /* XCRemoteSwiftPackageReference "ColorfulX" */;
+			productName = ColorfulX;
 		};
 		CCD54D2B2AD9047D007ED1AF /* Collections */ = {
 			isa = XCSwiftPackageProductDependency;
