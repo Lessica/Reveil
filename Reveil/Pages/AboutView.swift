@@ -106,7 +106,7 @@ struct AboutView: View {
                         .padding()
                 }
 
-                Button(NSLocalizedString("EXPORT_DATA", comment: "Export Data")) {
+                Button(NSLocalizedString("SEND_DIAGNOSTIC_DATA", comment: "Send Diagnostic Data")) {
                     let data = exportPropertyListData()
                     let tempUrl = URL(fileURLWithPath: NSTemporaryDirectory())
                         .appendingPathComponent("ReveilExport_" + UUID().uuidString)

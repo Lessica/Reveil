@@ -271,9 +271,6 @@
 /* Valid code signing status */
 "EXPECTED_CODE_SIGNING_STATUS" = "有效的代码签名状态";
 
-/* Export Data */
-"EXPORT_DATA" = "导出数据";
-
 /* Faults */
 "FAULTS" = "错误";
 
@@ -852,6 +849,9 @@
 
 /* Security */
 "SECURITY" = "安全";
+
+/* Send Diagnostic Data */
+"SEND_DIAGNOSTIC_DATA" = "发送诊断数据";
 
 /* Sent */
 "SENT" = "已发送";

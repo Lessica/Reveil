@@ -271,9 +271,6 @@
 /* Valid code signing status */
 "EXPECTED_CODE_SIGNING_STATUS" = "Valid code signing status";
 
-/* Export Data */
-"EXPORT_DATA" = "Export Data";
-
 /* Faults */
 "FAULTS" = "Faults";
 
@@ -852,6 +849,9 @@
 
 /* Security */
 "SECURITY" = "Security";
+
+/* Send Diagnostic Data */
+"SEND_DIAGNOSTIC_DATA" = "Send Diagnostic Data";
 
 /* Sent */
 "SENT" = "Sent";
