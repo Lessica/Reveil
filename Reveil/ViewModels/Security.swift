@@ -361,6 +361,33 @@ final class Security: ObservableObject, StaticEntryProvider, Explainable {
         IntegrityChecker.checkMobileProvision(SecurityPresets.default.secureMobileProvisioningProfileHashes)
     }
 
+    func checkResourceHashes() -> Bool {
+        let resHashes = SecurityPresets.default.secureResourceHashes
+        for resName in resHashes.keys {
+            if let resHash = resHashes[resName] {
+                let resTampered = IntegrityChecker.amITampered([.commonResource(resName, resHash)]).result
+                if resTampered {
+                    return false
+                }
+            }
+        }
+        return true
+    }
+
+    func getModifiedResourceNames() -> [String] {
+        var modifiedNames = [String]()
+        let resHashes = SecurityPresets.default.secureResourceHashes
+        for resName in resHashes.keys {
+            if let resHash = resHashes[resName] {
+                let resTampered = IntegrityChecker.amITampered([.commonResource(resName, resHash)]).result
+                if resTampered {
+                    modifiedNames.append(resName)
+                }
+            }
+        }
+        return modifiedNames
+    }
+
     func checkMachOHash() -> Bool {
         #if DEBUG
             return IntegrityChecker.checkMachO(currentExecutablePath, with: SecurityPresets.default.secureMainExecutableMachOHashes)

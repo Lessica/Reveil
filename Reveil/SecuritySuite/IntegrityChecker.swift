@@ -29,6 +29,12 @@ final class IntegrityChecker {
                     result = true
                     hitChecks.append(check)
                 }
+            case let .commonResource(resourceName, expectedSha256Value):
+                let resourcePath = Bundle(for: Self.self).path(forResource: resourceName, ofType: nil)
+                if let resourcePath, calculateHashValue(path: resourcePath) != expectedSha256Value {
+                    result = true
+                    hitChecks.append(check)
+                }
             case let .machO(imageName, expectedSha256Value):
                 if !checkMachO(imageName, with: expectedSha256Value.lowercased()) {
                     result = true
@@ -58,13 +64,13 @@ final class IntegrityChecker {
 
     static func checkMobileProvision(_ expectedSha256Values: Set<String>) -> Bool {
         guard let path = Bundle(for: Self.self).path(forResource: "embedded", ofType: "mobileprovision"),
-              let hashValue = getMobileProvisionProfileHashValue(path: path)
+              let hashValue = calculateHashValue(path: path)
         else { return false }
 
         return expectedSha256Values.contains(hashValue)
     }
 
-    static func getMobileProvisionProfileHashValue(path: String) -> String? {
+    static func calculateHashValue(path: String) -> String? {
         guard FileManager.default.fileExists(atPath: path) else {
             return nil
         }

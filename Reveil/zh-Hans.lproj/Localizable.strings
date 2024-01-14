@@ -751,6 +751,9 @@
 /* Mobile provisioning profile is trusted */
 "ORIGINAL_MOBILE_PROVISIONING_PROFILE" = "已验证应用程序分发配置文件";
 
+/* Embedded resources are original */
+"ORIGINAL_RESOURCES" = "已验证内建资源均为初始状态";
+
 /* Others */
 "OTHERS" = "其他";
 
@@ -915,6 +918,9 @@
 
 /* Mobile provisioning profile was tampered */
 "TAMPERED_MOBILE_PROVISIONING_PROFILE" = "应用程序分发配置文件被篡改";
+
+/* Some of the embedded resources were tampered */
+"TAMPERED_RESOURCES" = "部分内建资源被篡改";
 
 /* TB Frequency */
 "TB_FREQ" = "时基频率";
