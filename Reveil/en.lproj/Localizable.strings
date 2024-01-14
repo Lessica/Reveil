@@ -751,6 +751,9 @@
 /* Mobile provisioning profile is trusted */
 "ORIGINAL_MOBILE_PROVISIONING_PROFILE" = "Mobile provisioning profile is trusted";
 
+/* Embedded resources are original */
+"ORIGINAL_RESOURCES" = "Embedded resources are original";
+
 /* Others */
 "OTHERS" = "Others";
 
@@ -915,6 +918,9 @@
 
 /* Mobile provisioning profile was tampered */
 "TAMPERED_MOBILE_PROVISIONING_PROFILE" = "Mobile provisioning profile was tampered";
+
+/* Some of the embedded resources were tampered */
+"TAMPERED_RESOURCES" = "Some of the embedded resources were tampered";
 
 /* TB Frequency */
 "TB_FREQ" = "Time-Based Frequency";

@@ -51,11 +51,21 @@ struct SecurityPresets: Codable {
         }
 
         if let bundleProvisioningProfilePath = bundle.path(forResource: "embedded", ofType: "mobileprovision"),
-           let profileHashValue = IntegrityChecker.getMobileProvisionProfileHashValue(path: bundleProvisioningProfilePath)
+           let profileHashValue = IntegrityChecker.calculateHashValue(path: bundleProvisioningProfilePath)
         {
             secureMobileProvisioningProfileHashes.removeAll(keepingCapacity: true)
             secureMobileProvisioningProfileHashes.insert(profileHashValue)
         }
+
+        var updatedHashes: Dictionary<String, String> = secureResourceHashes
+        for secureResourceName in secureResourceHashes.keys {
+            let resourcePath = bundle.path(forResource: secureResourceName, ofType: nil)
+            if let resourcePath, let resourceHashValue = IntegrityChecker.calculateHashValue(path: resourcePath)
+            {
+                updatedHashes.updateValue(resourceHashValue, forKey: secureResourceName)
+            }
+        }
+        secureResourceHashes = updatedHashes
     }
 
     var secureStandaloneLibraries: Set<String> = [
@@ -84,11 +94,21 @@ struct SecurityPresets: Codable {
     ]
 
     var secureMobileProvisioningProfileHashes: Set<String> = [
-        "0675eb798917a1d44f11424be328c72a58812ba03900f1c58569af867353f438",
+        "",
     ]
 
     var secureMainExecutableMachOHashes: Set<String> = [
-        "502a2f7f57fcd163c4a8ccaa09b1d8831e53d214c1a8e4ef49904c7615324fdc",
+        "",
+    ]
+
+    var secureResourceHashes: Dictionary<String, String> = [
+        "library_stub.zip": "",
+        "rsc-001-country-mapping.json": "",
+        "rsc-002-ios-versions.json": "",
+        "rsc-003-iphone-models.json": "",
+        "rsc-004-carriers.json": "",
+        "rsc-005-ipad-models.json": "",
+        "rsc-006-ipod-models.json": "",
     ]
 
     var insecureEnvironmentVariables: Set<String> = [

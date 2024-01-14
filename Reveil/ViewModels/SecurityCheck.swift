@@ -45,6 +45,7 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
 
     case identifiedBundleIdentifier(Status)
     case identifiedMobileProvisioningProfile(Status)
+    case identifiedResources(Status)
     case identifiedMachO(Status)
     case identifiedEntitlements(Status)
 
@@ -100,6 +101,8 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
             self = .identifiedBundleIdentifier(status)
         case "identifiedMobileProvisioningProfile":
             self = .identifiedMobileProvisioningProfile(status)
+        case "identifiedResources":
+            self = .identifiedResources(status)
         case "identifiedMachO":
             self = .identifiedMachO(status)
         case "identifiedEntitlements":
@@ -173,6 +176,8 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
             return status.prefix + "identifiedBundleIdentifier"
         case let .identifiedMobileProvisioningProfile(status):
             return status.prefix + "identifiedMobileProvisioningProfile"
+        case let .identifiedResources(status):
+            return status.prefix + "identifiedResources"
         case let .identifiedMachO(status):
             return status.prefix + "identifiedMachO"
         case let .identifiedEntitlements(status):
@@ -232,6 +237,7 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         .noSuspiciousEnvironmentVariables(.unchanged),
         .identifiedBundleIdentifier(.unchanged),
         .identifiedMobileProvisioningProfile(.unchanged),
+        .identifiedResources(.unchanged),
         .identifiedMachO(.unchanged),
         .identifiedEntitlements(.unchanged),
         .expectedCodeSigningStatus(.unchanged),
@@ -269,6 +275,7 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         case let .noSuspiciousEnvironmentVariables(status): fallthrough
         case let .identifiedBundleIdentifier(status): fallthrough
         case let .identifiedMobileProvisioningProfile(status): fallthrough
+        case let .identifiedResources(status): fallthrough
         case let .identifiedMachO(status): fallthrough
         case let .identifiedEntitlements(status): fallthrough
         case let .expectedCodeSigningStatus(status): fallthrough
@@ -308,6 +315,7 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         case let .noSuspiciousEnvironmentVariables(status): fallthrough
         case let .identifiedBundleIdentifier(status): fallthrough
         case let .identifiedMobileProvisioningProfile(status): fallthrough
+        case let .identifiedResources(status): fallthrough
         case let .identifiedMachO(status): fallthrough
         case let .identifiedEntitlements(status): fallthrough
         case let .expectedCodeSigningStatus(status): fallthrough
@@ -347,6 +355,7 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         case let .noSuspiciousEnvironmentVariables(status): fallthrough
         case let .identifiedBundleIdentifier(status): fallthrough
         case let .identifiedMobileProvisioningProfile(status): fallthrough
+        case let .identifiedResources(status): fallthrough
         case let .identifiedMachO(status): fallthrough
         case let .identifiedEntitlements(status): fallthrough
         case let .expectedCodeSigningStatus(status): fallthrough
@@ -419,6 +428,10 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
             return status == .failed ?
                 NSLocalizedString("TAMPERED_MOBILE_PROVISIONING_PROFILE", comment: "Mobile provisioning profile was tampered") :
                 NSLocalizedString("ORIGINAL_MOBILE_PROVISIONING_PROFILE", comment: "Mobile provisioning profile is trusted")
+        case let .identifiedResources(status):
+            return status == .failed ?
+                NSLocalizedString("TAMPERED_RESOURCES", comment: "Some of the embedded resources were tampered") :
+                NSLocalizedString("ORIGINAL_RESOURCES", comment: "Embedded resources are original")
         case let .identifiedMachO(status):
             return status == .failed ?
                 NSLocalizedString("TAMPERED_MACH_O", comment: "Main executable was tampered") :
@@ -548,6 +561,8 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
             return .staticIntegrity
         case .identifiedMobileProvisioningProfile:
             return .staticIntegrity
+        case .identifiedResources:
+            return .staticIntegrity
         case .identifiedMachO:
             return .staticIntegrity
         case .identifiedEntitlements:
@@ -616,6 +631,8 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
             return .identifiedBundleIdentifier(Security.shared.checkMainBundleIdentifier() ? .passed : .failed)
         case .identifiedMobileProvisioningProfile:
             return .identifiedMobileProvisioningProfile(Security.shared.checkMobileProvisioningProfileHash() ? .passed : .failed)
+        case .identifiedResources:
+            return .identifiedResources(Security.shared.checkResourceHashes() ? .passed : .failed)
         case .identifiedMachO:
             return .identifiedMachO(Security.shared.checkMachOHash() ? .passed : .failed)
         case .identifiedEntitlements:
@@ -723,6 +740,12 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         case let .noSuspiciousEnvironmentVariables(status):
             if status == .failed {
                 entryChildren = Security.shared.getSuspiciousEnvironmentVariables().map {
+                    BasicEntry(customLabel: $0, allowedToCopy: true)
+                }
+            }
+        case let .identifiedResources(status):
+            if status == .failed {
+                entryChildren = Security.shared.getModifiedResourceNames().map {
                     BasicEntry(customLabel: $0, allowedToCopy: true)
                 }
             }
