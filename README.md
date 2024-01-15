@@ -47,10 +47,18 @@ Reveil is not breaking any sandbox rules, so it can't fetch some information sho
 
 And not limited to the above.
 
+## Special Thanks
+
+UX/UI design inspired by:
+
+- 🔗 [Unveil](https://unveilapp.com) by [@Pwn20wnd](https://twitter.com/Pwn20wnd)
+
+While creating this tool I used some codes from:
+
+- 🔗 [IOSSecuritySuite](https://github.com/securing/IOSSecuritySuite/tree/master) by [@_r3ggi](https://twitter.com/_r3ggi)
+
 ## License
 
 Reveil is licensed under the [MIT License](LICENSE).
-
----
 
 Copyright (c) 2023-2024 Lessica & Lakr Aream, All rights reserved.
