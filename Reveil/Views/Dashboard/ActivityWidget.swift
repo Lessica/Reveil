@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ActivityWidget: View {
-    @StateObject var entry: ActivityEntry
+    @ObservedObject var entry: ActivityEntry
 
     private let columnWidth: CGFloat = 2
     private let minColumnSpacing: CGFloat = 3

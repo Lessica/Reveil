@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SecurityView: View {
-    @StateObject private var securityModel = Security.shared
+    @ObservedObject private var securityModel = Security.shared
 
     @Environment(\.dismiss) private var dismissAction
 

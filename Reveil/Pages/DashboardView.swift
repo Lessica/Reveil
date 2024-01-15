@@ -11,8 +11,8 @@ struct DashboardView: View, GlobalTimerObserver {
     let id = UUID()
     let globalName: String = String(describing: Dashboard.self)
 
-    @StateObject private var viewModel = Dashboard.shared
-    @StateObject private var securityModel = Security.shared
+    @ObservedObject private var viewModel = Dashboard.shared
+    @ObservedObject private var securityModel = Security.shared
     @State private var isNavigationLinkActive = false
 
     var body: some View {

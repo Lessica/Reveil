@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct UsageWidget: View {
-    @StateObject var entry: UsageEntry<Double>
+    @ObservedObject var entry: UsageEntry<Double>
 
     private let rowHeight: CGFloat = 18
 

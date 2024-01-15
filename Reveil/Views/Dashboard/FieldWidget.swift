@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FieldWidget: View {
-    @StateObject var entry: BasicEntry
+    @ObservedObject var entry: BasicEntry
 
     var body: some View {
         VStack(spacing: 8) {
