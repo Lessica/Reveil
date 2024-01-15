@@ -9,16 +9,25 @@ import Combine
 import Foundation
 
 protocol GlobalTimerObserver {
-    func globalTimerEventOccurred(_ timer: GlobalTimer) -> Void
+    var globalName: String { get }
+    func eventOccurred(globalTimer timer: GlobalTimer) -> Void
 }
 
 final class GlobalTimer: ObservableObject {
+    struct Observer {
+        let value: any GlobalTimerObserver
+        var registeredCount: Int
+    }
+
     static let shared = GlobalTimer()
-    private var observers = Set<AnyHashable>()
+    private var observers = [ModuleName: Observer]()
 
     lazy var timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [unowned self] _ in
-        self.observers.forEach { observer in
-            (observer as? GlobalTimerObserver)?.globalTimerEventOccurred(self)
+        if observers.isEmpty {
+            return
+        }
+        observers.forEach { [unowned self] (key: ModuleName, observer: Observer) in
+            observer.value.eventOccurred(globalTimer: self)
         }
     }
 
@@ -26,11 +35,23 @@ final class GlobalTimer: ObservableObject {
         timer.fire()
     }
 
-    func addObserver<T>(_ observer: T) where T: GlobalTimerObserver, T: Hashable {
-        observers.insert(AnyHashable(observer))
+    func addObserver<T>(_ observer: T) where T: GlobalTimerObserver {
+        let globalName = observer.globalName
+        if observers[globalName] != nil {
+            observers[globalName]?.registeredCount += 1
+            return
+        }
+        observers[globalName] = Observer(value: observer, registeredCount: 1)
     }
     
-    func removeObserver<T>(_ observer: T) where T: GlobalTimerObserver, T: Hashable {
-        observers.remove(AnyHashable(observer))
+    func removeObserver<T>(_ observer: T) where T: GlobalTimerObserver {
+        let globalName = observer.globalName
+        guard observers[globalName] != nil else {
+            return
+        }
+        observers[globalName]?.registeredCount -= 1
+        if observers[globalName]?.registeredCount == 0 {
+            observers.removeValue(forKey: globalName)
+        }
     }
 }

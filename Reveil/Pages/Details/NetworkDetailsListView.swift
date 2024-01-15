@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NetworkDetailsListView: View, ModuleListView {
     let module: Module = NetworkDetails.shared
+    let globalName: String = String(describing: NetworkDetails.self)
 
     init() {}
 
@@ -42,6 +43,8 @@ struct NetworkDetailsListView: View, ModuleListView {
             items = NetworkPrefix.categoryCases
         }
     }
+
+    func eventOccurred(globalTimer timer: GlobalTimer) { }
 }
 
 // MARK: - Previews

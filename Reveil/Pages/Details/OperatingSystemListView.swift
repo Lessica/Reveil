@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct OperatingSystemListView: View, Identifiable, ModuleListView {
+struct OperatingSystemListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = OperatingSystem.shared
+    let globalName: String = String(describing: OperatingSystem.self)
 
     init() {}
 
@@ -29,18 +30,8 @@ struct OperatingSystemListView: View, Identifiable, ModuleListView {
                 GlobalTimer.shared.removeObserver(self)
             }
     }
-}
 
-extension OperatingSystemListView: GlobalTimerObserver, Hashable {
-    static func == (lhs: OperatingSystemListView, rhs: OperatingSystemListView) -> Bool {
-        lhs.id == rhs.id
-    }
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
-    
-    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+    func eventOccurred(globalTimer timer: GlobalTimer) {
         module.updateEntries()
     }
 }

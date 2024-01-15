@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct DiskSpaceListView: View, Identifiable, ModuleListView {
+struct DiskSpaceListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = DiskSpace.shared
+    let globalName: String = String(describing: DiskSpace.self)
 
     init() {}
 
@@ -37,18 +38,8 @@ struct DiskSpaceListView: View, Identifiable, ModuleListView {
             GlobalTimer.shared.removeObserver(self)
         }
     }
-}
 
-extension DiskSpaceListView: GlobalTimerObserver, Hashable {
-    static func == (lhs: DiskSpaceListView, rhs: DiskSpaceListView) -> Bool {
-        lhs.id == rhs.id
-    }
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
-    
-    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+    func eventOccurred(globalTimer timer: GlobalTimer) {
         module.updateEntries()
     }
 }

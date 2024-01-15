@@ -9,7 +9,7 @@ import Foundation
 
 struct EntryExporter: Encodable {
     let moduleClass: String
-    let moduleName: String
+    let moduleName: ModuleName
     let basicEntries: [BasicEntry]
     let usageEntry: UsageEntry<Double>?
 

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NetworkInterfacesListView: View, ModuleListView {
     let module: Module = NetworkInterfaces.shared
+    let globalName: String = String(describing: NetworkInterfaces.self)
 
     init() {}
 
@@ -48,6 +49,8 @@ struct NetworkInterfacesListView: View, ModuleListView {
             items = NetworkInterfaces.shared.items
         }
     }
+
+    func eventOccurred(globalTimer timer: GlobalTimer) { }
 }
 
 // MARK: - Previews

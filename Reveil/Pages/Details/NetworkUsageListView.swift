@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct NetworkUsageListView: View, Identifiable, ModuleListView {
+struct NetworkUsageListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = NetworkUsage.shared
+    let globalName: String = String(describing: NetworkUsage.self)
 
     init() {}
 
@@ -37,18 +38,8 @@ struct NetworkUsageListView: View, Identifiable, ModuleListView {
             GlobalTimer.shared.removeObserver(self)
         }
     }
-}
 
-extension NetworkUsageListView: GlobalTimerObserver, Hashable {
-    static func == (lhs: NetworkUsageListView, rhs: NetworkUsageListView) -> Bool {
-        lhs.id == rhs.id
-    }
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
-    
-    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+    func eventOccurred(globalTimer timer: GlobalTimer) {
         module.updateEntries()
     }
 }

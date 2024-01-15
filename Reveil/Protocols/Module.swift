@@ -7,9 +7,11 @@
 
 import Foundation
 
+typealias ModuleName = String
+
 protocol Module: StaticEntryProvider, DynamicEntryProvider, EntryUpdater {
     static var shared: Self { get }
-    var moduleName: String { get }
+    var moduleName: ModuleName { get }
 
     func reloadData()
 }

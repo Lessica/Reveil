@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct CPUInformationListView: View, Identifiable, ModuleListView {
+struct CPUInformationListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = CPUInformation.shared
+    let globalName: String = String(describing: CPUInformation.self)
 
     init() {}
 
@@ -37,18 +38,8 @@ struct CPUInformationListView: View, Identifiable, ModuleListView {
             GlobalTimer.shared.removeObserver(self)
         }
     }
-}
 
-extension CPUInformationListView: GlobalTimerObserver, Hashable {
-    static func == (lhs: CPUInformationListView, rhs: CPUInformationListView) -> Bool {
-        lhs.id == rhs.id
-    }
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
-    
-    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+    func eventOccurred(globalTimer timer: GlobalTimer) {
         module.updateEntries()
     }
 }

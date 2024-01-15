@@ -31,7 +31,7 @@ final class Security: ObservableObject, StaticEntryProvider, Explainable {
         NSLocalizedString("SECURITY", comment: "Security")
     }
 
-    var moduleName: String {
+    var moduleName: ModuleName {
         description
     }
 

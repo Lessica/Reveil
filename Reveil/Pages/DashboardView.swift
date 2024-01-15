@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-struct DashboardView: View {
+struct DashboardView: View, GlobalTimerObserver {
     let id = UUID()
+    let globalName: String = String(describing: Dashboard.self)
 
     @StateObject private var viewModel = Dashboard.shared
     @StateObject private var securityModel = Security.shared
@@ -89,20 +90,10 @@ struct DashboardView: View {
             viewModel.anyListView(key: entry.key)
                 .environmentObject(HighlightedEntryKey(object: entry.key))
         }, label: { Color.clear })
-            .contentShape(Rectangle())
+        .contentShape(Rectangle())
     }
-}
 
-extension DashboardView: GlobalTimerObserver, Hashable {
-    static func == (lhs: DashboardView, rhs: DashboardView) -> Bool {
-        lhs.id == rhs.id
-    }
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
-    
-    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+    func eventOccurred(globalTimer timer: GlobalTimer) {
         viewModel.updateEntries()
     }
 }

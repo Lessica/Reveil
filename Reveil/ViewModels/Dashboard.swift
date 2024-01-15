@@ -50,7 +50,7 @@ final class Dashboard: ObservableObject {
 
     @Published var entries: [any Entry]
 
-    var cachedModuleNames: Set<String>
+    var cachedModuleNames: Set<ModuleName>
     var cachedModuleMappings: [EntryKey: Module]
     var cachedModules: [Module]
 

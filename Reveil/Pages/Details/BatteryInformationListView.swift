@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct BatteryInformationListView: View, Identifiable, ModuleListView {
+struct BatteryInformationListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = BatteryInformation.shared
+    let globalName: String = String(describing: BatteryInformation.self)
 
     init() {}
 
@@ -37,18 +38,8 @@ struct BatteryInformationListView: View, Identifiable, ModuleListView {
             GlobalTimer.shared.removeObserver(self)
         }
     }
-}
 
-extension BatteryInformationListView: GlobalTimerObserver, Hashable {
-    static func == (lhs: BatteryInformationListView, rhs: BatteryInformationListView) -> Bool {
-        lhs.id == rhs.id
-    }
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
-    
-    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+    func eventOccurred(globalTimer timer: GlobalTimer) {
         module.updateEntries()
     }
 }
