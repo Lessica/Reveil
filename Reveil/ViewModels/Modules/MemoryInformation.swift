@@ -227,7 +227,7 @@ final class MemoryInformation: Module {
                 key: .MemoryBytesFree,
                 name: style == .dashboard ? NSLocalizedString("MEMORY_FREE_LONG", comment: "Free Memory") : NSLocalizedString("MEMORY_FREE", comment: "Free"),
                 value: getMemoryDescription(memoryInfo, name: .free, style: style),
-                color: Color(PlatformColor.secondarySystemFillAlias)
+                color: Color.secondarySystemFillAlias
             )
         case .MemoryPageReactivations:
             return BasicEntry(

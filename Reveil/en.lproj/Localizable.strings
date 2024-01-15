@@ -712,6 +712,9 @@
 /* Nodes */
 "NODES" = "Nodes";
 
+/* Not Available */
+"NOT_AVAILABLE" = "Not Available";
+
 /* Run on a hardware device */
 "NOT_IN_SIMULATOR" = "Run on a hardware device";
 

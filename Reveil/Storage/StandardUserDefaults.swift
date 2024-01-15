@@ -26,25 +26,15 @@ class StandardUserDefaults {
         ])
     }
 
-    lazy var isLegacyUIEnabled: Bool = {
-        UserDefaults.standard.bool(forKey: gDefaultsKeyLegacyUI)
-    }()
+    lazy var isLegacyUIEnabled: Bool = UserDefaults.standard.bool(forKey: gDefaultsKeyLegacyUI)
 
-    lazy var isAnimatedTextEnabled: Bool = {
-        UserDefaults.standard.bool(forKey: gDefaultsKeyAnimatedText)
-    }()
+    lazy var isAnimatedTextEnabled: Bool = UserDefaults.standard.bool(forKey: gDefaultsKeyAnimatedText)
 
-    lazy var isAnimatedBackgroundEnabled: Bool = {
-        UserDefaults.standard.bool(forKey: gDefaultsKeyAnimatedBackground)
-    }()
+    lazy var isAnimatedBackgroundEnabled: Bool = UserDefaults.standard.bool(forKey: gDefaultsKeyAnimatedBackground)
 
-    lazy var isLowFrameRateEnabled: Bool = {
-        UserDefaults.standard.bool(forKey: gDefaultsKeyLowFrameRate)
-    }()
+    lazy var isLowFrameRateEnabled: Bool = UserDefaults.standard.bool(forKey: gDefaultsKeyLowFrameRate)
 
-    lazy var shouldResetLayouts: Bool = {
-        UserDefaults.standard.bool(forKey: gDefaultsKeyResetLayouts)
-    }()
+    lazy var shouldResetLayouts: Bool = UserDefaults.standard.bool(forKey: gDefaultsKeyResetLayouts)
 
     func didResetLayouts() {
         UserDefaults.standard.removeObject(forKey: gDefaultsKeyResetLayouts)

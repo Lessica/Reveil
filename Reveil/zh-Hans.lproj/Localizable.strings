@@ -712,6 +712,9 @@
 /* Nodes */
 "NODES" = "节点";
 
+/* Not Available */
+"NOT_AVAILABLE" = "不可用";
+
 /* Run on a hardware device */
 "NOT_IN_SIMULATOR" = "运行在硬件设备上";
 

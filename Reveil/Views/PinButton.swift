@@ -16,9 +16,10 @@ struct PinButton: View {
         } label: {
             Image(systemName: pin.isPinned ? "pin.fill" : "pin")
                 .font(Font.system(.body))
-                .foregroundColor(Color(PlatformColor.labelAlias))
+                .foregroundColor(Color.labelAlias)
                 .rotationEffect(.degrees(45))
         }
+        .buttonStyle(.plain)
     }
 }
 

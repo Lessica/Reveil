@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FileSystemListView: View, ModuleListView {
     let module: Module = FileSystems.shared
-    let globalName: String = String(describing: FileSystems.self)
+    let globalName: String = .init(describing: FileSystems.self)
 
     init?(entryKey _: EntryKey) { nil }
 
@@ -29,7 +29,7 @@ struct FileSystemListView: View, ModuleListView {
             }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) { }
+    func eventOccurred(globalTimer _: GlobalTimer) {}
 }
 
 // MARK: - Previews

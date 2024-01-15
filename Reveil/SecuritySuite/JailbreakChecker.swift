@@ -11,7 +11,7 @@ import Darwin // fork
 import Foundation
 import MachO // dyld
 import ObjectiveC // NSObject and Selector
-import UIKit
+// import UIKit
 
 enum JailbreakChecker {
     struct JailbreakStatus: Codable {
@@ -81,22 +81,27 @@ enum JailbreakChecker {
     private static func canOpenURLFromList(urlSchemes: [String]) -> CheckResult {
         for urlScheme in urlSchemes {
             if let url = URL(string: urlScheme) {
-                if UIApplication.shared.canOpenURL(url) {
-                    return CheckResult(passed: false, failMessage: "\(urlScheme) URL scheme detected")
-                }
+                #if canImport(UIKit)
+                    if UIApplication.shared.canOpenURL(url) {
+                        return CheckResult(passed: false, failMessage: "\(urlScheme) URL scheme detected")
+                    }
+                #endif
             }
         }
         return CheckResult(passed: true, failMessage: "")
     }
 
     static func getSuspiciousURLSchemes() -> [URLSchemeItem] {
-        SecurityPresets.default.suspiciousURLSchemes
-            .filter { item in
-                if let url = URL(string: item.scheme) {
-                    return UIApplication.shared.canOpenURL(url)
+        #if canImport(UIKit)
+            SecurityPresets.default.suspiciousURLSchemes
+                .filter { item in
+                    if let url = URL(string: item.scheme) {
+                        return UIApplication.shared.canOpenURL(url)
+                    }
+                    return false
                 }
-                return false
-            }
+        #endif
+        return []
     }
 
     // "cydia://" URL scheme has been removed. Turns out there is app in the official App Store

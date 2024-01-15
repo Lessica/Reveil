@@ -8,7 +8,6 @@
 import ColorfulX
 import SwiftUI
 
-
 struct ColorfulBackground: View {
     @State var isPaused: Bool = false
     @Environment(\.colorScheme) var colorScheme
@@ -41,10 +40,10 @@ struct ColorfulBackground: View {
     var body: some View {
         Group {
             if !isLegacyUIEnabled {
-                self.colorfulView
+                colorfulView
             }
         }
-        .background(Color(PlatformColor.systemBackground))
+        .background(Color.systemBackground)
         .ignoresSafeArea()
         .onAppear {
             isPaused = false

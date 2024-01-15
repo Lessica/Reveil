@@ -10,7 +10,7 @@ import SwiftUI
 struct NetworkUsageListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = NetworkUsage.shared
-    let globalName: String = String(describing: NetworkUsage.self)
+    let globalName: String = .init(describing: NetworkUsage.self)
 
     init() {}
 
@@ -27,10 +27,15 @@ struct NetworkUsageListView: View, Identifiable, ModuleListView, GlobalTimerObse
             usageStyle: .regular
         )
         .navigationTitle(module.moduleName)
-        .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(false), .NetworkUsage,
-            store: PinStorage.shared.userDefaults
-        )))
+
+        .toolbar {
+            ToolbarItem {
+                PinButton(pin: AppCodableStorage(
+                    wrappedValue: Pin(false), .NetworkUsage,
+                    store: PinStorage.shared.userDefaults
+                ))
+            }
+        }
         .onAppear {
             GlobalTimer.shared.addObserver(self)
         }
@@ -39,7 +44,7 @@ struct NetworkUsageListView: View, Identifiable, ModuleListView, GlobalTimerObse
         }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) {
+    func eventOccurred(globalTimer _: GlobalTimer) {
         module.updateEntries()
     }
 }

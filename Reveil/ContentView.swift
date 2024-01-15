@@ -5,7 +5,6 @@
 //  Created by Lessica on 2023/10/2.
 //
 
-import UIKit
 import SwiftUI
 
 struct ContentView: View {
@@ -15,9 +14,11 @@ struct ContentView: View {
         if horizontalSizeClass == .compact {
             return true
         }
-        if UIDevice.current.userInterfaceIdiom != .pad {
-            return true
-        }
+        #if canImport(UIKit)
+            if UIDevice.current.userInterfaceIdiom != .pad {
+                return true
+            }
+        #endif
         return false
     }
 
@@ -52,7 +53,9 @@ struct TabsView: View {
 
             NavigationView {
                 AboutView()
+                #if os(iOS)
                     .navigationBarTitleDisplayMode(.inline)
+                #endif
                     .background(ColorfulBackground())
             }
             .tabItem {
@@ -71,9 +74,11 @@ struct SidebarView: View {
                         DashboardView()
                             .navigationTitle(NSLocalizedString("DASHBOARD", comment: "Dashboard"))
                             .background(ColorfulBackground())
+                            .limitMinSize()
                     } label: {
                         Label(NSLocalizedString("DASHBOARD", comment: "Dashboard"), systemImage: "square.grid.2x2")
                     }
+                    .buttonStyle(.plain)
                 }
 
                 Section(NSLocalizedString("DETAILS", comment: "Details")) {
@@ -84,9 +89,11 @@ struct SidebarView: View {
                     NavigationLink {
                         AboutView()
                             .background(ColorfulBackground())
+                            .limitMinSize()
                     } label: {
                         Label(NSLocalizedString("ABOUT", comment: "About"), systemImage: "info.circle")
                     }
+                    .buttonStyle(.plain)
                 }
             }
             .navigationTitle(NSLocalizedString("Reveil", comment: "Reveil"))
@@ -94,8 +101,27 @@ struct SidebarView: View {
             DashboardView()
                 .navigationTitle(NSLocalizedString("DASHBOARD", comment: "Dashboard"))
                 .background(ColorfulBackground())
+                .limitMinSize()
         }
         .listStyle(SidebarListStyle())
+        #if canImport(AppKit)
+            .toolbar {
+                ToolbarItem(placement: .navigation) {
+                    Button {
+                        NSApp.sendAction(#selector(NSSplitViewController.toggleSidebar(_:)), to: nil, from: nil)
+                    } label: {
+                        Label("Toggle Sidebar", systemImage: "sidebar.leading")
+                    }
+                }
+            }
+        #endif
+    }
+}
+
+extension View {
+    @ViewBuilder
+    func limitMinSize() -> some View {
+        frame(minWidth: 550, minHeight: 350)
     }
 }
 

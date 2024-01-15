@@ -101,7 +101,7 @@ struct AboutView: View {
                 } footer: {
                     Text(NSLocalizedString("COPYRIGHT_STRING", comment: "Copyright © 2023-2024 Lessica & Lakr Aream.\nAll rights reserved."))
                         .font(Font.system(.footnote))
-                        .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                        .foregroundColor(Color.secondaryLabelAlias)
                         .multilineTextAlignment(.center)
                         .padding()
                 }
@@ -114,6 +114,7 @@ struct AboutView: View {
                     try? data.write(to: tempUrl, options: .atomic)
                     quickLookExport = tempUrl
                 }
+                .buttonStyle(.plain)
                 .foregroundStyle(accent: true)
                 .quickLookPreview($quickLookExport)
             }
@@ -176,14 +177,14 @@ private struct LinkCell: View {
                     .resizable()
                     .renderingMode(.template)
                     .scaledToFill()
-                    .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                    .foregroundColor(Color.secondaryLabelAlias)
                     .frame(width: 18, height: 18)
             }
 
             if let description {
                 Text(description)
                     .font(Font.system(.body))
-                    .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                    .foregroundColor(Color.secondaryLabelAlias)
                     .lineLimit(1)
             }
 
@@ -192,7 +193,7 @@ private struct LinkCell: View {
 
                 Image(systemName: "chevron.right")
                     .font(Font.system(.body).weight(.bold))
-                    .foregroundColor(Color(PlatformColor.tertiaryLabelAlias))
+                    .foregroundColor(Color.tertiaryLabelAlias)
             }
         }
     }

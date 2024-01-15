@@ -57,11 +57,10 @@ struct SecurityPresets: Codable {
             secureMobileProvisioningProfileHashes.insert(profileHashValue)
         }
 
-        var updatedHashes: Dictionary<String, String> = secureResourceHashes
+        var updatedHashes: [String: String] = secureResourceHashes
         for secureResourceName in secureResourceHashes.keys {
             let resourcePath = bundle.path(forResource: secureResourceName, ofType: nil)
-            if let resourcePath, let resourceHashValue = IntegrityChecker.calculateHashValue(path: resourcePath)
-            {
+            if let resourcePath, let resourceHashValue = IntegrityChecker.calculateHashValue(path: resourcePath) {
                 updatedHashes.updateValue(resourceHashValue, forKey: secureResourceName)
             }
         }
@@ -101,7 +100,7 @@ struct SecurityPresets: Codable {
         "",
     ]
 
-    var secureResourceHashes: Dictionary<String, String> = [
+    var secureResourceHashes: [String: String] = [
         "library_stub.zip": "",
         "rsc-001-country-mapping.json": "",
         "rsc-002-ios-versions.json": "",

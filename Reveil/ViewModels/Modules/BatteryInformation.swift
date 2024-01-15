@@ -86,7 +86,7 @@ final class BatteryInformation: Module {
                 key: .BatteryUsed,
                 name: style == .detailed ? NSLocalizedString("BATTERY_USED", comment: "Used") : NSLocalizedString("BATTERY_USED_FULL", comment: "Battery Used"),
                 value: String(format: "%d%%", Int(round(batteryUsed * 100.0))),
-                color: Color(PlatformColor.secondarySystemFillAlias)
+                color: Color.secondarySystemFillAlias
             )
         case .BatteryState:
             return BasicEntry(

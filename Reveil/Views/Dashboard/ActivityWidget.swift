@@ -31,12 +31,12 @@ struct ActivityWidget: View {
                 Text(entry.name.uppercased())
                     .font(Font.system(.body))
                     .fontWeight(.bold)
-                    .foregroundColor(Color(PlatformColor.labelAlias))
+                    .foregroundColor(Color.labelAlias)
                     .lineLimit(1)
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(Font.system(.body).weight(.regular))
-                    .foregroundColor(Color(PlatformColor.tertiaryLabelAlias))
+                    .foregroundColor(Color.tertiaryLabelAlias)
             }
 
             Spacer(minLength: 2)

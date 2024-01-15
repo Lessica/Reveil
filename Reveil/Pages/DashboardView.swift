@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DashboardView: View, GlobalTimerObserver {
     let id = UUID()
-    let globalName: String = String(describing: Dashboard.self)
+    let globalName: String = .init(describing: Dashboard.self)
 
     @ObservedObject private var viewModel = Dashboard.shared
     @ObservedObject private var securityModel = Security.shared
@@ -18,9 +18,11 @@ struct DashboardView: View, GlobalTimerObserver {
     var body: some View {
         ScrollView(.vertical) {
             VStack {
-                if PinStorage.shared.isPinned(forKey: .Security) {
-                    Section { CheckmarkWidget() }
-                }
+                #if !os(macOS)
+                    if PinStorage.shared.isPinned(forKey: .Security) {
+                        Section { CheckmarkWidget() }
+                    }
+                #endif
 
                 ForEach(viewModel.entries, id: \.key) { entry in
                     Section {
@@ -28,12 +30,12 @@ struct DashboardView: View, GlobalTimerObserver {
                             .padding(.all, 12)
                             .background(
                                 RoundedRectangle(cornerRadius: 4)
-                                    .foregroundColor(Color(PlatformColor.secondarySystemBackgroundAlias))
-                                    .opacity(0.25)
+                                    .foregroundColor(Color.secondarySystemBackgroundAlias)
+                                    .opacity(0.2)
                             )
                             .overlay {
                                 RoundedRectangle(cornerRadius: 4)
-                                    .stroke(Color(PlatformColor.separatorAlias), lineWidth: 1)
+                                    .stroke(Color.separatorAlias, lineWidth: 1)
                             }
                             .overlay { navigationLinkBuilder(entry) }
                     }
@@ -90,10 +92,11 @@ struct DashboardView: View, GlobalTimerObserver {
             viewModel.anyListView(key: entry.key)
                 .environmentObject(HighlightedEntryKey(object: entry.key))
         }, label: { Color.clear })
-        .contentShape(Rectangle())
+            .buttonStyle(.plain)
+            .contentShape(Rectangle())
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) {
+    func eventOccurred(globalTimer _: GlobalTimer) {
         viewModel.updateEntries()
     }
 }

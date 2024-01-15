@@ -6,7 +6,6 @@
 //
 
 import CoreTelephony
-import UIKit
 
 final class DeviceInformation: Module {
     static let shared = DeviceInformation()
@@ -33,57 +32,70 @@ final class DeviceInformation: Module {
         return dictionary.first { $0["machine"] as? String == deviceName }
     }()
 
-    private func currentRadioTechName() -> String? {
-        guard let currentRadioTech = CTTelephonyNetworkInfo().serviceCurrentRadioAccessTechnology,
-              let firstKey = currentRadioTech.keys.sorted().first,
-              let firstValue = currentRadioTech[firstKey]
-        else {
-            return nil
-        }
+    #if canImport(UIKit)
+        private func currentRadioTechName() -> String? {
+            guard let currentRadioTech = CTTelephonyNetworkInfo().serviceCurrentRadioAccessTechnology,
+                  let firstKey = currentRadioTech.keys.sorted().first,
+                  let firstValue = currentRadioTech[firstKey]
+            else {
+                return nil
+            }
 
-        let techName: String = if firstValue == CTRadioAccessTechnologyLTE {
-            "Long-Term Evolution (LTE)"
-        } else if firstValue == CTRadioAccessTechnologyeHRPD {
-            "Enhanced High Rate Packet Data (eHRPD)"
-        } else if firstValue == CTRadioAccessTechnologyCDMAEVDORevB {
-            "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. B"
-        } else if firstValue == CTRadioAccessTechnologyCDMAEVDORevA {
-            "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. A"
-        } else if firstValue == CTRadioAccessTechnologyCDMAEVDORev0 {
-            "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. 0"
-        } else if firstValue == CTRadioAccessTechnologyCDMA1x {
-            "Code Division Multiple Access (CDMA) 1x"
-        } else if firstValue == CTRadioAccessTechnologyHSUPA {
-            "High-Speed Uplink Packet Acess (HSUPA)"
-        } else if firstValue == CTRadioAccessTechnologyHSDPA {
-            "High-Speed Downlink Packet Access (HSDPA)"
-        } else if firstValue == CTRadioAccessTechnologyWCDMA {
-            "Wideband Code Division Multiple Access (WCDMA)"
-        } else if firstValue == CTRadioAccessTechnologyEdge {
-            "Enhanced Data rates for GSM Evolution (EDGE)"
-        } else if firstValue == CTRadioAccessTechnologyGPRS {
-            "General Packet Radio Service (GPRS)"
-        } else {
-            if #available(iOS 14.1, *) {
-                if firstValue == CTRadioAccessTechnologyNR {
-                    "5G New Radio (NR)"
-                } else if firstValue == CTRadioAccessTechnologyNRNSA {
-                    "5G New Radio Non-Standalone (NRNSA)"
+            let techName: String = if firstValue == CTRadioAccessTechnologyLTE {
+                "Long-Term Evolution (LTE)"
+            } else if firstValue == CTRadioAccessTechnologyeHRPD {
+                "Enhanced High Rate Packet Data (eHRPD)"
+            } else if firstValue == CTRadioAccessTechnologyCDMAEVDORevB {
+                "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. B"
+            } else if firstValue == CTRadioAccessTechnologyCDMAEVDORevA {
+                "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. A"
+            } else if firstValue == CTRadioAccessTechnologyCDMAEVDORev0 {
+                "Code Division Multiple Access (CDMA) Evolution-Data Optimized (EV-DO) Rev. 0"
+            } else if firstValue == CTRadioAccessTechnologyCDMA1x {
+                "Code Division Multiple Access (CDMA) 1x"
+            } else if firstValue == CTRadioAccessTechnologyHSUPA {
+                "High-Speed Uplink Packet Acess (HSUPA)"
+            } else if firstValue == CTRadioAccessTechnologyHSDPA {
+                "High-Speed Downlink Packet Access (HSDPA)"
+            } else if firstValue == CTRadioAccessTechnologyWCDMA {
+                "Wideband Code Division Multiple Access (WCDMA)"
+            } else if firstValue == CTRadioAccessTechnologyEdge {
+                "Enhanced Data rates for GSM Evolution (EDGE)"
+            } else if firstValue == CTRadioAccessTechnologyGPRS {
+                "General Packet Radio Service (GPRS)"
+            } else {
+                if #available(iOS 14.1, *) {
+                    if firstValue == CTRadioAccessTechnologyNR {
+                        "5G New Radio (NR)"
+                    } else if firstValue == CTRadioAccessTechnologyNRNSA {
+                        "5G New Radio Non-Standalone (NRNSA)"
+                    } else {
+                        BasicEntry.unknownValue
+                    }
                 } else {
+                    // Fallback on earlier versions
                     BasicEntry.unknownValue
                 }
-            } else {
-                // Fallback on earlier versions
-                BasicEntry.unknownValue
             }
-        }
 
-        return techName
-    }
+            return techName
+        }
+    #endif
 
     private var displaySizeDescription: String {
-        let mainScreen = UIScreen.main
-        return "\(Int(mainScreen.fixedCoordinateSpace.bounds.height * mainScreen.scale))×\(Int(mainScreen.fixedCoordinateSpace.bounds.width * mainScreen.scale))"
+        #if canImport(UIKit)
+            let mainScreen = UIScreen.main
+            return "\(Int(mainScreen.fixedCoordinateSpace.bounds.height * mainScreen.scale))×\(Int(mainScreen.fixedCoordinateSpace.bounds.width * mainScreen.scale))"
+        #endif
+        #if canImport(AppKit)
+            guard let mainScreen = NSScreen.main else {
+                return NSLocalizedString("NOT_AVAILABLE", comment: "Not Available")
+            }
+            let scale = mainScreen.backingScaleFactor
+            return "\(Int(mainScreen.frame.height * scale))×\(Int(mainScreen.frame.width * scale))"
+        #endif
+
+        return NSLocalizedString("NOT_AVAILABLE", comment: "Not Available")
     }
 
     lazy var basicEntries: [BasicEntry] = updatableEntryKeys.compactMap { basicEntry(key: $0) }
@@ -133,13 +145,21 @@ final class DeviceInformation: Module {
                 value: gModelDictionary?["bootrom"] as? String ?? BasicEntry.unknownValue
             )
         case .RadioTech:
-            if let techName = currentRadioTechName() {
+            #if canImport(UIKit)
+                if let techName = currentRadioTechName() {
+                    return BasicEntry(
+                        key: .RadioTech,
+                        name: NSLocalizedString("RADIO_TECH", comment: "Radio Tech"),
+                        value: techName
+                    )
+                }
+            #else
                 return BasicEntry(
                     key: .RadioTech,
                     name: NSLocalizedString("RADIO_TECH", comment: "Radio Tech"),
-                    value: techName
+                    value: NSLocalizedString("NOT_AVAILABLE", comment: "Not Available")
                 )
-            }
+            #endif
         case .HostName:
             return BasicEntry(
                 key: .HostName,

@@ -1,0 +1,37 @@
+//
+//  Color.swift
+//  Reveil
+//
+//  Created by Lessica on 2023/10/25.
+//
+
+// light
+// red: 0.0, green: 0.0, blue: 0.0
+// red: 0.23529411764705882, green: 0.23529411764705882, blue: 0.2627450980392157
+// red: 0.23529411764705882, green: 0.23529411764705882, blue: 0.2627450980392157
+// red: 0.9490196078431372, green: 0.9490196078431372, blue: 0.9686274509803922
+// red: 0.47058823529411764, green: 0.47058823529411764, blue: 0.5019607843137255
+// red: 0.23529411764705882, green: 0.23529411764705882, blue: 0.2627450980392157
+// red: 0.8196078431372549, green: 0.8196078431372549, blue: 0.8392156862745098
+
+// dark
+// red: 1.0000001192092896, green: 1.0000001192092896, blue: 1.0000001192092896
+// red: 0.9215686274509803, green: 0.9215686274509803, blue: 0.9607843137254902
+// red: 0.9215686274509803, green: 0.9215686274509803, blue: 0.9607843137254902
+// red: 0.10980392156862745, green: 0.10980392156862745, blue: 0.11764705882352941
+// red: 0.47058823529411764, green: 0.47058823529411764, blue: 0.5019607843137255
+// red: 0.32941176470588235, green: 0.32941176470588235, blue: 0.34509803921568627
+// red: 0.22745098039215686, green: 0.22745098039215686, blue: 0.23529411764705882
+
+import SwiftUI
+
+extension Color {
+    static let labelAlias = Color("COLOR_LABEL")
+    static let secondaryLabelAlias = Color("COLOR_SECONDARYLABEL")
+    static let tertiaryLabelAlias = Color("COLOR_TERTIARYLABEL")
+    static let secondarySystemBackgroundAlias = Color("COLOR_SECONDARYSYSTEMBACKGROUND")
+    static let secondarySystemFillAlias = Color("COLOR_SECONDARYSYSTEMFILL")
+    static let separatorAlias = Color("COLOR_SEPARATOR")
+    static let systemGray4Alias = Color("COLOR_SYSTEMGRAY4")
+    static let systemBackground = Color("COLOR_SYSTEMBACKGROUND")
+}

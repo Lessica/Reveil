@@ -7,6 +7,14 @@
 
 import SwiftUI
 
+#if canImport(UIKit)
+    @_exported import UIKit
+#endif
+
+#if canImport(AppKit)
+    @_exported import AppKit
+#endif
+
 @main
 struct ReveilApp: App {
     init() { _ = PinStorage.shared }
@@ -15,5 +23,11 @@ struct ReveilApp: App {
         WindowGroup {
             ContentView()
         }
+        #if canImport(AppKit)
+        .commands {
+            SidebarCommands()
+        }
+        .windowToolbarStyle(.unifiedCompact)
+        #endif
     }
 }

@@ -10,7 +10,7 @@ import SwiftUI
 struct CPUInformationListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = CPUInformation.shared
-    let globalName: String = String(describing: CPUInformation.self)
+    let globalName: String = .init(describing: CPUInformation.self)
 
     init() {}
 
@@ -27,10 +27,14 @@ struct CPUInformationListView: View, Identifiable, ModuleListView, GlobalTimerOb
             usageStyle: .compat
         )
         .navigationTitle(module.moduleName)
-        .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(true), EntryKey.CPUInformation,
-            store: PinStorage.shared.userDefaults
-        )))
+        .toolbar {
+            ToolbarItem {
+                PinButton(pin: AppCodableStorage(
+                    wrappedValue: Pin(true), EntryKey.CPUInformation,
+                    store: PinStorage.shared.userDefaults
+                ))
+            }
+        }
         .onAppear {
             GlobalTimer.shared.addObserver(self)
         }
@@ -39,7 +43,7 @@ struct CPUInformationListView: View, Identifiable, ModuleListView, GlobalTimerOb
         }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) {
+    func eventOccurred(globalTimer _: GlobalTimer) {
         module.updateEntries()
     }
 }
