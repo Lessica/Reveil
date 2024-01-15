@@ -11,15 +11,18 @@ private let gDefaultsKeyLegacyUI = "LegacyUI"
 private let gDefaultsKeyAnimatedText = "AnimatedText"
 private let gDefaultsKeyAnimatedBackground = "AnimatedBackground"
 private let gDefaultsKeyLowFrameRate = "LowFrameRate"
+private let gDefaultsKeyResetLayouts = "ResetLayouts"
 
 class StandardUserDefaults {
     static let shared = StandardUserDefaults()
 
     private init() {
         UserDefaults.standard.register(defaults: [
+            gDefaultsKeyLegacyUI: false,
             gDefaultsKeyAnimatedText: true,
             gDefaultsKeyAnimatedBackground: true,
             gDefaultsKeyLowFrameRate: false,
+            gDefaultsKeyResetLayouts: false,
         ])
     }
 
@@ -38,4 +41,12 @@ class StandardUserDefaults {
     lazy var isLowFrameRateEnabled: Bool = {
         UserDefaults.standard.bool(forKey: gDefaultsKeyLowFrameRate)
     }()
+
+    lazy var shouldResetLayouts: Bool = {
+        UserDefaults.standard.bool(forKey: gDefaultsKeyResetLayouts)
+    }()
+
+    func didResetLayouts() {
+        UserDefaults.standard.removeObject(forKey: gDefaultsKeyResetLayouts)
+    }
 }

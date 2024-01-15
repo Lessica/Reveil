@@ -11,8 +11,6 @@
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
 			<string>Performance</string>
-			<key>FooterText</key>
-			<string>Restart “Reveil” to make things happen.</string>
 		</dict>
 		<dict>
 			<key>Type</key>
@@ -51,6 +49,24 @@
 			<string>Legacy UI</string>
 			<key>Key</key>
 			<string>LegacyUI</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Dashboard</string>
+			<key>FooterText</key>
+			<string>Restart “Reveil” to make things happen.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Reset Layouts</string>
+			<key>Key</key>
+			<string>ResetLayouts</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>

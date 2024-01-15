@@ -2,6 +2,8 @@
 
 "Animated Text" = "Animated Text";
 
+"Dashboard" = "Dashboard";
+
 "Enabled" = "Enabled";
 
 "Group" = "Group";
@@ -15,5 +17,7 @@
 "none given" = "none given";
 
 "Performance" = "Performance";
+
+"Reset Layouts" = "Reset Layouts";
 
 "Restart “Reveil” to make things happen." = "Restart “Reveil” to make things happen.";

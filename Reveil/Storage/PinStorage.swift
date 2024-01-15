@@ -16,6 +16,10 @@ final class PinStorage: ObservableObject {
 
     private init() {
         pinnedEntryKeys = []
+        if StandardUserDefaults.shared.shouldResetLayouts {
+            resetDefaults()
+            StandardUserDefaults.shared.didResetLayouts()
+        }
         reloadData()
         registerNotifications()
         try? registerDefaults()

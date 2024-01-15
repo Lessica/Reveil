@@ -2,6 +2,8 @@
 
 "Animated Text" = "动态文字";
 
+"Dashboard" = "仪表盘";
+
 "Enabled" = "启用";
 
 "Group" = "组";
@@ -15,5 +17,7 @@
 "none given" = "未提供";
 
 "Performance" = "性能";
+
+"Reset Layouts" = "还原布局";
 
 "Restart “Reveil” to make things happen." = "重新打开 “Reveil” 以应用任何更改。";
