@@ -9,8 +9,8 @@ import SwiftUI
 import SwiftUIBackports
 
 struct DashboardView: View {
-    @StateObject private var viewModel = Dashboard.shared
-    @StateObject private var securityModel = Security.shared
+    @ObservedObject private var viewModel = Dashboard.shared
+    @ObservedObject private var securityModel = Security.shared
     @State private var isNavigationLinkActive = false
 
     @State private var shouldTick: Bool = false

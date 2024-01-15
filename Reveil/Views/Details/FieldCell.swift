@@ -76,7 +76,7 @@ private struct FieldCell_Internal: View {
 }
 
 struct FieldCell: View {
-    @StateObject var entry: BasicEntry
+    @ObservedObject var entry: BasicEntry
     let delegate: FieldCellDelegate?
 
     var body: some View {

@@ -36,7 +36,7 @@ struct UsageCell: View {
         }
     }
 
-    @StateObject var entry: UsageEntry<Double>
+    @ObservedObject var entry: UsageEntry<Double>
     var style: Style = .regular
 
     private let minimumDisplayableRatio: Double = 0.001

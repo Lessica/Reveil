@@ -23,8 +23,8 @@ struct TrafficWidget: View {
     let label: String
     let style: Style
 
-    @StateObject var receivedEntry: TrafficEntry<Int64>
-    @StateObject var sentEntry: TrafficEntry<Int64>
+    @ObservedObject var receivedEntry: TrafficEntry<Int64>
+    @ObservedObject var sentEntry: TrafficEntry<Int64>
 
     private let columnWidth: CGFloat = 2
     private let minColumnSpacing: CGFloat = 3

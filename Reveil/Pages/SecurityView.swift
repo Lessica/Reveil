@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftUIBackports
 
 struct SecurityView: View {
-    @StateObject private var securityModel = Security.shared
+    @ObservedObject private var securityModel = Security.shared
 
     @Environment(\.backportDismiss) private var dismissAction
 

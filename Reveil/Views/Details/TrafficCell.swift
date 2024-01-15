@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TrafficCell: View {
-    @StateObject var entry: TrafficEntry<Int64>
+    @ObservedObject var entry: TrafficEntry<Int64>
 
     private let columnWidth: CGFloat = 2
     private let minColumnSpacing: CGFloat = 3

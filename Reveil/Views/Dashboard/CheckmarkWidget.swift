@@ -10,7 +10,7 @@ import SwiftUI
 import SwiftUIBackports
 
 struct CheckmarkWidget: View {
-    @StateObject var securityModel: Security = .shared
+    @ObservedObject var securityModel: Security = .shared
     @State var openDetail: Bool = false
 
     var isAnimatedBackgroundEnabled: Bool {
