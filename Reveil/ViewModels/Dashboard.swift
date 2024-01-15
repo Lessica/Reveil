@@ -102,6 +102,7 @@ final class Dashboard: ObservableObject {
     }
 
     func reloadEntries(keys: [EntryKey]) {
+        debugPrint("Dashboard.reloadEntries")
         entries.removeAll(keepingCapacity: true)
         cachedModuleNames.removeAll(keepingCapacity: true)
         cachedModuleMappings.removeAll(keepingCapacity: true)
@@ -110,10 +111,10 @@ final class Dashboard: ObservableObject {
         entries.append(contentsOf: anyEntries)
         cachedModules = registeredModules.filter { cachedModuleNames.contains($0.moduleName) }
         objectWillChange.send()
-        print("Dashboard.reloadEntries")
     }
 
     func updateEntries() {
+        debugPrint("Dashboard.updateEntries")
         cachedModules.forEach { $0.reloadData() }
         for entry in entries {
             guard let targetModule = cachedModuleMappings[entry.key] else {

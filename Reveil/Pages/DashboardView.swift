@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct DashboardView: View {
+    let id = UUID()
+
     @StateObject private var viewModel = Dashboard.shared
     @StateObject private var securityModel = Security.shared
     @State private var isNavigationLinkActive = false
-
-    @State private var shouldTick: Bool = false
 
     var body: some View {
         ScrollView(.vertical) {
@@ -42,16 +42,11 @@ struct DashboardView: View {
             }
             .padding()
         }
-        .onReceive(GlobalTimer.shared.$tick) { _ in
-            if shouldTick {
-                viewModel.updateEntries()
-            }
-        }
         .onAppear {
-            shouldTick = true
+            GlobalTimer.shared.addObserver(self)
         }
         .onDisappear {
-            shouldTick = false
+            GlobalTimer.shared.removeObserver(self)
         }
     }
 
@@ -95,6 +90,20 @@ struct DashboardView: View {
                 .environmentObject(HighlightedEntryKey(object: entry.key))
         }, label: { Color.clear })
             .contentShape(Rectangle())
+    }
+}
+
+extension DashboardView: GlobalTimerObserver, Hashable {
+    static func == (lhs: DashboardView, rhs: DashboardView) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+        viewModel.updateEntries()
     }
 }
 

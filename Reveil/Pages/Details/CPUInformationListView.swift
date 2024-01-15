@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct CPUInformationListView: View, ModuleListView {
+struct CPUInformationListView: View, Identifiable, ModuleListView {
+    let id = UUID()
     let module: Module = CPUInformation.shared
 
     init() {}
@@ -17,8 +18,6 @@ struct CPUInformationListView: View, ModuleListView {
             return nil
         }
     }
-
-    @State private var shouldTick: Bool = false
 
     var body: some View {
         DetailsListView(
@@ -31,17 +30,26 @@ struct CPUInformationListView: View, ModuleListView {
             wrappedValue: Pin(true), EntryKey.CPUInformation,
             store: PinStorage.shared.userDefaults
         )))
-        .onReceive(GlobalTimer.shared.$tick) { _ in
-            if shouldTick {
-                module.updateEntries()
-            }
-        }
         .onAppear {
-            shouldTick = true
+            GlobalTimer.shared.addObserver(self)
         }
         .onDisappear {
-            shouldTick = false
+            GlobalTimer.shared.removeObserver(self)
         }
+    }
+}
+
+extension CPUInformationListView: GlobalTimerObserver, Hashable {
+    static func == (lhs: CPUInformationListView, rhs: CPUInformationListView) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+        module.updateEntries()
     }
 }
 

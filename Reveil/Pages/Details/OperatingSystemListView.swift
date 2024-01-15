@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct OperatingSystemListView: View, ModuleListView {
+struct OperatingSystemListView: View, Identifiable, ModuleListView {
+    let id = UUID()
     let module: Module = OperatingSystem.shared
 
     init() {}
@@ -18,22 +19,29 @@ struct OperatingSystemListView: View, ModuleListView {
         }
     }
 
-    @State private var shouldTick: Bool = false
-
     var body: some View {
         DetailsListView(basicEntries: module.basicEntries)
             .navigationTitle(module.moduleName)
-            .onReceive(GlobalTimer.shared.$tick) { _ in
-                if shouldTick {
-                    module.updateEntries()
-                }
-            }
             .onAppear {
-                shouldTick = true
+                GlobalTimer.shared.addObserver(self)
             }
             .onDisappear {
-                shouldTick = false
+                GlobalTimer.shared.removeObserver(self)
             }
+    }
+}
+
+extension OperatingSystemListView: GlobalTimerObserver, Hashable {
+    static func == (lhs: OperatingSystemListView, rhs: OperatingSystemListView) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+        module.updateEntries()
     }
 }
 

@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct NetworkUsageListView: View, ModuleListView {
+struct NetworkUsageListView: View, Identifiable, ModuleListView {
+    let id = UUID()
     let module: Module = NetworkUsage.shared
 
     init() {}
@@ -17,8 +18,6 @@ struct NetworkUsageListView: View, ModuleListView {
             return nil
         }
     }
-
-    @State private var shouldTick: Bool = false
 
     var body: some View {
         DetailsListView(
@@ -31,17 +30,26 @@ struct NetworkUsageListView: View, ModuleListView {
             wrappedValue: Pin(false), .NetworkUsage,
             store: PinStorage.shared.userDefaults
         )))
-        .onReceive(GlobalTimer.shared.$tick) { _ in
-            if shouldTick {
-                module.updateEntries()
-            }
-        }
         .onAppear {
-            shouldTick = true
+            GlobalTimer.shared.addObserver(self)
         }
         .onDisappear {
-            shouldTick = false
+            GlobalTimer.shared.removeObserver(self)
         }
+    }
+}
+
+extension NetworkUsageListView: GlobalTimerObserver, Hashable {
+    static func == (lhs: NetworkUsageListView, rhs: NetworkUsageListView) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+        module.updateEntries()
     }
 }
 

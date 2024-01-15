@@ -1,5 +1,5 @@
 //
-//  Brand.swift
+//  View+Brand.swift
 //  Reveil
 //
 //  Created by 秋星桥 on 2023/12/30.

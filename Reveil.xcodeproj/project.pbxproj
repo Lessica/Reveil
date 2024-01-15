@@ -52,7 +52,7 @@
 		5024F6ED2B1829EE000CEAB5 /* library_stub.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC7DC28E2AF3EB1300D50EDC /* library_stub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		504B8C632B40243C00AABC12 /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B8C622B40243C00AABC12 /* AnimatedText.swift */; };
 		504B8C652B4033F600AABC12 /* ColorfulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B8C642B4033F600AABC12 /* ColorfulBackground.swift */; };
-		50E143102B400C6F000A7191 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1430F2B400C6F000A7191 /* Brand.swift */; };
+		50E143102B400C6F000A7191 /* View+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1430F2B400C6F000A7191 /* View+Brand.swift */; };
 		CC0052642B13458000DBF808 /* BatteryInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052632B13457F00DBF808 /* BatteryInformation.swift */; };
 		CC0052672B1347F200DBF808 /* BatteryActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052662B1347F200DBF808 /* BatteryActivity.swift */; };
 		CC00526A2B134FD000DBF808 /* BatteryInformationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052692B134FA500DBF808 /* BatteryInformationListView.swift */; };
@@ -239,7 +239,7 @@
 		5028D8B22AE7628E008D4294 /* Reveil.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reveil.entitlements; sourceTree = "<group>"; };
 		504B8C622B40243C00AABC12 /* AnimatedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedText.swift; sourceTree = "<group>"; };
 		504B8C642B4033F600AABC12 /* ColorfulBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulBackground.swift; sourceTree = "<group>"; };
-		50E1430F2B400C6F000A7191 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		50E1430F2B400C6F000A7191 /* View+Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Brand.swift"; sourceTree = "<group>"; };
 		CC0052632B13457F00DBF808 /* BatteryInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryInformation.swift; sourceTree = "<group>"; };
 		CC0052662B1347F200DBF808 /* BatteryActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryActivity.swift; sourceTree = "<group>"; };
 		CC0052692B134FA500DBF808 /* BatteryInformationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryInformationListView.swift; sourceTree = "<group>"; };
@@ -472,7 +472,7 @@
 				CC549EFD2AFA7DB300219CF8 /* Foundation */,
 				CCA095CB2AE8E6D100F5E55F /* Color+Platform.swift */,
 				CC9D249A2B3D954F00A18513 /* URL+Path.swift */,
-				50E1430F2B400C6F000A7191 /* Brand.swift */,
+				50E1430F2B400C6F000A7191 /* View+Brand.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -971,7 +971,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F4955F92ADAD2F200227265 /* PropertyListRepresentable.swift in Sources */,
-				50E143102B400C6F000A7191 /* Brand.swift in Sources */,
+				50E143102B400C6F000A7191 /* View+Brand.swift in Sources */,
 				CC3F94292B4C52B000E67A19 /* View+ForegroundStyle.swift in Sources */,
 				0FF1CDBF2AD57109004A6D43 /* NetworkUsage.swift in Sources */,
 				CC21B54F2ACF26AD003EC114 /* DiskSpaceListView.swift in Sources */,

@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct DiskSpaceListView: View, ModuleListView {
+struct DiskSpaceListView: View, Identifiable, ModuleListView {
+    let id = UUID()
     let module: Module = DiskSpace.shared
 
     init() {}
@@ -17,8 +18,6 @@ struct DiskSpaceListView: View, ModuleListView {
             return nil
         }
     }
-
-    @State private var shouldTick: Bool = false
 
     var body: some View {
         DetailsListView(
@@ -31,17 +30,26 @@ struct DiskSpaceListView: View, ModuleListView {
             wrappedValue: Pin(true), .DiskSpace,
             store: PinStorage.shared.userDefaults
         )))
-        .onReceive(GlobalTimer.shared.$tick) { _ in
-            if shouldTick {
-                module.updateEntries()
-            }
-        }
         .onAppear {
-            shouldTick = true
+            GlobalTimer.shared.addObserver(self)
         }
         .onDisappear {
-            shouldTick = false
+            GlobalTimer.shared.removeObserver(self)
         }
+    }
+}
+
+extension DiskSpaceListView: GlobalTimerObserver, Hashable {
+    static func == (lhs: DiskSpaceListView, rhs: DiskSpaceListView) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+        module.updateEntries()
     }
 }
 

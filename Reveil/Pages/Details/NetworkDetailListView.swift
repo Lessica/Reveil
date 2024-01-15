@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct NetworkDetailListView: View, ModuleListView {
+struct NetworkDetailListView: View, Identifiable, ModuleListView {
+    let id = UUID()
     let module: Module = NetworkDetails.shared
 
     init?(entryKey: EntryKey) {
@@ -27,8 +28,6 @@ struct NetworkDetailListView: View, ModuleListView {
         self.item = item
     }
 
-    @State private var shouldTick: Bool = false
-
     let item: NetworkPrefix
 
     @State var entries: [BasicEntry] = []
@@ -40,21 +39,32 @@ struct NetworkDetailListView: View, ModuleListView {
             trafficEntries: trafficEntries
         )
         .navigationTitle(item.description)
-        .onReceive(GlobalTimer.shared.$tick) { _ in
-            if shouldTick, let module = module as? NetworkDetails {
-                module.update(prefix: item)
-            }
-        }
         .onAppear {
             if let module = module as? NetworkDetails {
                 entries = module.entries(prefix: item)
                 trafficEntries = module.trafficEntries(prefix: item)
                 trafficEntries.forEach { $0.invalidate() }
             }
-            shouldTick = true
+            GlobalTimer.shared.addObserver(self)
         }
         .onDisappear {
-            shouldTick = false
+            GlobalTimer.shared.removeObserver(self)
+        }
+    }
+}
+
+extension NetworkDetailListView: GlobalTimerObserver, Hashable {
+    static func == (lhs: NetworkDetailListView, rhs: NetworkDetailListView) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+    func globalTimerEventOccurred(_ timer: GlobalTimer) {
+        if let module = module as? NetworkDetails {
+            module.update(prefix: item)
         }
     }
 }
