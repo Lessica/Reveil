@@ -37,7 +37,6 @@
 		0FA065802B3D83E6000A7ECE /* PortItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1659362AF9FCF600268572 /* PortItem.swift */; };
 		0FA065812B3D83E6000A7ECE /* ObjCClassItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F16593C2AFA702C00268572 /* ObjCClassItem.swift */; };
 		0FA065822B3D83E6000A7ECE /* URLSchemeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1659392AF9FD4500268572 /* URLSchemeItem.swift */; };
-		0FA065852B3D8436000A7ECE /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 0FA065842B3D8436000A7ECE /* ArgumentParser */; };
 		0FA065872B42803B000A7ECE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0FA065862B42803B000A7ECE /* Settings.bundle */; };
 		0FA065892B4282BC000A7ECE /* StandardUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA065882B4282BC000A7ECE /* StandardUserDefaults.swift */; };
 		0FD0D2682AE0CB27001DD1E8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0D2672AE0CB27001DD1E8 /* Entry.swift */; };
@@ -50,6 +49,7 @@
 		0FF356682AEFF6320011033A /* ThreadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF356672AEFF6320011033A /* ThreadState.swift */; };
 		5024F6EC2B1829EE000CEAB5 /* library_stub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7DC28E2AF3EB1300D50EDC /* library_stub.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5024F6ED2B1829EE000CEAB5 /* library_stub.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC7DC28E2AF3EB1300D50EDC /* library_stub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		503DF9C32B55934A0034F760 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 503DF9C22B55934A0034F760 /* ArgumentParser */; };
 		504B8C632B40243C00AABC12 /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B8C622B40243C00AABC12 /* AnimatedText.swift */; };
 		504B8C652B4033F600AABC12 /* ColorfulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B8C642B4033F600AABC12 /* ColorfulBackground.swift */; };
 		50E143102B400C6F000A7191 /* View+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1430F2B400C6F000A7191 /* View+Brand.swift */; };
@@ -359,7 +359,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA065852B3D8436000A7ECE /* ArgumentParser in Frameworks */,
+				503DF9C32B55934A0034F760 /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,7 +795,7 @@
 			);
 			name = ReveilHelper;
 			packageProductDependencies = (
-				0FA065842B3D8436000A7ECE /* ArgumentParser */,
+				503DF9C22B55934A0034F760 /* ArgumentParser */,
 			);
 			productName = ReveilHelper;
 			productReference = 0FA065782B3D8363000A7ECE /* ReveilHelper */;
@@ -1555,7 +1555,7 @@
 			package = 0F08193B2ADAF1C600BB626C /* XCRemoteSwiftPackageReference "DictionaryCoder" */;
 			productName = DictionaryCoder;
 		};
-		0FA065842B3D8436000A7ECE /* ArgumentParser */ = {
+		503DF9C22B55934A0034F760 /* ArgumentParser */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0FA065832B3D8436000A7ECE /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
