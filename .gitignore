@@ -67,6 +67,7 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 *.xcarchive
+Distribution
 
 ## Playgrounds
 timeline.xctimeline

@@ -36,21 +36,24 @@ struct SecurityPresets: Codable {
     private init() {}
 
     init(bundleURL: URL) throws {
-        guard bundleURL.appendingPathComponent("Info.plist").fileExists ||
-            bundleURL.appendingPathComponent("Contents/Info.plist").fileExists,
-            let bundle = Bundle(url: bundleURL)
+        let isMobileBundle = bundleURL.appendingPathComponent("Info.plist").fileExists
+        let isDesktopBundle = bundleURL.appendingPathComponent("Contents/Info.plist").fileExists
+
+        guard isMobileBundle || isDesktopBundle, let bundle = Bundle(url: bundleURL)
         else {
             throw ConstructError.invalidBundle(message: String(format: "Failed to initialize bundle at: %@", bundleURL.path))
         }
 
-        if let bundleExecutableURL = bundle.executableURL,
+        if isMobileBundle,
+           let bundleExecutableURL = bundle.executableURL,
            let executableHashValue = IntegrityChecker.getMachOFileHashValue(.customExecutable(bundleExecutableURL))
         {
             secureMainExecutableMachOHashes.removeAll(keepingCapacity: true)
             secureMainExecutableMachOHashes.insert(executableHashValue)
         }
 
-        if let bundleProvisioningProfilePath = bundle.path(forResource: "embedded", ofType: "mobileprovision"),
+        if isMobileBundle,
+           let bundleProvisioningProfilePath = bundle.path(forResource: "embedded", ofType: "mobileprovision"),
            let profileHashValue = IntegrityChecker.calculateHashValue(path: bundleProvisioningProfilePath)
         {
             secureMobileProvisioningProfileHashes.removeAll(keepingCapacity: true)

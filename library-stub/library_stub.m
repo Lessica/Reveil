@@ -20,7 +20,7 @@ int evaluateSignature(NSURL* fileURL, NSData **cdHashOut, BOOL *isAdhocSignedOut
     FILE *machoFile = fopen(fileURL.fileSystemRepresentation, "rb");
     if (!machoFile) return 3;
 
-    BOOL isMacho = NO;
+    bool isMacho = NO;
     machoGetInfo(machoFile, &isMacho, NULL);
 
     if (!isMacho) {

@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build and analyse using xcodebuild command
+    name: Build and Analyse Using xcodebuild Command
     runs-on: macos-13
 
     steps:
@@ -20,6 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Build
+      - name: Build and Analyse Reveil
         run: |
           xcodebuild clean build analyze -scheme Reveil -project Reveil.xcodeproj CODE_SIGNING_ALLOWED=NO | xcpretty && exit ${PIPESTATUS[0]}

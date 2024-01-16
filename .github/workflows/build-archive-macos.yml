@@ -1,0 +1,109 @@
+name: Xcode - Build Archive (macOS)
+
+on:
+  push:
+    branches: [ "feat/macos-native-support" ]
+
+env:
+  MARKETING_VERSION: 0.0.0
+  PATCH_VERSION: 0
+
+jobs:
+  build:
+    name: Build Notarized macOS Application
+    runs-on: macos-13
+
+    steps:
+      - name: Install Packaging Tools
+        run: |
+          HOMEBREW_NO_AUTO_UPDATE=1 brew install graphicsmagick imagemagick
+          npm install -g create-dmg
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Configure Code-Signing Keychain
+        run: |
+          KETSTORE_PATH="$PWD/Certificates/Certificates.p12"
+          KEYCHAIN_PATH="$RUNNER_TEMP/app-signing.keychain-db"
+          security create-keychain -p "$KEYSTORE_PASSWORD" "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security unlock-keychain -p "$KEYSTORE_PASSWORD" "$KEYCHAIN_PATH"
+          security import "$KETSTORE_PATH" -P "$KEYSTORE_PASSWORD" -A -t cert -f pkcs12 -k "$KEYCHAIN_PATH"
+          security list-keychain -d user -s "$KEYCHAIN_PATH"
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}  # Password for the keychain & p12 keystore
+
+      - name: Setup Xcode Version
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: 15.1
+
+      - name: Read Version Strings
+        run: |
+          git fetch --tags
+          export GIT_TAG=$(git describe --tags --always --abbrev=0)
+          export PATCH_VERSION=$(echo "${GIT_TAG#v}" | cut -d. -f3)
+          echo "PATCH_VERSION=${PATCH_VERSION}" >> $GITHUB_ENV
+          echo "MARKETING_VERSION=${GIT_TAG#v}" >> $GITHUB_ENV
+
+      - name: Build ReveilHelper
+        run: |
+          xcodebuild clean build archive -scheme ReveilHelper -project Reveil.xcodeproj -archivePath ReveilHelper.xcarchive CODE_SIGNING_ALLOWED=NO | xcpretty && exit ${PIPESTATUS[0]}
+
+      - name: Build Reveil (macOS)
+        run: |
+          PATH=$PWD/ReveilHelper.xcarchive/Products/usr/local/bin:$PATH xcodebuild clean build archive -scheme Reveil -project Reveil.xcodeproj -sdk macosx -destination 'generic/platform=macOS' -archivePath Reveil CODE_SIGN_STYLE='Manual' CODE_SIGN_IDENTITY='$CODE_SIGN_IDENTITY' | xcpretty && exit ${PIPESTATUS[0]}
+        env:
+          DEVELOPMENT_TEAM: ${{ secrets.DEVELOPMENT_TEAM }}  # Team ID
+          CODE_SIGN_IDENTITY: ${{ secrets.CODE_SIGN_IDENTITY }}  # Code-Signing Identity, e.g. "Apple Development: John Doe (XXXXXXXXXX)"
+
+      - name: Notarize Reveil
+        run: |
+          mkdir -p Distribution
+          echo "$APPSTORECONNECT_AUTHKEY" > "$PWD/AuthKey_$APPSTORECONNECT_AUTHKEY_ID.p8"
+          xcodebuild -exportArchive -allowProvisioningUpdates -authenticationKeyID $APPSTORECONNECT_AUTHKEY_ID -authenticationKeyIssuerID $APPSTORECONNECT_AUTHKEY_ISSUER_ID -authenticationKeyPath "$PWD/AuthKey_$APPSTORECONNECT_AUTHKEY_ID.p8" -archivePath Reveil.xcarchive -exportPath Distribution -exportOptionsPlist $PWD/ExportOptions.plist
+        env:
+          APPSTORECONNECT_AUTHKEY: ${{ secrets.APPSTORECONNECT_AUTHKEY }}  # App Store Connect API Key, begin with "-----BEGIN PRIVATE KEY-----"
+          APPSTORECONNECT_AUTHKEY_ID: ${{ secrets.APPSTORECONNECT_AUTHKEY_ID }}  # App Store Connect API Key ID
+          APPSTORECONNECT_AUTHKEY_ISSUER_ID: ${{ secrets.APPSTORECONNECT_AUTHKEY_ISSUER_ID }}  # App Store Connect API Key Issuer ID
+
+      - name: Export Notarized Application
+        run: |
+          until xcodebuild -exportNotarizedApp -authenticationKeyID $APPSTORECONNECT_AUTHKEY_ID -authenticationKeyIssuerID $APPSTORECONNECT_AUTHKEY_ISSUER_ID -authenticationKeyPath "$PWD/AuthKey_$APPSTORECONNECT_AUTHKEY_ID.p8" -archivePath Reveil.xcarchive -exportPath Distribution;
+          do
+            echo "Waiting for notarization..."
+            sleep 10
+          done
+        env:
+          APPSTORECONNECT_AUTHKEY: ${{ secrets.APPSTORECONNECT_AUTHKEY }}
+          APPSTORECONNECT_AUTHKEY_ID: ${{ secrets.APPSTORECONNECT_AUTHKEY_ID }}
+          APPSTORECONNECT_AUTHKEY_ISSUER_ID: ${{ secrets.APPSTORECONNECT_AUTHKEY_ISSUER_ID }}
+
+      - name: Create DMG
+        run: |
+          create-dmg --overwrite --identity='$PACKAGING_IDENTITY' Distribution/Reveil.app ./Distribution/
+          mv Distribution/*.dmg Reveil_${{ env.MARKETING_VERSION }}.dmg
+        env:
+          PACKAGING_IDENTITY: ${{ secrets.PACKAGING_IDENTITY }}  # Identity for packaging, e.g. "Developer ID Application: John Doe (XXXXXXXXXX)"
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Reveil_${{ env.MARKETING_VERSION }}
+          path: |
+            Reveil.xcarchive
+            ReveilHelper.xcarchive
+            Distribution/Reveil_${{ env.MARKETING_VERSION }}.dmg
+
+      - name: Upload Release
+        uses: softprops/action-gh-release@v1
+        with:
+          token: ${{ secrets.RELEASE_GITHUB_TOKEN }}
+          body_path: CHANGELOG.md
+          files: Distribution/Reveil_${{ env.MARKETING_VERSION }}.dmg
+
+      - name: Remove Code-Signing Keychain
+        if: ${{ always() }}
+        run: |
+          security delete-keychain "$RUNNER_TEMP/app-signing.keychain-db"
