@@ -10,7 +10,7 @@ import SwiftUI
 struct BatteryInformationListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = BatteryInformation.shared
-    let globalName: String = String(describing: BatteryInformation.self)
+    let globalName: String = .init(describing: BatteryInformation.self)
 
     init() {}
 
@@ -27,10 +27,15 @@ struct BatteryInformationListView: View, Identifiable, ModuleListView, GlobalTim
             usageStyle: .compat
         )
         .navigationTitle(module.moduleName)
-        .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(false), .BatteryInformation,
-            store: PinStorage.shared.userDefaults
-        )))
+
+        .toolbar {
+            ToolbarItem {
+                PinButton(pin: AppCodableStorage(
+                    wrappedValue: Pin(false), .BatteryInformation,
+                    store: PinStorage.shared.userDefaults
+                ))
+            }
+        }
         .onAppear {
             GlobalTimer.shared.addObserver(self)
         }
@@ -39,7 +44,7 @@ struct BatteryInformationListView: View, Identifiable, ModuleListView, GlobalTim
         }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) {
+    func eventOccurred(globalTimer _: GlobalTimer) {
         module.updateEntries()
     }
 }

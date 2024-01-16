@@ -44,17 +44,23 @@ private struct FieldCell_Internal: View {
                             } label: {
                                 Label(NSLocalizedString("UNPIN", comment: "Unpin"), systemImage: "pin")
                             }
+                            #if os(macOS)
+                            .buttonStyle(.plain)
+                            #endif
                         } else {
                             Button {
                                 pin = Pin(true)
                             } label: {
                                 Label(NSLocalizedString("PIN", comment: "Pin"), systemImage: "pin.fill")
                             }
+                            #if os(macOS)
+                            .buttonStyle(.plain)
+                            #endif
                         }
                     } label: {
                         Image(systemName: pin.isPinned ? "pin.fill" : "pin")
                             .font(Font.system(.footnote))
-                            .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                            .foregroundColor(Color.secondaryLabelAlias)
                             .rotationEffect(.degrees(45))
                     } primaryAction: {
                         pin = Pin(negate: pin)
@@ -68,7 +74,7 @@ private struct FieldCell_Internal: View {
 
             Text(description)
                 .font(.system(.body).monospacedDigit())
-                .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                .foregroundColor(Color.secondaryLabelAlias)
                 .multilineTextAlignment(.trailing)
         }
     }

@@ -10,7 +10,7 @@ import SwiftUI
 struct OperatingSystemListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = OperatingSystem.shared
-    let globalName: String = String(describing: OperatingSystem.self)
+    let globalName: String = .init(describing: OperatingSystem.self)
 
     init() {}
 
@@ -31,7 +31,7 @@ struct OperatingSystemListView: View, Identifiable, ModuleListView, GlobalTimerO
             }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) {
+    func eventOccurred(globalTimer _: GlobalTimer) {
         module.updateEntries()
     }
 }

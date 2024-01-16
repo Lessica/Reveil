@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NetworkInterfacesListView: View, ModuleListView {
     let module: Module = NetworkInterfaces.shared
-    let globalName: String = String(describing: NetworkInterfaces.self)
+    let globalName: String = .init(describing: NetworkInterfaces.self)
 
     init() {}
 
@@ -31,6 +31,9 @@ struct NetworkInterfacesListView: View, ModuleListView {
                         NetworkInterfaceListView(item: entry)
                             .environmentObject(HighlightedEntryKey())
                     }
+                    #if os(macOS)
+                    .buttonStyle(.plain)
+                    #endif
                 }
             }
             .listSectionSeparator(hidden: true)
@@ -38,19 +41,21 @@ struct NetworkInterfacesListView: View, ModuleListView {
         .listStyle(.plain)
         .frame(maxWidth: .infinity)
         .navigationTitle(module.moduleName)
-        .navigationBarItems(
-            trailing: PinButton(pin: AppCodableStorage(
-                wrappedValue: Pin(false), .NetworkInterfaces,
-                store: PinStorage.shared.userDefaults
-            ))
-        )
+        .toolbar {
+            ToolbarItem {
+                PinButton(pin: AppCodableStorage(
+                    wrappedValue: Pin(false), .NetworkInterfaces,
+                    store: PinStorage.shared.userDefaults
+                ))
+            }
+        }
         .onAppear {
             NetworkInterfaces.shared.reloadData()
             items = NetworkInterfaces.shared.items
         }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) { }
+    func eventOccurred(globalTimer _: GlobalTimer) {}
 }
 
 // MARK: - Previews

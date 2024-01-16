@@ -16,18 +16,18 @@ struct FieldWidget: View {
                 Text(entry.name.uppercased())
                     .font(Font.system(.body))
                     .fontWeight(.bold)
-                    .foregroundColor(Color(PlatformColor.labelAlias))
+                    .foregroundColor(Color.labelAlias)
                     .lineLimit(1)
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(Font.system(.body).weight(.regular))
-                    .foregroundColor(Color(PlatformColor.tertiaryLabelAlias))
+                    .foregroundColor(Color.tertiaryLabelAlias)
             }
 
             HStack {
                 Text(entry.value)
                     .font(Font.system(.body).weight(.regular).monospacedDigit())
-                    .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                    .foregroundColor(Color.secondaryLabelAlias)
                     .multilineTextAlignment(.leading)
                     .lineLimit(3)
                 Spacer()

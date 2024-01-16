@@ -59,7 +59,7 @@ final class NetworkUsage: Module {
                     key: key,
                     name: pfx.description,
                     value: netStats.entryValue(prefix: pfx, style: style),
-                    color: pfx.color ?? Color(PlatformColor.secondarySystemFillAlias)
+                    color: pfx.color ?? Color.secondarySystemFillAlias
                 )
             }
         default:

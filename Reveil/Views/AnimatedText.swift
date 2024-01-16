@@ -20,8 +20,8 @@ struct AnimatedText: View {
     var isLegacyUIEnabled: Bool = StandardUserDefaults.shared.isLegacyUIEnabled
 
     var body: some View {
-        if !isLegacyUIEnabled && isAnimatedTextEnabled {
-            if #available(iOS 17.0, *) {
+        if !isLegacyUIEnabled, isAnimatedTextEnabled {
+            if #available(iOS 17.0, macOS 13.0, *) {
                 Text(text)
                     .contentTransition(.numericText())
                     .animation(.spring(duration: 0.2), value: text)

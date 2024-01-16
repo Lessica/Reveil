@@ -5,11 +5,7 @@
 //  Created by Lessica on 2023/11/26.
 //
 
-#if canImport(UIKit)
-    import UIKit
-#else
-    import Foundation
-#endif
+import Foundation
 
 final class BatteryActivity {
     static let shared = BatteryActivity()
@@ -36,40 +32,40 @@ final class BatteryActivity {
 
     private init() {
         #if canImport(UIKit)
-            UIDevice.current.isBatteryMonitoringEnabled = true
+        UIDevice.current.isBatteryMonitoringEnabled = true
         #endif
     }
 
     deinit {
         #if canImport(UIKit)
-            UIDevice.current.isBatteryMonitoringEnabled = false
+        UIDevice.current.isBatteryMonitoringEnabled = false
         #endif
     }
 
     func getBatteryLevel() -> Float {
         #if canImport(UIKit)
-            return UIDevice.current.batteryLevel
+        return UIDevice.current.batteryLevel
         #else
-            return 1.0
+        return 1.0
         #endif
     }
 
     func getBatteryState() -> BatteryState {
         #if canImport(UIKit)
-            switch UIDevice.current.batteryState {
-            case .unknown:
-                return .unknown
-            case .unplugged:
-                return .unplugged
-            case .charging:
-                return .charging
-            case .full:
-                return .full
-            @unknown default:
-                return .unknown
-            }
-        #else
+        switch UIDevice.current.batteryState {
+        case .unknown:
             return .unknown
+        case .unplugged:
+            return .unplugged
+        case .charging:
+            return .charging
+        case .full:
+            return .full
+        @unknown default:
+            return .unknown
+        }
+        #else
+        return .unknown
         #endif
     }
 }

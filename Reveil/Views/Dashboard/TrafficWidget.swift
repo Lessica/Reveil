@@ -117,12 +117,12 @@ struct TrafficWidget: View {
                 Text(label.uppercased())
                     .font(Font.system(.body))
                     .fontWeight(.bold)
-                    .foregroundColor(Color(PlatformColor.labelAlias))
+                    .foregroundColor(Color.labelAlias)
                     .lineLimit(1)
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(Font.system(.body).weight(.regular))
-                    .foregroundColor(Color(PlatformColor.tertiaryLabelAlias))
+                    .foregroundColor(Color.tertiaryLabelAlias)
             }
 
             GeometryReader { metrics in
@@ -130,11 +130,11 @@ struct TrafficWidget: View {
                     HStack {
                         Image(systemName: "arrow.down.backward")
                             .font(Font.system(.body).weight(.regular))
-                            .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                            .foregroundColor(Color.secondaryLabelAlias)
 
                         Text(receivedDescription)
                             .font(Font.system(.body).weight(.regular).monospacedDigit())
-                            .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                            .foregroundColor(Color.secondaryLabelAlias)
                             .lineLimit(1)
                     }
 
@@ -162,11 +162,11 @@ struct TrafficWidget: View {
                     HStack {
                         Image(systemName: "arrow.up.forward")
                             .font(Font.system(.body).weight(.regular))
-                            .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                            .foregroundColor(Color.secondaryLabelAlias)
 
                         Text(sentDescription)
                             .font(Font.system(.body).weight(.regular).monospacedDigit())
-                            .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                            .foregroundColor(Color.secondaryLabelAlias)
                             .lineLimit(1)
                     }
 

@@ -15,53 +15,95 @@ struct DetailsView: View {
         } label: {
             Label(title, systemImage: icon)
         }
+        #if os(macOS)
+        .buttonStyle(.plain)
+        #endif
     }
 
     static func createDetailsList() -> some View {
         Group {
             Group {
                 createEntry(title: DeviceInformation.shared.moduleName, icon: "desktopcomputer") {
-                    DeviceInformationListView()
+                    prepareContent {
+                        DeviceInformationListView()
+                    }
                 }
                 createEntry(title: Security.shared.moduleName, icon: "lock.shield") {
-                    SecurityView()
+                    prepareContent {
+                        SecurityView()
+                    }
                 }
                 createEntry(title: OperatingSystem.shared.moduleName, icon: "gearshape") {
-                    OperatingSystemListView()
+                    prepareContent {
+                        OperatingSystemListView()
+                    }
                 }
                 createEntry(title: CPUInformation.shared.moduleName, icon: "cpu") {
-                    CPUInformationListView()
+                    prepareContent {
+                        CPUInformationListView()
+                    }
                 }
             }
             Group {
                 createEntry(title: MemoryInformation.shared.moduleName, icon: "memorychip") {
-                    MemoryInformationListView()
+                    prepareContent {
+                        MemoryInformationListView()
+                    }
                 }
                 createEntry(title: DiskSpace.shared.moduleName, icon: "externaldrive") {
-                    DiskSpaceListView()
+                    prepareContent {
+                        DiskSpaceListView()
+                    }
                 }
                 createEntry(title: FileSystems.shared.moduleName, icon: "folder") {
-                    FileSystemsListView()
+                    prepareContent {
+                        FileSystemsListView()
+                    }
                 }
             }
             Group {
                 createEntry(title: NetworkInterfaces.shared.moduleName, icon: "network") {
-                    NetworkInterfacesListView()
+                    prepareContent {
+                        NetworkInterfacesListView()
+                    }
                 }
                 createEntry(title: NetworkDetails.shared.moduleName, icon: "antenna.radiowaves.left.and.right") {
-                    NetworkDetailsListView()
+                    prepareContent {
+                        NetworkDetailsListView()
+                    }
                 }
                 createEntry(title: NetworkUsage.shared.moduleName, icon: "waveform.path.ecg") {
-                    NetworkUsageListView()
+                    prepareContent {
+                        NetworkUsageListView()
+                    }
                 }
             }
             Group {
                 createEntry(title: BatteryInformation.shared.moduleName, icon: "battery.100") {
-                    BatteryInformationListView()
+                    prepareContent {
+                        BatteryInformationListView()
+                    }
                 }
             }
         }
         .listSectionSeparator(topHidden: true)
+    }
+
+    private static func prepareContent(_ input: @escaping () -> some View) -> some View {
+        #if canImport(AppKit)
+        return GeometryReader { r in
+            NavigationView {
+                input()
+                    .frame(width: r.size.width / 2)
+                Text(NSLocalizedString("Reveil", comment: "Reveil"))
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+        .limitMinSize()
+        #endif
+        #if canImport(UIKit)
+        return input()
+        #endif
     }
 
     var body: some View {
@@ -72,6 +114,15 @@ struct DetailsView: View {
         .listSectionSeparator(hidden: true)
     }
 }
+
+#if os(macOS)
+fileprivate extension View {
+    @ViewBuilder
+    func limitMinSize() -> some View {
+        frame(minWidth: 550, minHeight: 350)
+    }
+}
+#endif
 
 // MARK: - Previews
 

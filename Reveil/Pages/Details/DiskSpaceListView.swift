@@ -10,7 +10,7 @@ import SwiftUI
 struct DiskSpaceListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = DiskSpace.shared
-    let globalName: String = String(describing: DiskSpace.self)
+    let globalName: String = .init(describing: DiskSpace.self)
 
     init() {}
 
@@ -27,10 +27,14 @@ struct DiskSpaceListView: View, Identifiable, ModuleListView, GlobalTimerObserve
             usageStyle: .compat
         )
         .navigationTitle(module.moduleName)
-        .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(true), .DiskSpace,
-            store: PinStorage.shared.userDefaults
-        )))
+        .toolbar {
+            ToolbarItem {
+                PinButton(pin: AppCodableStorage(
+                    wrappedValue: Pin(true), .DiskSpace,
+                    store: PinStorage.shared.userDefaults
+                ))
+            }
+        }
         .onAppear {
             GlobalTimer.shared.addObserver(self)
         }
@@ -39,7 +43,7 @@ struct DiskSpaceListView: View, Identifiable, ModuleListView, GlobalTimerObserve
         }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) {
+    func eventOccurred(globalTimer _: GlobalTimer) {
         module.updateEntries()
     }
 }

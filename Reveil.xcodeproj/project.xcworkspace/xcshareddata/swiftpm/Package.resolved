@@ -3,7 +3,7 @@
     {
       "identity" : "colorfulx",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Lakr233/ColorfulX",
+      "location" : "https://github.com/Lakr233/ColorfulX.git",
       "state" : {
         "revision" : "11aae9e92a2f846ed26d275d0d3d6fad85d16837",
         "version" : "2.3.1"

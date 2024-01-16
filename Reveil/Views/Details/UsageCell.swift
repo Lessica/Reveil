@@ -58,7 +58,7 @@ struct UsageCell: View {
     var body: some View {
         GeometryReader { metrics in
             ZStack(alignment: .leading) {
-                Color(PlatformColor.secondarySystemFillAlias)
+                Color.secondarySystemFillAlias
 
                 HStack(spacing: 0) {
                     ForEach(ratioItem, id: \.id) { item in
