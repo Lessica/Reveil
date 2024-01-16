@@ -36,32 +36,34 @@ struct SecurityPresets: Codable {
     private init() {}
 
     init(bundleURL: URL) throws {
-        guard bundleURL.appendingPathComponent("Info.plist").fileExists ||
-            bundleURL.appendingPathComponent("Contents/Info.plist").fileExists,
-            let bundle = Bundle(url: bundleURL)
+        let isMobileBundle = bundleURL.appendingPathComponent("Info.plist").fileExists
+        let isDesktopBundle = bundleURL.appendingPathComponent("Contents/Info.plist").fileExists
+
+        guard isMobileBundle || isDesktopBundle, let bundle = Bundle(url: bundleURL)
         else {
             throw ConstructError.invalidBundle(message: String(format: "Failed to initialize bundle at: %@", bundleURL.path))
         }
 
-        if let bundleExecutableURL = bundle.executableURL,
+        if isMobileBundle,
+           let bundleExecutableURL = bundle.executableURL,
            let executableHashValue = IntegrityChecker.getMachOFileHashValue(.customExecutable(bundleExecutableURL))
         {
             secureMainExecutableMachOHashes.removeAll(keepingCapacity: true)
             secureMainExecutableMachOHashes.insert(executableHashValue)
         }
 
-        if let bundleProvisioningProfilePath = bundle.path(forResource: "embedded", ofType: "mobileprovision"),
+        if isMobileBundle,
+           let bundleProvisioningProfilePath = bundle.path(forResource: "embedded", ofType: "mobileprovision"),
            let profileHashValue = IntegrityChecker.calculateHashValue(path: bundleProvisioningProfilePath)
         {
             secureMobileProvisioningProfileHashes.removeAll(keepingCapacity: true)
             secureMobileProvisioningProfileHashes.insert(profileHashValue)
         }
 
-        var updatedHashes: Dictionary<String, String> = secureResourceHashes
+        var updatedHashes: [String: String] = secureResourceHashes
         for secureResourceName in secureResourceHashes.keys {
             let resourcePath = bundle.path(forResource: secureResourceName, ofType: nil)
-            if let resourcePath, let resourceHashValue = IntegrityChecker.calculateHashValue(path: resourcePath)
-            {
+            if let resourcePath, let resourceHashValue = IntegrityChecker.calculateHashValue(path: resourcePath) {
                 updatedHashes.updateValue(resourceHashValue, forKey: secureResourceName)
             }
         }
@@ -101,7 +103,7 @@ struct SecurityPresets: Codable {
         "",
     ]
 
-    var secureResourceHashes: Dictionary<String, String> = [
+    var secureResourceHashes: [String: String] = [
         "library_stub.zip": "",
         "rsc-001-country-mapping.json": "",
         "rsc-002-ios-versions.json": "",

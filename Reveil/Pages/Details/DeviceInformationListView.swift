@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DeviceInformationListView: View, ModuleListView {
     let module: Module = DeviceInformation.shared
-    let globalName: String = String(describing: DeviceInformation.self)
+    let globalName: String = .init(describing: DeviceInformation.self)
 
     init() {}
 
@@ -24,7 +24,7 @@ struct DeviceInformationListView: View, ModuleListView {
             .navigationTitle(module.moduleName)
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) { }
+    func eventOccurred(globalTimer _: GlobalTimer) {}
 }
 
 // MARK: - Previews

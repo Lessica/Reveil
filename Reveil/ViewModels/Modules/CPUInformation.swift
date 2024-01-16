@@ -178,7 +178,7 @@ final class CPUInformation: Module {
                 key: .CPUUsageIdle,
                 name: NSLocalizedString("USAGE_IDLE", comment: "Idle"),
                 value: String(format: "%.2f%%", cpuUsage.idle * 100.0),
-                color: Color(PlatformColor.secondarySystemFillAlias)
+                color: Color.secondarySystemFillAlias
             )
         case .CPUUsageLoad:
             return BasicEntry(

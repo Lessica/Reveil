@@ -60,8 +60,9 @@ final class Security: ObservableObject, StaticEntryProvider, Explainable {
         isLoading = true
 
         #if os(iOS)
-            _ = suspiciousURLSchemes
+        _ = suspiciousURLSchemes
         #endif
+
         DispatchQueue.global(qos: .utility).async {
             let performedCases = SecurityCheck.allCases.map { $0.perform() }
             let groupedCases = Dictionary(grouping: performedCases) { $0.status }

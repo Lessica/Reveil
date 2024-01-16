@@ -53,7 +53,7 @@ struct CheckmarkWidget: View {
 
     var backgroundColor: Color {
         if isInsecure { return Color("SecurityLeaks") }
-        return Color(PlatformColor.secondarySystemBackgroundAlias)
+        return Color.secondarySystemBackgroundAlias
     }
 
     var animatedBackgroundColors: [Color] {
@@ -104,28 +104,31 @@ struct CheckmarkWidget: View {
                     .foregroundColor(backgroundColor)
                     .opacity(isInsecure ? 0.75 : 0.25)
             } else {
-                self.colorfulBackground
+                colorfulBackground
                     .opacity(0.75)
                     .clipShape(RoundedRectangle(cornerRadius: 4))
             }
         }
         .overlay {
-            if usesLegacyStyle && !isInsecure {
+            if usesLegacyStyle, !isInsecure {
                 RoundedRectangle(cornerRadius: 4)
-                    .stroke(Color(PlatformColor.separatorAlias), lineWidth: 1)
+                    .stroke(Color.separatorAlias, lineWidth: 1)
                     .opacity(isInsecure ? 0 : 1)
             }
         }
         .onChange(of: isLoading) { _ in
             if isLoading { openDetail = false }
         }
-        .background(
+        .background {
             NavigationLink(
                 "",
                 destination: SecurityView().environmentObject(HighlightedEntryKey()),
                 isActive: $openDetail
             )
-        )
+            #if os(macOS)
+            .buttonStyle(.plain)
+            #endif
+        }
         .contentShape(Rectangle())
         .onTapGesture {
             if isLoading { return }

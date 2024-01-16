@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NetworkDetailsListView: View, ModuleListView {
     let module: Module = NetworkDetails.shared
-    let globalName: String = String(describing: NetworkDetails.self)
+    let globalName: String = .init(describing: NetworkDetails.self)
 
     init() {}
 
@@ -25,6 +25,9 @@ struct NetworkDetailsListView: View, ModuleListView {
             NetworkDetailListView(item: prefix)
                 .environmentObject(HighlightedEntryKey())
         }
+        #if os(macOS)
+        .buttonStyle(.plain)
+        #endif
     }
 
     var body: some View {
@@ -44,7 +47,7 @@ struct NetworkDetailsListView: View, ModuleListView {
         }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) { }
+    func eventOccurred(globalTimer _: GlobalTimer) {}
 }
 
 // MARK: - Previews

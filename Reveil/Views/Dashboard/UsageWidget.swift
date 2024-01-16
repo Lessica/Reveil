@@ -18,12 +18,12 @@ struct UsageWidget: View {
                 Text(entry.name.uppercased())
                     .font(Font.system(.body))
                     .fontWeight(.bold)
-                    .foregroundColor(Color(PlatformColor.labelAlias))
+                    .foregroundColor(Color.labelAlias)
                     .lineLimit(1)
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(Font.system(.body).weight(.regular))
-                    .foregroundColor(Color(PlatformColor.tertiaryLabelAlias))
+                    .foregroundColor(Color.tertiaryLabelAlias)
             }
 
             Spacer(minLength: 2)
@@ -39,7 +39,7 @@ struct UsageWidget: View {
                 if let lastDescription = entry.lastDescription {
                     Text(lastDescription)
                         .font(Font.system(.body).weight(.regular).monospacedDigit())
-                        .foregroundColor(Color(PlatformColor.secondaryLabelAlias))
+                        .foregroundColor(Color.secondaryLabelAlias)
                         .lineLimit(1)
                 }
             }
@@ -49,7 +49,7 @@ struct UsageWidget: View {
 
             GeometryReader { metrics in
                 ZStack(alignment: .leading) {
-                    Color(PlatformColor.secondarySystemFillAlias)
+                    Color.secondarySystemFillAlias
 
                     Color.accentColor
                         .frame(width: metrics.size.width * (entry.firstRatio ?? 0.0))

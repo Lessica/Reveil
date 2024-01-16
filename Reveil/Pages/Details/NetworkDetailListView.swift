@@ -10,7 +10,7 @@ import SwiftUI
 struct NetworkDetailListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = NetworkDetails.shared
-    let globalName: String = String(describing: NetworkDetails.self)
+    let globalName: String = .init(describing: NetworkDetails.self)
 
     init?(entryKey: EntryKey) {
         switch entryKey {
@@ -19,7 +19,7 @@ struct NetworkDetailListView: View, Identifiable, ModuleListView, GlobalTimerObs
             guard let pfx = NetworkPrefix(rawValue: prefix) else {
                 return nil
             }
-            self.item = pfx
+            item = pfx
         default:
             return nil
         }
@@ -53,7 +53,7 @@ struct NetworkDetailListView: View, Identifiable, ModuleListView, GlobalTimerObs
         }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) {
+    func eventOccurred(globalTimer _: GlobalTimer) {
         if let module = module as? NetworkDetails {
             module.update(prefix: item)
         }

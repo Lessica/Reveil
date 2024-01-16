@@ -209,7 +209,7 @@ void _machoEnumerateDependencies(FILE *machoFile, uint32_t archOffset, NSString 
                     NSLog(@"[_machoEnumerateDependencies] Found depdendency %s, recursively enumerating over it...", resolvedPath.UTF8String);
                     FILE *nextFile = fopen(resolvedPath.fileSystemRepresentation, "rb");
                     if (nextFile) {
-                        BOOL nextFileIsMacho = NO;
+                        bool nextFileIsMacho = NO;
                         machoGetInfo(nextFile, &nextFileIsMacho, NULL);
                         if (nextFileIsMacho) {
                             int64_t nextBestArchCandidate = machoFindBestArch(nextFile);

@@ -26,7 +26,7 @@ final class GlobalTimer: ObservableObject {
         if observers.isEmpty {
             return
         }
-        observers.forEach { [unowned self] (key: ModuleName, observer: Observer) in
+        observers.forEach { [unowned self] (_: ModuleName, observer: Observer) in
             observer.value.eventOccurred(globalTimer: self)
         }
     }
@@ -35,7 +35,7 @@ final class GlobalTimer: ObservableObject {
         timer.fire()
     }
 
-    func addObserver<T>(_ observer: T) where T: GlobalTimerObserver {
+    func addObserver(_ observer: some GlobalTimerObserver) {
         let globalName = observer.globalName
         if observers[globalName] != nil {
             observers[globalName]?.registeredCount += 1
@@ -43,8 +43,8 @@ final class GlobalTimer: ObservableObject {
         }
         observers[globalName] = Observer(value: observer, registeredCount: 1)
     }
-    
-    func removeObserver<T>(_ observer: T) where T: GlobalTimerObserver {
+
+    func removeObserver(_ observer: some GlobalTimerObserver) {
         let globalName = observer.globalName
         guard observers[globalName] != nil else {
             return

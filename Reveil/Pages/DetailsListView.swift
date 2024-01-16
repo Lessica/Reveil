@@ -13,8 +13,6 @@ struct DetailsListView: View, FieldCellDelegate {
     var usageEntry: UsageEntry<Double>? = nil
     var usageStyle: UsageCell.Style = .regular
 
-    private let pasteboard = UIPasteboard.general
-
     @Environment(\.dismiss) private var dismissAction
     @EnvironmentObject private var highlightedEntryKey: HighlightedEntryKey
 
@@ -145,6 +143,9 @@ struct DetailsListView: View, FieldCellDelegate {
             } label: {
                 FieldCell(entry: entry, delegate: self)
             }
+            #if os(macOS)
+            .buttonStyle(.plain)
+            #endif
         } else {
             Button {
                 var valueToCopy: String?
@@ -154,19 +155,31 @@ struct DetailsListView: View, FieldCellDelegate {
                     valueToCopy = entry.name
                 }
                 if let valueToCopy {
-                    pasteboard.string = valueToCopy
+                    #if canImport(UIKit)
+                    UIPasteboard.general.string = valueToCopy
+                    #endif
+                    #if canImport(AppKit)
+                    NSPasteboard.general.prepareForNewContents()
+                    NSPasteboard.general.setString(valueToCopy, forType: .string)
+                    #endif
+
                     showToast(
                         message: NSLocalizedString("COPIED_TO_CLIPBOARD", comment: "Copied to clipboard"),
                         icon: "info.circle.fill"
                     )
 
+                    #if canImport(UIKit)
                     let generator = UIImpactFeedbackGenerator(style: .medium)
                     generator.impactOccurred()
+                    #endif
                 }
             } label: {
                 FieldCell(entry: entry, delegate: self)
             }
-            .listRowBackground(selectedEntryKey == entry.key ? Color(PlatformColor.systemGray4Alias) : nil)
+            .listRowBackground(selectedEntryKey == entry.key ? Color.systemGray4Alias : nil)
+            #if os(macOS)
+            .buttonStyle(.plain)
+            #endif
         }
     }
 

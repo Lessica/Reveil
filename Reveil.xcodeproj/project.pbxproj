@@ -47,9 +47,10 @@
 		0FF1CDBF2AD57109004A6D43 /* NetworkUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1CDBE2AD57109004A6D43 /* NetworkUsage.swift */; };
 		0FF356652AEFEE9D0011033A /* ThreadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF356642AEFEE9D0011033A /* ThreadInfo.swift */; };
 		0FF356682AEFF6320011033A /* ThreadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF356672AEFF6320011033A /* ThreadState.swift */; };
-		5024F6EC2B1829EE000CEAB5 /* library_stub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7DC28E2AF3EB1300D50EDC /* library_stub.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5024F6EC2B1829EE000CEAB5 /* library_stub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7DC28E2AF3EB1300D50EDC /* library_stub.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5024F6ED2B1829EE000CEAB5 /* library_stub.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC7DC28E2AF3EB1300D50EDC /* library_stub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		503DF9C32B55934A0034F760 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 503DF9C22B55934A0034F760 /* ArgumentParser */; };
+		503DF9DF2B5596AD0034F760 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503DF9DE2B5596AD0034F760 /* Color.xcassets */; };
 		504B8C632B40243C00AABC12 /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B8C622B40243C00AABC12 /* AnimatedText.swift */; };
 		504B8C652B4033F600AABC12 /* ColorfulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B8C642B4033F600AABC12 /* ColorfulBackground.swift */; };
 		50E143102B400C6F000A7191 /* View+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1430F2B400C6F000A7191 /* View+Brand.swift */; };
@@ -135,10 +136,7 @@
 		CC9D24A92B3D97D200A18513 /* FileIntegrityCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095FB2AEE22B300F5E55F /* FileIntegrityCheck.swift */; };
 		CC9D24AA2B3D97E300A18513 /* Explainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095FE2AEE22CE00F5E55F /* Explainable.swift */; };
 		CC9D24AB2B3D97EA00A18513 /* IntegrityCheckerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA096042AEE239300F5E55F /* IntegrityCheckerTarget.swift */; };
-		CCA0954E2AE786CF00F5E55F /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA0954D2AE786CF00F5E55F /* QuickLook.framework */; };
-		CCA0956D2AE8D5E900F5E55F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA0956C2AE8D5E900F5E55F /* UIKit.framework */; };
-		CCA0956F2AE8D5EE00F5E55F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA0956E2AE8D5EE00F5E55F /* SwiftUI.framework */; };
-		CCA095CC2AE8E6D100F5E55F /* Color+Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095CB2AE8E6D100F5E55F /* Color+Platform.swift */; };
+		CCA095CC2AE8E6D100F5E55F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095CB2AE8E6D100F5E55F /* Color.swift */; };
 		CCA095DF2AED419B00F5E55F /* JailbreakChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095D32AED419A00F5E55F /* JailbreakChecker.swift */; };
 		CCA095E12AED419B00F5E55F /* ProxyChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095D42AED419A00F5E55F /* ProxyChecker.swift */; };
 		CCA095E32AED419B00F5E55F /* ReverseEngineeringToolsChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095D52AED419A00F5E55F /* ReverseEngineeringToolsChecker.swift */; };
@@ -237,6 +235,7 @@
 		0FF356642AEFEE9D0011033A /* ThreadInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadInfo.swift; sourceTree = "<group>"; };
 		0FF356672AEFF6320011033A /* ThreadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadState.swift; sourceTree = "<group>"; };
 		5028D8B22AE7628E008D4294 /* Reveil.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reveil.entitlements; sourceTree = "<group>"; };
+		503DF9DE2B5596AD0034F760 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		504B8C622B40243C00AABC12 /* AnimatedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedText.swift; sourceTree = "<group>"; };
 		504B8C642B4033F600AABC12 /* ColorfulBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulBackground.swift; sourceTree = "<group>"; };
 		50E1430F2B400C6F000A7191 /* View+Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Brand.swift"; sourceTree = "<group>"; };
@@ -326,7 +325,7 @@
 		CCA0956E2AE8D5EE00F5E55F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
 		CCA095702AE8D5F600F5E55F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		CCA095722AE8D5FA00F5E55F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
-		CCA095CB2AE8E6D100F5E55F /* Color+Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Platform.swift"; sourceTree = "<group>"; };
+		CCA095CB2AE8E6D100F5E55F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		CCA095D32AED419A00F5E55F /* JailbreakChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakChecker.swift; sourceTree = "<group>"; };
 		CCA095D42AED419A00F5E55F /* ProxyChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyChecker.swift; sourceTree = "<group>"; };
 		CCA095D52AED419A00F5E55F /* ReverseEngineeringToolsChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseEngineeringToolsChecker.swift; sourceTree = "<group>"; };
@@ -369,12 +368,9 @@
 			files = (
 				CCD54D2C2AD9047D007ED1AF /* Collections in Frameworks */,
 				CC77C7B62B526EBB00FAB4E3 /* ColorfulX in Frameworks */,
-				CCA0956D2AE8D5E900F5E55F /* UIKit.framework in Frameworks */,
 				CCD54D2E2AD9047D007ED1AF /* DequeModule in Frameworks */,
 				5024F6EC2B1829EE000CEAB5 /* library_stub.framework in Frameworks */,
-				CCA0956F2AE8D5EE00F5E55F /* SwiftUI.framework in Frameworks */,
 				0F08193D2ADAF1C600BB626C /* DictionaryCoder in Frameworks */,
-				CCA0954E2AE786CF00F5E55F /* QuickLook.framework in Frameworks */,
 				CCD54D302AD9047D007ED1AF /* OrderedCollections in Frameworks */,
 				CC7DC2A12AF3EEBB00D50EDC /* ZIPFoundation in Frameworks */,
 			);
@@ -470,7 +466,8 @@
 			children = (
 				CC3F94232B4C505600E67A19 /* Backports */,
 				CC549EFD2AFA7DB300219CF8 /* Foundation */,
-				CCA095CB2AE8E6D100F5E55F /* Color+Platform.swift */,
+				CCA095CB2AE8E6D100F5E55F /* Color.swift */,
+				503DF9DE2B5596AD0034F760 /* Color.xcassets */,
 				CC9D249A2B3D954F00A18513 /* URL+Path.swift */,
 				50E1430F2B400C6F000A7191 /* View+Brand.swift */,
 			);
@@ -907,6 +904,7 @@
 				CC21B5282ACD4B87003EC114 /* rsc-004-carriers.json in Resources */,
 				CC21B52B2ACD4B87003EC114 /* rsc-006-ipod-models.json in Resources */,
 				CC21B5262ACD4B87003EC114 /* rsc-001-country-mapping.json in Resources */,
+				503DF9DF2B5596AD0034F760 /* Color.xcassets in Resources */,
 				CC21B5272ACD4B87003EC114 /* rsc-003-iphone-models.json in Resources */,
 				CC21B4BD2ACAE5E5003EC114 /* Localizable.strings in Resources */,
 				CC21B52A2ACD4B87003EC114 /* rsc-005-ipad-models.json in Resources */,
@@ -1068,7 +1066,7 @@
 				CC21B4F42ACBD004003EC114 /* UsageCell.swift in Sources */,
 				0F16593A2AF9FD4500268572 /* URLSchemeItem.swift in Sources */,
 				CCA095EB2AED419B00F5E55F /* FileChecker.swift in Sources */,
-				CCA095CC2AE8E6D100F5E55F /* Color+Platform.swift in Sources */,
+				CCA095CC2AE8E6D100F5E55F /* Color.swift in Sources */,
 				CC21B4C22ACAE6E6003EC114 /* BartyCrouch.swift in Sources */,
 				CCA095FC2AEE22B300F5E55F /* FileIntegrityCheck.swift in Sources */,
 				CCD54D322AD9385D007ED1AF /* NetworkStatistics.swift in Sources */,
@@ -1133,14 +1131,14 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GXZ23M5TP2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1152,14 +1150,14 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GXZ23M5TP2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1290,7 +1288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Reveil/Reveil.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -1300,6 +1298,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"GLES_SILENCE_DEPRECATION=1",
+					"GL_SILENCE_DEPRECATION=1",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Reveil/Info.plist;
@@ -1309,7 +1308,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1317,7 +1315,7 @@
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.reveil.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -1333,7 +1331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Reveil/Reveil.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -1343,6 +1341,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"GLES_SILENCE_DEPRECATION=1",
+					"GL_SILENCE_DEPRECATION=1",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Reveil/Info.plist;
@@ -1352,7 +1351,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1360,7 +1358,7 @@
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.reveil.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -1373,12 +1371,13 @@
 		CC7DC2972AF3EB1300D50EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GXZ23M5TP2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1386,9 +1385,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -1398,7 +1395,6 @@
 					"@loader_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -1407,7 +1403,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1421,12 +1417,13 @@
 		CC7DC2982AF3EB1300D50EDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GXZ23M5TP2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1434,9 +1431,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -1446,7 +1441,6 @@
 					"@loader_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
@@ -1455,7 +1449,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

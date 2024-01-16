@@ -20,7 +20,7 @@ int evaluateSignature(NSURL* fileURL, NSData **cdHashOut, BOOL *isAdhocSignedOut
     FILE *machoFile = fopen(fileURL.fileSystemRepresentation, "rb");
     if (!machoFile) return 3;
 
-    BOOL isMacho = NO;
+    bool isMacho = NO;
     machoGetInfo(machoFile, &isMacho, NULL);
 
     if (!isMacho) {
@@ -62,8 +62,8 @@ BOOL isCdHashInTrustCache(NSData *cdHash)
     CFMutableDictionaryRef amfiServiceDict = IOServiceMatching("AppleMobileFileIntegrity");
     if (amfiServiceDict)
     {
-        io_connect_t connect;
-        if (@available(iOS 15.0, *)) {
+        io_connect_t connect = 0;
+        if (@available(iOS 15.0, macOS 12.0, *)) {
             io_service_t amfiService = IOServiceGetMatchingService(kIOMainPortDefault, amfiServiceDict);
             kr = IOServiceOpen(amfiService, mach_task_self(), 0, &connect);
         } else {
@@ -71,7 +71,7 @@ BOOL isCdHashInTrustCache(NSData *cdHash)
             io_service_t amfiService = IOServiceGetMatchingService(0 /* kIOMasterPortDefault */, amfiServiceDict);
             kr = IOServiceOpen(amfiService, mach_task_self(), 0, &connect);
         }
-        if (kr != KERN_SUCCESS)
+        if (kr != KERN_SUCCESS || connect == 0)
         {
             NSLog(@"Failed to open amfi service %d %s", kr, mach_error_string(kr));
             return NO;

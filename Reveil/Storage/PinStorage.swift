@@ -34,7 +34,7 @@ final class PinStorage: ObservableObject {
     @Published var pinnedEntryKeys: [EntryKey]
 
     func isPinned(forKey key: EntryKey) -> Bool {
-        return pinnedEntryKeys.contains(key)
+        pinnedEntryKeys.contains(key)
     }
 
     func reloadData() {

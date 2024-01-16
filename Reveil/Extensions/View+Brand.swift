@@ -11,7 +11,9 @@ import SwiftUI
 extension View {
     func navigationBarAttachBrand() -> some View {
         navigationTitle(NSLocalizedString("Reveil", comment: "Reveil"))
+            #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
+            #endif
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     Image("IconShape")

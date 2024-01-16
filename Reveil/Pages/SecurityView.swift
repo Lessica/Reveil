@@ -15,9 +15,15 @@ struct SecurityView: View {
     var body: some View {
         DetailsListView(basicEntries: securityModel.basicEntries)
             .navigationTitle(NSLocalizedString("SECURITY", comment: "Security"))
-            .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-                wrappedValue: Pin(true), .Security,
-                store: PinStorage.shared.userDefaults
-            )))
+            #if os(iOS)
+            .toolbar {
+                ToolbarItem {
+                    PinButton(pin: AppCodableStorage(
+                        wrappedValue: Pin(true), .Security,
+                        store: PinStorage.shared.userDefaults
+                    ))
+                }
+            }
+            #endif
     }
 }

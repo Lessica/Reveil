@@ -5,7 +5,6 @@
 //  Created by Lessica on 2023/10/2.
 //
 
-import UIKit
 import SwiftUI
 
 struct ContentView: View {
@@ -15,9 +14,11 @@ struct ContentView: View {
         if horizontalSizeClass == .compact {
             return true
         }
+        #if canImport(UIKit)
         if UIDevice.current.userInterfaceIdiom != .pad {
             return true
         }
+        #endif
         return false
     }
 
@@ -52,7 +53,9 @@ struct TabsView: View {
 
             NavigationView {
                 AboutView()
+                    #if os(iOS)
                     .navigationBarTitleDisplayMode(.inline)
+                    #endif
                     .background(ColorfulBackground())
             }
             .tabItem {
@@ -71,9 +74,15 @@ struct SidebarView: View {
                         DashboardView()
                             .navigationTitle(NSLocalizedString("DASHBOARD", comment: "Dashboard"))
                             .background(ColorfulBackground())
+                            #if os(macOS)
+                            .limitMinSize()
+                            #endif
                     } label: {
                         Label(NSLocalizedString("DASHBOARD", comment: "Dashboard"), systemImage: "square.grid.2x2")
                     }
+                    #if os(macOS)
+                    .buttonStyle(.plain)
+                    #endif
                 }
 
                 Section(NSLocalizedString("DETAILS", comment: "Details")) {
@@ -84,9 +93,15 @@ struct SidebarView: View {
                     NavigationLink {
                         AboutView()
                             .background(ColorfulBackground())
+                            #if os(macOS)
+                            .limitMinSize()
+                            #endif
                     } label: {
                         Label(NSLocalizedString("ABOUT", comment: "About"), systemImage: "info.circle")
                     }
+                    #if os(macOS)
+                    .buttonStyle(.plain)
+                    #endif
                 }
             }
             .navigationTitle(NSLocalizedString("Reveil", comment: "Reveil"))
@@ -94,10 +109,33 @@ struct SidebarView: View {
             DashboardView()
                 .navigationTitle(NSLocalizedString("DASHBOARD", comment: "Dashboard"))
                 .background(ColorfulBackground())
+                #if os(macOS)
+                .limitMinSize()
+                #endif
         }
         .listStyle(SidebarListStyle())
+        #if canImport(AppKit)
+        .toolbar {
+            ToolbarItem(placement: .navigation) {
+                Button {
+                    NSApp.sendAction(#selector(NSSplitViewController.toggleSidebar(_:)), to: nil, from: nil)
+                } label: {
+                    Label("Toggle Sidebar", systemImage: "sidebar.leading")
+                }
+            }
+        }
+        #endif
     }
 }
+
+#if os(macOS)
+fileprivate extension View {
+    @ViewBuilder
+    func limitMinSize() -> some View {
+        frame(minWidth: 550, minHeight: 350)
+    }
+}
+#endif
 
 // MARK: - Previews
 

@@ -10,7 +10,7 @@ import SwiftUI
 struct MemoryInformationListView: View, Identifiable, ModuleListView, GlobalTimerObserver {
     let id = UUID()
     let module: Module = MemoryInformation.shared
-    let globalName: String = String(describing: MemoryInformation.self)
+    let globalName: String = .init(describing: MemoryInformation.self)
 
     init() {}
 
@@ -27,10 +27,14 @@ struct MemoryInformationListView: View, Identifiable, ModuleListView, GlobalTime
             usageStyle: .regular
         )
         .navigationTitle(module.moduleName)
-        .navigationBarItems(trailing: PinButton(pin: AppCodableStorage(
-            wrappedValue: Pin(true), .MemoryInformation,
-            store: PinStorage.shared.userDefaults
-        )))
+        .toolbar {
+            ToolbarItem {
+                PinButton(pin: AppCodableStorage(
+                    wrappedValue: Pin(true), .MemoryInformation,
+                    store: PinStorage.shared.userDefaults
+                ))
+            }
+        }
         .onAppear {
             GlobalTimer.shared.addObserver(self)
         }
@@ -39,7 +43,7 @@ struct MemoryInformationListView: View, Identifiable, ModuleListView, GlobalTime
         }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) {
+    func eventOccurred(globalTimer _: GlobalTimer) {
         module.updateEntries()
     }
 }

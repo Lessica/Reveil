@@ -6,7 +6,6 @@
 //
 
 import CoreTelephony
-import UIKit
 
 final class DeviceInformation: Module {
     static let shared = DeviceInformation()
@@ -33,6 +32,7 @@ final class DeviceInformation: Module {
         return dictionary.first { $0["machine"] as? String == deviceName }
     }()
 
+    #if canImport(UIKit)
     private func currentRadioTechName() -> String? {
         guard let currentRadioTech = CTTelephonyNetworkInfo().serviceCurrentRadioAccessTechnology,
               let firstKey = currentRadioTech.keys.sorted().first,
@@ -80,10 +80,21 @@ final class DeviceInformation: Module {
 
         return techName
     }
+    #endif
 
     private var displaySizeDescription: String {
+        #if canImport(UIKit)
         let mainScreen = UIScreen.main
         return "\(Int(mainScreen.fixedCoordinateSpace.bounds.height * mainScreen.scale))×\(Int(mainScreen.fixedCoordinateSpace.bounds.width * mainScreen.scale))"
+        #elseif canImport(AppKit)
+        guard let mainScreen = NSScreen.main else {
+            return NSLocalizedString("NOT_AVAILABLE", comment: "Not Available")
+        }
+        let scale = mainScreen.backingScaleFactor
+        return "\(Int(mainScreen.frame.height * scale))×\(Int(mainScreen.frame.width * scale))"
+        #else
+        return NSLocalizedString("NOT_AVAILABLE", comment: "Not Available")
+        #endif
     }
 
     lazy var basicEntries: [BasicEntry] = updatableEntryKeys.compactMap { basicEntry(key: $0) }
@@ -133,6 +144,7 @@ final class DeviceInformation: Module {
                 value: gModelDictionary?["bootrom"] as? String ?? BasicEntry.unknownValue
             )
         case .RadioTech:
+            #if canImport(UIKit)
             if let techName = currentRadioTechName() {
                 return BasicEntry(
                     key: .RadioTech,
@@ -140,6 +152,13 @@ final class DeviceInformation: Module {
                     value: techName
                 )
             }
+            #else
+            return BasicEntry(
+                key: .RadioTech,
+                name: NSLocalizedString("RADIO_TECH", comment: "Radio Tech"),
+                value: NSLocalizedString("NOT_AVAILABLE", comment: "Not Available")
+            )
+            #endif
         case .HostName:
             return BasicEntry(
                 key: .HostName,

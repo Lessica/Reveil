@@ -225,6 +225,7 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         }
     }
 
+    #if os(iOS)
     static let allCases: [SecurityCheck] = [
         .noSuspiciousFile(.unchanged),
         .noSuspiciousLibrary(.unchanged),
@@ -261,6 +262,29 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         .noExceptionPort(.unchanged),
         .noSignalHandler(.unchanged),
     ]
+    #endif
+
+    #if os(macOS)
+    static let allCases: [SecurityCheck] = [
+        .noSuspiciousLibrary(.unchanged),
+        .noSuspiciousSymbolicLink(.unchanged),
+        .noSuspiciousObjCClass(.unchanged),
+        .noSuspiciousEnvironmentVariables(.unchanged),
+        .notInSimulator(.unchanged),
+        .noDebuggerAttached(.unchanged),
+        .noUnsignedExecutablePage(.unchanged),
+        .unavailableSeatbeltSpecialPort(.unchanged),
+        .noPSelectFlag(.unchanged),
+        .unprivilegedHostPort(.unchanged),
+        .enabledLibraryValidation(.unchanged),
+        .stockDynamicLinker(.unchanged),
+        .unmodifiedExecutionState(.unchanged),
+        .untouchedProcessTaskPort(.unchanged),
+        .notInTrustCache(.unchanged),
+        .noExceptionPort(.unchanged),
+        .noSignalHandler(.unchanged),
+    ]
+    #endif
 
     var isFailed: Bool {
         switch self {
@@ -683,7 +707,7 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
     private func csOpsStatusColor(_ status: CsOpsStatus) -> Color {
         status.isPresented
             ? (status.isInsecure ? Color("SecurityLeaks") : Color.accentColor)
-            : (status.isRequired ? Color("SecurityLeaks") : Color(PlatformColor.secondarySystemFillAlias))
+            : (status.isRequired ? Color("SecurityLeaks") : Color.secondarySystemFillAlias)
     }
 
     func entry() -> BasicEntry {
@@ -783,7 +807,7 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         return BasicEntry(
             key: .Custom(name: rawValue),
             name: description,
-            color: isPassed ? Color.accentColor : (isFailed ? Color("SecurityLeaks") : Color(PlatformColor.secondarySystemFillAlias)),
+            color: isPassed ? Color.accentColor : (isFailed ? Color("SecurityLeaks") : Color.secondarySystemFillAlias),
             children: entryChildren
         )
     }

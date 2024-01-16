@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NetworkInterfaceListView: View, ModuleListView {
     let module: Module = NetworkInterfaces.shared
-    let globalName: String = String(describing: NetworkInterfaces.self)
+    let globalName: String = .init(describing: NetworkInterfaces.self)
 
     init?(entryKey _: EntryKey) { nil }
 
@@ -29,7 +29,7 @@ struct NetworkInterfaceListView: View, ModuleListView {
             }
     }
 
-    func eventOccurred(globalTimer timer: GlobalTimer) { }
+    func eventOccurred(globalTimer _: GlobalTimer) {}
 }
 
 // MARK: - Previews
