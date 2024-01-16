@@ -82,7 +82,7 @@ jobs:
 
       - name: Create DMG
         run: |
-          create-dmg --overwrite --identity='$PACKAGING_IDENTITY' Distribution/Reveil.app ./Distribution/
+          create-dmg --overwrite --identity="$PACKAGING_IDENTITY" Distribution/Reveil.app ./Distribution/
           mv Distribution/*.dmg Reveil_${{ env.MARKETING_VERSION }}.dmg
         env:
           PACKAGING_IDENTITY: ${{ secrets.PACKAGING_IDENTITY }}  # Identity for packaging, e.g. "Developer ID Application: John Doe (XXXXXXXXXX)"
@@ -96,12 +96,12 @@ jobs:
             ReveilHelper.xcarchive
             Distribution/Reveil_${{ env.MARKETING_VERSION }}.dmg
 
-      - name: Upload Release
-        uses: softprops/action-gh-release@v1
-        with:
-          token: ${{ secrets.RELEASE_GITHUB_TOKEN }}
-          body_path: CHANGELOG.md
-          files: Distribution/Reveil_${{ env.MARKETING_VERSION }}.dmg
+      # - name: Upload Release
+      #   uses: softprops/action-gh-release@v1
+      #   with:
+      #     token: ${{ secrets.RELEASE_GITHUB_TOKEN }}
+      #     body_path: CHANGELOG.md
+      #     files: Distribution/Reveil_${{ env.MARKETING_VERSION }}.dmg
 
       - name: Remove Code-Signing Keychain
         if: ${{ always() }}
