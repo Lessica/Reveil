@@ -1,8 +1,3 @@
 # Changes
 
-- Backporting: add support for iOS 14
-- Backporting: remove buggy support for Mac Catalyst
-- Feature: add option for the legacy UI
-- UX: add section title for the sidebar on iPad
-- Bugfix: network traffic cell is no longer selectable
-- Bugfix: fix memory leaks in animated backgrounds
+- Bugfix: Fix a issue that the dashboard is not kept updating when pinned items changed.
