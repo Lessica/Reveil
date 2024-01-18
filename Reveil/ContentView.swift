@@ -5,20 +5,13 @@
 //  Created by Lessica on 2023/10/2.
 //
 
-import UIKit
 import SwiftUI
 
 struct ContentView: View {
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
     var useTabs: Bool {
-        if horizontalSizeClass == .compact {
-            return true
-        }
-        if UIDevice.current.userInterfaceIdiom != .pad {
-            return true
-        }
-        return false
+        horizontalSizeClass == .compact
     }
 
     var body: some View {
