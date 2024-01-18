@@ -33,3 +33,14 @@ struct AnimatedText: View {
         }
     }
 }
+
+// MARK: - Previews
+
+struct AnimatedText_Previews: PreviewProvider {
+    static var previews: some View {
+        AnimatedText("+1-234-456-7890")
+            .padding()
+            .previewLayout(.sizeThatFits)
+    }
+}
+

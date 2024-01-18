@@ -54,3 +54,11 @@ struct ColorfulBackground: View {
         }
     }
 }
+
+// MARK: - Previews
+
+struct ColorfulBackground_Previews: PreviewProvider {
+    static var previews: some View {
+        ColorfulBackground()
+    }
+}

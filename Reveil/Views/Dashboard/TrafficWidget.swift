@@ -227,5 +227,6 @@ struct TrafficWidget_Previews: PreviewProvider {
             )
         )
         .padding(.all)
+        .previewLayout(.sizeThatFits)
     }
 }

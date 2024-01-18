@@ -78,5 +78,6 @@ struct TrafficCell_Previews: PreviewProvider {
             )
         )
         .padding([.leading, .trailing])
+        .previewLayout(.sizeThatFits)
     }
 }

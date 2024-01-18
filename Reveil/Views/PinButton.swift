@@ -27,5 +27,7 @@ struct PinButton: View {
 struct PinButton_Previews: PreviewProvider {
     static var previews: some View {
         PinButton(pin: AppCodableStorage(wrappedValue: Pin(false), .Security))
+        .padding()
+        .previewLayout(.sizeThatFits)
     }
 }

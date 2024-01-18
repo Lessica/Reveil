@@ -81,5 +81,6 @@ struct UsageWidget_Previews: PreviewProvider {
             ),
         ]))
         .padding(.all)
+        .previewLayout(.sizeThatFits)
     }
 }

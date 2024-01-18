@@ -101,26 +101,34 @@ struct FieldCell_Previews: PreviewProvider {
             key: .HostName,
             name: "Host Name",
             value: "ZMini"
-        ), delegate: nil).padding()
+        ), delegate: nil)
+        .padding()
+        .previewLayout(.sizeThatFits)
 
         FieldCell(entry: BasicEntry(
             key: .CPUUsageUser,
             name: "User",
             value: "10.68%",
             color: Color.accentColor
-        ), delegate: nil).padding()
+        ), delegate: nil)
+        .padding()
+        .previewLayout(.sizeThatFits)
 
         FieldCell(entry: BasicEntry(
             key: .KernelVersion,
             name: "Kernel Version",
             value: "Darwin Kernel Version 21.4.0: Mon Feb 21 21:27:55 PST 2022; root:xnu-8020.102.3~1/RELEASE_ARM64_T8101"
-        ), delegate: nil).padding()
+        ), delegate: nil)
+        .padding()
+        .previewLayout(.sizeThatFits)
 
         FieldCell(entry: BasicEntry(
             key: .MemoryBytesWired,
             name: "Wired",
             value: "689.50 MB\n17.88%",
             color: Color("MemoryWired")
-        ), delegate: nil).padding()
+        ), delegate: nil)
+        .padding()
+        .previewLayout(.sizeThatFits)
     }
 }

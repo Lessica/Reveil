@@ -21,3 +21,12 @@ struct SecurityView: View {
             )))
     }
 }
+
+// MARK: - Previews
+
+struct SecurityView_Previews: PreviewProvider {
+    static var previews: some View {
+        SecurityView()
+            .environmentObject(HighlightedEntryKey())
+    }
+}

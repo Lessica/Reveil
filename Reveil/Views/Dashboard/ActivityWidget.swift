@@ -91,5 +91,6 @@ struct ActivityWidget_Previews: PreviewProvider {
             values: values
         ))
         .padding(.all)
+        .previewLayout(.sizeThatFits)
     }
 }

@@ -216,5 +216,6 @@ struct DetailsListView: View, FieldCellDelegate {
 struct DetailsListView_Previews: PreviewProvider {
     static var previews: some View {
         DetailsListView(basicEntries: DeviceInformation.shared.basicEntries)
+            .environmentObject(HighlightedEntryKey())
     }
 }

@@ -37,15 +37,18 @@ struct ToastView_Previews: PreviewProvider {
             label: "Copied to clipboard",
             iconName: "info.circle.fill"
         )
+        .previewLayout(.sizeThatFits)
 
         ToastView(
             label: "Unpinned Radio Tech",
             iconName: "pin"
         )
+        .previewLayout(.sizeThatFits)
 
         ToastView(
             label: "Pinned Radio Tech",
             iconName: "pin.fill"
         )
+        .previewLayout(.sizeThatFits)
     }
 }

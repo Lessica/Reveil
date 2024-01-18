@@ -47,5 +47,6 @@ struct FieldWidget_Previews: PreviewProvider {
             value: "Darwin Kernel Version 21.4.0: Mon Feb 21 21:27:55 PST 2022; root:xnu-8020.102.3~1/RELEASE_ARM64_T8101"
         ))
         .padding(.all)
+        .previewLayout(.sizeThatFits)
     }
 }

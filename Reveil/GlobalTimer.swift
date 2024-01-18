@@ -21,17 +21,21 @@ final class GlobalTimer: ObservableObject {
 
     static let shared = GlobalTimer()
     private var observers = [ModuleName: Observer]()
+    
+    @Published var ticks: Int
 
     lazy var timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [unowned self] _ in
         if observers.isEmpty {
             return
         }
+        ticks += 1
         observers.forEach { [unowned self] (key: ModuleName, observer: Observer) in
             observer.value.eventOccurred(globalTimer: self)
         }
     }
 
     private init() {
+        ticks = 0
         timer.fire()
     }
 

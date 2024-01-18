@@ -91,5 +91,7 @@ struct UsageCell_Previews: PreviewProvider {
                 UsageEntry.Item(label: "Free", value: 0.1208, color: Color.clear),
             ]
         ))
+        .padding()
+        .previewLayout(.sizeThatFits)
     }
 }

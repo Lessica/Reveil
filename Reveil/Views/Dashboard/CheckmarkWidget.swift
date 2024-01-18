@@ -133,3 +133,13 @@ struct CheckmarkWidget: View {
         }
     }
 }
+
+// MARK: - Previews
+
+struct CheckmarkWidget_Previews: PreviewProvider {
+    static var previews: some View {
+        CheckmarkWidget()
+            .padding()
+            .previewLayout(.sizeThatFits)
+    }
+}
