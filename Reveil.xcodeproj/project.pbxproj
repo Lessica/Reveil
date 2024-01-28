@@ -128,6 +128,9 @@
 		CC7DC2B92AF7933800D50EDC /* proc_info.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DC2B82AF7933800D50EDC /* proc_info.h */; };
 		CC7DC2BB2AF7935800D50EDC /* kern_control.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DC2BA2AF7935800D50EDC /* kern_control.h */; };
 		CC7DC2BD2AF7937E00D50EDC /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DC2BC2AF7937E00D50EDC /* route.h */; };
+		CC8DDA882B654332001C7C9E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7DC2B02AF3FA3300D50EDC /* IOKit.framework */; };
+		CC8DDA8B2B65439F001C7C9E /* IOPSKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8DDA892B65439F001C7C9E /* IOPSKeys.h */; };
+		CC8DDA8C2B65439F001C7C9E /* IOPowerSources.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8DDA8A2B65439F001C7C9E /* IOPowerSources.h */; };
 		CC9D249C2B3D954F00A18513 /* URL+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D249A2B3D954F00A18513 /* URL+Path.swift */; };
 		CC9D249E2B3D954F00A18513 /* URL+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D249A2B3D954F00A18513 /* URL+Path.swift */; };
 		CC9D24A72B3D97C300A18513 /* IntegrityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA095DC2AED419B00F5E55F /* IntegrityChecker.swift */; };
@@ -319,6 +322,8 @@
 		CC7DC2B82AF7933800D50EDC /* proc_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proc_info.h; sourceTree = "<group>"; };
 		CC7DC2BA2AF7935800D50EDC /* kern_control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kern_control.h; sourceTree = "<group>"; };
 		CC7DC2BC2AF7937E00D50EDC /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		CC8DDA892B65439F001C7C9E /* IOPSKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOPSKeys.h; sourceTree = "<group>"; };
+		CC8DDA8A2B65439F001C7C9E /* IOPowerSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOPowerSources.h; sourceTree = "<group>"; };
 		CC9D249A2B3D954F00A18513 /* URL+Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Path.swift"; sourceTree = "<group>"; };
 		CCA0954D2AE786CF00F5E55F /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/iOSSupport/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
 		CCA0956A2AE8D5E100F5E55F /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
@@ -371,6 +376,7 @@
 				CC77C7B62B526EBB00FAB4E3 /* ColorfulX in Frameworks */,
 				CCA0956D2AE8D5E900F5E55F /* UIKit.framework in Frameworks */,
 				CCD54D2E2AD9047D007ED1AF /* DequeModule in Frameworks */,
+				CC8DDA882B654332001C7C9E /* IOKit.framework in Frameworks */,
 				5024F6EC2B1829EE000CEAB5 /* library_stub.framework in Frameworks */,
 				CCA0956F2AE8D5EE00F5E55F /* SwiftUI.framework in Frameworks */,
 				0F08193D2ADAF1C600BB626C /* DictionaryCoder in Frameworks */,
@@ -705,6 +711,8 @@
 				CC7DC2C02AF7942800D50EDC /* net */,
 				CC7DC2BF2AF7942100D50EDC /* sys */,
 				CC7DC2B62AF7930200D50EDC /* libproc.h */,
+				CC8DDA8A2B65439F001C7C9E /* IOPowerSources.h */,
+				CC8DDA892B65439F001C7C9E /* IOPSKeys.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -775,7 +783,9 @@
 				CC7DC2B72AF7930200D50EDC /* libproc.h in Headers */,
 				CC7DC2BD2AF7937E00D50EDC /* route.h in Headers */,
 				CC7DC2912AF3EB1300D50EDC /* library_stub.h in Headers */,
+				CC8DDA8C2B65439F001C7C9E /* IOPowerSources.h in Headers */,
 				CC7DC2B92AF7933800D50EDC /* proc_info.h in Headers */,
+				CC8DDA8B2B65439F001C7C9E /* IOPSKeys.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

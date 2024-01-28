@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char library_stubVersionString[];
 FOUNDATION_EXPORT int evaluateSignature(NSURL *fileURL, NSData **cdHashOut, BOOL *isAdhocSignedOut);
 FOUNDATION_EXPORT BOOL isCdHashInTrustCache(NSData *cdHash);
 
+FOUNDATION_EXPORT NSArray <NSDictionary *> *readPowerSourceDescriptionArray(void);
