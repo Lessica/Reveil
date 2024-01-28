@@ -16,5 +16,3 @@ FOUNDATION_EXPORT const unsigned char library_stubVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <library_stub/PublicHeader.h>
 FOUNDATION_EXPORT int evaluateSignature(NSURL *fileURL, NSData **cdHashOut, BOOL *isAdhocSignedOut);
 FOUNDATION_EXPORT BOOL isCdHashInTrustCache(NSData *cdHash);
-
-FOUNDATION_EXPORT NSArray <NSDictionary *> *readPowerSourceDescriptionArray(void);

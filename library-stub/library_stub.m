@@ -87,26 +87,3 @@ BOOL isCdHashInTrustCache(NSData *cdHash)
 
     return NO;
 }
-
-#import "IOPSKeys.h"
-#import "IOPowerSources.h"
-
-NSArray <NSDictionary *> *readPowerSourceDescriptionArray(void)
-{
-    CFTypeRef blob = IOPSCopyPowerSourcesInfo();
-    CFArrayRef sources = IOPSCopyPowerSourcesList(blob);
-    CFIndex numberOfSources = CFArrayGetCount(sources);
-    NSMutableArray <NSDictionary *> *descriptionArray = [NSMutableArray arrayWithCapacity:numberOfSources];
-    
-    for (CFIndex i = 0; i < numberOfSources; i++)
-    {
-        CFDictionaryRef cfSourceDescription = IOPSGetPowerSourceDescription(blob, CFArrayGetValueAtIndex(sources, i));
-        NSDictionary *nsSourceDescription = [[NSDictionary alloc] initWithDictionary:(__bridge NSDictionary *)(cfSourceDescription) copyItems:YES];
-        [descriptionArray addObject:nsSourceDescription];
-    }
-    
-    CFRelease(blob);
-    CFRelease(sources);
-
-    return descriptionArray;
-}
