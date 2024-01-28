@@ -88,6 +88,7 @@ struct SecurityPresets: Codable {
         "com.apple.security.network.client",
         "com.apple.private.security.container-required",
         "beta-reports-active",
+        "aps-environment",
     ]
 
     var secureMainBundleIdentifiers: Set<String> = [

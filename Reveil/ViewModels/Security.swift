@@ -40,16 +40,22 @@ final class Security: ObservableObject, StaticEntryProvider, Explainable {
 
     @Published var isLoading: Bool
     @Published var isInsecure: Bool
+    @Published var numberOfInsecureChecks: Int
 
     private init() {
         basicEntries = []
         isLoading = false
         isInsecure = false
+        numberOfInsecureChecks = 0
         reloadData()
     }
 
     private func hasInsecureCheck(_ checks: [SecurityCheck]) -> Bool {
         checks.first { $0.isFailed } != nil
+    }
+
+    private func countNumberOfInsecureChecks(_ checks: [SecurityCheck]) -> Int {
+        checks.filter { $0.isFailed }.count
     }
 
     func reloadData() {
@@ -71,10 +77,11 @@ final class Security: ObservableObject, StaticEntryProvider, Explainable {
             let groupedEntries = Dictionary(grouping: performedEntries) { $0.children?.isEmpty ?? true }
             let allEntries = (groupedEntries[false] ?? []) + (groupedEntries[true] ?? [])
 
-            DispatchQueue.main.async {
+            DispatchQueue.main.async { [unowned self] in
                 self.basicEntries.removeAll(keepingCapacity: true)
                 self.basicEntries.append(contentsOf: allEntries)
                 self.isInsecure = self.hasInsecureCheck(performedCases)
+                self.numberOfInsecureChecks = self.countNumberOfInsecureChecks(performedCases)
                 self.isLoading = false
             }
         }

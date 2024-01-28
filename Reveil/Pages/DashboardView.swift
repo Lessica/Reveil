@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+#if canImport(UserNotifications)
+import UserNotifications
+#endif
 
 struct DashboardView: View, GlobalTimerObserver {
     let id = UUID()
@@ -14,6 +17,28 @@ struct DashboardView: View, GlobalTimerObserver {
     @ObservedObject private var viewModel = Dashboard.shared
     @ObservedObject private var securityModel = Security.shared
     @State private var isNavigationLinkActive = false
+
+    private static var isUserNotificationAuthorizationRequested = false
+    private static var isUserNotificationAuthorizationRequestGranted = false
+
+    @available(iOS 16.0, *)
+    private func updateBadgeCount() -> Void {
+        #if canImport(UserNotifications)
+            if !Self.isUserNotificationAuthorizationRequested {
+                UNUserNotificationCenter.current().requestAuthorization(options: [.badge]) { succeed, error in
+                    if succeed {
+                        let securityModelPresented: Bool = PinStorage.shared.isPinned(forKey: .Security)
+                        UNUserNotificationCenter.current().setBadgeCount(securityModelPresented ? Security.shared.numberOfInsecureChecks : 0)
+                    }
+                    Self.isUserNotificationAuthorizationRequestGranted = succeed
+                    Self.isUserNotificationAuthorizationRequested = true
+                }
+            } else if (Self.isUserNotificationAuthorizationRequestGranted) {
+                let securityModelPresented: Bool = PinStorage.shared.isPinned(forKey: .Security)
+                UNUserNotificationCenter.current().setBadgeCount(securityModelPresented ? Security.shared.numberOfInsecureChecks : 0)
+            }
+        #endif
+    }
 
     var body: some View {
         ScrollView(.vertical) {
@@ -44,10 +69,22 @@ struct DashboardView: View, GlobalTimerObserver {
             .padding()
         }
         .onAppear {
+            if #available(iOS 16.0, *) {
+                updateBadgeCount()
+            }
             GlobalTimer.shared.addObserver(self)
         }
         .onDisappear {
             GlobalTimer.shared.removeObserver(self)
+        }
+        .onReceive(securityModel.$isLoading) { isLoading in
+            if #available(iOS 16.0, *) {
+                if !isLoading {
+                    updateBadgeCount()
+                }
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
 
