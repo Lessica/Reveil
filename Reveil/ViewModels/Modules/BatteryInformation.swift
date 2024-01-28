@@ -14,6 +14,22 @@ final class BatteryInformation: Module {
         batteryLevel = Double(BatteryActivity.shared.getBatteryLevel())
         batteryUsed = 1.0 - batteryLevel
         batteryState = BatteryActivity.shared.getBatteryState()
+        batteryLowPowerMode = ProcessInfo.processInfo.isLowPowerModeEnabled
+
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(powerStateChanged),
+            name: Notification.Name.NSProcessInfoPowerStateDidChange,
+            object: nil
+        )
+    }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+
+    @objc func powerStateChanged(_ notification: Notification) {
+        batteryLowPowerMode = (notification.object as? ProcessInfo)?.isLowPowerModeEnabled ?? false
     }
 
     let moduleName = NSLocalizedString("BATTERY_INFORMATION", comment: "Battery Information")
@@ -36,6 +52,7 @@ final class BatteryInformation: Module {
     private var batteryLevel: Double
     private var batteryUsed: Double
     private var batteryState: BatteryActivity.BatteryState
+    private var batteryLowPowerMode: Bool
 
     private lazy var batteryCapacity: Double = DeviceInformation.shared.gModelDictionary?["battery_capacity"] as? Double ?? 0
 
@@ -70,6 +87,7 @@ final class BatteryInformation: Module {
         .BatteryUsed,
         .BatteryState,
         .BatteryCapacity,
+        .BatteryLowPowerMode,
     ]
 
     func basicEntry(key: EntryKey, style: ValueStyle = .detailed) -> BasicEntry? {
@@ -100,6 +118,12 @@ final class BatteryInformation: Module {
                 name: style == .detailed ? NSLocalizedString("BATTERY_CAPACITY", comment: "Capacity") : NSLocalizedString("BATTERY_CAPACITY_FULL", comment: "Battery Capacity"),
                 value: batteryCapacityDescription
             )
+        case .BatteryLowPowerMode:
+            return BasicEntry(
+                key: .BatteryLowPowerMode,
+                name: NSLocalizedString("BATTERY_LOW_POWER_MODE", comment: "Low Power Mode"),
+                value: batteryLowPowerMode ? NSLocalizedString("On", comment: "On") : NSLocalizedString("Off", comment: "Off")
+            )
         default:
             break
         }
@@ -116,6 +140,8 @@ final class BatteryInformation: Module {
             entry.value = batteryState.description
         case .BatteryCapacity:
             entry.value = batteryCapacityDescription
+        case .BatteryLowPowerMode:
+            entry.value = batteryLowPowerMode ? NSLocalizedString("On", comment: "On") : NSLocalizedString("Off", comment: "Off")
         default:
             break
         }

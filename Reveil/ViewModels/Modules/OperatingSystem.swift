@@ -41,6 +41,13 @@ final class OperatingSystem: Module {
         return formatter
     }()
 
+    private let gDateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .full
+        formatter.timeStyle = .full
+        return formatter
+    }()
+
     private func getUptimeString() -> String {
         var uptimeStr: String
         let uptimeInfo = System.uptime()
@@ -54,6 +61,12 @@ final class OperatingSystem: Module {
             uptimeStr = "\(uptimeInfo.secs)s"
         }
         return uptimeStr
+    }
+
+    private func getUptimeAtString() -> String {
+        let uptimeStamp = TimeInterval(System.uptime().absolute)
+        let uptimeObj = Date(timeIntervalSince1970: uptimeStamp)
+        return gDateFormatter.string(from: uptimeObj)
     }
 
     private let unameStruct = System.uname()
@@ -80,6 +93,7 @@ final class OperatingSystem: Module {
         .KernelMaximumProcesses,
         .HostID,
         .Uptime,
+        .UptimeAt,
     ]
 
     func basicEntry(key: EntryKey, style _: ValueStyle = .detailed) -> BasicEntry? {
@@ -143,6 +157,12 @@ final class OperatingSystem: Module {
                 key: .Uptime,
                 name: NSLocalizedString("UPTIME", comment: "Uptime"),
                 value: getUptimeString()
+            )
+        case .UptimeAt:
+            return BasicEntry(
+                key: .UptimeAt,
+                name: NSLocalizedString("UPTIME_AT", comment: "Launched At"),
+                value: getUptimeAtString()
             )
         default:
             break

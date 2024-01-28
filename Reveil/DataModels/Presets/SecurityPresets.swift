@@ -87,10 +87,12 @@ struct SecurityPresets: Codable {
         "com.apple.security.app-sandbox",
         "com.apple.security.network.client",
         "com.apple.private.security.container-required",
+        "beta-reports-active",
     ]
 
     var secureMainBundleIdentifiers: Set<String> = [
         "com.reveil.app",
+        "com.82flex.reveil",
     ]
 
     var secureMobileProvisioningProfileHashes: Set<String> = [

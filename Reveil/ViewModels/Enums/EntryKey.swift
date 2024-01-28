@@ -33,6 +33,7 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
     case KernelMaximumProcesses
     case HostID
     case Uptime
+    case UptimeAt
 
     // CPU Information
     case CPUInformation
@@ -147,6 +148,7 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
     case BatteryUsed
     case BatteryState
     case BatteryCapacity
+    case BatteryLowPowerMode
 
     // Custom
     case Custom(name: String)
@@ -244,6 +246,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
             self = .HostID
         case "Uptime":
             self = .Uptime
+        case "UptimeAt":
+            self = .UptimeAt
         case "CPUInformation":
             self = .CPUInformation
         case "CPUUsageUser":
@@ -358,6 +362,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
             self = .BatteryState
         case "BatteryCapacity":
             self = .BatteryCapacity
+        case "BatteryLowPowerMode":
+            self = .BatteryLowPowerMode
         default:
             let comps = rawValue.components(separatedBy: ":")
             guard let compKey = comps.first else {
@@ -508,6 +514,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
             "HostID"
         case .Uptime:
             "Uptime"
+        case .UptimeAt:
+            "UptimeAt"
         case .CPUInformation:
             "CPUInformation"
         case .CPUUsageUser:
@@ -704,6 +712,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
             "BatteryState"
         case .BatteryCapacity:
             "BatteryCapacity"
+        case .BatteryLowPowerMode:
+            "BatteryLowPowerMode"
         case let .Custom(name):
             String(format: "Custom:%@", name)
         case let .Section(name):

@@ -49,6 +49,9 @@
 /* Battery Level */
 "BATTERY_LEVEL_FULL" = "剩余电量";
 
+/* Low Power Mode */
+"BATTERY_LOW_POWER_MODE" = "低电量模式";
+
 /* State */
 "BATTERY_STATE" = "状态";
 
@@ -730,6 +733,12 @@
 /* Number of Network Interfaces */
 "NUMBER_OF_NETWORK_INTERFACES" = "网络接口数量";
 
+/* Off */
+"Off" = "关闭";
+
+/* On */
+"On" = "开启";
+
 /* Operating System */
 "OPERATING_SYSTEM" = "操作系统";
 
@@ -993,6 +1002,9 @@
 
 /* Uptime */
 "UPTIME" = "运行时长";
+
+/* Launched At */
+"UPTIME_AT" = "启动时间";
 
 /* Idle */
 "USAGE_IDLE" = "空闲";

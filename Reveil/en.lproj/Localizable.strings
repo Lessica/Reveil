@@ -49,6 +49,9 @@
 /* Battery Level */
 "BATTERY_LEVEL_FULL" = "Battery Level";
 
+/* Low Power Mode */
+"BATTERY_LOW_POWER_MODE" = "Low Power Mode";
+
 /* State */
 "BATTERY_STATE" = "State";
 
@@ -730,6 +733,12 @@
 /* Number of Network Interfaces */
 "NUMBER_OF_NETWORK_INTERFACES" = "Number of Network Interfaces";
 
+/* Off */
+"Off" = "Off";
+
+/* On */
+"On" = "On";
+
 /* Operating System */
 "OPERATING_SYSTEM" = "Operating System";
 
@@ -993,6 +1002,9 @@
 
 /* Uptime */
 "UPTIME" = "Uptime";
+
+/* Launched At */
+"UPTIME_AT" = "Launched At";
 
 /* Idle */
 "USAGE_IDLE" = "Idle";

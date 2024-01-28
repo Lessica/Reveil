@@ -611,7 +611,7 @@ struct System {
     }
 
     /// How long has the system been up?
-    static func uptime() -> (days: Int, hrs: Int, mins: Int, secs: Int) {
+    static func uptime() -> (absolute: Int, days: Int, hrs: Int, mins: Int, secs: Int) {
         var currentTime = time_t()
         var bootTime = timeval()
         var mib = [CTL_KERN, KERN_BOOTTIME]
@@ -629,7 +629,7 @@ struct System {
                 print("ERROR - \(#file):\(#function) - errno = " + "\(result)")
             #endif
 
-            return (0, 0, 0, 0)
+            return (0, 0, 0, 0, 0)
         }
 
         // Since we don't need anything more than second level accuracy, we use
@@ -648,7 +648,7 @@ struct System {
         let mins = uptime / 60
         let secs = uptime % 60
 
-        return (days, hrs, mins, secs)
+        return (bootTime.tv_sec, days, hrs, mins, secs)
     }
 
     // --------------------------------------------------------------------------
