@@ -1037,7 +1037,7 @@
 "WEBSITE" = "Sitio web";
 
 /* Wi-Fi Peer to Peer */
-"WIFI_PEER_TO_PEER" = "Wi-Fi Peer to Peer";
+"WIFI_PEER_TO_PEER" = "Wi-Fi Punto a Punto";
 
 /* Wired/Wireless */
 "WIRED_WIRELESS" = "Con cable/Inalámbrico";
