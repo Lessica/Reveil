@@ -231,6 +231,7 @@
 		0FA0657A2B3D8363000A7ECE /* PresetsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsHelper.swift; sourceTree = "<group>"; };
 		0FA065862B42803B000A7ECE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		0FA065882B4282BC000A7ECE /* StandardUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardUserDefaults.swift; sourceTree = "<group>"; };
+		0FCD42972B68BCC400076CE4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0FD0D2672AE0CB27001DD1E8 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		0FD0D2692AE0CD95001DD1E8 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		0FD0D26B2AE0D39C001DD1E8 /* EntryExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryExporter.swift; sourceTree = "<group>"; };
@@ -887,6 +888,7 @@
 				en,
 				Base,
 				"zh-Hans",
+				es,
 			);
 			mainGroup = CC4AE2AB2ACAA4B400DA23AC;
 			packageReferences = (
@@ -1130,6 +1132,7 @@
 			children = (
 				CC21B4BE2ACAE5E5003EC114 /* en */,
 				CC21B4C02ACAE601003EC114 /* zh-Hans */,
+				0FCD42972B68BCC400076CE4 /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1304,7 +1307,7 @@
 				CODE_SIGN_ENTITLEMENTS = Reveil/Reveil.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = GXZ23M5TP2;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
@@ -1347,7 +1350,7 @@
 				CODE_SIGN_ENTITLEMENTS = Reveil/Reveil.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = GXZ23M5TP2;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;

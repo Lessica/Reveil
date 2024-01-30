@@ -1,3 +1,6 @@
+/* @Translator */
+"@TRANSLATOR" = "(null)";
+
 /* About */
 "ABOUT" = "关于";
 
@@ -951,6 +954,12 @@
 
 /* Process task port was obtained */
 "TOUCHED_PROCESS_TASK_PORT" = "检测到进程任务端口被额外引用";
+
+/* Translator */
+"TRANSLATOR" = "本地化";
+
+/* https://TRANSLATOR_URL */
+"TRANSLATOR_URL" = "(null)";
 
 /* Type */
 "TYPE" = "类型";

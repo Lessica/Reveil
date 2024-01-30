@@ -42,6 +42,8 @@ struct AboutView: View {
 
     @Environment(\.colorScheme) var colorScheme
 
+    private static let translatorPage: String = NSLocalizedString("TRANSLATOR_URL", comment: "https://TRANSLATOR_URL")
+
     var body: some View {
         ScrollView(.vertical) {
             VStack(alignment: .center, spacing: 20) {
@@ -79,6 +81,16 @@ struct AboutView: View {
                             description: "@Lakr233",
                             hasClosure: true
                         )
+                    }
+
+                    if !Self.translatorPage.hasPrefix("(") {
+                        Link(destination: URL(string: Self.translatorPage)!) {
+                            LinkCell(
+                                label: NSLocalizedString("TRANSLATOR", comment: "Translator"),
+                                description: NSLocalizedString("@TRANSLATOR", comment: "@Translator"),
+                                hasClosure: true
+                            )
+                        }
                     }
 
                     Link(destination: URL(string: "mailto:82flex@gmail.com")!) {

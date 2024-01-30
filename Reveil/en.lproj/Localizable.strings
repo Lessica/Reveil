@@ -1,3 +1,6 @@
+/* @Translator */
+"@TRANSLATOR" = "(null)";
+
 /* About */
 "ABOUT" = "About";
 
@@ -951,6 +954,12 @@
 
 /* Process task port was obtained */
 "TOUCHED_PROCESS_TASK_PORT" = "Process task port was obtained";
+
+/* Translator */
+"TRANSLATOR" = "Translator";
+
+/* https://TRANSLATOR_URL */
+"TRANSLATOR_URL" = "(null)";
 
 /* Type */
 "TYPE" = "Type";

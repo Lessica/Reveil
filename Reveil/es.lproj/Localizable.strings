@@ -1,3 +1,6 @@
+/* @Translator */
+"@TRANSLATOR" = "@Deci8BelioS";
+
 /* About */
 "ABOUT" = "Acerca de";
 
@@ -951,6 +954,12 @@
 
 /* Process task port was obtained */
 "TOUCHED_PROCESS_TASK_PORT" = "El puerto de tarea del proceso fue obtenido";
+
+/* Translator */
+"TRANSLATOR" = "Traductor";
+
+/* https://TRANSLATOR_URL */
+"TRANSLATOR_URL" = "https://github.com/Deci8BelioS";
 
 /* Type */
 "TYPE" = "Tipo";
