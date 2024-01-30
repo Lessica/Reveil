@@ -33,7 +33,7 @@ jobs:
 
       - name: Build helper
         run: |
-          xcodebuild clean build archive -scheme ReveilHelper -project Reveil.xcodeproj -archivePath ReveilHelper.xcarchive CODE_SIGNING_ALLOWED=NO | xcpretty && exit ${PIPESTATUS[0]}
+          xcodebuild clean build archive -scheme ReveilHelper -project Reveil.xcodeproj -archivePath ReveilHelper.xcarchive CODE_SIGNING_ALLOWED=NO SKIP_INSTALL=NO | xcpretty && exit ${PIPESTATUS[0]}
 
       - name: Build
         run: |

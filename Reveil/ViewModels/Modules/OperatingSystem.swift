@@ -43,8 +43,8 @@ final class OperatingSystem: Module {
 
     private let gDateFormatter: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.dateStyle = .full
-        formatter.timeStyle = .full
+        formatter.dateStyle = .medium
+        formatter.timeStyle = .medium
         return formatter
     }()
 
