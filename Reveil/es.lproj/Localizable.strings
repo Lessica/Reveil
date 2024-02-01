@@ -856,6 +856,18 @@
 /* Scanning… */
 "SCANNING" = "Escaneando…";
 
+/* TODO: Screen Logical Resolution */
+"SCREEN_LOGICAL_RESOLUTION" = "Screen Logical Resolution";
+
+/* TODO: Screen Logical Scale */
+"SCREEN_LOGICAL_SCALE" = "Screen Logical Scale";
+
+/* TODO: Screen Physical Resolution */
+"SCREEN_PHYSICAL_RESOLUTION" = "Screen Physical Resolution";
+
+/* TODO: Screen Physical Scale */
+"SCREEN_PHYSICAL_SCALE" = "Screen Physical Scale";
+
 /* Seatbelt special port is available */
 "SEATBELT_SPECIAL_PORT_IS_AVAILABLE" = "El puerto especial de Seatbelt está disponible";
 
@@ -1032,6 +1044,9 @@
 
 /* Used: %@ */
 "USED_DESCRIPTION" = "Usado: %@";
+
+/* User Agent */
+"USER_AGENT" = "Agente de usuario";
 
 /* User Memory */
 "USER_MEMORY" = "Memoria del usuario";

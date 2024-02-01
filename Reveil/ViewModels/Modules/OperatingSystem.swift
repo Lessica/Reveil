@@ -6,6 +6,9 @@
 //
 
 import Foundation
+#if canImport(WebKit)
+import WebKit
+#endif
 
 final class OperatingSystem: Module {
     static let shared = OperatingSystem()
@@ -26,6 +29,15 @@ final class OperatingSystem: Module {
             return nil
         }
         return "Version \(productVersion) (Build \(productBuildVersion))"
+    }()
+
+    private let gUserAgentString: String? = {
+        #if canImport(WebKit)
+        let userAgent = WKWebView().value(forKey: "userAgent") as? String
+        return userAgent
+        #else
+        return nil
+        #endif
     }()
 
     private let gBufferFormatter: ByteCountFormatter = {
@@ -84,6 +96,7 @@ final class OperatingSystem: Module {
 
     let updatableEntryKeys: [EntryKey] = [
         .System,
+        .UserAgent,
         .KernelVersion,
         .KernelRelease,
         .KernelMaximumVnodes,
@@ -103,6 +116,12 @@ final class OperatingSystem: Module {
                 key: .System,
                 name: NSLocalizedString("SYSTEM", comment: "System"),
                 value: gSystemVersionString ?? BasicEntry.unknownValue
+            )
+        case .UserAgent:
+            return BasicEntry(
+                key: .UserAgent,
+                name: NSLocalizedString("USER_AGENT", comment: "User Agent"),
+                value: gUserAgentString ?? BasicEntry.unknownValue
             )
         case .KernelVersion:
             return BasicEntry(

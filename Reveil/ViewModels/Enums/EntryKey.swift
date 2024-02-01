@@ -21,9 +21,14 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
     case RadioTech
     case HostName
     case DisplayResolution
+    case ScreenPhysicalResolution
+    case ScreenPhysicalScale
+    case ScreenLogicalResolution
+    case ScreenLogicalScale
 
     // Operating System
     case System
+    case UserAgent
     case KernelVersion
     case KernelRelease
     case KernelMaximumVnodes
@@ -226,8 +231,18 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
             self = .HostName
         case "DisplayResolution":
             self = .DisplayResolution
+        case "ScreenPhysicalResolution":
+            self = .ScreenPhysicalResolution
+        case "ScreenPhysicalScale":
+            self = .ScreenPhysicalScale
+        case "ScreenLogicalResolution":
+            self = .ScreenLogicalResolution
+        case "ScreenLogicalScale":
+            self = .ScreenLogicalScale
         case "System":
             self = .System
+        case "UserAgent":
+            self = .UserAgent
         case "KernelVersion":
             self = .KernelVersion
         case "KernelRelease":
@@ -494,8 +509,18 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
             "HostName"
         case .DisplayResolution:
             "DisplayResolution"
+        case .ScreenPhysicalResolution:
+            "ScreenPhysicalResolution"
+        case .ScreenPhysicalScale:
+            "ScreenPhysicalScale"
+        case .ScreenLogicalResolution:
+            "ScreenLogicalResolution"
+        case .ScreenLogicalScale:
+            "ScreenLogicalScale"
         case .System:
             "System"
+        case .UserAgent:
+            "UserAgent"
         case .KernelVersion:
             "KernelVersion"
         case .KernelRelease:

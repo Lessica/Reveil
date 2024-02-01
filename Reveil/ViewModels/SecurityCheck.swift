@@ -630,7 +630,8 @@ enum SecurityCheck: CaseIterable, Codable, Equatable, Hashable, RawRepresentable
         case .identifiedBundleIdentifier:
             .identifiedBundleIdentifier(Security.shared.checkMainBundleIdentifier() ? .passed : .failed)
         case .identifiedMobileProvisioningProfile:
-            .identifiedMobileProvisioningProfile(Security.shared.checkMobileProvisioningProfileHash() ? .passed : .failed)
+            .identifiedMobileProvisioningProfile(.unchanged)
+            // .identifiedMobileProvisioningProfile(Security.shared.checkMobileProvisioningProfileHash() ? .passed : .failed)
         case .identifiedResources:
             .identifiedResources(Security.shared.checkResourceHashes() ? .passed : .failed)
         case .identifiedMachO:

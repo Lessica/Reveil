@@ -856,6 +856,18 @@
 /* Scanning… */
 "SCANNING" = "扫描中";
 
+/* Screen Logical Resolution */
+"SCREEN_LOGICAL_RESOLUTION" = "屏幕逻辑分辨率";
+
+/* Screen Logical Scale */
+"SCREEN_LOGICAL_SCALE" = "屏幕逻辑缩放率";
+
+/* Screen Physical Resolution */
+"SCREEN_PHYSICAL_RESOLUTION" = "屏幕物理分辨率";
+
+/* Screen Physical Scale */
+"SCREEN_PHYSICAL_SCALE" = "屏幕物理缩放率";
+
 /* Seatbelt special port is available */
 "SEATBELT_SPECIAL_PORT_IS_AVAILABLE" = "已开放沙盒特权端口";
 
@@ -1032,6 +1044,9 @@
 
 /* Used: %@ */
 "USED_DESCRIPTION" = "已使用：%@";
+
+/* User Agent */
+"USER_AGENT" = "用户代理";
 
 /* User Memory */
 "USER_MEMORY" = "用户内存";
