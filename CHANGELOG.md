@@ -1,4 +1,1 @@
-# Changes
-
-- Localization: Add support for Spanish language (Thanks to @Deci8BelioS).
-- Feature: Add icon badge to show the number of insecure checks.
+- NEW Items: Add browser user agent, screen physical/logical resolution and scales.
