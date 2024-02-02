@@ -49,6 +49,7 @@ final class ScreenInformation: Module {
         .ScreenPhysicalScale,
         .ScreenLogicalResolution,
         .ScreenLogicalScale,
+        .ScreenMaximumFramesPerSecond,
     ]
 
     func basicEntry(key: EntryKey, style: ValueStyle = .detailed) -> BasicEntry? {
@@ -82,6 +83,12 @@ final class ScreenInformation: Module {
                 key: .ScreenLogicalScale,
                 name: style == .dashboard ? NSLocalizedString("SCREEN_LOGICAL_SCALE", comment: "Screen Logical Scale") : NSLocalizedString("LOGICAL_SCALE", comment: "Logical Scale"),
                 value: String(format: "%.3f", mainScreen.scale)
+            )
+        case .ScreenMaximumFramesPerSecond:
+            return BasicEntry(
+                key: .ScreenMaximumFramesPerSecond,
+                name: style == .dashboard ? NSLocalizedString("SCREEN_MAXIMUM_FPS", comment: "Screen Maximum FPS") : NSLocalizedString("MAXIMUM_FPS", comment: "Maximum FPS"),
+                value: String(format: "%d", mainScreen.maximumFramesPerSecond)
             )
         default:
             break

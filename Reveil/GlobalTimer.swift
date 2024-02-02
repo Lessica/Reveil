@@ -14,7 +14,7 @@ protocol GlobalTimerObserver {
 }
 
 final class GlobalTimer: ObservableObject {
-    struct Observer {
+    private struct Observer {
         let value: any GlobalTimerObserver
         var registeredCount: Int
     }
@@ -36,7 +36,7 @@ final class GlobalTimer: ObservableObject {
         unregisterNotifications()
     }
 
-    func registerNotifications() {
+    private func registerNotifications() {
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(applicationDidEnterBackground(_:)),
@@ -51,21 +51,21 @@ final class GlobalTimer: ObservableObject {
         )
     }
 
-    func unregisterNotifications() {
+    private func unregisterNotifications() {
         NotificationCenter.default.removeObserver(self)
     }
 
     @objc
-    func applicationWillEnterForeground(_: Notification) {
+    private func applicationWillEnterForeground(_: Notification) {
         setupTimer()
     }
 
     @objc
-    func applicationDidEnterBackground(_: Notification) {
+    private func applicationDidEnterBackground(_: Notification) {
         tearDownTimer()
     }
 
-    func setupTimer() {
+    private func setupTimer() {
         timer?.invalidate()
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [unowned self] _ in
             if observers.isEmpty {
@@ -79,7 +79,7 @@ final class GlobalTimer: ObservableObject {
         timer?.fire()
     }
 
-    func tearDownTimer() {
+    private func tearDownTimer() {
         timer?.invalidate()
         timer = nil
     }

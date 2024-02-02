@@ -27,6 +27,7 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
     case ScreenPhysicalScale
     case ScreenLogicalResolution
     case ScreenLogicalScale
+    case ScreenMaximumFramesPerSecond
 
     // Operating System
     case System
@@ -241,6 +242,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
             self = .ScreenLogicalResolution
         case "ScreenLogicalScale":
             self = .ScreenLogicalScale
+        case "ScreenMaximumFramesPerSecond":
+            self = .ScreenMaximumFramesPerSecond
         case "System":
             self = .System
         case "UserAgent":
@@ -519,6 +522,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
             "ScreenLogicalResolution"
         case .ScreenLogicalScale:
             "ScreenLogicalScale"
+        case .ScreenMaximumFramesPerSecond:
+            "ScreenMaximumFramesPerSecond"
         case .System:
             "System"
         case .UserAgent:

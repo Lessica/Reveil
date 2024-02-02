@@ -457,6 +457,9 @@
 /* Max Socket Buffer Size */
 "MAX_SOCKET_BUFFER_SIZE" = "套接字最大缓冲区尺寸";
 
+/* Maximum FPS */
+"MAXIMUM_FPS" = "最高显示帧速率";
+
 /* Active */
 "MEMORY_ACTIVE" = "活动";
 
@@ -876,6 +879,9 @@
 
 /* Screen Logical Scale */
 "SCREEN_LOGICAL_SCALE" = "屏幕逻辑缩放率";
+
+/* Screen Maximum FPS */
+"SCREEN_MAXIMUM_FPS" = "屏幕最高显示帧速率";
 
 /* Screen Physical Resolution */
 "SCREEN_PHYSICAL_RESOLUTION" = "屏幕物理分辨率";
