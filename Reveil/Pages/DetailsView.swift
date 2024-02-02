@@ -20,11 +20,14 @@ struct DetailsView: View {
     static func createDetailsList() -> some View {
         Group {
             Group {
-                createEntry(title: DeviceInformation.shared.moduleName, icon: "desktopcomputer") {
-                    DeviceInformationListView()
-                }
                 createEntry(title: Security.shared.moduleName, icon: "lock.shield") {
                     SecurityView()
+                }
+                createEntry(title: DeviceInformation.shared.moduleName, icon: "iphone") {
+                    DeviceInformationListView()
+                }
+                createEntry(title: ScreenInformation.shared.moduleName, icon: "desktopcomputer") {
+                    ScreenInformationListView()
                 }
                 createEntry(title: OperatingSystem.shared.moduleName, icon: "gearshape") {
                     OperatingSystemListView()

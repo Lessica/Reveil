@@ -2,7 +2,7 @@
 tasks = ["interfaces", "code", "transform", "normalize"]
 
 [update.interfaces]
-paths = ["."]
+paths = ["Reveil"]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
 defaultToBase = false
 ignoreEmptyStrings = false
@@ -12,7 +12,7 @@ ignoreKeys = ["#bartycrouch-ignore!", "#bc-ignore!", "#i!"]
 [update.code]
 codePaths = ["."]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
-localizablePaths = ["."]
+localizablePaths = ["Reveil"]
 defaultToKeys = false
 additive = false
 customFunction = "LocalizedStringResource"
@@ -22,9 +22,9 @@ ignoreKeys = ["#bartycrouch-ignore!", "#bc-ignore!", "#i!"]
 overrideComments = false
 
 [update.transform]
-codePaths = ["."]
+codePaths = ["Reveil"]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
-localizablePaths = ["."]
+localizablePaths = ["Reveil"]
 transformer = "foundation"
 supportedLanguageEnumPath = "."
 typeName = "BartyCrouch"
@@ -32,7 +32,7 @@ translateMethodName = "translate"
 separateWithEmptyLine = true
 
 [update.normalize]
-paths = ["."]
+paths = ["Reveil"]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
 sourceLocale = "en"
 harmonizeWithSource = true
@@ -40,7 +40,7 @@ sortByKeys = true
 separateWithEmptyLine = true
 
 [lint]
-paths = ["."]
+paths = ["Reveil"]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
 duplicateKeys = true
 emptyValues = true

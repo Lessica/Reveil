@@ -21,6 +21,7 @@ final class Dashboard: ObservableObject {
 
     var registeredModules: [Module] = [
         DeviceInformation.shared,
+        ScreenInformation.shared,
         OperatingSystem.shared,
         CPUInformation.shared,
         MemoryInformation.shared,
@@ -34,6 +35,7 @@ final class Dashboard: ObservableObject {
 
     var registeredModuleListViewTypes: [any ModuleListView.Type] = [
         DeviceInformationListView.self,
+        ScreenInformationListView.self,
         OperatingSystemListView.self,
         CPUInformationListView.self,
         MemoryInformationListView.self,

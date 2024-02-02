@@ -11,6 +11,8 @@
 		0F08193A2ADAEA3400BB626C /* PinStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0819392ADAEA3400BB626C /* PinStorage.swift */; };
 		0F08193D2ADAF1C600BB626C /* DictionaryCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 0F08193C2ADAF1C600BB626C /* DictionaryCoder */; };
 		0F08193F2ADEB35500BB626C /* EntryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F08193E2ADEB35500BB626C /* EntryKey.swift */; };
+		0F0B385E2B6CAEFF00E2E1F2 /* ScreenInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B385D2B6CAEFF00E2E1F2 /* ScreenInformation.swift */; };
+		0F0B38602B6CAFFF00E2E1F2 /* ScreenInformationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B385F2B6CAFFF00E2E1F2 /* ScreenInformationListView.swift */; };
 		0F1659342AF9FB5000268572 /* SecurityPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1659332AF9FB5000268572 /* SecurityPresets.swift */; };
 		0F1659372AF9FCF600268572 /* PortItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1659362AF9FCF600268572 /* PortItem.swift */; };
 		0F16593A2AF9FD4500268572 /* URLSchemeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1659392AF9FD4500268572 /* URLSchemeItem.swift */; };
@@ -206,6 +208,8 @@
 		0F0819372ADAE97200BB626C /* PinStorage.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PinStorage.plist; sourceTree = "<group>"; };
 		0F0819392ADAEA3400BB626C /* PinStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinStorage.swift; sourceTree = "<group>"; };
 		0F08193E2ADEB35500BB626C /* EntryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryKey.swift; sourceTree = "<group>"; };
+		0F0B385D2B6CAEFF00E2E1F2 /* ScreenInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenInformation.swift; sourceTree = "<group>"; };
+		0F0B385F2B6CAFFF00E2E1F2 /* ScreenInformationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenInformationListView.swift; sourceTree = "<group>"; };
 		0F1659332AF9FB5000268572 /* SecurityPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityPresets.swift; sourceTree = "<group>"; };
 		0F1659362AF9FCF600268572 /* PortItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortItem.swift; sourceTree = "<group>"; };
 		0F1659392AF9FD4500268572 /* URLSchemeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeItem.swift; sourceTree = "<group>"; };
@@ -517,6 +521,7 @@
 			isa = PBXGroup;
 			children = (
 				CC21B5302ACD5523003EC114 /* DeviceInformationListView.swift */,
+				0F0B385F2B6CAFFF00E2E1F2 /* ScreenInformationListView.swift */,
 				CC21B5342ACD6112003EC114 /* OperatingSystemListView.swift */,
 				CC21B53C2ACDA80F003EC114 /* CPUInformationListView.swift */,
 				CC21B54A2ACE8160003EC114 /* MemoryInformationListView.swift */,
@@ -604,6 +609,7 @@
 			isa = PBXGroup;
 			children = (
 				CC21B51D2ACD4AAB003EC114 /* DeviceInformation.swift */,
+				0F0B385D2B6CAEFF00E2E1F2 /* ScreenInformation.swift */,
 				CC21B5322ACD5FB9003EC114 /* OperatingSystem.swift */,
 				CC21B53A2ACDA7E1003EC114 /* CPUInformation.swift */,
 				CC21B5482ACE809D003EC114 /* MemoryInformation.swift */,
@@ -1028,11 +1034,13 @@
 				CCA095F52AED419B00F5E55F /* EmulatorChecker.swift in Sources */,
 				CC21B5572AD04EAB003EC114 /* NetworkInterfaces.swift in Sources */,
 				CC21B54D2ACF24E2003EC114 /* DiskSpace.swift in Sources */,
+				0F0B385E2B6CAEFF00E2E1F2 /* ScreenInformation.swift in Sources */,
 				0F2CA1282AE946B200C76A78 /* SecurityView.swift in Sources */,
 				CC3F94252B4C506B00E67A19 /* View+ListSectionSeparator.swift in Sources */,
 				0FD0D26C2AE0D39C001DD1E8 /* EntryExporter.swift in Sources */,
 				CC21B4CA2ACAF5DA003EC114 /* CPUActivity.swift in Sources */,
 				CC549F072AFA9F1800219CF8 /* EntryUpdater.swift in Sources */,
+				0F0B38602B6CAFFF00E2E1F2 /* ScreenInformationListView.swift in Sources */,
 				CC0052642B13458000DBF808 /* BatteryInformation.swift in Sources */,
 				CCA095ED2AED419B00F5E55F /* FishHookChecker.swift in Sources */,
 				CC21B52E2ACD4FD5003EC114 /* DetailsListView.swift in Sources */,

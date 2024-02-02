@@ -430,6 +430,12 @@
 /* %@/s */
 "LINE_SPEED_FMT" = "%@ 每秒";
 
+/* Logical Resolution */
+"LOGICAL_RESOLUTION" = "逻辑分辨率";
+
+/* Logical Scale */
+"LOGICAL_SCALE" = "逻辑缩放率";
+
 /* Lookups */
 "LOOKUPS" = "查询数";
 
@@ -808,6 +814,12 @@
 /* Physical Memory */
 "PHYSICAL_MEMORY" = "物理内存";
 
+/* Physical Resolution */
+"PHYSICAL_RESOLUTION" = "物理分辨率";
+
+/* Physical Scale */
+"PHYSICAL_SCALE" = "物理缩放率";
+
 /* Pin */
 "PIN" = "收藏";
 
@@ -855,6 +867,9 @@
 
 /* Scanning… */
 "SCANNING" = "扫描中";
+
+/* Screen Information */
+"SCREEN_INFORMATION" = "屏幕信息";
 
 /* Screen Logical Resolution */
 "SCREEN_LOGICAL_RESOLUTION" = "屏幕逻辑分辨率";

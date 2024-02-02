@@ -81,26 +81,6 @@ final class DeviceInformation: Module {
         return techName
     }
 
-    private let mainScreen = UIScreen.main
-
-    private lazy var displaySizeDescription: String = {
-        let displayWidth = Int(mainScreen.fixedCoordinateSpace.bounds.width * mainScreen.scale)
-        let displayHeight = Int(mainScreen.fixedCoordinateSpace.bounds.height * mainScreen.scale)
-        return "\(displayWidth)×\(displayHeight)"
-    }()
-
-    private lazy var physicalSizeDescription: String = {
-        let physicalWidth = Int(mainScreen.nativeBounds.width)
-        let physicalHeight = Int(mainScreen.nativeBounds.height)
-        return "\(physicalWidth)×\(physicalHeight)"
-    }()
-
-    private lazy var logicalSizeDescription: String = {
-        let logicalWidth = Int(mainScreen.fixedCoordinateSpace.bounds.width)
-        let logicalHeight = Int(mainScreen.fixedCoordinateSpace.bounds.height)
-        return "\(logicalWidth)×\(logicalHeight)"
-    }()
-
     lazy var basicEntries: [BasicEntry] = updatableEntryKeys.compactMap { basicEntry(key: $0) }
 
     let usageEntry: UsageEntry<Double>? = nil
@@ -118,11 +98,6 @@ final class DeviceInformation: Module {
         .BootromVersion,
         .RadioTech,
         .HostName,
-        .DisplayResolution,
-        .ScreenPhysicalResolution,
-        .ScreenPhysicalScale,
-        .ScreenLogicalResolution,
-        .ScreenLogicalScale,
     ]
 
     func basicEntry(key: EntryKey, style _: ValueStyle = .detailed) -> BasicEntry? {
@@ -164,36 +139,6 @@ final class DeviceInformation: Module {
                 key: .HostName,
                 name: NSLocalizedString("HOST_NAME", comment: "Host Name"),
                 value: System.hostName() ?? BasicEntry.unknownValue
-            )
-        case .DisplayResolution:
-            return BasicEntry(
-                key: .DisplayResolution,
-                name: NSLocalizedString("DISPLAY_RESOLUTION", comment: "Display Resolution"),
-                value: displaySizeDescription
-            )
-        case .ScreenPhysicalResolution:
-            return BasicEntry(
-                key: .ScreenPhysicalResolution,
-                name: NSLocalizedString("SCREEN_PHYSICAL_RESOLUTION", comment: "Screen Physical Resolution"),
-                value: physicalSizeDescription
-            )
-        case .ScreenPhysicalScale:
-            return BasicEntry(
-                key: .ScreenPhysicalScale,
-                name: NSLocalizedString("SCREEN_PHYSICAL_SCALE", comment: "Screen Physical Scale"),
-                value: String(format: "%.3f", mainScreen.nativeScale)
-            )
-        case .ScreenLogicalResolution:
-            return BasicEntry(
-                key: .ScreenLogicalResolution,
-                name: NSLocalizedString("SCREEN_LOGICAL_RESOLUTION", comment: "Screen Logical Resolution"),
-                value: logicalSizeDescription
-            )
-        case .ScreenLogicalScale:
-            return BasicEntry(
-                key: .ScreenLogicalScale,
-                name: NSLocalizedString("SCREEN_LOGICAL_SCALE", comment: "Screen Logical Scale"),
-                value: String(format: "%.3f", mainScreen.scale)
             )
         default:
             break

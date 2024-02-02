@@ -20,6 +20,8 @@ enum EntryKey: Codable, Equatable, Hashable, RawRepresentable {
     case BootromVersion
     case RadioTech
     case HostName
+
+    // Screen Information
     case DisplayResolution
     case ScreenPhysicalResolution
     case ScreenPhysicalScale

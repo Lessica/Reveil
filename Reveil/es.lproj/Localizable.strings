@@ -430,6 +430,12 @@
 /* %@/s */
 "LINE_SPEED_FMT" = "%@/s";
 
+/* TODO: Logical Resolution */
+"LOGICAL_RESOLUTION" = "Logical Resolution";
+
+/* TODO: Logical Scale */
+"LOGICAL_SCALE" = "Logical Scale";
+
 /* Lookups */
 "LOOKUPS" = "Búsquedas";
 
@@ -808,6 +814,12 @@
 /* Physical Memory */
 "PHYSICAL_MEMORY" = "Memoria Física";
 
+/* TODO: Physical Resolution */
+"PHYSICAL_RESOLUTION" = "Physical Resolution";
+
+/* TODO: Physical Scale */
+"PHYSICAL_SCALE" = "Physical Scale";
+
 /* Pin */
 "PIN" = "Pin";
 
@@ -855,6 +867,9 @@
 
 /* Scanning… */
 "SCANNING" = "Escaneando…";
+
+/* TODO: Screen Information */
+"SCREEN_INFORMATION" = "Screen Information";
 
 /* TODO: Screen Logical Resolution */
 "SCREEN_LOGICAL_RESOLUTION" = "Screen Logical Resolution";
