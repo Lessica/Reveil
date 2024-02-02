@@ -6,7 +6,7 @@
 //
 
 import Combine
-import Foundation
+import UIKit
 
 protocol GlobalTimerObserver {
     var globalName: String { get }
@@ -24,19 +24,64 @@ final class GlobalTimer: ObservableObject {
     
     @Published var ticks: Int
 
-    lazy var timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [unowned self] _ in
-        if observers.isEmpty {
-            return
-        }
-        ticks += 1
-        observers.forEach { [unowned self] (key: ModuleName, observer: Observer) in
-            observer.value.eventOccurred(globalTimer: self)
-        }
-    }
+    private var timer: Timer?
 
     private init() {
         ticks = 0
-        timer.fire()
+        setupTimer()
+        registerNotifications()
+    }
+
+    deinit {
+        unregisterNotifications()
+    }
+
+    func registerNotifications() {
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(applicationDidEnterBackground(_:)),
+            name: UIApplication.didEnterBackgroundNotification,
+            object: nil
+        )
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(applicationWillEnterForeground(_:)),
+            name: UIApplication.willEnterForegroundNotification,
+            object: nil
+        )
+    }
+
+    func unregisterNotifications() {
+        NotificationCenter.default.removeObserver(self)
+    }
+
+    @objc
+    func applicationWillEnterForeground(_: Notification) {
+        setupTimer()
+    }
+
+    @objc
+    func applicationDidEnterBackground(_: Notification) {
+        tearDownTimer()
+    }
+
+    func setupTimer() {
+        timer?.invalidate()
+        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [unowned self] _ in
+            if observers.isEmpty {
+                return
+            }
+            ticks += 1
+            observers.forEach { [unowned self] (key: ModuleName, observer: Observer) in
+                observer.value.eventOccurred(globalTimer: self)
+            }
+        }
+        timer?.fire()
+    }
+
+    func tearDownTimer() {
+        timer?.invalidate()
+        timer = nil
     }
 
     func addObserver<T>(_ observer: T) where T: GlobalTimerObserver {
