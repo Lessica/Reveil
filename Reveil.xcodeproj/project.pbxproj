@@ -58,6 +58,7 @@
 		CC0052642B13458000DBF808 /* BatteryInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052632B13457F00DBF808 /* BatteryInformation.swift */; };
 		CC0052672B1347F200DBF808 /* BatteryActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052662B1347F200DBF808 /* BatteryActivity.swift */; };
 		CC00526A2B134FD000DBF808 /* BatteryInformationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0052692B134FA500DBF808 /* BatteryInformationListView.swift */; };
+		CC138FA22B6D31B900AFABE8 /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = CC138FA12B6D31B900AFABE8 /* ColorfulX */; };
 		CC21B4BD2ACAE5E5003EC114 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC21B4BF2ACAE5E5003EC114 /* Localizable.strings */; };
 		CC21B4C22ACAE6E6003EC114 /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B4C12ACAE6E6003EC114 /* BartyCrouch.swift */; };
 		CC21B4C82ACAF366003EC114 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21B4C72ACAF366003EC114 /* System.swift */; };
@@ -119,7 +120,6 @@
 		CC549F072AFA9F1800219CF8 /* EntryUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC549F062AFA9F1800219CF8 /* EntryUpdater.swift */; };
 		CC5AE1BB2AD1A4420087F082 /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5AE1BA2AD1A4420087F082 /* SocketAddress.swift */; };
 		CC5AE1BF2AD2F2010087F082 /* ifaddrs_safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5AE1BE2AD2F2010087F082 /* ifaddrs_safe.swift */; };
-		CC77C7B62B526EBB00FAB4E3 /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = CC77C7B52B526EBB00FAB4E3 /* ColorfulX */; };
 		CC7DC2912AF3EB1300D50EDC /* library_stub.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DC2902AF3EB1300D50EDC /* library_stub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC7DC29B2AF3EBD600D50EDC /* library_stub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7DC29A2AF3EBD600D50EDC /* library_stub.m */; };
 		CC7DC29D2AF3ECA500D50EDC /* library_stub.zip in Resources */ = {isa = PBXBuildFile; fileRef = CC7DC29C2AF3ECA500D50EDC /* library_stub.zip */; };
@@ -377,8 +377,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC138FA22B6D31B900AFABE8 /* ColorfulX in Frameworks */,
 				CCD54D2C2AD9047D007ED1AF /* Collections in Frameworks */,
-				CC77C7B62B526EBB00FAB4E3 /* ColorfulX in Frameworks */,
 				CCA0956D2AE8D5E900F5E55F /* UIKit.framework in Frameworks */,
 				CCD54D2E2AD9047D007ED1AF /* DequeModule in Frameworks */,
 				CC8DDA882B654332001C7C9E /* IOKit.framework in Frameworks */,
@@ -841,7 +841,7 @@
 				CCD54D2F2AD9047D007ED1AF /* OrderedCollections */,
 				0F08193C2ADAF1C600BB626C /* DictionaryCoder */,
 				CC7DC2A02AF3EEBB00D50EDC /* ZIPFoundation */,
-				CC77C7B52B526EBB00FAB4E3 /* ColorfulX */,
+				CC138FA12B6D31B900AFABE8 /* ColorfulX */,
 			);
 			productName = Reveil;
 			productReference = CC4AE2B42ACAA4B400DA23AC /* Reveil.app */;
@@ -1551,7 +1551,7 @@
 			repositoryURL = "https://github.com/Lakr233/ColorfulX.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.3.1;
+				minimumVersion = 2.3.2;
 			};
 		};
 		CC7DC29F2AF3EEBB00D50EDC /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
@@ -1583,7 +1583,7 @@
 			package = 0FA065832B3D8436000A7ECE /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
 		};
-		CC77C7B52B526EBB00FAB4E3 /* ColorfulX */ = {
+		CC138FA12B6D31B900AFABE8 /* ColorfulX */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CC77C7B42B526EBB00FAB4E3 /* XCRemoteSwiftPackageReference "ColorfulX" */;
 			productName = ColorfulX;

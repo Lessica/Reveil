@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Lakr233/ColorfulX.git",
       "state" : {
-        "revision" : "11aae9e92a2f846ed26d275d0d3d6fad85d16837",
-        "version" : "2.3.1"
+        "revision" : "082f35954737a78389baa65300a1090ae4371a4e",
+        "version" : "2.3.2"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/almazrafi/DictionaryCoder",
       "state" : {
-        "revision" : "c340c90eeb4ff318ccea992e57e9ace8aaf3357d",
-        "version" : "1.1.0"
+        "revision" : "ebcbaeb20ca5f62ed0365fa7f0473e0d480b931e",
+        "version" : "1.2.0"
       }
     },
     {
@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/weichsel/ZIPFoundation.git",
       "state" : {
-        "revision" : "a3f5c2bae0f04b0bce9ef3c4ba6bd1031a0564c4",
-        "version" : "0.9.17"
+        "revision" : "b979e8b52c7ae7f3f39fa0182e738e9e7257eb78",
+        "version" : "0.9.18"
       }
     }
   ],
