@@ -1,1 +1,2 @@
-- NEW Items: Add browser user agent, screen physical/logical resolution and scales.
+- NEW Items: Add screen module: physical/logical resolution/scales, maximum FPS.
+- Bugfix: App keeps updating when in background.
