@@ -44,22 +44,22 @@
 "BATTERY_FULL" = "Completa";
 
 /* Battery Information */
-"BATTERY_INFORMATION" = "Información de la Batería";
+"BATTERY_INFORMATION" = "Información de la batería";
 
 /* Level */
 "BATTERY_LEVEL" = "Nivel";
 
 /* Battery Level */
-"BATTERY_LEVEL_FULL" = "Nivel de Batería";
+"BATTERY_LEVEL_FULL" = "Nivel de batería";
 
 /* Low Power Mode */
-"BATTERY_LOW_POWER_MODE" = "Modo de Ahorro de Energía";
+"BATTERY_LOW_POWER_MODE" = "Modo de ahorro de energía";
 
 /* State */
 "BATTERY_STATE" = "Estado";
 
 /* Battery State */
-"BATTERY_STATE_FULL" = "Estado de la Batería";
+"BATTERY_STATE_FULL" = "Estado de la batería";
 
 /* Unknown */
 "BATTERY_UNKNOWN" = "Desconocido";
@@ -71,22 +71,22 @@
 "BATTERY_USED" = "Usado";
 
 /* Battery Used */
-"BATTERY_USED_FULL" = "Uso de Batería";
+"BATTERY_USED_FULL" = "Uso de batería";
 
 /* Block Size */
-"BLOCK_SIZE" = "Tamaño de Bloque";
+"BLOCK_SIZE" = "Tamaño de bloque";
 
 /* Blocks */
 "BLOCKS" = "Bloques";
 
 /* Bootrom Version */
-"BOOTROM_VERSION" = "Versión de Bootrom";
+"BOOTROM_VERSION" = "Versión de bootrom";
 
 /* Broadcast */
 "BROADCAST" = "Difusión";
 
 /* Build Date */
-"BUILD_DATE" = "Fecha de Compilación";
+"BUILD_DATE" = "Fecha de compilación";
 
 /* Byte Order */
 "BYTE_ORDER" = "Orden de Bytes";
@@ -95,7 +95,7 @@
 "CACHE_LINE" = "Línea de Caché";
 
 /* Cellular Connection */
-"CELLULAR_CONNECTION" = "Conexión Celular";
+"CELLULAR_CONNECTION" = "Conexión móvil";
 
 /* Collisions */
 "COLLISIONS" = "Colisiones";
@@ -230,13 +230,13 @@
 "DEVICE" = "Dispositivo";
 
 /* Device Information */
-"DEVICE_INFORMATION" = "Información del Dispositivo";
+"DEVICE_INFORMATION" = "Información del dispositivo";
 
 /* Device Model */
-"DEVICE_MODEL" = "Modelo de Dispositivo";
+"DEVICE_MODEL" = "Modelo de dispositivo";
 
 /* Device Name */
-"DEVICE_NAME" = "Nombre de Dispositivo";
+"DEVICE_NAME" = "Nombre de dispositivo";
 
 /* Library validation is disabled */
 "DISABLED_LIBRARY_VALIDATION" = "La validación de biblioteca está desactivada";
@@ -245,25 +245,25 @@
 "DISK_FREE" = "Libre";
 
 /* Disk Free */
-"DISK_FREE_LONG" = "Espacio Libre en Disco";
+"DISK_FREE_LONG" = "Espacio libre en disco";
 
 /* DISK SPACE */
-"DISK_SPACE" = "Espacio en Disco";
+"DISK_SPACE" = "Espacio en disco";
 
 /* Total */
 "DISK_TOTAL" = "Total";
 
 /* Disk Total */
-"DISK_TOTAL_LONG" = "Espacio Total en Disco";
+"DISK_TOTAL_LONG" = "Espacio total en disco";
 
 /* Used */
 "DISK_USED" = "Usado";
 
 /* Disk Used */
-"DISK_USED_LONG" = "Espacio Usado en Disco";
+"DISK_USED_LONG" = "Espacio usado en disco";
 
 /* Display Resolution */
-"DISPLAY_RESOLUTION" = "Resolución de Pantalla";
+"DISPLAY_RESOLUTION" = "Resolución de pantalla";
 
 /* Download */
 "DOWNLOAD" = "Descargar";
@@ -284,7 +284,7 @@
 "FILE_BACKED" = "Archivo protegido";
 
 /* File Systems */
-"FILE_SYSTEMS" = "Sistemas de Archivos";
+"FILE_SYSTEMS" = "Sistemas de archivos";
 
 /* Flags */
 "FLAGS" = "Banderas";
@@ -293,13 +293,13 @@
 "FLAVOR" = "Variante";
 
 /* Free Blocks */
-"FREE_BLOCKS" = "Bloques Libres";
+"FREE_BLOCKS" = "Bloques libres";
 
 /* Free: %@ */
 "FREE_DESCRIPTION" = "Libre: %@";
 
 /* Free Nodes */
-"FREE_NODES" = "Nodos Libres";
+"FREE_NODES" = "Nodos libres";
 
 /* Exception ports were set */
 "HAS_EXCEPTION_PORT" = "Puertos de excepción fueron establecidos";
@@ -380,28 +380,28 @@
 "INJECTED_LIBRARIES_FOUND" = "Bibliotecas inyectadas encontradas";
 
 /* Input Errors */
-"INPUT_ERRORS" = "Errores de Entrada";
+"INPUT_ERRORS" = "Errores de entrada";
 
 /* Interface Name */
-"INTERFACE_NAME" = "Nombre de Interfaz";
+"INTERFACE_NAME" = "Nombre de interfaz";
 
 /* IP Layer Capture */
-"IP_LAYER_CAPTURE" = "Captura de Capa IP";
+"IP_LAYER_CAPTURE" = "Captura de capa IP";
 
 /* IPSec Tunnel */
 "IPSEC_TUNNEL" = "Túnel IPSec";
 
 /* Kernel Maximum Groups */
-"KERNEL_MAXIMUM_GROUPS" = "Grupos Máximos del Kernel";
+"KERNEL_MAXIMUM_GROUPS" = "Grupos máximos del Kernel";
 
 /* Kernel Maximum Processes */
-"KERNEL_MAXIMUM_PROCESSES" = "Procesos Máximos del Kernel";
+"KERNEL_MAXIMUM_PROCESSES" = "Procesos máximos del Kernel";
 
 /* Kernel Maximum Vnodes */
-"KERNEL_MAXIMUM_VNODES" = "Vnodes Máximos del Kernel";
+"KERNEL_MAXIMUM_VNODES" = "Vnodes máximos del Kernel";
 
 /* Kernel Page Size */
-"KERNEL_PAGE_SIZE" = "Tamaño de Página del Kernel";
+"KERNEL_PAGE_SIZE" = "Tamaño de página del Kernel";
 
 /* Kernel Release */
 "KERNEL_RELEASE" = "Versión del Kernel";
@@ -413,28 +413,28 @@
 "KNOWN_PARENT_PROCESS" = "El proceso padre es launchd";
 
 /* L1 Data Cache Size */
-"L1_DATA_CACHE_SIZE" = "Tamaño de Caché de Datos L1";
+"L1_DATA_CACHE_SIZE" = "Tamaño de Caché de datos L1";
 
 /* L1 Instruction Cache Size */
-"L1_INST_CACHE_SIZE" = "Tamaño de Caché de Instrucciones L1";
+"L1_INST_CACHE_SIZE" = "Tamaño de Caché de instrucciones L1";
 
 /* L2 Cache Size */
 "L2_CACHE_SIZE" = "Tamaño de Caché L2";
 
 /* Last Change */
-"LAST_CHANGE" = "Último Cambio";
+"LAST_CHANGE" = "Último cambio";
 
 /* Line Speed */
-"LINE_SPEED" = "Velocidad de Línea";
+"LINE_SPEED" = "Velocidad de línea";
 
 /* %@/s */
 "LINE_SPEED_FMT" = "%@/s";
 
 /* TODO: Logical Resolution */
-"LOGICAL_RESOLUTION" = "Logical Resolution";
+"LOGICAL_RESOLUTION" = "Resolución lógica";
 
 /* TODO: Logical Scale */
-"LOGICAL_SCALE" = "Logical Scale";
+"LOGICAL_SCALE" = "Escala lógica";
 
 /* Lookups */
 "LOOKUPS" = "Búsquedas";
@@ -443,46 +443,46 @@
 "LOOPBACK" = "Loopback";
 
 /* Low Latency WAN */
-"LOW_LATENCY_WAN" = "WAN de Baja Latencia";
+"LOW_LATENCY_WAN" = "WAN de baja latencia";
 
 /* MAC Address */
 "MAC_ADDRESS_IDX" = "Dirección MAC";
 
 /* Marketing Name */
-"MARKETING_NAME" = "Nombre Comercial";
+"MARKETING_NAME" = "Nombre comercial";
 
 /* Max Files per Process */
-"MAX_FILES_PER_PROCESS" = "Archivos Máximos por Proceso";
+"MAX_FILES_PER_PROCESS" = "Archivos máximos por proceso";
 
 /* Max Socket Buffer Size */
-"MAX_SOCKET_BUFFER_SIZE" = "Tamaño Máximo de Búfer de Socket";
+"MAX_SOCKET_BUFFER_SIZE" = "Tamaño máximo de búfer de Socket";
 
 /* TODO: Maximum FPS */
-"MAXIMUM_FPS" = "Maximum FPS";
+"MAXIMUM_FPS" = "FPS máximos";
 
 /* Active */
 "MEMORY_ACTIVE" = "Activo";
 
 /* Active Memory */
-"MEMORY_ACTIVE_LONG" = "Memoria Activa";
+"MEMORY_ACTIVE_LONG" = "Memoria activa";
 
 /* Anonymous Memory */
-"MEMORY_ANONYMOUS" = "Memoria Anónima";
+"MEMORY_ANONYMOUS" = "Memoria anónima";
 
 /* Compressed Memory */
-"MEMORY_COMPRESSED" = "Memoria Comprimida";
+"MEMORY_COMPRESSED" = "Memoria comprimida";
 
 /* Compressor Memory */
-"MEMORY_COMPRESSOR" = "Memoria del Compresor";
+"MEMORY_COMPRESSOR" = "Memoria del compresor";
 
 /* Memory COW Faults */
-"MEMORY_COW_FAULTS" = "Fallos de Memoria COW";
+"MEMORY_COW_FAULTS" = "Fallos de memoria COW";
 
 /* Decompressed Memory */
-"MEMORY_DECOMPRESSED" = "Memoria Descomprimida";
+"MEMORY_DECOMPRESSED" = "Memoria descomprimida";
 
 /* Memory Faults */
-"MEMORY_FAULTS" = "Fallos de Memoria";
+"MEMORY_FAULTS" = "Fallos de memoria";
 
 /* File-backed Memory */
 "MEMORY_FILE_BACKED" = "Memoria con respaldo de archivo";
@@ -491,67 +491,67 @@
 "MEMORY_FREE" = "Libre";
 
 /* Free Memory */
-"MEMORY_FREE_LONG" = "Memoria Libre";
+"MEMORY_FREE_LONG" = "Memoria libre";
 
 /* Memory Hits */
-"MEMORY_HITS" = "Aciertos de Memoria";
+"MEMORY_HITS" = "Aciertos de memoria";
 
 /* Inactive */
 "MEMORY_INACTIVE" = "Inactivo";
 
 /* Inactive Memory */
-"MEMORY_INACTIVE_LONG" = "Memoria Inactiva";
+"MEMORY_INACTIVE_LONG" = "Memoria inactiva";
 
 /* Memory Information */
-"MEMORY_INFORMATION" = "Información de Memoria";
+"MEMORY_INFORMATION" = "Información de memoria";
 
 /* Memory Lookups */
-"MEMORY_LOOKUPS" = "Búsquedas de Memoria";
+"MEMORY_LOOKUPS" = "Búsquedas de memoria";
 
 /* Others */
 "MEMORY_OTHERS" = "Otros";
 
 /* Others Memory */
-"MEMORY_OTHERS_LONG" = "Memoria Otros";
+"MEMORY_OTHERS_LONG" = "Memoria otros";
 
 /* Purgeable */
-"MEMORY_PURGEABLE" = "Purgeable";
+"MEMORY_PURGEABLE" = "Purgable";
 
 /* Purgeable Memory */
-"MEMORY_PURGEABLE_LONG" = "Memoria Purgable";
+"MEMORY_PURGEABLE_LONG" = "Memoria purgable";
 
 /* Memory Purges */
-"MEMORY_PURGES" = "Purgas de Memoria";
+"MEMORY_PURGES" = "Purgas de memoria";
 
 /* Memory Size */
-"MEMORY_SIZE" = "Tamaño de Memoria";
+"MEMORY_SIZE" = "Tamaño de memoria";
 
 /* Speculative Memory */
-"MEMORY_SPECULATIVE" = "Memoria Especulativa";
+"MEMORY_SPECULATIVE" = "Memoria especulativa";
 
 /* Swapped In Memory */
-"MEMORY_SWAPPED_IN" = "Memoria Intercambiada Entrante";
+"MEMORY_SWAPPED_IN" = "Memoria intercambiada entrante";
 
 /* Swapped Out Memory */
-"MEMORY_SWAPPED_OUT" = "Memoria Intercambiada Saliente";
+"MEMORY_SWAPPED_OUT" = "Memoria intercambiada saliente";
 
 /* Throttled Memory */
-"MEMORY_THROTTLED" = "Memoria Ajustada";
+"MEMORY_THROTTLED" = "Memoria ajustada";
 
 /* Uncompressed Memory */
-"MEMORY_UNCOMPRESSED" = "Memoria Descomprimida";
+"MEMORY_UNCOMPRESSED" = "Memoria descomprimida";
 
 /* MEMORY USAGE */
-"MEMORY_USAGE" = "Uso de Memoria";
+"MEMORY_USAGE" = "Uso de memoria";
 
 /* Wired */
 "MEMORY_WIRED" = "Enlazado";
 
 /* Wired Memory */
-"MEMORY_WIRED_LONG" = "Memoria Enlazada";
+"MEMORY_WIRED_LONG" = "Memoria enlazada";
 
 /* Zero Filled Memory */
-"MEMORY_ZERO_FILLED" = "Memoria Rellenada con Ceros";
+"MEMORY_ZERO_FILLED" = "Memoria rellenada con ceros";
 
 /* Metric */
 "METRIC" = "Métrica";
@@ -641,16 +641,16 @@
 "MODIFIED_EXECUTION_STATE" = "El estado de ejecución fue modificado";
 
 /* Mount Point */
-"MOUNT_POINT" = "Punto de Montaje";
+"MOUNT_POINT" = "Punto de montaje";
 
 /* MTU */
 "MTU" = "MTU";
 
 /* Multicast Received */
-"MULTICAST_RECEIVED" = "Multicast Recibido";
+"MULTICAST_RECEIVED" = "Multicast recibido";
 
 /* Multicast Sent */
-"MULTICAST_SENT" = "Multicast Enviado";
+"MULTICAST_SENT" = "Multicast enviado";
 
 /* Netmask */
 "NETMASK" = "Máscara de Red";
@@ -734,16 +734,16 @@
 "NOT_IN_TRUST_CACHE" = "El binario no está en la caché de confianza";
 
 /* Number of Cores */
-"NUMBER_OF_CORES" = "Número de Núcleos";
+"NUMBER_OF_CORES" = "Número de núcleos";
 
 /* Number of CPU Cores */
-"NUMBER_OF_CPU_CORES" = "Número de Núcleos de CPU";
+"NUMBER_OF_CPU_CORES" = "Número de núcleos de CPU";
 
 /* Number of File Systems */
-"NUMBER_OF_FILE_SYSTEMS" = "Número de Sistemas de Archivos";
+"NUMBER_OF_FILE_SYSTEMS" = "Número de sistemas de archivos";
 
 /* Number of Network Interfaces */
-"NUMBER_OF_NETWORK_INTERFACES" = "Número de Interfaces de Red";
+"NUMBER_OF_NETWORK_INTERFACES" = "Número de interfaces de Red";
 
 /* Off */
 "Off" = "Apagado";
@@ -755,7 +755,7 @@
 "OPERATING_SYSTEM" = "Sistema Operativo";
 
 /* Optimal Transfer Size */
-"OPTIMAL_TRANSFER_SIZE" = "Tamaño de Transferencia Óptima";
+"OPTIMAL_TRANSFER_SIZE" = "Tamaño de transferencia óptima";
 
 /* Main bundle has a valid bundle identifier */
 "ORIGINAL_BUNDLE_IDENTIFIER" = "El paquete principal tiene un identificador de paquete válido";
@@ -776,7 +776,7 @@
 "OTHERS" = "Otros";
 
 /* Output Errors */
-"OUTPUT_ERRORS" = "Errores de Salida";
+"OUTPUT_ERRORS" = "Errores de salida";
 
 /* Owner */
 "OWNER" = "Propietario";
@@ -785,13 +785,13 @@
 "P_SELECT_FLAG_FOUND" = "Bandera sospechosa de proceso P_SELECT encontrada";
 
 /* Packet Layer Capture */
-"PACKET_LAYER_CAPTURE" = "Captura de Paquetes a Nivel de Página";
+"PACKET_LAYER_CAPTURE" = "Captura de paquetes a nivel de página";
 
 /* Packets Received */
-"PACKETS_RECEIVED" = "Paquetes Recibidos";
+"PACKETS_RECEIVED" = "Paquetes recibidos";
 
 /* Packets Sent */
-"PACKETS_SENT" = "Paquetes Enviados";
+"PACKETS_SENT" = "Paquetes enviados";
 
 /* PageIns */
 "PAGE_INS" = "PageIns";
@@ -806,22 +806,22 @@
 "PAGE_OUTS_LONG" = "Page Outs";
 
 /* Page Reactivations */
-"PAGE_REACTIVATIONS" = "Reactivaciones de Página";
+"PAGE_REACTIVATIONS" = "Reactivaciones de página";
 
 /* Page Size */
-"PAGE_SIZE" = "Tamaño de Página";
+"PAGE_SIZE" = "Tamaño de página";
 
 /* Personal Hotspot */
-"PERSONAL_HOTSPOT" = "Hotspot Personal";
+"PERSONAL_HOTSPOT" = "Hotspot personal";
 
 /* Physical Memory */
-"PHYSICAL_MEMORY" = "Memoria Física";
+"PHYSICAL_MEMORY" = "Memoria física";
 
 /* TODO: Physical Resolution */
-"PHYSICAL_RESOLUTION" = "Physical Resolution";
+"PHYSICAL_RESOLUTION" = "Resolución física";
 
 /* TODO: Physical Scale */
-"PHYSICAL_SCALE" = "Physical Scale";
+"PHYSICAL_SCALE" = "Escala física";
 
 /* Pin */
 "PIN" = "Pin";
@@ -848,7 +848,7 @@
 "PURGES" = "Purgas";
 
 /* Radio Tech */
-"RADIO_TECH" = "Tecnología de Radio";
+"RADIO_TECH" = "Tecnología de radio";
 
 /* Reactivations */
 "REACTIVATIONS" = "Reactivaciones";
@@ -872,22 +872,22 @@
 "SCANNING" = "Escaneando…";
 
 /* TODO: Screen Information */
-"SCREEN_INFORMATION" = "Screen Information";
+"SCREEN_INFORMATION" = "Información en pantalla";
 
 /* TODO: Screen Logical Resolution */
-"SCREEN_LOGICAL_RESOLUTION" = "Screen Logical Resolution";
+"SCREEN_LOGICAL_RESOLUTION" = "Resolución lógica de la pantalla";
 
 /* TODO: Screen Logical Scale */
-"SCREEN_LOGICAL_SCALE" = "Screen Logical Scale";
+"SCREEN_LOGICAL_SCALE" = "Escala lógica de la pantalla";
 
 /* TODO: Screen Maximum FPS */
-"SCREEN_MAXIMUM_FPS" = "Screen Maximum FPS";
+"SCREEN_MAXIMUM_FPS" = "FPS máximos de la pantalla";
 
 /* TODO: Screen Physical Resolution */
-"SCREEN_PHYSICAL_RESOLUTION" = "Screen Physical Resolution";
+"SCREEN_PHYSICAL_RESOLUTION" = "Resolución física de la pantalla";
 
 /* TODO: Screen Physical Scale */
-"SCREEN_PHYSICAL_SCALE" = "Screen Physical Scale";
+"SCREEN_PHYSICAL_SCALE" = "Escala física de la pantalla";
 
 /* Seatbelt special port is available */
 "SEATBELT_SPECIAL_PORT_IS_AVAILABLE" = "El puerto especial de Seatbelt está disponible";
@@ -896,7 +896,7 @@
 "SECURITY" = "Seguridad";
 
 /* Send Diagnostic Data */
-"SEND_DIAGNOSTIC_DATA" = "Enviar Datos Diagnósticos";
+"SEND_DIAGNOSTIC_DATA" = "Enviar datos diagnósticos";
 
 /* Sent */
 "SENT" = "Enviado";
@@ -908,10 +908,10 @@
 "SPECULATIVE" = "Especulativo";
 
 /* Spent Receiving */
-"SPENT_RECEIVING" = "Tiempo Gastado Recibiendo";
+"SPENT_RECEIVING" = "Tiempo gastado recibiendo";
 
 /* Spent Xmitting */
-"SPENT_XMITTING" = "Tiempo Gastado Transmitiendo";
+"SPENT_XMITTING" = "Tiempo gastado transmitiendo";
 
 /* Dynamic linker is stock */
 "STOCK_DYNAMIC_LINKER" = "El enlazador dinámico es estándar";
@@ -968,7 +968,7 @@
 "TAMPERED_RESOURCES" = "Algunos de los recursos integrados fueron manipulados";
 
 /* TB Frequency */
-"TB_FREQ" = "Frecuencia Basada en el Tiempo";
+"TB_FREQ" = "Frecuencia basada en el tiempo";
 
 /* Throttled */
 "THROTTLED" = "Acelerado";
