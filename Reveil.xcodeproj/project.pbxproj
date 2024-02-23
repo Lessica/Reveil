@@ -214,6 +214,7 @@
 		0F1659362AF9FCF600268572 /* PortItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortItem.swift; sourceTree = "<group>"; };
 		0F1659392AF9FD4500268572 /* URLSchemeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeItem.swift; sourceTree = "<group>"; };
 		0F16593C2AFA702C00268572 /* ObjCClassItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCClassItem.swift; sourceTree = "<group>"; };
+		0F2C9BBB2B88420A00C7A462 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0F2CA1252AE6AF8B00C76A78 /* HighlightedEntryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightedEntryKey.swift; sourceTree = "<group>"; };
 		0F2CA1272AE946B200C76A78 /* SecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
 		0F2CA12A2AE9479E00C76A78 /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
@@ -895,6 +896,7 @@
 				Base,
 				"zh-Hans",
 				es,
+				"zh-Hant",
 			);
 			mainGroup = CC4AE2AB2ACAA4B400DA23AC;
 			packageReferences = (
@@ -1141,6 +1143,7 @@
 				CC21B4BE2ACAE5E5003EC114 /* en */,
 				CC21B4C02ACAE601003EC114 /* zh-Hans */,
 				0FCD42972B68BCC400076CE4 /* es */,
+				0F2C9BBB2B88420A00C7A462 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
