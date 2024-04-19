@@ -205,6 +205,17 @@ struct SecurityPresets: Codable {
         "/var/log/apt",
         "/Applications/Cydia.app",
         "/private/var/stash",
+        "/private/var/apt",
+        "/private/var/ssh",
+        "/private/var/master.passwd",
+        "/private/var/zlogin",
+        "/private/var/sudo_logsrvd.conf",
+        "/private/var/suid_profile",
+        "/private/var/zlogin", // zsh
+        "/private/var/zlogout", // zsh
+        "/private/var/zprofile", // zsh
+        "/private/var/zshenv", // zsh
+        "/private/var/zshrc", // zsh
         "/private/var/lib/apt/",
         "/private/var/lib/cydia",
         "/private/var/cache/apt/",
@@ -218,17 +229,55 @@ struct SecurityPresets: Codable {
         "/Applications/FakeCarrier.app",
         "/Applications/WinterBoard.app",
         "/Applications/IntelliScreen.app",
+        "/Applications/iFile.app", // iFile
+        "/Applications/Filza.app", // Filza
+        "/var/mobile/Library/Application Support/Containers/com.tigisoftware.Filza", // Filza
+        "/var/mobile/Library/Saved Application State/com.tigisoftware.Filza.savedState", // Filza
+        "/var/mobile/Library/HTTPStorages/com.tigisoftware.Filza", // Filza
+        "/var/mobile/Library/SplashBoard/Snapshots/com.tigisoftware.Filza", // Filza
+        "/var/mobile/Library/Filza", // Filza
+        "/var/mobile/Library/Preferences/com.tigisoftware.Filza.plist", // Filza
+        "/var/mobile/Library/Caches/com.tigisoftware.Filza", // Filza
+        "/Applications/Flex3.app", // Flex3
+        "/var/mobile/Library/Cookies/com.johncoates.Flex.binarycookies", // Flex3
+        "/var/mobile/Library/Flex3", // Flex3
+        "/var/mobile/Library/UserConfigurationProfiles/PublicInfo/Flex3Patches.plist", // Flex3
+        "/Applications/NewTerm.app", // NewTerm
+        "/var/root/.bash_history",
+        "/var/root/Library/Caches/shshd",
+        "/var/root/Library/HTTPStorages/shshd",
+        "/var/mobile/.ekenablelogging", // ellekit
+        "/var/mobile/.eksafemode", // ellekit safemode
+        "/var/root/Library/Preferences/ws.hbang.Terminal.plist", // NewTerm
+        "/var/mobile/Library/Preferences/ws.hbang.Terminal.plist", // NewTerm
+        "/var/mobile/Library/Saved Application State/ws.hbang.Terminal.savedState", // NewTerm
+        "/var/mobile/Library/HTTPStorages/ws.hbang.Terminal", // NewTerm
+        "/var/mobile/Library/SplashBoard/Snapshots/ws.hbang.Terminal", // NewTerm
+        "/var/mobile/Library/Caches/ws.hbang.Terminal", // NewTerm
+        "/var/mobile/Library/Caches/Cephei", // NewTerm
+        "/var/root/Library/Preferences/com.xina.jailbreak.plist", // Xina
+        "/var/root/Library/Preferences/com.xina.blacklist.plist", // Xina
+        "/var/mobile/Library/Preferences/com.xina.jailbreak.plist", // Xina
+        "/var/mobile/Library/SplashBoard/Snapshots/com.xina.jailbreak", // Xina
         "/private/var/mobile/Library/SBSettings/Themes",
         "/Library/MobileSubstrate/CydiaSubstrate.dylib",
         "/System/Library/LaunchDaemons/com.ikey.bbot.plist",
         "/Library/MobileSubstrate/DynamicLibraries/Veency.plist",
         "/Library/MobileSubstrate/DynamicLibraries/LiveClock.plist",
         "/System/Library/LaunchDaemons/com.saurik.Cydia.Startup.plist",
-        "/Applications/Sileo.app",
+        "/Applications/Sileo.app", // Sileo
+        "/var/mobile/Library/Sileo", // Sileo
+        "/var/mobile/Library/Preferences/org.coolstar.SileoStore.plist", // Sileo
+        "/var/mobile/Library/HTTPStorages/org.coolstar.SileoStore", // Sileo
+        "/var/mobile/Library/Application Support/Containers/org.coolstar.SileoStore", // Sileo
+        "/var/mobile/Library/Saved Application State/org.coolstar.SileoStore.savedState", // Sileo
+        "/var/mobile/Library/SplashBoard/Snapshots/org.coolstar.SileoStore", // Sileo
+        "/var/mobile/Library/Caches/org.coolstar.SileoStore", // Sileo
         "/var/binpack",
         "/Library/PreferenceBundles/LibertyPref.bundle",
         "/Library/PreferenceBundles/ShadowPreferences.bundle",
         "/Library/PreferenceBundles/ABypassPrefs.bundle",
+        "/Library/PreferenceBundles/FlyJBPrefs.bundle",
         "/Library/PreferenceBundles/FlyJBPrefs.bundle",
         "/Library/PreferenceBundles/Cephei.bundle",
         "/Library/PreferenceBundles/SubstitutePrefs.bundle",
@@ -240,12 +289,23 @@ struct SecurityPresets: Codable {
         "/var/binpack/Applications/loader.app", // checkra1n
         "/Applications/FlyJB.app", // Fly JB X
         "/Applications/Zebra.app", // Zebra
+        "/var/mobile/Library/Application Support/xyz.willy.Zebra", // Zebra
+        "/var/mobile/Library/Application Support/Containers/xyz.willy.Zebra", // Zebra
+        "/var/mobile/Library/WebKit/xyz.willy.Zebra", // Zebra
+        "/var/mobile/Library/Saved Application State/xyz.willy.Zebra.savedState", // Zebra
+        "/var/mobile/Library/HTTPStorages/xyz.willy.Zebra", // Zebra
+        "/var/mobile/Library/Preferences/xyz.willy.Zebra.plist", // Zebra
+        "/var/mobile/Library/SplashBoard/Snapshots/xyz.willy.Zebra", // Zebra
+        "/var/mobile/Library/Caches/xyz.willy.Zebra", // Zebra
         "/Library/BawAppie/ABypass", // ABypass
         "/Library/MobileSubstrate/DynamicLibraries/SSLKillSwitch2.plist", // SSL Killswitch
         "/Library/MobileSubstrate/DynamicLibraries/PreferenceLoader.plist", // PreferenceLoader
         "/Library/MobileSubstrate/DynamicLibraries/PreferenceLoader.dylib", // PreferenceLoader
         "/Library/MobileSubstrate/DynamicLibraries", // DynamicLibraries directory in general
         "/var/mobile/Library/Preferences/me.jjolano.shadow.plist",
+        "/var/mobile/Library/Saved Application State/ru.domo.cocoatop64.savedState", // CocoaTop
+        "/var/mobile/Library/Preferences/ru.domo.cocoatop64.plist", // CocoaTop
+        "/var/mobile/Library/SplashBoard/Snapshots/ru.domo.cocoatop64", // CocoaTop
     ]
 
     var suspiciousInterpreters: Set<String> = [
