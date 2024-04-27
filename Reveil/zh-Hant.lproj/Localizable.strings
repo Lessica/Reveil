@@ -659,7 +659,7 @@
 "NETWORK" = "網絡";
 
 /* Network Details */
-"NETWORK_DETAILS" = "網絡諮詢";
+"NETWORK_DETAILS" = "網絡資訊";
 
 /* Network Interfaces */
 "NETWORK_INTERFACES" = "網絡接口";
