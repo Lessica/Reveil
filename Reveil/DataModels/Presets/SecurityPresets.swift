@@ -365,7 +365,16 @@ struct SecurityPresets: Codable {
         URLSchemeItem(scheme: "undecimus://", description: "Unc0ver"),
         URLSchemeItem(scheme: "sileo://", description: "Sileo"),
         URLSchemeItem(scheme: "zbra://", description: "Zebra"),
+        URLSchemeItem(scheme: "apt-repo://", description: "Saily"),
+        URLSchemeItem(scheme: "postbox://", description: "Postbox"),
+        URLSchemeItem(scheme: "xina://", description: "Xina"),
+        URLSchemeItem(scheme: "icleaner://", description: "iCleaner"),
+        URLSchemeItem(scheme: "ssh://", description: "SSH"),
+        URLSchemeItem(scheme: "santander://", description: "Santander"), // Santander File Manager (https://github.com/NSAntoine/Santander)
         URLSchemeItem(scheme: "filza://", description: "Filza"),
+        URLSchemeItem(scheme: "db-lmvo0l08204d0a0://", description: "Filza"),
+        URLSchemeItem(scheme: "boxsdk-810yk37nbrpwaee5907xc4iz8c1ay3my://", description: "Filza"),
+        URLSchemeItem(scheme: "com.googleusercontent.apps.802910049260-0hf6uv6nsj21itl94v66tphcqnfl172r://", description: "Filza"),
         URLSchemeItem(scheme: "activator://", description: "Activator"),
     ]
 
