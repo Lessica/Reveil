@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct URLSchemeItem: Codable {
+struct URLSchemeItem: Comparable, Codable, Hashable {
+    static func < (lhs: URLSchemeItem, rhs: URLSchemeItem) -> Bool {
+        lhs.description < rhs.description
+    }
+
     let scheme: String
     let description: String
 }

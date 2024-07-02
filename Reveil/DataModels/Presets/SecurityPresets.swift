@@ -372,9 +372,9 @@ struct SecurityPresets: Codable {
         URLSchemeItem(scheme: "ssh://", description: "SSH"),
         URLSchemeItem(scheme: "santander://", description: "Santander"), // Santander File Manager (https://github.com/NSAntoine/Santander)
         URLSchemeItem(scheme: "filza://", description: "Filza"),
-        URLSchemeItem(scheme: "db-lmvo0l08204d0a0://", description: "Filza"),
-        URLSchemeItem(scheme: "boxsdk-810yk37nbrpwaee5907xc4iz8c1ay3my://", description: "Filza"),
-        URLSchemeItem(scheme: "com.googleusercontent.apps.802910049260-0hf6uv6nsj21itl94v66tphcqnfl172r://", description: "Filza"),
+        URLSchemeItem(scheme: "db-lmvo0l08204d0a0://", description: "Filza (Dropbox)"),
+        URLSchemeItem(scheme: "boxsdk-810yk37nbrpwaee5907xc4iz8c1ay3my://", description: "Filza (Dropbox SDK)"),
+        URLSchemeItem(scheme: "com.googleusercontent.apps.802910049260-0hf6uv6nsj21itl94v66tphcqnfl172r://", description: "Filza (Google Drive)"),
         URLSchemeItem(scheme: "activator://", description: "Activator"),
     ]
 

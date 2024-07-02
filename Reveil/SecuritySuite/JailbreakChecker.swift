@@ -12,6 +12,7 @@ import Foundation
 import MachO // dyld
 import ObjectiveC // NSObject and Selector
 import UIKit
+import OrderedCollections
 
 enum JailbreakChecker {
     struct JailbreakStatus: Codable {
@@ -97,6 +98,7 @@ enum JailbreakChecker {
                 }
                 return false
             }
+            .sorted()
     }
 
     // "cydia://" URL scheme has been removed. Turns out there is app in the official App Store
