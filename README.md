@@ -3,6 +3,10 @@
 [![Build and Analyze](https://github.com/Lessica/Reveil/actions/workflows/build-analyze.yml/badge.svg)](https://github.com/Lessica/Reveil/actions/workflows/build-analyze.yml) [![Build Archive](https://github.com/Lessica/Reveil/actions/workflows/build-archive.yml/badge.svg)](https://github.com/Lessica/Reveil/actions/workflows/build-archive.yml) ![Latest Release](https://img.shields.io/github/v/release/Lessica/Reveil)
  ![MIT License](https://img.shields.io/github/license/Lessica/Reveil)
 
+ [now-on-havoc]: https://havoc.app/package/reveil
+
+[<img width="150" src="https://docs.havoc.app/img/badges/get_square.svg" />][now-on-havoc]
+
 Reveil is a replication of [Unveil](https://unveilapp.com) in pure SwiftUI.
 
 > Currently, Reveil is in early development, and we are working hard to make it better.
