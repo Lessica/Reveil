@@ -1,0 +1,1091 @@
+/* @Translator */
+"@TRANSLATOR" = "(null)";
+
+/* About */
+"ABOUT" = "앱 정보";
+
+/* Access Point */
+"ACCESS_POINT" = "액세스 지점";
+
+/* Address */
+"ADDRESS" = "주소";
+
+/* %d Addresses */
+"ADDRESSES_COUNT" = "%d개의 주소";
+
+/* Anonymous */
+"ANONYMOUS" = "익명";
+
+/* Apple Wireless Direct Link */
+"APPLE_WIRELESS_DIRECT_LINK" = "Apple Wireless Direct Link";
+
+/* Attributes */
+"ATTRIBUTES" = "속성";
+
+/* Available Blocks */
+"AVAIL_BLOCKS" = "이용 가능한 블록";
+
+/* Fork was able to create a new process (sandbox violation) */
+"AVAILABLE_FORK" = "Fork가 새 프로세스를 생성했습니다 (샌드박스 위반)";
+
+/* Dynamic linker is unreliable */
+"BAD_DYNAMIC_LINKER" = "동적 링커를 신뢰할 수 없음";
+
+/* Capacity */
+"BATTERY_CAPACITY" = "용량";
+
+/* Battery Capacity */
+"BATTERY_CAPACITY_FULL" = "배터리 용량";
+
+/* Charging */
+"BATTERY_CHARGING" = "충전 중";
+
+/* Full */
+"BATTERY_FULL" = "충전 완료됨";
+
+/* Battery Information */
+"BATTERY_INFORMATION" = "베터리 정보";
+
+/* Level */
+"BATTERY_LEVEL" = "배터리 잔량";
+
+/* Battery Level */
+"BATTERY_LEVEL_FULL" = "배터리 잔량";
+
+/* Low Power Mode */
+"BATTERY_LOW_POWER_MODE" = "저전력 모드";
+
+/* State */
+"BATTERY_STATE" = "상태";
+
+/* Battery State */
+"BATTERY_STATE_FULL" = "배터리 상태";
+
+/* Unknown */
+"BATTERY_UNKNOWN" = "알 수 없음";
+
+/* Unplugged */
+"BATTERY_UNPLUGGED" = "충전 중이 아님";
+
+/* Used */
+"BATTERY_USED" = "사용됨";
+
+/* Battery Used */
+"BATTERY_USED_FULL" = "사용된 배터리";
+
+/* Block Size */
+"BLOCK_SIZE" = "블록 크기";
+
+/* Blocks */
+"BLOCKS" = "블록";
+
+/* Bootrom Version */
+"BOOTROM_VERSION" = "부트롬 버전";
+
+/* Broadcast */
+"BROADCAST" = "브로드캐스트";
+
+/* Build Date */
+"BUILD_DATE" = "빌드 날짜";
+
+/* Byte Order */
+"BYTE_ORDER" = "바이트 순서";
+
+/* Cache Line */
+"CACHE_LINE" = "캐시 라인";
+
+/* Cellular Connection */
+"CELLULAR_CONNECTION" = "셀룰러";
+
+/* Collisions */
+"COLLISIONS" = "충돌";
+
+/* Compressed */
+"COMPRESSED" = "압축됨";
+
+/* Compressor */
+"COMPRESSOR" = "압축 메모리";
+
+/* Contact */
+"CONTACT" = "개발자 연락처";
+
+/* 82flex@gmail.com */
+"CONTACT_EMAIL" = "82flex@gmail.com";
+
+/* Copied to clipboard */
+"COPIED_TO_CLIPBOARD" = "클립보드에 복사되었습니다";
+
+/* Copyright © 2023-2024 Lessica & Lakr Aream.\nAll rights reserved. */
+"COPYRIGHT_STRING" = "© 2023-2024 Lessica & Lakr Aream.\n모든 권리 보유.";
+
+/* COW Faults */
+"COW_FAULTS" = "Copy-on-write 오류";
+
+/* CPU Architecture */
+"CPU_ARCHITECTURE" = "CPU 아키텍처";
+
+/* CPU Family */
+"CPU_FAMILY" = "CPU 패밀리";
+
+/* CPU Information */
+"CPU_INFORMATION" = "CPU 정보";
+
+/* CPU USAGE */
+"CPU_USAGE" = "CPU 사용률";
+
+/* CPU Load */
+"CPU_USAGE_LOAD" = "CPU 사용률";
+
+/* Ad Hoc signed */
+"CS_ADHOC" = "Ad Hoc이 서명되어 있습니다";
+
+/* Force expiration checking */
+"CS_CHECK_EXPIRATION" = "만료 검사를 강제합니다";
+
+/* Has Data Vault controller entitlement */
+"CS_DATAVAULT_CONTROLLER" = "Data Vault 컨트롤러 권한을 가지고 있습니다";
+
+/* Process is currently or has previously been debugged and allowed to run with invalid pages */
+"CS_DEBUGGED" = "프로세스가 현재 디버깅 중이거나 이전에 디버깅되어 유효하지 않은 페이지와 함께 실행되도록 허용되어 있습니다";
+
+/* Code is dev signed, cannot be loaded into prod signed code */
+"CS_DEV_CODE" = "개발 환경에서 서명된 코드는 실제 환경 서명이 된 코드에 로드될 수 없습니다";
+
+/* Dyld used to load this is a platform binary */
+"CS_DYLD_PLATFORM" = "Dyld가 로드하는 데 사용된 것은 플랫폼 바이너리입니다";
+
+/* Require enforcement */
+"CS_ENFORCEMENT" = "강제 시행을 요구합니다";
+
+/* Code signature permits restricted entitlements */
+"CS_ENTITLEMENTS_VALIDATED" = "코드 서명이 제한된 권한을 허용합니다";
+
+/* Set CS_INSTALLER on any exec'ed process */
+"CS_EXEC_INHERIT_SIP" = "실행된 모든 프로세스에 CS_INSTALLER를 설정하십시오";
+
+/* Set CS_ENFORCEMENT on any exec'ed process */
+"CS_EXEC_SET_ENFORCEMENT" = "실행된 모든 프로세스에 CS_ENFORCEMENT를 설정하십시오";
+
+/* Set CS_HARD on any exec'ed process */
+"CS_EXEC_SET_HARD" = "실행된 모든 프로세스에 CS_HARD를 설정하십시오";
+
+/* Set CS_KILL on any exec'ed process */
+"CS_EXEC_SET_KILL" = "실행된 모든 프로세스에 CS_KILL을 설정하십시오";
+
+/* Has get-task-allow entitlement */
+"CS_GET_TASK_ALLOW" = "get-task-allow 권한을 가지고 있습니다";
+
+/* Don't load invalid pages */
+"CS_HARD" = "유효하지 않은 페이지를 로드하지 마십시오";
+
+/* Has installer entitlement */
+"CS_INSTALLER" = "설치자 권한을 가지고 있습니다";
+
+/* Kill process if it becomes invalid */
+"CS_KILL" = "프로세스가 유효하지 않으면 종료합니다";
+
+/* Was killed by kernel for invalidity */
+"CS_KILLED" = "유효하지 않아서 커널에 의해 종료되었습니다";
+
+/* Has com.apple.rootless.restricted-nvram-variables.heritable entitlement */
+"CS_NVRAM_UNRESTRICTED" = "com.apple.rootless.restricted-nvram-variables.heritable 권한을 가지고 있습니다";
+
+/* This is a platform binary */
+"CS_PLATFORM_BINARY" = "플랫폼 바이너리입니다";
+
+/* Platform binary by the fact of path (OS X only) */
+"CS_PLATFORM_PATH" = "경로에 의해 플랫폼 바이너리로 간주됨 (OS X 전용)";
+
+/* Require library validation */
+"CS_REQUIRE_LV" = "라이브러리 유효성 검사가 필요합니다";
+
+/* Tell dyld to treat restricted */
+"CS_RESTRICT" = "Dyld에게 제한된 처리 방법을 사용하도록 요청하십시오";
+
+/* Process has a signature (may have gone invalid) */
+"CS_SIGNED" = "프로세스가 서명되어 있습니다 (유효하지 않을 수 있습니다)";
+
+/* Unknown flag (0x%08x) */
+"CS_UNKNOWN_FLAG" = "알 수 없는 플래그 (0x%08x)";
+
+/* Dynamically valid */
+"CS_VALID" = "동적으로 유효합니다";
+
+/* Dashboard */
+"DASHBOARD" = "대시보드";
+
+/* Debugger attached */
+"DEBUGGER_ATTACHED" = "디버거 연결됨";
+
+/* Decompressed */
+"DECOMPRESSED" = "압축 해제됨";
+
+/* Details */
+"DETAILS" = "세부 정보";
+
+/* Developer */
+"DEVELOPER" = "개발자";
+
+/* Device */
+"DEVICE" = "기기";
+
+/* Device Information */
+"DEVICE_INFORMATION" = "기기 정보";
+
+/* Device Model */
+"DEVICE_MODEL" = "기기 모델";
+
+/* Device Name */
+"DEVICE_NAME" = "기기 이름";
+
+/* Library validation is disabled */
+"DISABLED_LIBRARY_VALIDATION" = "라이브러리 유효성 검사가 비활성화됨";
+
+/* Free */
+"DISK_FREE" = "사용 가능";
+
+/* Disk Free */
+"DISK_FREE_LONG" = "사용 가능한 저장공간";
+
+/* DISK SPACE */
+"DISK_SPACE" = "저장 공간";
+
+/* Total */
+"DISK_TOTAL" = "총 저장공간";
+
+/* Disk Total */
+"DISK_TOTAL_LONG" = "총 저장공간";
+
+/* Used */
+"DISK_USED" = "사용된 저장공간";
+
+/* Disk Used */
+"DISK_USED_LONG" = "사용된 저장공간";
+
+/* Display Resolution */
+"DISPLAY_RESOLUTION" = "화면 해상도";
+
+/* Download */
+"DOWNLOAD" = "다운로드";
+
+/* Dropped */
+"DROPPED" = "드롭됨";
+
+/* Library validation is enabled */
+"ENABLED_LIBRARY_VALIDATION" = "라이브러리 유효성 검사가 활성화됨";
+
+/* Valid code signing status */
+"EXPECTED_CODE_SIGNING_STATUS" = "유효한 코드 서명 상태";
+
+/* Faults */
+"FAULTS" = "오류";
+
+/* File-backed */
+"FILE_BACKED" = "파일 기반";
+
+/* File Systems */
+"FILE_SYSTEMS" = "파일 시스템";
+
+/* Flags */
+"FLAGS" = "플래그";
+
+/* Flavor */
+"FLAVOR" = "종류";
+
+/* Free Blocks */
+"FREE_BLOCKS" = "여유 블록";
+
+/* Free: %@ */
+"FREE_DESCRIPTION" = "%@ 사용 가능";
+
+/* Free Nodes */
+"FREE_NODES" = "여유 노드";
+
+/* Exception ports were set */
+"HAS_EXCEPTION_PORT" = "예외 포트가 설정됨";
+
+/* Signal handlers were set */
+"HAS_SIGNAL_HANDLER" = "신호 핸들러가 설정됨";
+
+/* Hits */
+"HITS" = "적중";
+
+/* Hooked libraries found */
+"HOOKED_LIBRARIES_FOUND" = "후킹된 라이브러리가 발견됨";
+
+/* Host ID */
+"HOST_ID" = "호스트 ID";
+
+/* Host Name */
+"HOST_NAME" = "호스트 이름";
+
+/* Identifier */
+"IDENTIFIER" = "식별자";
+
+/* Receive all multicast packets */
+"IFF_ALLMULTI" = "모든 멀티캐스트 패킷 수신";
+
+/* Use alternate physical connection */
+"IFF_ALTPHYS" = "대체 물리적 연결을 사용하십시오";
+
+/* Broadcast address valid */
+"IFF_BROADCAST" = "브로드캐스트 주소가 유효함";
+
+/* Turn on debugging */
+"IFF_DEBUG" = "디버깅을 활성화하십시오";
+
+/* Per link layer defined bit 0 */
+"IFF_LINK0" = "링크 계층에 따라 정의된 비트 0";
+
+/* Per link layer defined bit 1 */
+"IFF_LINK1" = "링크 계층에 따라 정의된 비트 1";
+
+/* Per link layer defined bit 2 */
+"IFF_LINK2" = "링크 계층에 따라 정의된 비트 2";
+
+/* Is a loopback net */
+"IFF_LOOPBACK" = "루프백 네트워크입니다";
+
+/* Supports multicast */
+"IFF_MULTICAST" = "멀티캐스트를 지원합니다";
+
+/* No address resolution protocol */
+"IFF_NOARP" = "주소 해석 프로토콜 없음";
+
+/* Obsolete: avoid use of trailers */
+"IFF_NOTRAILERS" = "더 이상 사용되지 않으므로 트레일러 사용을 피하십시오";
+
+/* Transmission in progress */
+"IFF_OACTIVE" = "전송 중";
+
+/* Interface is point-to-point link */
+"IFF_POINTOPOINT" = "인터페이스가 point-to-point 링크입니다";
+
+/* Receive all packets */
+"IFF_PROMISC" = "모든 패킷을 수신합니다";
+
+/* Resources allocated */
+"IFF_RUNNING" = "리소스가 할당됨";
+
+/* Can't hear own transmissions */
+"IFF_SIMPLEX" = "자신의 전송을 받을 수 없습니다";
+
+/* Interface is up */
+"IFF_UP" = "인터페이스가 활성화되었습니다";
+
+/* Binary is in trust cache */
+"IN_TRUST_CACHE" = "바이너리가 신뢰된 캐시 안에 있습니다";
+
+/* Injected libraries found */
+"INJECTED_LIBRARIES_FOUND" = "인젝션된 라이브러리가 발견됨";
+
+/* Input Errors */
+"INPUT_ERRORS" = "입력 오류";
+
+/* Interface Name */
+"INTERFACE_NAME" = "인터페이스 이름";
+
+/* IP Layer Capture */
+"IP_LAYER_CAPTURE" = "IP 계층 캡처";
+
+/* IPSec Tunnel */
+"IPSEC_TUNNEL" = "IPSec 터널";
+
+/* Kernel Maximum Groups */
+"KERNEL_MAXIMUM_GROUPS" = "커널 최대 그룹";
+
+/* Kernel Maximum Processes */
+"KERNEL_MAXIMUM_PROCESSES" = "커널에서 사용하는 최대 프로세스";
+
+/* Kernel Maximum Vnodes */
+"KERNEL_MAXIMUM_VNODES" = "커널에서 사용하는 최대 vnode";
+
+/* Kernel Page Size */
+"KERNEL_PAGE_SIZE" = "커널 페이지 크기";
+
+/* Kernel Release */
+"KERNEL_RELEASE" = "커널 릴리스";
+
+/* Kernel Version */
+"KERNEL_VERSION" = "커널 버전";
+
+/* Parent process is launchd */
+"KNOWN_PARENT_PROCESS" = "부모 프로세스는 launchd임";
+
+/* L1 Data Cache Size */
+"L1_DATA_CACHE_SIZE" = "L1 데이터 캐시 크기";
+
+/* L1 Instruction Cache Size */
+"L1_INST_CACHE_SIZE" = "L1 명령어 캐시 크기";
+
+/* L2 Cache Size */
+"L2_CACHE_SIZE" = "L2 캐시 크기";
+
+/* Last Change */
+"LAST_CHANGE" = "마지막 변경";
+
+/* Line Speed */
+"LINE_SPEED" = "회선 속도";
+
+/* %@/s */
+"LINE_SPEED_FMT" = "%@/초";
+
+/* Logical Resolution */
+"LOGICAL_RESOLUTION" = "논리적 해상도";
+
+/* Logical Scale */
+"LOGICAL_SCALE" = "논리적 비율";
+
+/* Lookups */
+"LOOKUPS" = "검색";
+
+/* Loopback */
+"LOOPBACK" = "루프백";
+
+/* Low Latency WAN */
+"LOW_LATENCY_WAN" = "저지연 WAN";
+
+/* MAC Address */
+"MAC_ADDRESS_IDX" = "MAC 주소";
+
+/* Marketing Name */
+"MARKETING_NAME" = "마케팅 이름";
+
+/* Max Files per Process */
+"MAX_FILES_PER_PROCESS" = "프로세스당 최대 파일 개수";
+
+/* Max Socket Buffer Size */
+"MAX_SOCKET_BUFFER_SIZE" = "최대 소켓 버퍼 크기";
+
+/* Maximum FPS */
+"MAXIMUM_FPS" = "최대 FPS";
+
+/* Active */
+"MEMORY_ACTIVE" = "활성";
+
+/* Active Memory */
+"MEMORY_ACTIVE_LONG" = "활성 메모리";
+
+/* Anonymous Memory */
+"MEMORY_ANONYMOUS" = "익명 메모리";
+
+/* Compressed Memory */
+"MEMORY_COMPRESSED" = "압축됨";
+
+/* Compressor Memory */
+"MEMORY_COMPRESSOR" = "압축 메모리";
+
+/* Memory COW Faults */
+"MEMORY_COW_FAULTS" = "메모리 Copy-on-write 오류";
+
+/* Decompressed Memory */
+"MEMORY_DECOMPRESSED" = "압축 해제됨";
+
+/* Memory Faults */
+"MEMORY_FAULTS" = "메모리 오류";
+
+/* File-backed Memory */
+"MEMORY_FILE_BACKED" = "파일 기반 메모리";
+
+/* Free */
+"MEMORY_FREE" = "여유";
+
+/* Free Memory */
+"MEMORY_FREE_LONG" = "여유 메모리";
+
+/* Memory Hits */
+"MEMORY_HITS" = "메모리 적중";
+
+/* Inactive */
+"MEMORY_INACTIVE" = "비활성";
+
+/* Inactive Memory */
+"MEMORY_INACTIVE_LONG" = "비활성 메모리";
+
+/* Memory Information */
+"MEMORY_INFORMATION" = "메모리 정보";
+
+/* Memory Lookups */
+"MEMORY_LOOKUPS" = "메모리 검색";
+
+/* Others */
+"MEMORY_OTHERS" = "기타";
+
+/* Others Memory */
+"MEMORY_OTHERS_LONG" = "기타 메모리";
+
+/* Purgeable */
+"MEMORY_PURGEABLE" = "정리 가능함";
+
+/* Purgeable Memory */
+"MEMORY_PURGEABLE_LONG" = "정리 가능한 메모리";
+
+/* Memory Purges */
+"MEMORY_PURGES" = "메모리 정리";
+
+/* Memory Size */
+"MEMORY_SIZE" = "메모리 용량";
+
+/* Speculative Memory */
+"MEMORY_SPECULATIVE" = "투기적 메모리";
+
+/* Swapped In Memory */
+"MEMORY_SWAPPED_IN" = "교체된 메모리 (In)";
+
+/* Swapped Out Memory */
+"MEMORY_SWAPPED_OUT" = "교체된 메모리 (Out)";
+
+/* Throttled Memory */
+"MEMORY_THROTTLED" = "제한된 메모리";
+
+/* Uncompressed Memory */
+"MEMORY_UNCOMPRESSED" = "압축되지 않은 메모리";
+
+/* MEMORY USAGE */
+"MEMORY_USAGE" = "메모리 사용량";
+
+/* Wired */
+"MEMORY_WIRED" = "고정됨";
+
+/* Wired Memory */
+"MEMORY_WIRED_LONG" = "고정 메모리";
+
+/* Zero Filled Memory */
+"MEMORY_ZERO_FILLED" = "0으로 채워진 메모리";
+
+/* Metric */
+"METRIC" = "단위";
+
+/* File system written to asynchronously */
+"MNT_ASYNC" = "파일 시스템이 비동기적으로 기록되었습니다";
+
+/* File system was mounted by automounter */
+"MNT_AUTOMOUNTED" = "파일 시스템이 자동 마운터에 의해 마운트되었습니다";
+
+/* File system supports content protection */
+"MNT_CPROTECT" = "파일 시스템에서 컨텐츠 보호를 지원합니다";
+
+/* File system should defer writes */
+"MNT_DEFWRITE" = "파일 시스템은 쓰기를 지연시켜야 합니다";
+
+/* File system is not appropriate path to user data */
+"MNT_DONTBROWSE" = "파일 시스템은 사용자 데이터에 적합한 경로가 아닙니다";
+
+/* File system supports volfs */
+"MNT_DOVOLFS" = "파일 시스템이 volfs를 지원합니다";
+
+/* File system is exported */
+"MNT_EXPORTED" = "파일 시스템이 공유되었습니다";
+
+/* VFS will ignore ownership information on file system objects */
+"MNT_IGNORE_OWNERSHIP" = "VFS는 파일 시스템 객체의 소유권 정보를 무시합니다";
+
+/* File system is journaled */
+"MNT_JOURNALED" = "파일 시스템은 저널링됩니다";
+
+/* File system is stored locally */
+"MNT_LOCAL" = "파일 시스템은 로컬에 저장됩니다";
+
+/* MAC support for individual labels */
+"MNT_MULTILABEL" = "개별 레이블에 대한 MAC을 지원합니다";
+
+/* Disable update of file access time */
+"MNT_NOATIME" = "파일 접근 시간 갱신이 비활성화 되어 있습니다";
+
+/* Don't interpret special files */
+"MNT_NODEV" = "특수 파일을 처리하지 않습니다";
+
+/* Can't exec from file system */
+"MNT_NOEXEC" = "파일 시스템으로부터 실행할 수 없습니다";
+
+/* Don't follow symlink when resolving mount point */
+"MNT_NOFOLLOW" = "마운트 지점을 찾을 때 심볼릭 링크를 무시합니다";
+
+/* Setuid bits are not honored on this file system */
+"MNT_NOSUID" = "이 파일 시스템에서는 setuid 비트가 적용되지 않습니다";
+
+/* Don't allow user extended attributes */
+"MNT_NOUSERXATTR" = "사용자 확장 속성을 허용하지 않습니다";
+
+/* File system is quarantined */
+"MNT_QUARANTINE" = "파일 시스템이 격리되었습니다";
+
+/* Quotas are enabled on this file system */
+"MNT_QUOTA" = "이 파일 시스템에서 쿼터가 설정되었습니다";
+
+/* A read-only file system */
+"MNT_RDONLY" = "파일 시스템이 읽기 전용입니다";
+
+/* File system can be removed from the system by user */
+"MNT_REMOVABLE" = "파일 시스템이 사용자에 의해 시스템에서 제거될 수 있습니다";
+
+/* This file system is the root of the file system */
+"MNT_ROOTFS" = "이 파일 시스템은 최상위 파일 시스템입니다";
+
+/* The mount is a snapshot */
+"MNT_SNAPSHOT" = "스냅샷 마운트입니다";
+
+/* Enable strict update of file access time */
+"MNT_STRICTATIME" = "파일 접근 시간의 엄격한 갱신이 활성화 되어 있습니다";
+
+/* File system is written to synchronously */
+"MNT_SYNCHRONOUS" = "파일 시스템이 동기적으로 기록되었습니다";
+
+/* Union with underlying file system */
+"MNT_UNION" = "기본 파일 시스템과 결합";
+
+/* Modifications found */
+"MODIFICATIONS_FOUND" = "보안 문제가 발견됨";
+
+/* Execution state was modified */
+"MODIFIED_EXECUTION_STATE" = "실행 상태가 수정됨";
+
+/* Mount Point */
+"MOUNT_POINT" = "마운트 지점";
+
+/* MTU */
+"MTU" = "MTU";
+
+/* Multicast Received */
+"MULTICAST_RECEIVED" = "멀티캐스트 수신";
+
+/* Multicast Sent */
+"MULTICAST_SENT" = "멀티캐스트 전송";
+
+/* Netmask */
+"NETMASK" = "서브넷 마스크";
+
+/* Network */
+"NETWORK" = "네트워크";
+
+/* Network Details */
+"NETWORK_DETAILS" = "네트워크 정보";
+
+/* Network Interfaces */
+"NETWORK_INTERFACES" = "네트워크 인터페이스";
+
+/* NETWORK USAGE */
+"NETWORK_USAGE" = "네트워크 사용량";
+
+/* %@ Usage */
+"NETWORK_USAGE_OF" = "%@ 사용량";
+
+/* No debugger attached */
+"NO_DEBUGGER_ATTACHED" = "디버거가 연결되지 않음";
+
+/* Exception ports not set */
+"NO_EXCEPTION_PORT" = "예외 포트가 설정되지 않음";
+
+/* No hooked library */
+"NO_HOOKED_LIBRARY" = "후킹된 라이브러리 없음";
+
+/* No injected library */
+"NO_INJECTED_LIBRARY" = "주입된 라이브러리 없음";
+
+/* No issues found */
+"NO_ISSUES_FOUND" = "문제가 발견되지 않음";
+
+/* No suspicious process flag P_SELECT */
+"NO_P_SELECT_FLAG" = "의심스러운 프로세스 플래그 P_SELECT 없음";
+
+/* No HTTP/HTTPS proxy */
+"NO_PROXY_SETTINGS" = "HTTP/HTTPS 프록시가 설정되지 않음";
+
+/* Signal handlers not set */
+"NO_SIGNAL_HANDLER" = "신호 핸들러가 설정되지 않음";
+
+/* No suspicious environment variable */
+"NO_SUSPICIOUS_ENVIRONMENT_VARIABLE" = "의심스러운 환경 변수 없음";
+
+/* No suspicious file */
+"NO_SUSPICIOUS_FILE" = "의심스러운 파일 없음";
+
+/* No suspicious library */
+"NO_SUSPICIOUS_LIBRARY" = "의심스러운 라이브러리 없음";
+
+/* No suspicious Objective-C class */
+"NO_SUSPICIOUS_OBJC_CLASS" = "의심스러운 Objective-C 클래스 없음";
+
+/* No suspicious opened port */
+"NO_SUSPICIOUS_OPENED_PORT" = "의심스러운 열린 포트 없음";
+
+/* No suspicious symbolic link */
+"NO_SUSPICIOUS_SYMBOLIC_LINK" = "의심스러운 심볼릭 링크 없음";
+
+/* No suspicious url scheme */
+"NO_SUSPICIOUS_URL_SCHEME" = "의심스러운 url scheme 없음";
+
+/* No suspicious writable directory */
+"NO_SUSPICIOUS_WRITABLE_DIRECTORY" = "의심스러운 쓰기 가능한 디렉터리 없음";
+
+/* No suspicious writable file */
+"NO_SUSPICIOUS_WRITABLE_FILE" = "의심스러운 쓰기 가능한 파일 없음";
+
+/* No unsigned executable page found */
+"NO_UNSIGNED_EXECUTABLE_PAGE" = "서명되지 않은 실행 가능한 페이지 없음";
+
+/* Nodes */
+"NODES" = "노드";
+
+/* Run on a hardware device */
+"NOT_IN_SIMULATOR" = "하드웨어 장치에서 실행 중";
+
+/* Binary is not in trust cache */
+"NOT_IN_TRUST_CACHE" = "바이너리가 신뢰 캐시에 없음";
+
+/* Number of Cores */
+"NUMBER_OF_CORES" = "코어 수";
+
+/* Number of CPU Cores */
+"NUMBER_OF_CPU_CORES" = "CPU 코어 수";
+
+/* Number of File Systems */
+"NUMBER_OF_FILE_SYSTEMS" = "파일 시스템 수";
+
+/* Number of Network Interfaces */
+"NUMBER_OF_NETWORK_INTERFACES" = "네트워크 인터페이스 수";
+
+/* Off */
+"Off" = "끔";
+
+/* On */
+"On" = "켬";
+
+/* Operating System */
+"OPERATING_SYSTEM" = "운영 체제";
+
+/* Optimal Transfer Size */
+"OPTIMAL_TRANSFER_SIZE" = "최적 전송 크기";
+
+/* Main bundle has a valid bundle identifier */
+"ORIGINAL_BUNDLE_IDENTIFIER" = "주 번들에 유효한 번들 식별자가 있음";
+
+/* All keys in entitlements are trusted */
+"ORIGINAL_ENTITLEMENTS" = "권한 항목에 있는 모든 키가 신뢰됨";
+
+/* Main executable is trusted */
+"ORIGINAL_MACH_O" = "주 실행 파일이 신뢰됨";
+
+/* Mobile provisioning profile is trusted */
+"ORIGINAL_MOBILE_PROVISIONING_PROFILE" = "모바일 프로비저닝 프로필이 신뢰됨";
+
+/* Embedded resources are original */
+"ORIGINAL_RESOURCES" = "내장된 리소스가 수정되지 않음";
+
+/* Others */
+"OTHERS" = "기타";
+
+/* Output Errors */
+"OUTPUT_ERRORS" = "출력 오류";
+
+/* Owner */
+"OWNER" = "소유자";
+
+/* Suspicious process flag P_SELECT found */
+"P_SELECT_FLAG_FOUND" = "의심스러운 플래그 P_SELECT가 발견됨";
+
+/* Packet Layer Capture */
+"PACKET_LAYER_CAPTURE" = "패킷 계층 캡처";
+
+/* Packets Received */
+"PACKETS_RECEIVED" = "수신된 패킷";
+
+/* Packets Sent */
+"PACKETS_SENT" = "전송된 패킷";
+
+/* PageIns */
+"PAGE_INS" = "PageIns";
+
+/* Page Ins */
+"PAGE_INS_LONG" = "Page Ins";
+
+/* PageOuts */
+"PAGE_OUTS" = "PageOuts";
+
+/* Page Outs */
+"PAGE_OUTS_LONG" = "Page Outs";
+
+/* Page Reactivations */
+"PAGE_REACTIVATIONS" = "페이지 재활성";
+
+/* Page Size */
+"PAGE_SIZE" = "페이지 크기";
+
+/* Personal Hotspot */
+"PERSONAL_HOTSPOT" = "개인용 핫스팟";
+
+/* Physical Memory */
+"PHYSICAL_MEMORY" = "물리적 메모리";
+
+/* Physical Resolution */
+"PHYSICAL_RESOLUTION" = "물리적 해상도";
+
+/* Physical Scale */
+"PHYSICAL_SCALE" = "물리적 비율";
+
+/* Pin */
+"PIN" = "고정";
+
+/* Pinned %@ */
+"PINNED_FMT" = "%@이(가) 고정되었습니다";
+
+/* Point-to-Point Protocol */
+"POINT_TO_POINT_PROTOCOL" = "Point-to-Point 프로토콜";
+
+/* Host port is privileged */
+"PRIVILEGED_HOST_PORT" = "호스트 포트가 권한을 부여받음";
+
+/* Processor */
+"PROCESSOR" = "프로세서";
+
+/* Protocol #%d - %@ */
+"PROTOCOL_IDX" = "프로토콜 #%d - %@";
+
+/* System HTTP/HTTPS proxy found */
+"PROXY_SETTINGS_FOUND" = "시스템 HTTP/HTTPS 프록시 발견됨";
+
+/* Purges */
+"PURGES" = "Purges";
+
+/* Radio Tech */
+"RADIO_TECH" = "Radio Tech";
+
+/* Reactivations */
+"REACTIVATIONS" = "재활성";
+
+/* Received */
+"RECEIVED" = "받음";
+
+/* Reveil */
+"Reveil" = "Reveil";
+
+/* RFC2893 Tunnel */
+"RFC2893_TUNNEL" = "RFC2893 터널";
+
+/* RFC3056 Tunnel */
+"RFC3056_TUNNEL" = "RFC3056 터널";
+
+/* Simulator environment detected */
+"RUN_IN_SIMULATOR" = "시뮬레이터 환경이 감지됨";
+
+/* Scanning… */
+"SCANNING" = "검사 중…";
+
+/* Screen Information */
+"SCREEN_INFORMATION" = "디스플레이 정보";
+
+/* Screen Logical Resolution */
+"SCREEN_LOGICAL_RESOLUTION" = "화면의 논리적 해상도";
+
+/* Screen Logical Scale */
+"SCREEN_LOGICAL_SCALE" = "화면의 논리적 비율";
+
+/* Screen Maximum FPS */
+"SCREEN_MAXIMUM_FPS" = "최대 프레임";
+
+/* Screen Physical Resolution */
+"SCREEN_PHYSICAL_RESOLUTION" = "화면의 물리적 해상도";
+
+/* Screen Physical Scale */
+"SCREEN_PHYSICAL_SCALE" = "물리적 비율";
+
+/* Seatbelt special port is available */
+"SEATBELT_SPECIAL_PORT_IS_AVAILABLE" = "시트벨트 특수 포트가 사용 가능함";
+
+/* Security */
+"SECURITY" = "보안";
+
+/* Send Diagnostic Data */
+"SEND_DIAGNOSTIC_DATA" = "진단 데이터 보내기";
+
+/* Sent */
+"SENT" = "보냄";
+
+/* System volume is signed */
+"SIGNED_SYSTEM_VOLUME" = "시스템 볼륨이 서명됨";
+
+/* Speculative */
+"SPECULATIVE" = "Speculative";
+
+/* Spent Receiving */
+"SPENT_RECEIVING" = "Spent Receiving";
+
+/* Spent Xmitting */
+"SPENT_XMITTING" = "Spent Xmitting";
+
+/* Dynamic linker is stock */
+"STOCK_DYNAMIC_LINKER" = "동적 링커가 순정 상태임";
+
+/* Suspicious environment variables found */
+"SUSPICIOUS_ENVIRONMENT_VARIABLES_FOUND" = "의심스러운 환경 변수가 발견됨";
+
+/* Suspicious files found */
+"SUSPICIOUS_FILES_FOUND" = "의심스러운 파일이 발견됨";
+
+/* Suspicious libraries found */
+"SUSPICIOUS_LIBRARIES_FOUND" = "의심스러운 라이브러리가 발견됨";
+
+/* Suspicious Objective-C classes found */
+"SUSPICIOUS_OBJC_CLASSES_FOUND" = "의심스러운 Objective-C 클래스가 발견됨";
+
+/* Suspicious opened ports found */
+"SUSPICIOUS_OPENED_PORTS_FOUND" = "의심스러운 열린 포트가 발견됨";
+
+/* Suspicious symbolic links found */
+"SUSPICIOUS_SYMBOLIC_LINKS_FOUND" = "의심스러운 심볼릭 링크가 발견됨";
+
+/* Suspicious url schemes found */
+"SUSPICIOUS_URL_SCHEMES_FOUND" = "의심스러운 url scheme 발견됨";
+
+/* Suspicious writable directories found */
+"SUSPICIOUS_WRITABLE_DIRECTORIES_FOUND" = "의심스러운 쓰기 가능한 디렉터리가 발견됨";
+
+/* Suspicious writable files found */
+"SUSPICIOUS_WRITABLE_FILES_FOUND" = "의심스러운 쓰기 가능한 파일이 발견됨";
+
+/* Swapped In */
+"SWAPPED_IN" = "교체됨 (In)";
+
+/* Swapped Out */
+"SWAPPED_OUT" = "교체됨 (Out)";
+
+/* System */
+"SYSTEM" = "시스템";
+
+/* Main bundle identifier was tampered */
+"TAMPERED_BUNDLE_IDENTIFIER" = "주 번들 식별자가 변조됨";
+
+/* Unknown keys found in entitlements */
+"TAMPERED_ENTITLEMENTS" = "권한 항목에서 알 수 없는 키가 발견됨";
+
+/* Main executable was tampered */
+"TAMPERED_MACH_O" = "주 실행 파일이 변조됨";
+
+/* Mobile provisioning profile was tampered */
+"TAMPERED_MOBILE_PROVISIONING_PROFILE" = "모바일 프로비저닝 프로필이 변조됨";
+
+/* Some of the embedded resources were tampered */
+"TAMPERED_RESOURCES" = "내장된 리소스가 변조됨";
+
+/* TB Frequency */
+"TB_FREQ" = "시간 기반 주파수";
+
+/* Throttled */
+"THROTTLED" = "Throttled";
+
+/* Total Download */
+"TOTAL_DOWNLOAD" = "총 다운로드";
+
+/* Total Download of %@ */
+"TOTAL_DOWNLOAD_OF_INTERFACE" = "%@의 총 다운로드";
+
+/* Total Upload */
+"TOTAL_UPLOAD" = "총 업로드";
+
+/* Total Upload of %@ */
+"TOTAL_UPLOAD_OF_INTERFACE" = "%@의 총 업로드";
+
+/* Process task port was obtained */
+"TOUCHED_PROCESS_TASK_PORT" = "프로세스 작업 포트가 획득됨";
+
+/* Translator */
+"TRANSLATOR" = "Translator";
+
+/* https://TRANSLATOR_URL */
+"TRANSLATOR_URL" = "(null)";
+
+/* Type */
+"TYPE" = "종류";
+
+/* Sandbox blocks call to fork(2) */
+"UNABLE_TO_FORK" = "샌드박스가 fork(2) 호출을 차단함";
+
+/* Seatbelt special port is not available */
+"UNAVAILABLE_SEATBELT_SPECIAL_PORT" = "사용 가능한 시트벨트 특수 포트 없음";
+
+/* Uncompressed */
+"UNCOMPRESSED" = "압축되지 않음";
+
+/* Unexpected code signing status */
+"UNEXPECTED_CODE_SIGNING_STATUS" = "예기치 않은 코드 서명 상태";
+
+/* Unknown */
+"UNKNOWN" = "알 수 없음";
+
+/* Unknown parent process */
+"UNKNOWN_PARENT_PROCESS" = "알 수 없는 부모 프로세스";
+
+/* Execution state was not modified */
+"UNMODIFIED_EXECUTION_STATE" = "실행 상태가 수정되지 않음";
+
+/* Unpin */
+"UNPIN" = "고정 해제";
+
+/* Unpinned %@ */
+"UNPINNED_FMT" = "%@ 고정이 해제되었습니다";
+
+/* Host port is not privileged */
+"UNPRIVILEGED_HOST_PORT" = "호스트 포트가 권한을 부여받지 않음";
+
+/* Unsigned executable pages found */
+"UNSIGNED_EXECUTABLE_PAGES_FOUND" = "서명되지 않은 실행 가능한 페이지가 발견됨";
+
+/* System volume is not signed */
+"UNSIGNED_SYSTEM_VOLUME" = "시스템 볼륨이 서명되지 않음";
+
+/* Unsupported */
+"UNSUPPORTED" = "지원되지 않음";
+
+/* Process task port was not obtained */
+"UNTOUCHED_PROCESS_TASK_PORT" = "프로세스 작업 포트가 획득되지 않음";
+
+/* Upload */
+"UPLOAD" = "업로드";
+
+/* Uptime */
+"UPTIME" = "시동 후 지난 시간";
+
+/* Launched At */
+"UPTIME_AT" = "시동된 시점";
+
+/* Idle */
+"USAGE_IDLE" = "유휴";
+
+/* Load */
+"USAGE_LOAD" = "사용량";
+
+/* User */
+"USAGE_USER" = "사용자";
+
+/* USB Dual Role Device */
+"USB_DUAL_ROLE_DEVICE" = "USB 이중 역할 장치";
+
+/* USB Packet Capture */
+"USB_PACKET_CAPTURE" = "USB 패킷 캡처";
+
+/* Used: %@ */
+"USED_DESCRIPTION" = "%@ 사용됨";
+
+/* User Agent */
+"USER_AGENT" = "사용자 에이전트";
+
+/* User Memory */
+"USER_MEMORY" = "사용자 메모리";
+
+/* User Mode Tunnel */
+"USER_MODE_TUNNEL" = "사용자 모드 터널";
+
+/* Version */
+"VERSION" = "버전";
+
+/* Website */
+"WEBSITE" = "웹 사이트";
+
+/* Wi-Fi Peer to Peer */
+"WIFI_PEER_TO_PEER" = "Wi-Fi P2P";
+
+/* Wired/Wireless */
+"WIRED_WIRELESS" = "유선/무선";
+
+/* Zero Filled */
+"ZERO_FILLED" = "0으로 채워짐";
